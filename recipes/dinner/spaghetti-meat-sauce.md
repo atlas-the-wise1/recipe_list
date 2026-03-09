@@ -10,7 +10,7 @@
 ## Macros (per serving, estimated — with ground turkey)
 | Calories | Protein | Carbs | Fat | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~580 | ~42g | ~72g | ~12g | ~5g | ~85mg |
+| ~575 | ~46g | ~62g | ~12g | ~8g | ~85mg |
 
 > **With ground beef:** ~680 cal | ~40g protein | ~72g carbs | ~22g fat | ~110mg cholesterol
 > **With ground chicken:** ~540 cal | ~44g protein | ~72g carbs | ~8g fat | ~75mg cholesterol

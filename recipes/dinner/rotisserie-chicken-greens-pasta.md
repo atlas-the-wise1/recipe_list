@@ -10,7 +10,7 @@
 ## Macros (per serving, estimated — with Greek yogurt)
 | Calories | Protein | Carbs | Fat | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~560 | ~52g | ~74g | ~12g | ~5g | ~105mg |
+| ~555 | ~56g | ~64g | ~12g | ~8g | ~105mg |
 
 ---
 

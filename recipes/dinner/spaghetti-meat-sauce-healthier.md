@@ -12,7 +12,7 @@
 ## Macros (per serving, estimated)
 | Calories | Protein | Carbs | Fat | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~480 | ~46g | ~58g | ~8g | ~9g | ~75mg |
+| ~475 | ~50g | ~48g | ~8g | ~12g | ~75mg |
 
 **What changed vs. classic (ground turkey version):** ~100 fewer calories, ~4g less fat, similar protein. Achieves this by:
 - Switching to **Banza chickpea spaghetti** — adds 4g fiber per serving, lower glycemic index

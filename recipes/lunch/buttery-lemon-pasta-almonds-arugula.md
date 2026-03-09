@@ -2,8 +2,8 @@
 
 **Category:** L — Lunch
 **Tags:** `#vegetarian` `#quick`
-**Estimated Calories:** ~620 per serving (serves 4)
-**Protein:** ~18g | **Fat:** ~28g | **Carbs:** ~78g | **Fiber:** ~5g
+**Estimated Calories:** ~615 per serving (serves 4)
+**Protein:** ~22g | **Fat:** ~28g | **Carbs:** ~68g | **Fiber:** ~8g
 **Prep Time:** 5 min | **Cook Time:** 20 min | **Total:** ~25 min
 
 ---
