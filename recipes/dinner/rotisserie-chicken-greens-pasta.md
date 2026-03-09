@@ -17,7 +17,7 @@
 ## Ingredients
 
 - Salt and freshly ground black pepper
-- 1 lb rigatoni, penne rigate, penne, or ziti
+- 1 lb Banza chickpea pasta (rigatoni or penne)
 - 1 small rotisserie chicken (~1¾ lbs) or ~2½ cups shredded cooked chicken
 - 3 tbsp unsalted butter
 - 1 medium yellow onion, thinly sliced (~2 packed cups)

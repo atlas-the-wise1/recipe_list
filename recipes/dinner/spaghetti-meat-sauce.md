@@ -25,18 +25,18 @@
 - 1 jar (24 oz) tomato or marinara sauce
 - 1 tsp dried oregano
 - Salt and pepper to taste
-- 1 lb spaghetti
+- 1 lb Banza chickpea spaghetti
 - Grated Parmesan, for serving
 
 ---
 
 ## Instructions
 
-1. Cook spaghetti in salted boiling water per package directions. Drain and set aside.
+1. Cook Banza chickpea spaghetti in salted boiling water per package directions. Drain and set aside.
 2. Heat olive oil in a large pan over medium. Add onion and cook until soft, **~5 minutes**.
 3. Add ground meat and cook, breaking it up, until fully browned, **~7 minutes**. Drain excess fat if using beef.
 4. Stir in tomato sauce, oregano, salt, and pepper. Simmer over medium-low, **10–15 minutes**.
-5. Toss with cooked spaghetti. Serve topped with grated Parmesan.
+5. Toss with cooked Banza spaghetti. Serve topped with grated Parmesan.
 
 ---
 

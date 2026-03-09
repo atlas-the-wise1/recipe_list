@@ -11,7 +11,7 @@
 ## Ingredients
 
 - Fine salt and freshly ground black pepper
-- 1 pound linguine or spaghetti
+- 1 pound Banza chickpea linguine or spaghetti
 - 6 tablespoons unsalted butter
 - 1 cup sliced almonds
 - 2 fresh rosemary sprigs

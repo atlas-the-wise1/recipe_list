@@ -12,7 +12,7 @@
 
 **What changed vs. classic:** ~130 fewer calories, ~12g less fat, ~10g less saturated fat per serving. Achieves this by:
 - Replacing **6 tbsp butter** with **3 tbsp extra-virgin olive oil** — keeps the richness, eliminates saturated fat almost entirely
-- Using **whole-wheat linguine or spaghetti** — adds 3g fiber per serving
+- Using **Banza chickpea linguine or spaghetti** — adds 3g fiber per serving
 - **Boosting greens** from 4–5 oz to 6 oz for more volume and micronutrients
 - The toasted almonds and rosemary technique remains identical — it's what makes the dish
 

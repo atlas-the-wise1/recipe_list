@@ -15,7 +15,7 @@
 | ~480 | ~52g | ~60g | ~7g | ~8g | ~90mg |
 
 **What changed vs. classic:** ~80 fewer calories, ~5g less fat, ~15mg less cholesterol per serving. Achieves this by:
-- Using **whole-wheat rigatoni** instead of regular (adds ~3g fiber per serving, lower glycemic impact)
+- Using **Banza chickpea rigatoni** instead of regular (adds ~3g fiber per serving, lower glycemic impact)
 - **Removing chicken skin entirely** (discard, don't chop and add — saves ~4g sat fat per serving)
 - Reducing butter from **3 tbsp to 1 tbsp** (use the saved pasta water and stock to maintain body without butter)
 - Bumping greens from **8–10 oz to 12 oz** for more fiber and volume
@@ -25,7 +25,7 @@
 ## Ingredients
 
 - Salt and freshly ground black pepper
-- 1 lb **whole-wheat** rigatoni, penne rigate, or ziti
+- 1 lb **Banza chickpea** rigatoni or penne
 - 1 small rotisserie chicken (~1¾ lbs) or ~2½ cups shredded cooked chicken
 - **1 tbsp** unsalted butter (reduced from 3 tbsp)
 - 1 medium yellow onion, thinly sliced (~2 packed cups)
@@ -53,8 +53,8 @@
 
 ## Meal Prep Notes
 
-**Storage:** 4 days fridge — whole-wheat pasta holds up slightly better than regular pasta as leftovers
+**Storage:** 4 days fridge — Banza chickpea pasta holds up slightly better than regular pasta as leftovers
 **Reheat:** Stovetop over medium-low with a splash of stock or water. Microwave covered works well.
 **Batch size:** Doubles easily
 **Greek yogurt tip:** Always stir in off heat — adding while the pan is still on the burner can cause it to break and curdle.
-**Notes:** The whole-wheat pasta swap is barely noticeable in this dish given the bold Dijon-lemon-yogurt sauce. Dropping the chicken skin and two tablespoons of butter cuts significant saturated fat without losing richness — the pasta water and Greek yogurt provide all the body you need.
+**Notes:** The Banza chickpea pasta swap is barely noticeable in this dish given the bold Dijon-lemon-yogurt sauce. Dropping the chicken skin and two tablespoons of butter cuts significant saturated fat without losing richness — the pasta water and Greek yogurt provide all the body you need.
