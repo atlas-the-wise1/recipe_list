@@ -1,7 +1,7 @@
 # Frijoles Borrachos (Drunken Beans)
 
 **Category:** L — Lunch
-**Tags:** `#heart-healthy` `#low-cholesterol` `#meal-prep` `#high-protein`
+**Tags:** `#heart-healthy` `#low-cholesterol` `#meal-prep` `#high-protein` `#fat-loss`
 **Estimated Calories:** ~320 per serving (serves 6–8)
 **Protein:** ~18g per serving
 **Prep Time:** 15 min + 8–12h soak | **Cook Time:** 2–2.5h | **Total:** ~2.5h active
@@ -11,7 +11,7 @@
 ## Ingredients
 
 - 1 pound dried pinto beans
-- 5 slices thick-cut bacon, thinly sliced crosswise
+- 5 slices thick-cut turkey bacon, thinly sliced crosswise
 - 1 large yellow or white onion, coarsely chopped
 - 4 garlic cloves, chopped
 - 2 jalapeño, serrano, or poblano peppers, seeded and coarsely chopped
@@ -39,8 +39,7 @@
 ## Notes
 
 - **Meal prep anchor** — makes a big batch, lasts all week, gets better on day 2–3 as flavors meld
-- **Lighter swap:** Skip bacon entirely and use 2 tablespoons olive oil — loses some smokiness but stays rich; drop ~60 cal/serving and cuts saturated fat significantly
-- **Turkey bacon sub:** Keeps the smoky flavor at ~half the saturated fat
+- **Lighter swap:** Skip bacon entirely and use 2 tablespoons olive oil — loses some smokiness but stays rich; drops another ~40 cal/serving
 - **Beer choice:** Light Mexican lager (Modelo, Pacifico) = cleaner flavor; dark (Negra Modelo) = deeper, maltier beans — both work great
 - **Serving ideas:** Over rice, with warm tortillas, alongside eggs for breakfast, or as a side to grilled chicken/fish
 - **Freeze well:** Portion into containers and freeze up to 3 months — reheat with a splash of water
