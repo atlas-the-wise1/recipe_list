@@ -52,4 +52,4 @@
 - Whole wheat or chickpea pasta adds fiber and protein
 - Skip the chicken skin to reduce fat further
 **Greek yogurt tip:** Always stir in off heat — adding it while the pan is still on the burner can cause it to break and curdle. Stir quickly and thoroughly.
-**Notes:** Fast, deeply satisfying weeknight pasta. Greek yogurt replaces cream with more protein, less fat, and a subtle tang that plays beautifully with the Dijon and lemon. The pasta water adds silky starch-based body. Rotisserie chicken makes this a true 35-minute dinner.
+**Notes:** Fast, deeply satisfying weeknight pasta. Greek yogurt replaces cream with more protein, less fat, and a subtle tang that plays beautifully with the Dijon and lemon. The pasta water adds silky starch-based body. Rotisserie chicken makes this a true 35-minute dinner. Already heart-healthy as written — skip the chicken skin to drop sat fat further. See `rotisserie-chicken-greens-pasta-healthier.md` for a whole-wheat pasta version with reduced butter that adds #fat-loss tag.

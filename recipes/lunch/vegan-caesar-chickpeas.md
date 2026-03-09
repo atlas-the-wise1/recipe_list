@@ -1,9 +1,9 @@
 # Vegan Caesar Salad With Crisp Chickpeas
 
 **Category:** L — Lunch
-**Tags:** `#heart-healthy` `#low-cholesterol` `#high-protein` `#fat-loss` `#vegan`
+**Tags:** `#heart-healthy` `#low-cholesterol` `#high-protein` `#fat-loss` `#vegan` `#meal-prep`
 **Estimated Calories:** ~480 per serving (serves 4)
-**Protein:** ~18g per serving
+**Protein:** ~18g | **Fat:** ~26g | **Carbs:** ~48g | **Fiber:** ~9g
 **Prep Time:** 15 min | **Cook Time:** 20 min | **Total:** ~35 min
 
 ---

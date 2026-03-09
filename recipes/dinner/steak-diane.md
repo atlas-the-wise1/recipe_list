@@ -50,4 +50,4 @@
 **Reheat:** Steak in a warm skillet over medium-low 1–2 min per side. Sauce in a small pan over low, add a splash of cream if it tightens up.
 **Batch size:** Double the steak and sauce proportionally — use a larger skillet to avoid crowding.
 **Safety note:** The Cognac flambé step is dramatic but optional — you can skip igniting and just cook until evaporated. Same flavor result, less theater.
-**Notes:** Impressive restaurant-quality dish ready in 35 min. High fat and cholesterol from butter, cream, and steak — firmly in the occasional column. The sauce alone is worth making for other proteins (chicken, pork tenderloin) to stretch the recipe into healthier territory.
+**Notes:** Impressive restaurant-quality dish ready in 35 min. High fat and cholesterol from butter, cream, and steak — firmly in the occasional column. The sauce alone is worth making for other proteins (chicken, pork tenderloin) to stretch the recipe into healthier territory. See `steak-diane-healthier.md` for a lightened version using Greek yogurt sauce and leaner sirloin.

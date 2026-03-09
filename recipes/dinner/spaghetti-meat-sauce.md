@@ -49,4 +49,4 @@
 - Ground turkey or chicken over beef — cuts fat and cholesterol significantly
 - Whole wheat or chickpea pasta — adds fiber and protein, lowers glycemic impact
 - Zucchini noodles (zoodles) — cuts carbs dramatically for keto-friendly version
-**Notes:** Classic weeknight staple and one of the best meal prep dinners in the book. Ground turkey is the best balance of health goals and flavor. Sauce gets better after a day in the fridge — make it Sunday, eat it Monday and Tuesday.
+**Notes:** Classic weeknight staple and one of the best meal prep dinners in the book. Ground turkey is the best balance of health goals and flavor. Sauce gets better after a day in the fridge — make it Sunday, eat it Monday and Tuesday. See `spaghetti-meat-sauce-healthier.md` for a version with whole-wheat pasta, extra vegetables, and leaner protein that earns #heart-healthy and #fat-loss tags.

@@ -53,4 +53,4 @@ Simmer 5 cups store-bought chicken stock with 2 ginger slices and 2 cut-up scall
 **Reheat:** Broth on stovetop over medium. Re-cook wontons fresh from frozen directly in simmering broth — don't reheat already-cooked wontons.
 **Batch size:** Doubles easily — scale stock and wontons proportionally
 **Make it lighter:** Skip the noodles to save ~100 cal and 20g carbs per serving
-**Notes:** Light, warming, and satisfying. Bok choy adds vitamins C and K plus fiber. Low cholesterol from the store-bought wontons — homemade stock cuts sodium significantly vs. store-bought. Great weeknight dinner, especially in cooler months.
+**Notes:** Light, warming, and satisfying. Bok choy adds vitamins C and K plus fiber. Low cholesterol from the store-bought wontons — homemade stock cuts sodium significantly vs. store-bought. Great weeknight dinner, especially in cooler months. See `wonton-soup-healthier.md` for a version with homemade shrimp wontons, low-sodium stock, and added vegetables that earns #low-cholesterol and #heart-healthy.

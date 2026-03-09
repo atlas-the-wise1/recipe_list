@@ -1,7 +1,7 @@
 # Baby Back Ribs With Sweet and Sour Glaze
 
 **Category:** Dinner
-**Tags:** #high-protein
+**Tags:** #high-protein #meal-prep
 **Servings:** 4
 **Prep Time:** 10 min | **Cook Time:** 2.5 hrs | **Total:** ~2 hrs 45 min
 
@@ -44,4 +44,4 @@
 **Storage:** 4 days fridge / 3 months freezer
 **Reheat:** Wrapped in foil at 300°F for 15–20 min, or microwave covered with a damp paper towel
 **Batch size:** Double the rack for 8 servings — glaze scales easily
-**Notes:** Ribs can be baked (steps 1–4) up to 2 days ahead and refrigerated. Glaze and broil day-of for best results.
+**Notes:** Ribs can be baked (steps 1–4) up to 2 days ahead and refrigerated. Glaze and broil day-of for best results. High in saturated fat (~14g/serving) and cholesterol — treat as an occasional dinner. See `baby-back-ribs-sweet-sour-glaze-healthier.md` for a leaner oven-baked version using St. Louis-cut pork ribs with reduced glaze.

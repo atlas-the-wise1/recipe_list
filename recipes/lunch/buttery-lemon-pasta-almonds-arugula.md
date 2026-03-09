@@ -1,9 +1,9 @@
 # Buttery Lemon Pasta With Almonds and Arugula
 
 **Category:** L — Lunch
-**Tags:** `#heart-healthy` `#vegetarian` `#quick`
+**Tags:** `#vegetarian` `#quick`
 **Estimated Calories:** ~620 per serving (serves 4)
-**Protein:** ~18g per serving
+**Protein:** ~18g | **Fat:** ~28g | **Carbs:** ~78g | **Fiber:** ~5g
 **Prep Time:** 5 min | **Cook Time:** 20 min | **Total:** ~25 min
 
 ---
@@ -41,6 +41,7 @@
 
 - **Quick weeknight win** — 25 minutes start to finish, one skillet after pasta
 - **Brown butter is the key** — don't rush step 2; that nutty, toasty butter is what makes the dish
+- **Higher in sat fat** — 6 tbsp butter = ~14g saturated fat per serving; not #heart-healthy as written (see Healthier Variant)
 - **Lighter swap:** Sub 3 tablespoons olive oil for the butter to cut saturated fat and drop ~100 cal/serving; loses some richness but still great
 - **Boost protein:** Add grilled chicken, shrimp, or a soft-boiled egg per bowl; or stir in ½ cup white beans with the pasta water
 - **Not keto** — pasta-based; could swap for zucchini noodles or hearts of palm pasta for a low-carb version

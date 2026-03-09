@@ -2,8 +2,8 @@
 
 **Category:** L — Lunch
 **Tags:** `#high-protein` `#crowd-pleaser`
-**Estimated Calories:** ~750–900 per serving (serves 6–8)
-**Protein:** ~45g per serving
+**Estimated Calories:** ~820 per serving (serves 6–8)
+**Protein:** ~45g | **Fat:** ~52g | **Carbs:** ~42g | **Fiber:** ~4g
 **Prep Time:** 20 min | **Cook Time:** 30 min | **Total:** ~50 min
 
 ---
@@ -46,8 +46,8 @@
 
 ## Notes
 
-- **Not a health-goals recipe** — this is a treat/occasion dish (bacon + chorizo + beef + cheese = calorie-dense)
-- **Lighter swap:** Sub turkey chorizo + lean ground turkey for the beef, skip bacon → cuts ~200 cal/serving, drops saturated fat significantly
+- **Not a health-goals recipe** — this is a treat/occasion dish (bacon + chorizo + beef + cheese = calorie-dense; ~20g saturated fat per serving)
+- **Lighter swap:** Sub turkey chorizo + lean ground turkey for the beef, skip bacon → cuts ~200 cal/serving, drops saturated fat significantly. See `bricklayer-nachos-healthier.md` for the full healthier variant.
 - **Serves 6–8** as a meal; 10–12 as an appetizer/party spread
 - **Fire-roasted canned tomatoes** are a great shortcut and add deep flavor — skip the broiling step entirely
 - **Make-ahead:** Bricklayer meat mixture can be made 1–2 days ahead, refrigerated, and reheated before assembling on chips

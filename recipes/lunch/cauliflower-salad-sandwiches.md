@@ -3,7 +3,7 @@
 **Category:** L — Lunch
 **Tags:** `#heart-healthy` `#low-cholesterol` `#meal-prep` `#vegetarian`
 **Estimated Calories:** ~580 per sandwich (serves 4)
-**Protein:** ~14g per sandwich
+**Protein:** ~14g | **Fat:** ~32g | **Carbs:** ~62g | **Fiber:** ~6g
 **Prep Time:** 15 min | **Cook Time:** 25 min | **Total:** ~40 min
 
 ---
