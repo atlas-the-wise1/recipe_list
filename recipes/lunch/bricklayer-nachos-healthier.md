@@ -4,8 +4,10 @@
 
 **Category:** L — Lunch
 **Tags:** `#high-protein` `#heart-healthy`
-**Estimated Calories:** ~550 per serving (serves 6–8)
-**Protein:** ~42g | **Fat:** ~26g | **Carbs:** ~40g | **Fiber:** ~6g
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
+|---|---|---|---|---|---|
+| ~550 | ~42g | ~26g | ~40g | ~6g | ~85mg |
 **Prep Time:** 20 min | **Cook Time:** 25 min | **Total:** ~45 min
 
 ---

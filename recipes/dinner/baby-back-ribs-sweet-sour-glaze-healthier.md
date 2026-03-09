@@ -9,10 +9,10 @@
 
 ---
 
-## Macros (per serving, estimated)
-| Calories | Protein | Carbs | Fat | Fiber | Cholesterol |
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~420 | ~42g | ~14g | ~20g | ~0g | ~105mg |
+| ~420 | ~42g | ~20g | ~14g | ~0g | ~105mg |
 
 **What changed vs. classic:** ~200 fewer calories, ~22g less fat, ~55mg less cholesterol per serving. Achieves this by:
 - Switching to **St. Louis-cut spare ribs** (meatier, less fat marbling than baby backs) trimmed of the fat cap

@@ -9,10 +9,10 @@
 
 ---
 
-## Macros (per serving, estimated)
-| Calories | Protein | Carbs | Fat | Fiber | Cholesterol |
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~390 | ~52g | ~5g | ~16g | ~0g | ~95mg |
+| ~390 | ~52g | ~16g | ~5g | ~0g | ~95mg |
 
 **What changed vs. classic:** ~230 fewer calories, ~28g less fat, ~90mg less cholesterol per serving. Achieves this by:
 - Using **lean sirloin** instead of filet mignon or strip steak (lower marbling, same great flavor when cooked hot)

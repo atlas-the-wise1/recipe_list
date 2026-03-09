@@ -9,10 +9,10 @@
 
 ---
 
-## Macros (per serving, estimated)
-| Calories | Protein | Carbs | Fat | Fiber | Cholesterol |
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~430 | ~48g | ~8g | ~22g | ~3g | ~95mg |
+| ~430 | ~48g | ~22g | ~8g | ~3g | ~95mg |
 
 **What changed vs. classic:** ~190 fewer calories, ~22g less fat, ~70mg less cholesterol per serving. Achieves this by:
 - Replacing **4 tbsp butter + 2 tbsp blue cheese** topping with a **Greek yogurt–herb sauce** (same tangy richness, a fraction of the sat fat)

@@ -7,10 +7,10 @@
 
 ---
 
-## Macros (per serving, estimated — without rice)
-| Calories | Protein | Carbs | Fat | Fiber | Cholesterol |
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~420 | ~42g | ~12g | ~22g | ~3g | ~95mg |
+| ~420 | ~42g | ~22g | ~12g | ~3g | ~95mg |
 
 > **With white rice (1 cup cooked):** ~620 cal | ~46g protein | ~52g carbs | ~22g fat
 

@@ -2,8 +2,10 @@
 
 **Category:** L — Lunch
 **Tags:** `#heart-healthy` `#low-cholesterol` `#high-protein` `#fat-loss` `#vegan` `#meal-prep`
-**Estimated Calories:** ~480 per serving (serves 4)
-**Protein:** ~18g | **Fat:** ~26g | **Carbs:** ~48g | **Fiber:** ~9g
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
+|---|---|---|---|---|---|
+| ~480 | ~18g | ~26g | ~48g | ~9g | ~0mg |
 **Prep Time:** 15 min | **Cook Time:** 20 min | **Total:** ~35 min
 
 ---

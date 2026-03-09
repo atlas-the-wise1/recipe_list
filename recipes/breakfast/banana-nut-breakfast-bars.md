@@ -2,8 +2,10 @@
 
 **Category:** B — Breakfast
 **Tags:** `#heart-healthy` `#meal-prep` `#high-protein`
-**Estimated Calories:** ~280 per bar (9 bars total)
-**Protein:** ~7g | **Fat:** ~15g | **Carbs:** ~32g | **Fiber:** ~3g
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
+|---|---|---|---|---|---|
+| ~280 | ~7g | ~15g | ~32g | ~3g | ~55mg |
 **Prep Time:** 20 min | **Cook Time:** 35–40 min | **Total:** ~60 min + cooling
 
 ---

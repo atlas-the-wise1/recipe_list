@@ -9,10 +9,10 @@
 
 ---
 
-## Macros (per serving, estimated)
-| Calories | Protein | Carbs | Fat | Fiber | Cholesterol |
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~475 | ~56g | ~50g | ~7g | ~11g | ~90mg |
+| ~475 | ~56g | ~7g | ~50g | ~11g | ~90mg |
 
 **What changed vs. classic:** ~80 fewer calories, ~5g less fat, ~15mg less cholesterol per serving. Achieves this by:
 - Using **Banza chickpea rigatoni** instead of regular (adds ~3g fiber per serving, lower glycemic impact)

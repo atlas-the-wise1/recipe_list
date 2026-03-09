@@ -7,10 +7,10 @@
 
 ---
 
-## Macros (per serving, estimated)
-| Calories | Protein | Carbs | Fat | Fiber | Cholesterol |
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~380 | ~38g | ~28g | ~12g | ~3g | ~110mg |
+| ~380 | ~38g | ~12g | ~28g | ~3g | ~110mg |
 
 ---
 

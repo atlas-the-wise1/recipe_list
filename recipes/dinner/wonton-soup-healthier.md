@@ -9,10 +9,10 @@
 
 ---
 
-## Macros (per serving, estimated — without noodles)
-| Calories | Protein | Carbs | Fat | Fiber | Cholesterol |
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~240 | ~22g | ~22g | ~6g | ~4g | ~75mg |
+| ~240 | ~22g | ~6g | ~22g | ~4g | ~75mg |
 
 **What changed vs. classic:** ~80 fewer calories, significantly less sodium, more fiber, more protein. Achieves this by:
 - Using **homemade shrimp wontons** instead of store-bought (controls sodium and fat — store-bought wontons average 700–900mg sodium/serving)

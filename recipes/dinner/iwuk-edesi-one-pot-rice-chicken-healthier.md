@@ -9,10 +9,10 @@
 
 ---
 
-## Macros (per serving, estimated)
-| Calories | Protein | Carbs | Fat | Fiber | Cholesterol |
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~510 | ~50g | ~48g | ~14g | ~4g | ~90mg |
+| ~510 | ~50g | ~14g | ~48g | ~4g | ~90mg |
 
 **What changed vs. classic:** ~170 fewer calories, ~16g less fat, ~55mg less cholesterol per serving. Achieves this by:
 - Using **boneless, skinless chicken thighs** instead of skin-on (eliminates chicken skin fat and cholesterol)

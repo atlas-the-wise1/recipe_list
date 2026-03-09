@@ -2,8 +2,10 @@
 
 **Category:** L — Lunch
 **Tags:** `#high-protein` `#crowd-pleaser`
-**Estimated Calories:** ~820 per serving (serves 6–8)
-**Protein:** ~45g | **Fat:** ~52g | **Carbs:** ~42g | **Fiber:** ~4g
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
+|---|---|---|---|---|---|
+| ~820 | ~45g | ~52g | ~42g | ~4g | ~160mg |
 **Prep Time:** 20 min | **Cook Time:** 30 min | **Total:** ~50 min
 
 ---

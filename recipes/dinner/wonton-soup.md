@@ -7,10 +7,10 @@
 
 ---
 
-## Macros (per serving, estimated — with noodles, without extra condiments)
-| Calories | Protein | Carbs | Fat | Fiber | Cholesterol |
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~320 | ~18g | ~42g | ~8g | ~3g | ~55mg |
+| ~320 | ~18g | ~8g | ~42g | ~3g | ~55mg |
 
 ---
 

@@ -4,8 +4,10 @@
 
 **Category:** L — Lunch
 **Tags:** `#heart-healthy` `#low-cholesterol` `#vegetarian` `#fat-loss`
-**Estimated Calories:** ~485 per serving (serves 4)
-**Protein:** ~22g | **Fat:** ~16g | **Carbs:** ~60g | **Fiber:** ~11g
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
+|---|---|---|---|---|---|
+| ~485 | ~22g | ~16g | ~60g | ~11g | ~15mg |
 **Prep Time:** 5 min | **Cook Time:** 20 min | **Total:** ~25 min
 
 ---
