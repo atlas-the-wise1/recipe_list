@@ -3,9 +3,14 @@
 **Category:** L — Lunch
 **Tags:** `#vegetarian` `#quick`
 **Nutrition (per serving):**
-| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
-|---|---|---|---|---|---|
-| ~650 | ~28g | ~23g | ~82g | ~3g | ~230mg |
+| Nutrient | Amount |
+|----------|--------|
+| Calories | 650kcal |
+| Protein | 28g |
+| Carbs | 82g |
+| Fat | 23g |
+| Fiber | 3g |
+| Cholesterol | 230mg |
 **Serves:** 4
 **Prep Time:** 5 min | **Cook Time:** 20 min | **Total:** ~25 min
 

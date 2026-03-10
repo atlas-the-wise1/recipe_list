@@ -3,9 +3,14 @@
 **Category:** L — Lunch
 **Tags:** `#heart-healthy` `#low-cholesterol` `#vegetarian` `#meal-prep`
 **Nutrition (per serving):**
-| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
-|---|---|---|---|---|---|
-| ~420 | ~12g | ~30g | ~28g | ~7g | ~10mg |
+| Nutrient | Amount |
+|----------|--------|
+| Calories | 420kcal |
+| Protein | 12g |
+| Carbs | 28g |
+| Fat | 30g |
+| Fiber | 7g |
+| Cholesterol | 10mg |
 **Prep Time:** 15 min | **Cook Time:** 20 min | **Total:** ~35 min
 
 ---

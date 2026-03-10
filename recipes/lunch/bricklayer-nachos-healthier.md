@@ -5,9 +5,14 @@
 **Category:** L — Lunch
 **Tags:** `#high-protein` `#heart-healthy`
 **Nutrition (per serving):**
-| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
-|---|---|---|---|---|---|
-| ~550 | ~42g | ~26g | ~40g | ~6g | ~85mg |
+| Nutrient | Amount |
+|----------|--------|
+| Calories | 550kcal |
+| Protein | 42g |
+| Carbs | 40g |
+| Fat | 26g |
+| Fiber | 6g |
+| Cholesterol | 85mg |
 **Prep Time:** 20 min | **Cook Time:** 25 min | **Total:** ~45 min
 
 ---

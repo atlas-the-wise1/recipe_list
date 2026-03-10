@@ -1,16 +1,21 @@
 # Endive, Fennel & Radish Salad
 
 **Category:** Lunch / Side
-**Tags:** #heart-healthy #low-cholesterol #fat-loss #keto
+**Tags:** `#heart-healthy` `#low-cholesterol` `#fat-loss` `#keto`
 **Servings:** 2
 **Prep Time:** 10 min | **Cook Time:** 0 min | **Total:** 10 min
 
 ---
 
 **Nutrition (per serving):**
-| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
-|---|---|---|---|---|---|
-| ~90 | ~2g | ~6g | ~7g | ~3g | ~0mg |
+| Nutrient | Amount |
+|----------|--------|
+| Calories | 90kcal |
+| Protein | 2g |
+| Carbs | 7g |
+| Fat | 6g |
+| Fiber | 3g |
+| Cholesterol | 0mg |
 
 ---
 

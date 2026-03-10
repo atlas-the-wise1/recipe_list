@@ -3,9 +3,14 @@
 **Category:** L — Lunch
 **Tags:** `#heart-healthy` `#low-cholesterol` `#meal-prep`
 **Nutrition (per serving):**
-| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
-|---|---|---|---|---|---|
-| ~320 | ~18g | ~6g | ~46g | ~14g | ~15mg |
+| Nutrient | Amount |
+|----------|--------|
+| Calories | 320kcal |
+| Protein | 18g |
+| Carbs | 46g |
+| Fat | 6g |
+| Fiber | 14g |
+| Cholesterol | 15mg |
 **Prep Time:** 15 min + 8–12h soak | **Cook Time:** 2–2.5h | **Total:** ~2.5h active
 
 ---
