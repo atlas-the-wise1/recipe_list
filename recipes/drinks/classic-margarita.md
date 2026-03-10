@@ -1,7 +1,7 @@
 # Classic Margarita
 
 **Category:** S — Snacks / Drinks
-**Tags:** `#cocktail` `#quick` `#vegan`
+**Tags:** `#cocktail` `#quick` `#vegan` `#low-cholesterol`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
