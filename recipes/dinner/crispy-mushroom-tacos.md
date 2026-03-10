@@ -10,7 +10,7 @@
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~510 | ~16g | ~25g | ~57g | ~14g | ~0mg |
+| ~600 | ~18g | ~30g | ~57g | ~14g | ~0mg |
 
 ---
 
