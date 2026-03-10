@@ -43,13 +43,13 @@
 
 ## Preparation
 
-1. In a small bowl, whisk together cumin, paprika, turmeric, cinnamon, minced garlic, lemon juice, salt, and pepper.
-2. Toss chicken strips with this spice mixture until well coated. Let sit for 10 minutes if time allows.
-3. Heat olive oil in a large skillet over medium-high heat. Cook chicken in batches, stirring occasionally, for 15–18 minutes until golden and cooked through. Don't overcrowd the pan.
-4. While chicken cooks, prepare the garlic sauce: Whisk together Greek yogurt, minced garlic, lemon juice, salt, and parsley. Set aside.
-5. Warm pitas in the oven (350°F for 3–4 minutes) or directly over a gas flame.
-6. Assemble pitas: Lay a pita flat, add a generous spoonful of garlic sauce, top with cooked chicken, cucumber, tomato, and red onion.
-7. Garnish with fresh cilantro if desired and serve immediately.
+**STEP 1:** In a small bowl, whisk together cumin, paprika, turmeric, cinnamon, minced garlic, lemon juice, salt, and pepper.
+**STEP 2:** Toss chicken strips with this spice mixture until well coated. Let sit for 10 minutes if time allows.
+**STEP 3:** Heat olive oil in a large skillet over medium-high heat. Cook chicken in batches, stirring occasionally, for 15–18 minutes until golden and cooked through. Don't overcrowd the pan.
+**STEP 4:** While chicken cooks, prepare the garlic sauce: Whisk together Greek yogurt, minced garlic, lemon juice, salt, and parsley. Set aside.
+**STEP 5:** Warm pitas in the oven (350°F for 3–4 minutes) or directly over a gas flame.
+**STEP 6:** Assemble pitas: Lay a pita flat, add a generous spoonful of garlic sauce, top with cooked chicken, cucumber, tomato, and red onion.
+**STEP 7:** Garnish with fresh cilantro if desired and serve immediately.
 
 ---
 

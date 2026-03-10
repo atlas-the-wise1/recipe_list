@@ -39,13 +39,13 @@
 
 ## Preparation
 
-1. Heat olive oil in a large skillet over medium-high heat. Season chicken with salt and pepper.
-2. Cook chicken until golden brown and cooked through, about 10 minutes. Transfer to a plate.
-3. In the same skillet, combine soy sauce, honey, rice vinegar, sesame oil, ginger, garlic, and red pepper flakes. Bring to a simmer.
-4. Add cornstarch slurry and stir constantly for 1–2 minutes until sauce thickens and becomes glossy.
-5. Return chicken to the skillet and toss until well coated. Simmer for 3–4 minutes to allow flavors to meld.
-6. Divide brown rice and broccoli among four bowls. Top with teriyaki chicken and sauce.
-7. Garnish with sesame seeds and fresh scallions before serving.
+**STEP 1:** Heat olive oil in a large skillet over medium-high heat. Season chicken with salt and pepper.
+**STEP 2:** Cook chicken until golden brown and cooked through, about 10 minutes. Transfer to a plate.
+**STEP 3:** In the same skillet, combine soy sauce, honey, rice vinegar, sesame oil, ginger, garlic, and red pepper flakes. Bring to a simmer.
+**STEP 4:** Add cornstarch slurry and stir constantly for 1–2 minutes until sauce thickens and becomes glossy.
+**STEP 5:** Return chicken to the skillet and toss until well coated. Simmer for 3–4 minutes to allow flavors to meld.
+**STEP 6:** Divide brown rice and broccoli among four bowls. Top with teriyaki chicken and sauce.
+**STEP 7:** Garnish with sesame seeds and fresh scallions before serving.
 
 ---
 

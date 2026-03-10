@@ -28,12 +28,12 @@
 
 ## Preparation
 
-1. In a small bowl, whisk together lemon juice, minced garlic, olive oil, oregano, thyme, salt, pepper, and lemon zest.
-2. Place chicken breasts in a ziplock bag or shallow dish and pour marinade over them. Refrigerate for at least 30 minutes (or up to 4 hours for deeper flavor).
-3. Preheat grill to medium-high heat (about 400°F). Oil grates to prevent sticking.
-4. Remove chicken from marinade and place on hot grill. Reserve excess marinade.
-5. Grill for 5–6 minutes per side until internal temperature reaches 165°F and juices run clear.
-6. Transfer to a plate and brush with reserved marinade. Let rest for 3 minutes before serving.
+**STEP 1:** In a small bowl, whisk together lemon juice, minced garlic, olive oil, oregano, thyme, salt, pepper, and lemon zest.
+**STEP 2:** Place chicken breasts in a ziplock bag or shallow dish and pour marinade over them. Refrigerate for at least 30 minutes (or up to 4 hours for deeper flavor).
+**STEP 3:** Preheat grill to medium-high heat (about 400°F). Oil grates to prevent sticking.
+**STEP 4:** Remove chicken from marinade and place on hot grill. Reserve excess marinade.
+**STEP 5:** Grill for 5–6 minutes per side until internal temperature reaches 165°F and juices run clear.
+**STEP 6:** Transfer to a plate and brush with reserved marinade. Let rest for 3 minutes before serving.
 
 ---
 

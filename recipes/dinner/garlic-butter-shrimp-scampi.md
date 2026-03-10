@@ -1,7 +1,7 @@
 # Garlic Butter Shrimp Scampi
 
 **Category:** D — Dinner
-**Tags:** `#high-protein` `#low-cholesterol` `#heart-healthy`
+**Tags:** `#high-protein` `#heart-healthy`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
@@ -36,16 +36,16 @@
 
 ## Preparation
 
-1. Bring a large pot of salted water to a boil. Add Banza linguine and cook according to package directions (usually 8–9 minutes) until al dente. Reserve 2 tbsp pasta water before draining.
-2. While pasta cooks, pat shrimp dry with paper towels. Season lightly with salt and pepper.
-3. Melt 2 tbsp butter in a large skillet over medium heat. Add minced garlic and red pepper flakes. Cook for 30 seconds, stirring constantly, until fragrant.
-4. Increase heat to medium-high. Add shrimp to the skillet in a single layer. Don't stir immediately—let them sear for 1–2 minutes until the underside turns pink.
-5. Flip shrimp and cook for another 1–2 minutes until fully opaque (they cook very quickly—don't overcook or they'll become rubbery).
-6. Pour in white wine and lemon juice. Scrape up any browned bits from the bottom of the skillet. Simmer for 1 minute.
-7. Remove from heat and swirl in remaining 1 tbsp butter until the sauce is silky and emulsified.
-8. Toss hot pasta with 1 tbsp olive oil, then add to the skillet with the shrimp. Add reserved pasta water and toss gently to combine.
-9. Taste and adjust seasoning with salt, pepper, and lemon juice as needed.
-10. Divide among four bowls. Garnish with fresh parsley, Parmesan, and serve with lemon wedges.
+**STEP 1:** Bring a large pot of salted water to a boil. Add Banza linguine and cook according to package directions (usually 8–9 minutes) until al dente. Reserve 2 tbsp pasta water before draining.
+**STEP 2:** While pasta cooks, pat shrimp dry with paper towels. Season lightly with salt and pepper.
+**STEP 3:** Melt 2 tbsp butter in a large skillet over medium heat. Add minced garlic and red pepper flakes. Cook for 30 seconds, stirring constantly, until fragrant.
+**STEP 4:** Increase heat to medium-high. Add shrimp to the skillet in a single layer. Don't stir immediately—let them sear for 1–2 minutes until the underside turns pink.
+**STEP 5:** Flip shrimp and cook for another 1–2 minutes until fully opaque (they cook very quickly—don't overcook or they'll become rubbery).
+**STEP 6:** Pour in white wine and lemon juice. Scrape up any browned bits from the bottom of the skillet. Simmer for 1 minute.
+**STEP 7:** Remove from heat and swirl in remaining 1 tbsp butter until the sauce is silky and emulsified.
+**STEP 8:** Toss hot pasta with 1 tbsp olive oil, then add to the skillet with the shrimp. Add reserved pasta water and toss gently to combine.
+**STEP 9:** Taste and adjust seasoning with salt, pepper, and lemon juice as needed.
+**STEP 10:** Divide among four bowls. Garnish with fresh parsley, Parmesan, and serve with lemon wedges.
 
 ---
 

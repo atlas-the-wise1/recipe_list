@@ -1,7 +1,7 @@
 # Cajun Shrimp and Grits
 
 **Category:** D — Dinner
-**Tags:** `#high-protein` `#heart-healthy`
+**Tags:** `#high-protein`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
@@ -52,25 +52,25 @@
 
 **For the grits:**
 
-1. Bring chicken broth to a boil in a large saucepan over medium-high heat.
-2. Whisk in cornmeal slowly, stirring constantly to prevent lumps. Reduce heat to medium-low.
-3. Stir frequently for 20–25 minutes until the mixture thickens and becomes creamy (it should pull away from the sides of the pan).
-4. Stir in butter, heavy cream, and cheddar cheese. Season with salt and white pepper to taste. Keep warm on low heat.
+**STEP 1:** Bring chicken broth to a boil in a large saucepan over medium-high heat.
+**STEP 2:** Whisk in cornmeal slowly, stirring constantly to prevent lumps. Reduce heat to medium-low.
+**STEP 3:** Stir frequently for 20–25 minutes until the mixture thickens and becomes creamy (it should pull away from the sides of the pan).
+**STEP 4:** Stir in butter, heavy cream, and cheddar cheese. Season with salt and white pepper to taste. Keep warm on low heat.
 
 **For the shrimp:**
 
-5. While grits cook, combine all Cajun spices in a small bowl.
-6. In a large skillet over medium-high heat, cook andouille sausage, stirring occasionally, until browned and fat renders (about 5 minutes). Remove to a plate.
-7. Add olive oil to the same skillet. Season shrimp with salt and half the Cajun spice mixture. Sear shrimp in a single layer for 1–2 minutes per side until pink and just cooked through. Remove to a plate.
-8. Add remaining olive oil if needed. Sauté diced peppers and onion for 4–5 minutes until softened.
-9. Add minced garlic and remaining Cajun spices. Cook for 30 seconds until fragrant.
-10. Return cooked sausage and shrimp to the skillet. Add chicken broth and optional heavy cream. Simmer for 2–3 minutes until flavors meld and sauce thickens slightly.
-11. Swirl in 1 tbsp butter. Taste and adjust seasoning.
+**STEP 5:** While grits cook, combine all Cajun spices in a small bowl.
+**STEP 6:** In a large skillet over medium-high heat, cook andouille sausage, stirring occasionally, until browned and fat renders (about 5 minutes). Remove to a plate.
+**STEP 7:** Add olive oil to the same skillet. Season shrimp with salt and half the Cajun spice mixture. Sear shrimp in a single layer for 1–2 minutes per side until pink and just cooked through. Remove to a plate.
+**STEP 8:** Add remaining olive oil if needed. Sauté diced peppers and onion for 4–5 minutes until softened.
+**STEP 9:** Add minced garlic and remaining Cajun spices. Cook for 30 seconds until fragrant.
+**STEP 10:** Return cooked sausage and shrimp to the skillet. Add chicken broth and optional heavy cream. Simmer for 2–3 minutes until flavors meld and sauce thickens slightly.
+**STEP 11:** Swirl in 1 tbsp butter. Taste and adjust seasoning.
 
 **To serve:**
 
-12. Spoon creamy grits into four shallow bowls. Top with Cajun shrimp and sausage mixture.
-13. Garnish with sliced scallions and fresh parsley. Serve immediately.
+**STEP 12:** Spoon creamy grits into four shallow bowls. Top with Cajun shrimp and sausage mixture.
+**STEP 13:** Garnish with sliced scallions and fresh parsley. Serve immediately.
 
 ---
 

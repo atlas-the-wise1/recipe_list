@@ -46,14 +46,14 @@
 
 ## Preparation
 
-1. Mix all blackening spice ingredients in a small bowl. Pat cod fillets dry with paper towels.
-2. Sprinkle blackening spice evenly on both sides of each fillet, pressing gently so it adheres.
-3. Prepare the lime crema: Whisk together Greek yogurt, lime juice, minced garlic, salt, and pepper. Set aside.
-4. Heat olive oil in a large skillet over medium-high heat. Once hot, carefully place cod fillets in the pan.
-5. Sear for 3–4 minutes per side until the spice crust is dark and fragrant and fish flakes easily with a fork. Don't move the fish around; let it develop that blackened crust.
-6. Warm corn tortillas in a dry skillet over medium heat for about 30 seconds per side, or wrap them in foil and warm in a 350°F oven for 3–4 minutes.
-7. Assemble tacos: Place one cod fillet piece in each tortilla. Top with shredded cabbage, avocado slice, and a dollop of lime crema.
-8. Garnish with fresh cilantro and serve with lime wedges for extra brightness.
+**STEP 1:** Mix all blackening spice ingredients in a small bowl. Pat cod fillets dry with paper towels.
+**STEP 2:** Sprinkle blackening spice evenly on both sides of each fillet, pressing gently so it adheres.
+**STEP 3:** Prepare the lime crema: Whisk together Greek yogurt, lime juice, minced garlic, salt, and pepper. Set aside.
+**STEP 4:** Heat olive oil in a large skillet over medium-high heat. Once hot, carefully place cod fillets in the pan.
+**STEP 5:** Sear for 3–4 minutes per side until the spice crust is dark and fragrant and fish flakes easily with a fork. Don't move the fish around; let it develop that blackened crust.
+**STEP 6:** Warm corn tortillas in a dry skillet over medium heat for about 30 seconds per side, or wrap them in foil and warm in a 350°F oven for 3–4 minutes.
+**STEP 7:** Assemble tacos: Place one cod fillet piece in each tortilla. Top with shredded cabbage, avocado slice, and a dollop of lime crema.
+**STEP 8:** Garnish with fresh cilantro and serve with lime wedges for extra brightness.
 
 ---
 

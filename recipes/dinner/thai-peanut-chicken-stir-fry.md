@@ -43,15 +43,15 @@
 
 ## Preparation
 
-1. In a small bowl, whisk together peanut butter, soy sauce, lime juice, honey, sesame oil, red pepper flakes, and warm water until smooth. Set sauce aside.
-2. Heat 1 tbsp of olive oil in a large skillet or wok over medium-high heat. Season chicken with salt and pepper.
-3. Stir-fry chicken until golden and cooked through, about 8–10 minutes. Transfer to a plate.
-4. Add remaining olive oil to the skillet. Add garlic and ginger, stirring constantly for 30 seconds until fragrant.
-5. Add bell peppers, snap peas, and carrots. Stir-fry for 4–5 minutes until vegetables are tender-crisp but still vibrant.
-6. Return chicken to the skillet. Pour peanut sauce over everything and toss until well coated. Simmer for 2–3 minutes to allow flavors to meld.
-7. Taste and adjust seasoning (add lime juice for brightness, soy sauce for saltiness, or honey for sweetness).
-8. Divide rice or cauliflower rice among four bowls. Top with stir-fry mixture.
-9. Garnish with chopped peanuts, sliced scallions, and fresh cilantro. Serve immediately.
+**STEP 1:** In a small bowl, whisk together peanut butter, soy sauce, lime juice, honey, sesame oil, red pepper flakes, and warm water until smooth. Set sauce aside.
+**STEP 2:** Heat 1 tbsp of olive oil in a large skillet or wok over medium-high heat. Season chicken with salt and pepper.
+**STEP 3:** Stir-fry chicken until golden and cooked through, about 8–10 minutes. Transfer to a plate.
+**STEP 4:** Add remaining olive oil to the skillet. Add garlic and ginger, stirring constantly for 30 seconds until fragrant.
+**STEP 5:** Add bell peppers, snap peas, and carrots. Stir-fry for 4–5 minutes until vegetables are tender-crisp but still vibrant.
+**STEP 6:** Return chicken to the skillet. Pour peanut sauce over everything and toss until well coated. Simmer for 2–3 minutes to allow flavors to meld.
+**STEP 7:** Taste and adjust seasoning (add lime juice for brightness, soy sauce for saltiness, or honey for sweetness).
+**STEP 8:** Divide rice or cauliflower rice among four bowls. Top with stir-fry mixture.
+**STEP 9:** Garnish with chopped peanuts, sliced scallions, and fresh cilantro. Serve immediately.
 
 ---
 

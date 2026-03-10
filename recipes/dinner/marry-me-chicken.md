@@ -31,14 +31,14 @@
 
 ## Preparation
 
-1. Season chicken breasts generously with salt and pepper on both sides.
-2. Heat olive oil in a large skillet over medium-high heat. Sear chicken for 4–5 minutes per side until golden brown. Transfer to a plate.
-3. In the same skillet, add minced garlic and cook for 30 seconds until fragrant, stirring constantly.
-4. Add sun-dried tomatoes, chicken broth, Italian seasoning, and red pepper flakes. Stir well.
-5. Return chicken to the skillet, nestling it into the sauce. Reduce heat to medium and simmer for 8–10 minutes until chicken reaches 165°F internally.
-6. Stir in heavy cream, spinach, and Parmesan cheese. Simmer for 2–3 minutes until spinach wilts and sauce is creamy.
-7. Swirl in butter at the end for richness. Taste and adjust seasoning as needed.
-8. Serve immediately with the creamy sauce spooned over the chicken.
+**STEP 1:** Season chicken breasts generously with salt and pepper on both sides.
+**STEP 2:** Heat olive oil in a large skillet over medium-high heat. Sear chicken for 4–5 minutes per side until golden brown. Transfer to a plate.
+**STEP 3:** In the same skillet, add minced garlic and cook for 30 seconds until fragrant, stirring constantly.
+**STEP 4:** Add sun-dried tomatoes, chicken broth, Italian seasoning, and red pepper flakes. Stir well.
+**STEP 5:** Return chicken to the skillet, nestling it into the sauce. Reduce heat to medium and simmer for 8–10 minutes until chicken reaches 165°F internally.
+**STEP 6:** Stir in heavy cream, spinach, and Parmesan cheese. Simmer for 2–3 minutes until spinach wilts and sauce is creamy.
+**STEP 7:** Swirl in butter at the end for richness. Taste and adjust seasoning as needed.
+**STEP 8:** Serve immediately with the creamy sauce spooned over the chicken.
 
 ---
 

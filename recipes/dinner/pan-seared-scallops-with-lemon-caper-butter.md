@@ -38,15 +38,15 @@
 
 ## Preparation
 
-1. Pat scallops thoroughly dry with paper towels. This is crucial for achieving a golden crust. Season lightly with salt and white pepper on both sides.
-2. Heat 1 tbsp butter and 1 tbsp olive oil in a large cast-iron skillet over medium-high heat. The pan should be very hot but not smoking.
-3. Carefully place scallops in the skillet, leaving space between each one. Don't crowd the pan.
-4. Let scallops cook undisturbed for 2–3 minutes until a golden crust forms on the bottom. Flip gently and cook for another 1–2 minutes on the other side until just opaque in the center.
-5. Transfer scallops to a warm plate. Reduce heat to medium.
-6. Add 2 tbsp butter to the skillet. Once melted, add minced garlic and cook for 20 seconds until fragrant.
-7. Add capers, red pepper flakes, and fresh lemon juice. Swirl until combined, about 30 seconds.
-8. Return scallops to the skillet (or spoon sauce directly over plated scallops). Add fresh parsley. Taste and adjust seasoning with salt and white pepper.
-9. Serve immediately over cauliflower purée or risotto with lemon wedges on the side.
+**STEP 1:** Pat scallops thoroughly dry with paper towels. This is crucial for achieving a golden crust. Season lightly with salt and white pepper on both sides.
+**STEP 2:** Heat 1 tbsp butter and 1 tbsp olive oil in a large cast-iron skillet over medium-high heat. The pan should be very hot but not smoking.
+**STEP 3:** Carefully place scallops in the skillet, leaving space between each one. Don't crowd the pan.
+**STEP 4:** Let scallops cook undisturbed for 2–3 minutes until a golden crust forms on the bottom. Flip gently and cook for another 1–2 minutes on the other side until just opaque in the center.
+**STEP 5:** Transfer scallops to a warm plate. Reduce heat to medium.
+**STEP 6:** Add 2 tbsp butter to the skillet. Once melted, add minced garlic and cook for 20 seconds until fragrant.
+**STEP 7:** Add capers, red pepper flakes, and fresh lemon juice. Swirl until combined, about 30 seconds.
+**STEP 8:** Return scallops to the skillet (or spoon sauce directly over plated scallops). Add fresh parsley. Taste and adjust seasoning with salt and white pepper.
+**STEP 9:** Serve immediately over cauliflower purée or risotto with lemon wedges on the side.
 
 ---
 

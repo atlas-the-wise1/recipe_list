@@ -39,14 +39,14 @@
 
 ## Preparation
 
-1. In a small bowl, whisk together soy sauce, sesame oil, rice vinegar, sriracha, minced garlic, ginger, scallion, and sesame seeds.
-2. Place cubed tuna in a medium glass bowl. Pour marinade over the tuna and gently fold to coat evenly.
-3. Cover and refrigerate for 15 minutes. (Don't marinate longer than 30 minutes—the acid will begin to "cook" the tuna.)
-4. While tuna marinates, prepare sushi rice and distribute between two bowls.
-5. Arrange cucumber, avocado, and edamame around each rice bowl, leaving room in the center for the tuna.
-6. Remove tuna from the marinade and spoon it into the center of each bowl. Drizzle with remaining marinade.
-7. Top with pickled ginger, extra sesame seeds, nori strips, and fresh cilantro if desired.
-8. Serve immediately with soy sauce and extra sriracha on the side for those who want more heat.
+**STEP 1:** In a small bowl, whisk together soy sauce, sesame oil, rice vinegar, sriracha, minced garlic, ginger, scallion, and sesame seeds.
+**STEP 2:** Place cubed tuna in a medium glass bowl. Pour marinade over the tuna and gently fold to coat evenly.
+**STEP 3:** Cover and refrigerate for 15 minutes. (Don't marinate longer than 30 minutes—the acid will begin to "cook" the tuna.)
+**STEP 4:** While tuna marinates, prepare sushi rice and distribute between two bowls.
+**STEP 5:** Arrange cucumber, avocado, and edamame around each rice bowl, leaving room in the center for the tuna.
+**STEP 6:** Remove tuna from the marinade and spoon it into the center of each bowl. Drizzle with remaining marinade.
+**STEP 7:** Top with pickled ginger, extra sesame seeds, nori strips, and fresh cilantro if desired.
+**STEP 8:** Serve immediately with soy sauce and extra sriracha on the side for those who want more heat.
 
 ---
 

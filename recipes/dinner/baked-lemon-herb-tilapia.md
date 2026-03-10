@@ -32,15 +32,15 @@
 
 ## Preparation
 
-1. Preheat oven to 400°F. Line a baking sheet with parchment paper or lightly coat with cooking spray.
-2. Pat tilapia fillets dry with paper towels. Arrange them on the prepared baking sheet without overlapping.
-3. In a small bowl, combine olive oil, lemon zest, lemon juice, minced garlic, parsley, capes, Dijon mustard, thyme, and oregano. Whisk until combined.
-4. Brush this mixture evenly over each tilapia fillet, making sure to coat both sides and the edges.
-5. Season lightly with salt and white pepper.
-6. Lay 2–3 lemon slices on top of each fillet for visual appeal and additional citrus flavor.
-7. Bake for 12–15 minutes until fish flakes easily with a fork and is just opaque throughout (don't overcook or tilapia will dry out).
-8. Remove from oven. Garnish with fresh dill or additional chopped parsley.
-9. Serve immediately with extra lemon wedges on the side.
+**STEP 1:** Preheat oven to 400°F. Line a baking sheet with parchment paper or lightly coat with cooking spray.
+**STEP 2:** Pat tilapia fillets dry with paper towels. Arrange them on the prepared baking sheet without overlapping.
+**STEP 3:** In a small bowl, combine olive oil, lemon zest, lemon juice, minced garlic, parsley, capes, Dijon mustard, thyme, and oregano. Whisk until combined.
+**STEP 4:** Brush this mixture evenly over each tilapia fillet, making sure to coat both sides and the edges.
+**STEP 5:** Season lightly with salt and white pepper.
+**STEP 6:** Lay 2–3 lemon slices on top of each fillet for visual appeal and additional citrus flavor.
+**STEP 7:** Bake for 12–15 minutes until fish flakes easily with a fork and is just opaque throughout (don't overcook or tilapia will dry out).
+**STEP 8:** Remove from oven. Garnish with fresh dill or additional chopped parsley.
+**STEP 9:** Serve immediately with extra lemon wedges on the side.
 
 ---
 
