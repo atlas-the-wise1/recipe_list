@@ -1,11 +1,11 @@
 # Blackened Cod Fish Tacos
 
 **Category:** D — Dinner
-**Tags:** `#high-protein` `#heart-healthy` `#low-cholesterol` `#fat-loss`
+**Tags:** `#heart-healthy` `#low-cholesterol` `#fat-loss`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~380 | ~32g | ~16g | ~30g | ~3g | ~55mg |
+| ~278 | ~29g | ~5g | ~31g | ~5g | ~62mg |
 
 **Serves:** 4 (2 tacos per person)
 **Prep Time:** 15 min | **Cook Time:** 10 min | **Total:** ~25 min

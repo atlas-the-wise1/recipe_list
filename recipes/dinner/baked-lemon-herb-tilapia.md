@@ -5,7 +5,7 @@
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~280 | ~36g | ~14g | ~4g | ~1g | ~115mg |
+| ~244 | ~35g | ~10g | ~4g | ~1g | ~85mg |
 
 **Serves:** 4
 **Prep Time:** 10 min | **Cook Time:** 14 min | **Total:** ~24 min

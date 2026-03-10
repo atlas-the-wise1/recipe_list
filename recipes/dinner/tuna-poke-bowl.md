@@ -1,11 +1,11 @@
 # Tuna Poke Bowl
 
 **Category:** D — Dinner
-**Tags:** `#high-protein` `#low-cholesterol` `#heart-healthy` `#fat-loss`
+**Tags:** `#high-protein` `#low-cholesterol` `#fat-loss`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~560 | ~40g | ~20g | ~52g | ~6g | ~50mg |
+| ~475 | ~40g | ~15g | ~48g | ~6g | ~50mg |
 
 **Serves:** 2
 **Prep Time:** 15 min | **Chill Time:** 15 min | **Total:** ~30 min

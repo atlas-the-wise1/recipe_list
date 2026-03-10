@@ -1,7 +1,7 @@
 # Chicken Teriyaki Bowl
 
 **Category:** D — Dinner
-**Tags:** `#high-protein` `#meal-prep` `#heart-healthy`
+**Tags:** `#high-protein` `#meal-prep` `#heart-healthy` `#low-cholesterol`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|

@@ -1,7 +1,7 @@
 # Cajun Shrimp and Grits
 
 **Category:** D — Dinner
-**Tags:** `#high-protein`
+**Tags:** `#high-protein` `#meal-prep`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|

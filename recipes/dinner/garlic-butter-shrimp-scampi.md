@@ -1,11 +1,11 @@
 # Garlic Butter Shrimp Scampi
 
 **Category:** D — Dinner
-**Tags:** `#high-protein` `#heart-healthy`
+**Tags:** `#high-protein`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~550 | ~38g | ~21g | ~48g | ~6g | ~190mg |
+| ~448 | ~36g | ~14g | ~43g | ~4g | ~180mg |
 
 **Serves:** 4
 **Prep Time:** 10 min | **Cook Time:** 10 min | **Total:** ~20 min

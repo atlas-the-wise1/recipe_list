@@ -1,11 +1,11 @@
 # Marry Me Chicken
 
 **Category:** D — Dinner
-**Tags:** `#high-protein` `#keto`
+**Tags:** `#high-protein` `#low-cholesterol`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~360 | ~38g | ~16g | ~12g | ~2g | ~96mg |
+| ~280 | ~30g | ~11g | ~12g | ~2g | ~85mg |
 
 **Serves:** 4
 **Prep Time:** 10 min | **Cook Time:** 20 min | **Total:** ~30 min
