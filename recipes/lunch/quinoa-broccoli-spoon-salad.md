@@ -1,11 +1,16 @@
 # Quinoa and Broccoli Spoon Salad
 
 **Category:** L — Lunch
-**Tags:** `#heart-healthy` `#low-cholesterol` `#meal-prep` `#high-protein` `#fat-loss`
+**Tags:** `#heart-healthy` `#low-cholesterol` `#meal-prep`
 **Nutrition (per serving):**
-| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
-|---|---|---|---|---|---|
-| ~480 | ~16g | ~22g | ~58g | ~8g | ~15mg |
+| Nutrient | Amount |
+|----------|--------|
+| Calories | 480kcal |
+| Protein | 16g |
+| Carbs | 58g |
+| Fat | 22g |
+| Fiber | 8g |
+| Cholesterol | 15mg |
 **Prep Time:** 15 min | **Cook Time:** 15 min | **Total:** ~30 min
 
 ---

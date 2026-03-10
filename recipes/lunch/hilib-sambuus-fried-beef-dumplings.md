@@ -1,11 +1,16 @@
 # Hilib Sambuus (Fried Beef Dumplings)
 
 **Category:** L — Lunch
-**Tags:** `#high-protein` `#meal-prep`
+**Tags:** `#meal-prep`
 **Nutrition (per serving, ~4 sambuus):**
-| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
-|---|---|---|---|---|---|
-| ~560 | ~21g | ~36g | ~35g | ~2g | ~65mg |
+| Nutrient | Amount |
+|----------|--------|
+| Calories | 560kcal |
+| Protein | 21g |
+| Carbs | 35g |
+| Fat | 36g |
+| Fiber | 2g |
+| Cholesterol | 65mg |
 **Serves:** 5 (20 sambuus total)
 **Prep Time:** 30 min | **Cook Time:** 25 min | **Total:** ~55 min
 

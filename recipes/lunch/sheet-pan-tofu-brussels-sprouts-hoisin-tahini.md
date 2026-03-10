@@ -1,11 +1,16 @@
 # Sheet-Pan Tofu and Brussels Sprouts With Hoisin-Tahini Sauce
 
 **Category:** L — Lunch
-**Tags:** `#vegetarian` `#vegan` `#heart-healthy` `#low-cholesterol` `#high-protein` `#meal-prep` `#fat-loss`
+**Tags:** `#vegetarian` `#vegan` `#heart-healthy` `#low-cholesterol` `#high-protein` `#meal-prep`
 **Nutrition (per serving):**
-| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
-|---|---|---|---|---|---|
-| ~510 | ~30g | ~30g | ~32g | ~9g | ~0mg |
+| Nutrient | Amount |
+|----------|--------|
+| Calories | 510kcal |
+| Protein | 30g |
+| Carbs | 32g |
+| Fat | 30g |
+| Fiber | 9g |
+| Cholesterol | 0mg |
 **Serves:** 4
 **Prep Time:** 10 min | **Cook Time:** 30 min | **Total:** ~40 min
 

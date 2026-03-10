@@ -1,7 +1,7 @@
 # Frijoles Borrachos (Drunken Beans)
 
 **Category:** L — Lunch
-**Tags:** `#heart-healthy` `#low-cholesterol` `#meal-prep` `#high-protein` `#fat-loss`
+**Tags:** `#heart-healthy` `#low-cholesterol` `#meal-prep`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|

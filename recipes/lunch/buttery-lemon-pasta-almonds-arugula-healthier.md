@@ -3,7 +3,7 @@
 > 💡 **Healthier Variant** of Buttery Lemon Pasta With Almonds and Arugula — see `buttery-lemon-pasta-almonds-arugula.md` for the classic version.
 
 **Category:** L — Lunch
-**Tags:** `#heart-healthy` `#low-cholesterol` `#vegetarian` `#fat-loss`
+**Tags:** `#heart-healthy` `#low-cholesterol` `#vegetarian`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
