@@ -5,7 +5,7 @@
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~520 | ~40g | ~18g | ~48g | ~6g | ~50mg |
+| ~560 | ~40g | ~20g | ~52g | ~6g | ~50mg |
 
 **Serves:** 2
 **Prep Time:** 15 min | **Chill Time:** 15 min | **Total:** ~30 min
