@@ -1,7 +1,7 @@
 # Ginger-Dill Salmon
 
 **Category:** D — Dinner
-**Tags:** `#heart-healthy` `#low-cholesterol` `#high-protein` `#fat-loss` `#keto` `#meal-prep`
+**Tags:** `#heart-healthy` `#low-cholesterol` `#high-protein` `#keto` `#meal-prep`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|

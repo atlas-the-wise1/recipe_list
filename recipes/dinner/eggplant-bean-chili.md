@@ -1,7 +1,7 @@
 # Eggplant and Bean Chili
 
 **Category:** Dinner
-**Tags:** #heart-healthy #low-cholesterol #fat-loss #meal-prep
+**Tags:** #heart-healthy #low-cholesterol #meal-prep
 **Servings:** 4
 **Prep Time:** 15 min | **Cook Time:** 45 min | **Total:** ~60 min
 

@@ -1,7 +1,7 @@
 # Lemon-Dill Meatballs With Orzo
 
 **Category:** Dinner
-**Tags:** #heart-healthy #high-protein #low-cholesterol #fat-loss #meal-prep
+**Tags:** #heart-healthy #high-protein #meal-prep
 **Servings:** 4
 **Prep Time:** 15 min | **Cook Time:** 20 min | **Total:** ~35 min
 

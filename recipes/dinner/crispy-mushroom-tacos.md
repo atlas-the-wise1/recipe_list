@@ -1,7 +1,7 @@
 # Crispy Mushroom Tacos
 
 **Category:** Dinner
-**Tags:** #heart-healthy #low-cholesterol #high-protein #fat-loss
+**Tags:** #heart-healthy #low-cholesterol #meal-prep
 **Servings:** 4 (3 tacos each)
 **Prep Time:** 15 min | **Cook Time:** 30 min | **Total:** ~45 min
 
