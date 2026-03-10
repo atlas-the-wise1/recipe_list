@@ -1,7 +1,7 @@
 # Green Curry Salmon With Coconut Rice
 
 **Category:** Dinner
-**Tags:** #heart-healthy #high-protein #low-cholesterol
+**Tags:** #heart-healthy #low-cholesterol
 **Servings:** 4
 **Prep Time:** 10 min | **Cook Time:** 45 min | **Total:** ~55 min
 
@@ -10,7 +10,7 @@
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~620 | ~38g | ~26g | ~58g | ~3g | ~80mg |
+| ~620 | ~28g | ~34g | ~51g | ~1g | ~70mg |
 
 ---
 
