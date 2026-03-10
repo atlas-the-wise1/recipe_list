@@ -1,7 +1,7 @@
 # Banana Nut Breakfast Bars
 
 **Category:** B — Breakfast
-**Tags:** `#heart-healthy` `#meal-prep` `#high-protein`
+**Tags:** `#heart-healthy` `#meal-prep`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|

@@ -1,7 +1,7 @@
 # Morning Wake Up Smoothie
 
 **Category:** B — Breakfast
-**Tags:** `#heart-healthy` `#low-cholesterol` `#high-protein` `#fat-loss` `#quick`
+**Tags:** `#heart-healthy` `#low-cholesterol` `#fat-loss` `#quick`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|

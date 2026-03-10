@@ -3,9 +3,14 @@
 **Category:** B — Breakfast
 **Tags:** `#heart-healthy` `#low-cholesterol` `#meal-prep` `#vegetarian`
 **Nutrition (per serving):**
-| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
-|---|---|---|---|---|---|
-| ~380 | ~11g | ~16g | ~52g | ~6g | ~8mg |
+| Nutrient | Amount |
+|----------|--------|
+| Calories | 280kcal |
+| Protein | 9g |
+| Carbs | 42g |
+| Fat | 12g |
+| Fiber | 5g |
+| Cholesterol | 8mg |
 **Serves:** 4
 **Prep Time:** 10 min | **Chill Time:** 1h–4 days | **Total:** 10 min active
 

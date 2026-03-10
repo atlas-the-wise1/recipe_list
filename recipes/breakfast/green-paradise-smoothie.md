@@ -1,7 +1,7 @@
 # Green Paradise Smoothie
 
 **Category:** B — Breakfast
-**Tags:** `#heart-healthy` `#low-cholesterol` `#fat-loss` `#quick` `#vegetarian` `#vegan`
+**Tags:** `#heart-healthy` `#low-cholesterol` `#quick` `#vegan`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|

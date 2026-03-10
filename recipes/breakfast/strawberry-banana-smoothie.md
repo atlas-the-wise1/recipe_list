@@ -1,7 +1,7 @@
 # Strawberry Banana Smoothie
 
 **Category:** B — Breakfast
-**Tags:** `#heart-healthy` `#low-cholesterol` `#fat-loss` `#quick`
+**Tags:** `#heart-healthy` `#low-cholesterol` `#quick`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|

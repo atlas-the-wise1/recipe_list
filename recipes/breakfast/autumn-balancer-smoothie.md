@@ -1,11 +1,16 @@
 # Autumn Balancer Smoothie
 
 **Category:** B — Breakfast
-**Tags:** `#heart-healthy` `#low-cholesterol` `#fat-loss` `#quick` `#vegan`
+**Tags:** `#heart-healthy` `#low-cholesterol` `#quick` `#vegan`
 **Nutrition (per serving):**
-| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
-|---|---|---|---|---|---|
-| ~128 | ~2g | ~1g | ~29g | ~2g | ~0mg |
+| Nutrient | Amount |
+|----------|--------|
+| Calories | 53kcal |
+| Protein | 1g |
+| Carbs | 12g |
+| Fat | 1g |
+| Fiber | 2g |
+| Cholesterol | 0mg |
 **Serves:** 4
 **Prep Time:** 5 min (plus sweet potato cooling) | **Total:** ~10 min
 
