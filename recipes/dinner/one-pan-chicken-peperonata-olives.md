@@ -1,7 +1,7 @@
 # One-Pan Chicken With Peperonata and Olives
 
 **Category:** Dinner
-**Tags:** #heart-healthy #high-protein #fat-loss
+**Tags:** #heart-healthy #high-protein
 **Servings:** 4
 **Prep Time:** 15 min | **Cook Time:** 45 min | **Total:** ~60 min
 

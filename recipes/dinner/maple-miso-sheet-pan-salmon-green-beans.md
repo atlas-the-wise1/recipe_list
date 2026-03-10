@@ -1,7 +1,7 @@
 # Maple and Miso Sheet-Pan Salmon With Green Beans
 
 **Category:** Dinner
-**Tags:** #heart-healthy #high-protein #low-cholesterol #fat-loss #keto
+**Tags:** #heart-healthy #high-protein #low-cholesterol #keto
 **Servings:** 4
 **Prep Time:** 10 min | **Cook Time:** 12 min | **Total:** ~25 min
 

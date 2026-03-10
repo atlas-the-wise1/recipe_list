@@ -1,7 +1,7 @@
 # Chicken Milanese (Air-Fryer Version)
 
 **Category:** Dinner
-**Tags:** #high-protein #heart-healthy #fat-loss
+**Tags:** #high-protein #fat-loss
 **Servings:** 4
 **Prep Time:** 20 min | **Cook Time:** 14 min | **Total:** ~34 min
 

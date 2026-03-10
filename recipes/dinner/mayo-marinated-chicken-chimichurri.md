@@ -1,7 +1,7 @@
 # Mayo-Marinated Chicken With Chimichurri
 
 **Category:** D — Dinner
-**Tags:** `#high-protein` `#heart-healthy` `#fat-loss` `#keto`
+**Tags:** `#high-protein` `#fat-loss` `#keto`
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|

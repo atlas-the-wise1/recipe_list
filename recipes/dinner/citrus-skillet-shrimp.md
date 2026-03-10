@@ -1,7 +1,7 @@
 # Citrus Skillet Shrimp With Shallots and Jalapeños
 
 **Category:** Dinner
-**Tags:** #high-protein #fat-loss #keto
+**Tags:** #high-protein #fat-loss
 **Servings:** 4
 **Prep Time:** 10 min | **Cook Time:** 10 min | **Total:** ~20 min
 
@@ -10,7 +10,7 @@
 **Nutrition (per serving):**
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
-| ~220 | ~35g | ~8g | ~8g | ~1g | ~215mg |
+| ~245 | ~35g | ~8g | ~11g | ~2g | ~215mg |
 
 ---
 

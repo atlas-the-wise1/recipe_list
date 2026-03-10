@@ -1,7 +1,7 @@
 # Iwuk Edesi (One-Pot Rice With Chicken)
 
 **Category:** Dinner
-**Tags:** #high-protein #heart-healthy #meal-prep
+**Tags:** #high-protein #meal-prep
 **Servings:** 4
 **Prep Time:** 20 min | **Cook Time:** 45 min | **Total:** ~65 min
 

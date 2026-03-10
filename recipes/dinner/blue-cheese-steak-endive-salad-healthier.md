@@ -3,7 +3,7 @@
 > 💡 **Healthier Variant** of Blue-Cheese Steak and Endive Salad for Two — see `blue-cheese-steak-endive-salad.md` for the classic version.
 
 **Category:** Dinner
-**Tags:** #high-protein #keto #heart-healthy #low-cholesterol #fat-loss
+**Tags:** #high-protein #keto #heart-healthy #low-cholesterol
 **Servings:** 2
 **Prep Time:** 15 min | **Cook Time:** 10 min | **Total:** ~25 min
 

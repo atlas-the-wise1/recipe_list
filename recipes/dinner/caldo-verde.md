@@ -1,7 +1,7 @@
 # Caldo Verde (Potato and Greens Soup With Sausage)
 
 **Category:** Dinner
-**Tags:** #heart-healthy #low-cholesterol #high-protein #meal-prep
+**Tags:** #heart-healthy #low-cholesterol #meal-prep
 **Servings:** 4
 **Prep Time:** 15 min | **Cook Time:** 40 min | **Total:** ~55 min
 
