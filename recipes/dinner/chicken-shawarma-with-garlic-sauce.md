@@ -1,0 +1,64 @@
+# Chicken Shawarma with Garlic Sauce
+
+**Category:** D — Dinner
+**Tags:** `#high-protein` `#heart-healthy` `#meal-prep`
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
+|---|---|---|---|---|---|
+| ~420 | ~40g | ~18g | ~22g | ~3g | ~90mg |
+
+**Serves:** 4
+**Prep Time:** 15 min | **Cook Time:** 20 min | **Total:** ~35 min
+
+---
+
+## Ingredients
+
+**For the chicken:**
+- 1.5 lbs boneless, skinless chicken thighs, cut into strips
+- 2 tbsp olive oil
+- 2 tsp ground cumin
+- 1.5 tsp paprika
+- 1 tsp turmeric
+- ½ tsp ground cinnamon
+- 3 cloves garlic, minced
+- 2 tbsp fresh lemon juice
+- Salt and pepper to taste
+
+**For the garlic sauce:**
+- ¾ cup plain Greek yogurt
+- 4 cloves garlic, minced
+- 1 tbsp fresh lemon juice
+- ½ tsp salt
+- 2 tbsp fresh parsley, chopped
+
+**For serving:**
+- 4 whole wheat pitas
+- 2 cups shredded cucumber
+- 2 cups diced tomatoes
+- 1 red onion, thinly sliced
+- ½ cup fresh cilantro (optional)
+
+---
+
+## Preparation
+
+1. In a small bowl, whisk together cumin, paprika, turmeric, cinnamon, minced garlic, lemon juice, salt, and pepper.
+2. Toss chicken strips with this spice mixture until well coated. Let sit for 10 minutes if time allows.
+3. Heat olive oil in a large skillet over medium-high heat. Cook chicken in batches, stirring occasionally, for 15–18 minutes until golden and cooked through. Don't overcrowd the pan.
+4. While chicken cooks, prepare the garlic sauce: Whisk together Greek yogurt, minced garlic, lemon juice, salt, and parsley. Set aside.
+5. Warm pitas in the oven (350°F for 3–4 minutes) or directly over a gas flame.
+6. Assemble pitas: Lay a pita flat, add a generous spoonful of garlic sauce, top with cooked chicken, cucumber, tomato, and red onion.
+7. Garnish with fresh cilantro if desired and serve immediately.
+
+---
+
+## Notes
+
+- **Marination variation:** For deeper flavor, marinate chicken in the spice mixture (without oil) for 2–4 hours or overnight; reduce active cooking time slightly.
+- **Garlic sauce ahead:** Prepare garlic sauce up to 3 days in advance; it actually improves as garlic mellows and flavors meld.
+- **Meal-prep format:** Cook shawarma chicken and store separately from sauce and vegetables. Assemble pitas fresh at serving time to prevent sogginess.
+- **Lettuce wrap option:** Skip pitas entirely and serve shawarma over romaine lettuce cups for a low-carb version (~280 cal, 4g carbs).
+- **Spice balance:** If the turmeric and cinnamon seem strong, reduce each by ¼ tsp and adjust to taste—every palate differs on warm spices.
+- **Yogurt quality:** Use full-fat or 2% Greek yogurt; non-fat versions can separate when warmed.
+- **Temperature control:** Keep chicken moving in the skillet to avoid burning the spice coating; medium-high (not max heat) prevents charring while ensuring tenderness.
