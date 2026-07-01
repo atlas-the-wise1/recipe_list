@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~380 | ~52g | ~10g | ~28g | ~2g | ~155mg |
+**Health Score:** 6/10
 
 ---
 
@@ -56,3 +57,4 @@
 **Batch size:** Bread all cutlets at once, air-fry in batches of 2. Takes ~30 min total for 4 cutlets.
 **vs. Pan-Fried version:** 200 fewer calories, 18g less fat per serving — same protein, same crust texture. Strong weekly rotation candidate.
 **Notes:** The olive oil spray is key — don't skip it or the panko won't crisp properly. Two light coats (before + after flip) is all you need.
+

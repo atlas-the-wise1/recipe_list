@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~380 | ~42g | ~22g | ~2g | ~0g | ~115mg |
+**Health Score:** 6/10
+
 **Serves:** 4
 **Prep Time:** 10 min + optional 4–24h marinate | **Cook Time:** 5 min | **Total:** ~15 min active
 
@@ -42,3 +44,4 @@
 - **Keto-friendly:** <2g carbs per serving as written
 - **Serve with:** Roasted vegetables, a simple green salad, or over arugula with extra chimichurri as the dressing
 - **Meal-prep:** Marinate up to 24h in advance; cook fresh in under 5 minutes — ideal weeknight setup
+

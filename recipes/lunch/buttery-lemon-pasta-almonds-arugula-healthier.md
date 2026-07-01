@@ -13,6 +13,8 @@
 | Fat | 16g |
 | Fiber | 11g |
 | Cholesterol | 15mg |
+**Health Score:** 5/10
+
 **Prep Time:** 5 min | **Cook Time:** 20 min | **Total:** ~25 min
 
 ---
@@ -58,3 +60,4 @@
 - **Whole-wheat pasta note:** Add 1–2 extra minutes to the cook time and test frequently — whole-wheat can go from al dente to mushy quickly.
 - **Boost protein further:** Add grilled shrimp, white beans, or a soft-boiled egg per bowl
 - **Make-ahead:** Still not great for leftovers — the pasta absorbs sauce quickly. Best served immediately.
+

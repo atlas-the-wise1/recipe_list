@@ -13,6 +13,8 @@
 | Fat | 26g |
 | Fiber | 6g |
 | Cholesterol | 85mg |
+**Health Score:** 5/10
+
 **Prep Time:** 20 min | **Cook Time:** 25 min | **Total:** ~45 min
 
 ---
@@ -66,3 +68,4 @@
 - **Avocado is intentional** — the heart-healthy fats from avocado replace some of the saturated fat lost from removing bacon and reducing cheese
 - **Baked chips caveat:** They're lighter but softer — they'll go slightly soggier under the meat mixture. Serve quickly after baking.
 - **Make-ahead:** Turkey-chorizo meat mixture can be made 1–2 days ahead and refrigerated. Reheat before assembling.
+

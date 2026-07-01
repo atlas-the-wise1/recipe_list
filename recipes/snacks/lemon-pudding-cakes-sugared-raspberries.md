@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~285 | ~6g | ~10g | ~44g | ~2g | ~110mg |
+**Health Score:** 4/10
+
 **Serves:** 6 ramekins
 **Prep Time:** 20 min | **Cook Time:** 35–40 min | **Total:** ~75 min
 
@@ -51,3 +53,4 @@
 - **Make-ahead:** Batter can't be made ahead (whites will deflate), but baked cakes keep at room temp 2–3 hours or refrigerated up to 2 days; reheat gently
 - **Lighter swap:** Reduce butter to 3 tablespoons and use low-fat buttermilk to drop ~40 cal/serving
 - **Seasonal swap:** Sub blueberries or blackberries for raspberries; same maceration technique
+

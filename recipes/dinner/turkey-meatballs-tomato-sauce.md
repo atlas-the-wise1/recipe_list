@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~380 | ~38g | ~18g | ~16g | ~2g | ~125mg |
+**Health Score:** 8/10
+
 **Serves:** 4 (28 meatballs)
 **Prep Time:** 20 min + optional 1h chill | **Cook Time:** 30 min | **Total:** ~50 min
 
@@ -50,3 +52,4 @@
 - **Serve over:** Banza chickpea spaghetti, zucchini noodles, polenta, or with crusty bread
 - **Lighten it up:** Use ground turkey breast (99% lean) instead of regular ground turkey to drop ~40 cal and ~5g fat per serving
 - **Marinara shortcut:** Store-bought is fine — Rao's is the gold standard for a jarred option
+

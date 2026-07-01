@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~620 | ~28g | ~34g | ~51g | ~1g | ~70mg |
+**Health Score:** 5/10
 
 ---
 
@@ -49,3 +50,4 @@
 **Make it lighter:** Light coconut milk cuts ~80 cal and ~10g fat per serving with minimal flavor loss
 **Salmon tip:** Check salmon at 12 min — thinner fillets cook fast. Pull it just before fully opaque; residual heat finishes it.
 **Notes:** One of the most indulgent-feeling recipes in the book that still hits the heart-healthy and low-cholesterol marks. The coconut rice absorbs all the green curry and salmon juices — extraordinary flavor payoff for a one-pot meal. Higher calorie than most dinners due to coconut milk and rice — portion the rice carefully if fat loss is the priority that week.
+

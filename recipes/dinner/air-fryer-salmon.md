@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~370 | ~42g | ~20g | ~4g | ~1g | ~95mg |
+**Health Score:** 8/10
 
 ---
 
@@ -41,3 +42,4 @@
 **Batch size:** Scale up fillets as needed — cook in batches to avoid overcrowding the basket
 **Frozen tip:** Thaw overnight in fridge, or run under cold water 10–15 min before cooking. Pat extra dry before oiling.
 **Notes:** One of the best recipes for your health goals — high protein, heart-healthy omega-3s, low cholesterol, keto-friendly, and under 20 min start to finish. Strong weekly staple candidate.
+

@@ -7,6 +7,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~132 | ~1g | ~9g | ~13g | ~1g | ~0mg |
+**Health Score:** 6/10
+
 **Serves:** 4
 **Prep Time:** 5–10 min | **Freeze Time:** 24 hours | **Best Within:** 2 weeks
 
@@ -49,3 +51,4 @@
 - **Re-spin:** If texture is crumbly after first process, add 1 tbsp oat milk and re-spin — CREAMi tip for firmer results
 - **Chocolate oat milk** adds natural sweetness and chocolate depth; sub regular oat milk + 1 extra tsp cocoa if needed
 - **Only 132 cal** for actual ice cream — one of the best macro-friendly desserts in the library
+

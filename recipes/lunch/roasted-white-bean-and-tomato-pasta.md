@@ -1,0 +1,43 @@
+# Roasted White Bean and Tomato Pasta
+
+**Category:** L — Lunch
+**Tags:** `#vegetarian` `#meal-prep`
+**Nutrition (per serving):**
+| Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
+|---|---|---|---|---|---|
+| TBD | TBD | TBD | TBD | TBD | TBD |
+
+**Serves:** 4
+**Prep Time:** 10 min | **Cook Time:** 25 min | **Total:** ~35 min
+
+## Ingredients
+
+- Salt and black pepper
+- 3/4 cup plus 2 tablespoons extra-virgin olive oil
+- 1 large shallot, finely minced
+- 2 tablespoons tomato paste
+- 5 garlic cloves, thinly sliced
+- 1/2 teaspoon finely chopped fresh rosemary or 1/4 teaspoon dried
+- 1/2 teaspoon red-pepper flakes
+- 1/2 teaspoon granulated sugar
+- 16 ounces cherry tomatoes, halved
+- 1 (15-ounce) can small white beans, preferably navy or cannellini beans, rinsed, or 1 1/3 cups cooked white beans
+- 1 pound orecchiette or other shaped pasta
+- Freshly grated Parmesan or pecorino, optional, for serving
+
+## Instructions
+
+1. Heat the oven to 375°F. Bring a large pot of salted water to a boil over high.
+2. In a small bowl, stir together 1/4 cup olive oil with the shallot, tomato paste, garlic, rosemary, red-pepper flakes and sugar. On a large baking sheet, toss the tomatoes with the dressing; season generously with salt and pepper, then spread in an even layer.
+3. On a second baking sheet, toss the beans with 2 tablespoons olive oil; season generously with salt and pepper.
+4. Roast the tomatoes and beans, stirring halfway through, until tomatoes slump and beans crisp, about 25 minutes.
+5. While the tomatoes and beans roast, cook the pasta until al dente. Reserve 1 cup pasta cooking water then drain pasta.
+6. Transfer the beans and tomatoes to the pot. Add 1/4 cup pasta cooking water to the sheet pan from the tomatoes and use a flexible spatula to scrape the browned bits from the bottom of the sheet pan; transfer to the pot, then repeat with another 1/4 cup pasta cooking water.
+7. Add the pasta and the remaining 1/2 cup olive oil to the pot; stir vigorously until saucy. Season generously with salt and pepper, then add extra pasta water as needed to moisten until glossy. Divide among wide, shallow bowls and top with grated cheese, if desired.
+
+## Notes
+
+- The browned bits from the sheet pan are part of the sauce, so don’t leave them behind
+- Orecchiette holds the roasted tomatoes and beans well, but any sturdy shaped pasta works
+- Good warm or room temperature for lunch, and it holds up better than creamier pasta dishes
+

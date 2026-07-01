@@ -11,6 +11,8 @@
 | Fat | 6g |
 | Fiber | 14g |
 | Cholesterol | 15mg |
+**Health Score:** 5/10
+
 **Prep Time:** 15 min + 8–12h soak | **Cook Time:** 2–2.5h | **Total:** ~2.5h active
 
 ---
@@ -51,3 +53,4 @@
 - **Serving ideas:** Over rice, with warm tortillas, alongside eggs for breakfast, or as a side to grilled chicken/fish
 - **Freeze well:** Portion into containers and freeze up to 3 months — reheat with a splash of water
 - **Soak tip:** If short on time, quick-soak: boil beans 2 minutes, turn off heat, soak 1 hour, drain and proceed
+

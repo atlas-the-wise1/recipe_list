@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~420 | ~48g | ~20g | ~16g | ~4g | ~110mg |
+**Health Score:** 7/10
 
 ---
 
@@ -45,3 +46,4 @@
 **Batch size:** Doubles easily in a larger roasting pan
 **Pairs well with:** Crusty bread, brown rice, cauliflower rice (keto), or polenta
 **Notes:** One of the simplest and most hands-off recipes in the book — mostly just chopping and roasting. The peperonata (slow-roasted peppers with tomatoes and olives) is the star here — sweet, tangy, and deeply savory. Bell peppers are loaded with vitamin C. Hits every health goal with minimal effort. The pan juices are worth every drop — spoon generously over the chicken.
+

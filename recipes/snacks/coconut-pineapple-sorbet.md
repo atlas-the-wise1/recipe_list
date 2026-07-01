@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~82 | ~1g | ~2g | ~17g | ~1g | ~0mg |
+**Health Score:** 6/10
+
 **Serves:** 4
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -37,3 +39,4 @@
 - **Fresh ginger** adds a subtle kick that cuts through the sweetness — don't skip it; it's what makes this interesting
 - **Only 82 cal per serving** — genuinely guilt-free dessert; even doubling the portion is just 164 cal
 - **Boost:** Drizzle with toasted coconut flakes for texture and extra coconut flavor
+

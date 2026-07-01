@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~380 | ~38g | ~12g | ~28g | ~3g | ~110mg |
+**Health Score:** 7/10
 
 ---
 
@@ -48,3 +49,4 @@
 **Batch size:** Doubles easily in a larger skillet or two pans simultaneously
 **Pairs well with:** Couscous, brown rice, or cauliflower rice (keto)
 **Notes:** One of the most well-rounded recipes in the book — high protein, heart-healthy, low-fat, done in 35 minutes. The apricots add natural sweetness that balances the ginger and cumin beautifully. Spinach wilts directly into the pan for a built-in vegetable. Strong weekly staple candidate.
+

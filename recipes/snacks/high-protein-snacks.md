@@ -63,3 +63,5 @@
 | Dinner | Salmon/Chicken (avg) | 42–50g |
 | **Total** | | **~137–154g ✅** |
 
+
+**Health Score:** 6/10

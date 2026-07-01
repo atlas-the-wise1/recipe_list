@@ -11,6 +11,8 @@
 | Fat | 10g |
 | Fiber | 3g |
 | Cholesterol | 0mg |
+**Health Score:** 7/10
+
 **Serves:** 2
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -43,3 +45,4 @@
 - **Protein boost:** Add 1 scoop chocolate whey protein (+~25g protein, +~120 cal) to turn this into a real pre/post-workout shake
 - **Caffeine:** ½ cup coffee per shake = roughly ½ cup per serving — mild caffeine hit, not a full coffee replacement
 - **Agave swap:** Sub maple syrup or a Medjool date if you don't have agave
+

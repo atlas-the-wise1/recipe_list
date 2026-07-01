@@ -11,6 +11,8 @@
 | Fat | 1g |
 | Fiber | 2g |
 | Cholesterol | 3mg |
+**Health Score:** 7/10
+
 **Serves:** 2
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -41,3 +43,4 @@
 - **Protein boost:** Add 1 scoop vanilla whey (+~25g protein) — the tartness of pomegranate balances sweetness well
 - **Reduce honey** to 1 tbsp if watching sugar — pomegranate juice is already naturally sweet
 - **Greek yogurt swap:** Sub plain Greek yogurt for regular low-fat yogurt to jump to ~12g protein and a thicker texture
+

@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~480 | ~52g | ~26g | ~8g | ~4g | ~145mg |
+**Health Score:** 8/10
 
 ---
 
@@ -46,3 +47,4 @@
 **Dry brine tip:** Salting the night before makes a noticeable difference — worth the extra planning
 **Backbone note:** Save and freeze for homemade stock (pairs with the Wonton Soup recipe)
 **Notes:** One of the most complete meals in the book — whole protein + vegetables on one pan, one hour, minimal cleanup. Hits every health goal. The garlic roasts under the chicken and becomes sweet and spreadable — don't skip it. Strong Sunday meal prep anchor.
+

@@ -17,6 +17,8 @@
 
 ---
 
+**Health Score:** 4/10
+
 ## Ingredients
 
 - 1 tablespoon olive oil
@@ -53,3 +55,4 @@
 - **vs. original:** Saves ~110 cal and ~10g fat per serving vs. the beef version — same flavor, better macros for fat-loss weeks
 - **Filling ahead:** The beef filling keeps refrigerated 3 days — make it Sunday, assemble and fry fresh during the week
 - **Seal tight:** Any gap in the flour paste seal = filling leaks into oil; take your time pressing the edges
+

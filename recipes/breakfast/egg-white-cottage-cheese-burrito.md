@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~390 | ~47g | ~8g | ~28g | ~4g | ~35mg |
+**Health Score:** 8/10
 
 ---
 
@@ -59,3 +60,4 @@
 - **Tortilla swap:** Low-carb wrap saves ~80 cal and ~15g carbs if cutting carbs is priority.
 - **Add-ins:** Diced jalapeño, roasted red pepper, or black beans for variety.
 - **Salsa option:** Add 2 tbsp fresh salsa for ~10 cal, no cholesterol impact.
+

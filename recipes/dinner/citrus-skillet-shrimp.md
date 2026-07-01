@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~245 | ~35g | ~8g | ~11g | ~2g | ~215mg |
+**Health Score:** 7/10
 
 ---
 
@@ -53,3 +54,4 @@
 **Batch size:** Scales easily — use a larger skillet or cook in batches to avoid steaming
 **Pairs well with:** Cauliflower rice (keto), brown rice, or alongside the Endive Salad
 **Notes:** One of the lightest and fastest recipes in the book — 20 min start to finish, 220 calories, 35g protein. Hits every health goal. Strong weekly staple candidate, especially paired with a side.
+

@@ -11,6 +11,8 @@
 | Fat | 30g |
 | Fiber | 9g |
 | Cholesterol | 0mg |
+**Health Score:** 7/10
+
 **Serves:** 4
 **Prep Time:** 10 min | **Cook Time:** 30 min | **Total:** ~40 min
 
@@ -54,3 +56,4 @@
 - **Swap:** Sub broccolini or cauliflower for brussels sprouts if preferred — same cook time
 - **Boost calories:** Serve over brown rice or quinoa (+200 cal, +5g protein) to make it a more substantial meal
 - **Hoisin note:** Hoisin adds sugar — if strictly keto, swap for coconut aminos + a drop of sesame oil
+

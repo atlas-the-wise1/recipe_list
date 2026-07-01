@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~80 | ~5g | ~3g | ~6g | ~0g | ~13mg |
+**Health Score:** 6/10
+
 **Serves:** 2–4
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -41,3 +43,4 @@
 - **Make ahead:** Flavors deepen after 1–2 hours in the fridge — make it before guests arrive; keeps 5 days refrigerated
 - **Serve with:** Cucumber slices, bell pepper strips, carrots, pita chips — works as a veggie dip, spread, or sauce on grilled chicken
 - **Full-fat swap:** Use full-fat sour cream for a richer version — adds ~40 cal and 4g fat per serving
+

@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~115 | ~2g | ~0g | ~29g | ~3g | ~0mg |
+**Health Score:** 6/10
+
 **Serves:** 3–4
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -37,3 +39,4 @@
 - **Protein boost:** Add 1 scoop vanilla or unflavored whey/plant protein (+~25g protein) — pairs naturally with the tropical flavors
 - **Swap spinach for kale** for more nutrients, but blend longer — kale is tougher and can leave stringy bits if underpowered
 - **Coconut water** adds electrolytes; sub water if needed — slightly less sweet but still works
+

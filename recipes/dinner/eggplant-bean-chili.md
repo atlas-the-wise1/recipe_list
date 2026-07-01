@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~415 | ~24g | ~8g | ~69g | ~22g | ~0mg |
+**Health Score:** 6/10
 
 ---
 
@@ -56,3 +57,4 @@
 **Batch size:** Doubles easily in a large pot — freeze in individual portions for quick weeknight meals
 **Toppings note:** Keep toppings separate if meal prepping — add fresh when serving
 **Notes:** Zero cholesterol, highest fiber in the book at 16g per serving. Fully plant-based. Protein is moderate at 14g — add a dollop of Greek yogurt instead of sour cream to boost protein while keeping it heart-healthy. One of the best make-ahead dinners in the library — flavors deepen significantly after a day in the fridge.
+

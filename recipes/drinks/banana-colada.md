@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~217 | ~1g | ~2g | ~28g | ~2g | ~0mg |
+**Health Score:** 5/10
+
 **Serves:** 3–4
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -36,3 +38,4 @@
 - **Light coconut milk** keeps the calorie count reasonable vs. full-fat — you still get the flavor; full-fat adds ~60 cal and 6g fat per serving if you want it richer
 - **Rum:** Light/white rum is standard; coconut rum (like Malibu) leans into the tropical vibe even harder
 - **Virgin version:** Skip the rum, add ¼ cup more coconut milk — great mocktail for anyone not drinking
+

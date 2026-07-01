@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~620 | ~48g | ~44g | ~8g | ~3g | ~165mg |
+**Health Score:** 4/10
 
 ---
 
@@ -56,3 +57,4 @@
 **Reheat:** Slice cold steak thin and serve over fresh salad — excellent next-day lunch. Or reheat in cast iron 1–2 min per side.
 **Batch size:** Double the steak for 4 servings — blue cheese butter scales easily and keeps in fridge 1 week.
 **Notes:** High protein and keto-friendly. Higher in fat (~18g saturated fat) and cholesterol (165mg) due to butter + blue cheese — treat as an occasional dinner rather than a weekly staple. The salad component (endive, fennel, radish) is excellent for heart health and can be made standalone. See `blue-cheese-steak-endive-salad-healthier.md` for a version using herb-yogurt topping and olive oil that earns #heart-healthy.
+

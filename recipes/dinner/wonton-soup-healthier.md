@@ -13,6 +13,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~240 | ~22g | ~6g | ~22g | ~4g | ~75mg |
+**Health Score:** 8/10
 
 **What changed vs. classic:** ~80 fewer calories, significantly less sodium, more fiber, more protein. Achieves this by:
 - Using **homemade shrimp wontons** instead of store-bought (controls sodium and fat — store-bought wontons average 700–900mg sodium/serving)
@@ -63,3 +64,4 @@
 **Batch size:** Make a double batch of wontons and freeze — the soup comes together in 20 minutes once wontons are ready.
 **Sodium note:** Low-sodium stock + homemade wontons brings sodium down to ~550mg/serving vs. ~1,400mg+ with store-bought components. A significant improvement for heart health.
 **Notes:** Homemade shrimp wontons are easier than they look — 20 wontons take about 15 minutes once you have a rhythm. The filling is simple (shrimp, scallion, ginger) and deeply flavorful. Adding shiitake mushrooms to the broth amplifies umami without adding sodium.
+

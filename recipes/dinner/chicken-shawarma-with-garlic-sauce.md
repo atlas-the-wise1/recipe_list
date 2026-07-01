@@ -6,6 +6,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~420 | ~40g | ~18g | ~22g | ~3g | ~90mg |
+**Health Score:** 6/10
 
 **Serves:** 4
 **Prep Time:** 15 min | **Cook Time:** 20 min | **Total:** ~35 min

@@ -11,6 +11,8 @@
 | Fat | 26g |
 | Fiber | 9g |
 | Cholesterol | 0mg |
+**Health Score:** 7/10
+
 **Prep Time:** 15 min | **Cook Time:** 20 min | **Total:** ~35 min
 
 ---
@@ -58,3 +60,4 @@
 - **Dressing makes ~1½ cups** — use what you need, store the rest refrigerated up to 5 days; great on grain bowls or as a dip
 - **Kale massage is non-negotiable** — raw lacinato kale is tough; massaging the dressing in breaks it down and makes it tender
 - **High-speed blender required** for a smooth cashew dressing (Vitamix, Ninja, etc.) — a standard blender will leave it grainy
+

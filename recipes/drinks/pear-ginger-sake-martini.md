@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~173 | ~0g | ~0g | ~36g | ~2g | ~0mg |
+**Health Score:** 5/10
+
 **Serves:** 3–4
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -38,3 +40,4 @@
 - **Fresh ginger:** Grate on a microplane for the smoothest blend; pre-grated jarred ginger works in a pinch
 - **Crystallized ginger garnish:** Slit it halfway through and hang it on the glass rim — easy presentation upgrade
 - **Skip agave** if your pear juice is sweet enough — taste before adding
+

@@ -6,6 +6,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~278 | ~29g | ~5g | ~31g | ~5g | ~62mg |
+**Health Score:** 7/10
 
 **Serves:** 4 (2 tacos per person)
 **Prep Time:** 15 min | **Cook Time:** 10 min | **Total:** ~25 min

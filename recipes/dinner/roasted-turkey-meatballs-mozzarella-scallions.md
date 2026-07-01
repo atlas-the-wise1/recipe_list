@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~300 | ~32g | ~15g | ~10g | ~1g | ~110mg |
+**Health Score:** 9/10
 
 ---
 
@@ -46,3 +47,4 @@
 **Pairs well with:** Marinara sauce over zucchini noodles (keto), spaghetti (use with the Meat Sauce recipe base), or stuffed into a pita with Greek yogurt sauce
 **Serve as:** Dinner, meal prep protein, or party appetizer
 **Notes:** One of the fastest and most versatile recipes in the book — 32 minutes, one bowl, one pan. Low cholesterol, high protein, heart-healthy turkey. The mozzarella pockets inside make these far more interesting than standard meatballs. Excellent freezer staple — make a double batch and you have protein ready for two future meals with zero effort.
+

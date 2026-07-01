@@ -11,6 +11,8 @@
 | Fat | 23g |
 | Fiber | 3g |
 | Cholesterol | 230mg |
+**Health Score:** 5/10
+
 **Serves:** 4
 **Prep Time:** 5 min | **Cook Time:** 20 min | **Total:** ~25 min
 
@@ -56,3 +58,4 @@ Doenjang (Korean soybean paste) is often labeled "soybean paste" and found at Ko
 - **Banza note:** Banza chickpea pasta adds ~4g protein and ~3g fiber vs. standard pasta; watch cook time — Banza can go mushy faster, pull it 2-3 min early
 - **Soft-boil timing:** 6 min = jammy/runny yolk, 7 min = slightly set — both work; ice bath stops the cook immediately
 - **Umami upgrade:** Add a teaspoon of doenjang as a finishing stir after plating for extra punch at the table
+

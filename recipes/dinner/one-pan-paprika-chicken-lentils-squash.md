@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~580 | ~48g | ~26g | ~38g | ~10g | ~145mg |
+**Health Score:** 8/10
+
 **Serves:** 4–6
 **Prep Time:** 15 min | **Cook Time:** ~70 min | **Total:** ~85 min
 
@@ -56,3 +58,4 @@
 - **One dish, no extra pots** — lentils cook directly in the stock in the baking dish; true one-pan cleanup
 - **Meal-prep:** Keeps 4 days refrigerated; reheat covered at 325°F with a splash of stock to revive the lentils
 - **Lighten it up:** Remove chicken skin before eating to drop ~80 cal and significant sat fat; swap sour cream for Greek yogurt to add protein and cut fat further
+

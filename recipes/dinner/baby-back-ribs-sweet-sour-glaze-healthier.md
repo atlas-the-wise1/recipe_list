@@ -13,6 +13,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~420 | ~42g | ~20g | ~14g | ~0g | ~105mg |
+**Health Score:** 7/10
 
 **What changed vs. classic:** ~200 fewer calories, ~22g less fat, ~55mg less cholesterol per serving. Achieves this by:
 - Switching to **St. Louis-cut spare ribs** (meatier, less fat marbling than baby backs) trimmed of the fat cap
@@ -69,3 +70,4 @@
 **Reheat:** Wrapped in foil at 300°F for 15 min, or microwave covered
 **Batch size:** Double the rack for 8 servings — glaze scales easily
 **Notes:** The fat drain in step 5 is the biggest lever here — you can see 2–4 tbsp of rendered fat come out of the packet. Discarding it shaves significant calories without changing the rib texture. The slaw adds fiber and a refreshing contrast to the rich glaze.
+

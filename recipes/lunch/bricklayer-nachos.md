@@ -11,6 +11,8 @@
 | Fat | 52g |
 | Fiber | 4g |
 | Cholesterol | 160mg |
+**Health Score:** 4/10
+
 **Prep Time:** 20 min | **Cook Time:** 30 min | **Total:** ~50 min
 
 ---
@@ -58,3 +60,4 @@
 - **Serves 6–8** as a meal; 10–12 as an appetizer/party spread
 - **Fire-roasted canned tomatoes** are a great shortcut and add deep flavor — skip the broiling step entirely
 - **Make-ahead:** Bricklayer meat mixture can be made 1–2 days ahead, refrigerated, and reheated before assembling on chips
+

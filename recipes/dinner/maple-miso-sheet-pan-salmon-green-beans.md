@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~420 | ~42g | ~22g | ~12g | ~3g | ~95mg |
+**Health Score:** 8/10
 
 > **With white rice (1 cup cooked):** ~620 cal | ~46g protein | ~52g carbs | ~22g fat
 
@@ -55,3 +56,4 @@
 **Batch size:** Scales easily — use a larger sheet pan or two pans for 6–8 fillets
 **Make it keto:** Skip the rice and serve over cauliflower rice — maple syrup adds minimal carbs per serving
 **Notes:** One of the fastest sheet-pan dinners in the book at 25 minutes total. The maple-miso glaze is exceptional — sweet, savory, umami-forward. Salmon's omega-3s make this a standout heart-healthy option. Pairs beautifully with the Air-Fryer Salmon as a weekly rotation to keep salmon interesting without repetition.
+

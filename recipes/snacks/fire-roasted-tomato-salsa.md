@@ -11,6 +11,8 @@
 
 ---
 
+**Health Score:** 6/10
+
 ## Ingredients
 
 - 1 (14½-ounce) can fire-roasted tomatoes with juice
@@ -43,3 +45,4 @@
 - **Fire-roasted tomatoes** are the flavor backbone — don't sub regular canned tomatoes; the char makes the difference
 - **Fridge life:** Keeps refrigerated up to 1 week; flavors deepen overnight — make it the day before if you can
 - **Use it for:** Chips, eggs, tacos, grilled chicken, fish, or as a base for shakshuka
+

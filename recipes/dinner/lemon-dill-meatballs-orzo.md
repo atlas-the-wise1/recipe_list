@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~480 | ~42g | ~16g | ~38g | ~3g | ~105mg |
+**Health Score:** 7/10
 
 ---
 
@@ -48,3 +49,4 @@
 **Anchovy note:** Don't skip the anchovies — they dissolve completely and add a deep savory backbone, not fishiness. Nobody will know they're there.
 **Pairs well with:** A simple green salad or the Endive Salad as a side
 **Notes:** One of the most complete one-pan meals in the book — meatballs, starchy orzo, and greens all cooked together. The lemon-dill yogurt sauce ties everything together and doubles as extra protein. The meatballs and yogurt sauce can both be made ahead, making this genuinely fast on a weeknight. Strong weekly rotation candidate.
+

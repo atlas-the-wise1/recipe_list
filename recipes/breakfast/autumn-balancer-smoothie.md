@@ -11,6 +11,8 @@
 | Fat | 1g |
 | Fiber | 2g |
 | Cholesterol | 0mg |
+**Health Score:** 7/10
+
 **Serves:** 4
 **Prep Time:** 5 min (plus sweet potato cooling) | **Total:** ~10 min
 
@@ -42,3 +44,4 @@
 - **Protein boost:** Add 1 scoop vanilla whey or plant protein (+~25g protein) — sweet potato + vanilla is a natural pairing
 - **Thicker texture:** Reduce almond milk to 1½ cups for a pudding-like consistency; great as a breakfast bowl topped with granola
 - **Maple syrup:** Reduce to 2 tbsp if watching sugar — sweet potato has plenty of natural sweetness
+

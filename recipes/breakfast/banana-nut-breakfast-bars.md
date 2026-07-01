@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~280 | ~7g | ~15g | ~32g | ~3g | ~55mg |
+**Health Score:** 6/10
+
 **Prep Time:** 20 min | **Cook Time:** 35–40 min | **Total:** ~60 min + cooling
 
 ---
@@ -46,3 +48,4 @@
 - **Nut butter choice:** Almond butter is lower in saturated fat (better for cholesterol); peanut butter adds slightly more protein
 - **Keto note:** Not keto-friendly due to oats + honey + banana — good moderate-carb breakfast option
 - **Boost protein:** Add 1 scoop vanilla protein powder with the oats (add 1–2 tbsp water if batter thickens too much)
+

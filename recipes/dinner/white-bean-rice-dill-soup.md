@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~380 | ~14g | ~14g | ~58g | ~12g | ~0mg |
+**Health Score:** 6/10
 
 ---
 
@@ -46,3 +47,4 @@
 **Reheat:** Stovetop over medium-low with a splash of water. Microwave works well covered.
 **Batch size:** Doubles easily — great Sunday batch cook for the week
 **Notes:** Zero cholesterol, high fiber, fully plant-based. Turmeric adds anti-inflammatory benefits. One of the most hands-off soups in the book — set it and simmer. Protein is moderate at 14g; stir in a handful of shredded rotisserie chicken when serving to boost protein without changing the recipe.
+

@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~110 | ~3g | ~0g | ~24g | ~3g | ~1mg |
+**Health Score:** 6/10
+
 **Serves:** 3–4
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -35,3 +37,4 @@
 - **Frozen strawberries** work great and are cheaper — reduce ice by half if using frozen
 - **Coconut water** adds natural electrolytes; sub regular water if you don't have it, though you'll lose some sweetness
 - **Meal prep:** Pre-bag fruit portions (minus yogurt) and freeze — grab, add yogurt + coconut water, blend
+

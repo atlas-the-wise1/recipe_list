@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~580 | ~48g | ~22g | ~48g | ~3g | ~285mg |
+**Health Score:** 4/10
+
 **Serves:** 4
 **Prep Time:** 15 min + 30 min marinate | **Cook Time:** 1h–1h15 | **Total:** ~1h45
 
@@ -66,3 +68,4 @@ Chuck roast cut by a butcher may have uneven strips. Watch the smaller pieces as
 - **Healthier swap:** Sub lean sirloin for chuck roast to drop ~80 cal and significant saturated fat; loses some richness but still great
 - **Hard-boiled egg tip:** Cook eggs while beef simmers — 10 min boil, ice bath, peel when cool
 - **Condiment bar:** Set out ketchup, soy sauce, and hot sauce and let everyone customize — this is traditional to the dish
+

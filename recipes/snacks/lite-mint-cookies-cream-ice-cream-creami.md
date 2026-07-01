@@ -7,6 +7,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~158 | ~1g | ~10g | ~17g | ~0g | ~0mg |
+**Health Score:** 4/10
+
 **Serves:** 4
 **Prep Time:** 5–10 min | **Freeze Time:** 24 hours | **Best Within:** 2 weeks
 
@@ -53,3 +55,4 @@
 - **Cookie swap:** Sub any chocolate sandwich cookie — store-brand works fine; Oreos are technically vegan
 - **24-hour freeze is mandatory** — same rule as all CREAMi recipes; don't shortcut
 - **Re-spin tip:** If texture is crumbly, add 1 tbsp oat milk and re-spin before adding mix-ins
+

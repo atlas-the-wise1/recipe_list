@@ -11,6 +11,8 @@
 
 ---
 
+**Health Score:** 6/10
+
 ## Ingredients
 
 - 2 (12-oz) packages gnocchi (preferably fresh, refrigerated, precooked)
@@ -51,3 +53,4 @@
 - **Protein additions baked in:** White beans added to the vegetable tray in the last 5 minutes (+7g protein, +4g fiber per serving); soft-boiled egg on top adds another +6g protein
 - **Spring-forward dish** — asparagus + leeks + peas is a classic spring combination; sub broccolini and mushrooms in fall/winter
 - **Not a meal-prep dish** — gnocchi loses its crispiness quickly; best eaten immediately after cooking
+

@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~600 | ~18g | ~30g | ~57g | ~14g | ~0mg |
+**Health Score:** 7/10
 
 ---
 
@@ -56,3 +57,4 @@
 **Batch size:** Scales easily — cook mushrooms in more batches, double the pico.
 **Pairs well with:** A side salad or extra guacamole
 **Notes:** Zero cholesterol, very high fiber (14g), fully plant-based. Black beans added directly to the skillet with the mushrooms — doubles the protein and adds a satisfying heartiness. The two-batch method for mushrooms is non-negotiable for crispiness — don't skip it.
+

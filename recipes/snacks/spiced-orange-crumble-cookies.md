@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~320 | ~4g | ~18g | ~38g | ~1g | ~45mg |
+**Health Score:** 2/10
+
 **Serves:** 8–10 wedges (one 9-inch springform pan)
 **Prep Time:** 20 min | **Cook Time:** ~60 min | **Total:** ~90 min + cooling
 
@@ -48,3 +50,4 @@
 - **Occasion treat** — high butter and sugar content; not aligned with health goals but great for guests or a special dessert
 - **Storage:** Keeps covered at room temp up to 3 days; stays crumbly (that's the point)
 - **Marmalade swap:** Apricot jam or raspberry preserves work well as substitutes if you want a different flavor profile
+

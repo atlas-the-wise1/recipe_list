@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~520 | ~48g | ~30g | ~18g | ~7g | ~140mg |
+**Health Score:** 8/10
 
 ---
 
@@ -47,3 +48,4 @@
 **Reheat:** Oven at 375°F for 10–12 min to re-crisp the skin. Microwave works for the vegetables.
 **Batch size:** Recipe makes 8 thighs — halve for 2 servings or keep full batch for the week
 **Notes:** Deeply flavored from the fennel-herb rub and the artichoke-tomato base. The pan sauce with olives and lemon is the finishing touch — don't skip the fat-skimming step, it lightens it up considerably. Fennel and artichokes are excellent for heart health and digestion. One of the more impressive sheet-pan dinners in the book with minimal hands-on effort.
+

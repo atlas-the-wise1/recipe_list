@@ -11,6 +11,8 @@
 | Fat | 32g |
 | Fiber | 6g |
 | Cholesterol | 25mg |
+**Health Score:** 6/10
+
 **Prep Time:** 15 min | **Cook Time:** 25 min | **Total:** ~40 min
 
 ---
@@ -57,3 +59,4 @@
 - **Protein boost:** Add a sliced hard-boiled egg or rotisserie chicken to each sandwich (~8–15g more protein)
 - **Apple choice:** Granny Smith or Honeycrisp work best — need the tartness to balance the curry and raisins
 - **Hot baking sheet trick:** Preheating the pan is what creates the initial sear and char — don't skip it
+

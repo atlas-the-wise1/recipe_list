@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~427 | ~9g | ~37g | ~7g | ~4g | ~75mg |
+**Health Score:** 4/10
+
 **Serves:** 2–4
 **Prep Time:** 10 min | **Cook Time:** 20 min | **Total:** ~30 min
 
@@ -42,3 +44,4 @@
 - **Lighter version:** Swap cream cheese for Neufchâtel (⅓ less fat), skip the mayo, double the Greek yogurt — cuts ~150 cal and ~15g fat per serving
 - **Serve with:** French bread, tortilla chips, pita, or veggies for a lower-carb option
 - **Make ahead:** Assemble, refrigerate unbaked up to 24 hours — bake when ready to serve
+

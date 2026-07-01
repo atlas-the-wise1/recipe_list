@@ -13,6 +13,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~510 | ~50g | ~14g | ~48g | ~4g | ~90mg |
+**Health Score:** 8/10
 
 **What changed vs. classic:** ~170 fewer calories, ~16g less fat, ~55mg less cholesterol per serving. Achieves this by:
 - Using **boneless, skinless chicken thighs** instead of skin-on (eliminates chicken skin fat and cholesterol)
@@ -59,3 +60,4 @@
 **Reheat:** Stovetop over medium-low with a splash of stock or water. Microwave covered works well.
 **Batch size:** Doubles well in a larger Dutch oven
 **Notes:** Skinless chicken thighs are the single biggest health lever — they're still incredibly juicy and absorb the pepper paste and palm oil flavors beautifully. The reduced palm oil still delivers the signature golden-orange color and earthy richness that defines this dish. Increasing greens to 6 cups bumps fiber to ~4g and adds iron and vitamins without changing the eating experience.
+

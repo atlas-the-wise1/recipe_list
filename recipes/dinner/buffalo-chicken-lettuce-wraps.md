@@ -6,6 +6,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~320 | ~35g | ~15g | ~6g | ~1g | ~70mg |
+**Health Score:** 8/10
 
 **Serves:** 4 (2 wraps per person)
 **Prep Time:** 10 min | **Cook Time:** 12 min | **Total:** ~22 min

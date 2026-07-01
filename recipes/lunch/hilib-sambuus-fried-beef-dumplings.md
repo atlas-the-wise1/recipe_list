@@ -16,6 +16,8 @@
 
 ---
 
+**Health Score:** 4/10
+
 ## Ingredients
 
 - 1 tablespoon olive oil
@@ -52,3 +54,4 @@
 - **Lean swap:** Use 93/7 ground beef or ground turkey to cut fat by ~10g per serving and drop to ~450 cal
 - **Filling ahead:** The beef filling keeps refrigerated 3 days — make it Sunday, assemble and fry fresh during the week
 - **Seal tight:** Any gap in the flour paste seal = filling leaks into oil; take your time pressing the edges
+

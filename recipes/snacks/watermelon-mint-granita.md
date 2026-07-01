@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~153 | ~2g | ~0g | ~40g | ~1g | ~0mg |
+**Health Score:** 6/10
+
 **Serves:** 2–4
 **Prep Time:** 10 min | **Freeze Time:** 3–4 hours | **Total:** ~4 hours
 
@@ -37,3 +39,4 @@
 - **Agave:** Reduce to 2 tbsp if your watermelon is very ripe and sweet — taste the juice before adding
 - **Make ahead:** Freeze solid, then scrape right before serving — keeps up to 1 week in the freezer
 - **Summer crowd-pleaser:** Scale up easily — watermelon is cheap in season and this impresses with zero effort
+

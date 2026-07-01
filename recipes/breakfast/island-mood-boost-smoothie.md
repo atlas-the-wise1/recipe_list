@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~142 | ~2g | ~0g | ~36g | ~4g | ~0mg |
+**Health Score:** 6/10
+
 **Serves:** 2–4
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -35,3 +37,4 @@
 - **Protein boost:** Add 1 scoop vanilla whey or plant protein (+~25g protein) — pairs naturally with the tropical base
 - **Coconut water:** The 2 cups makes this thinner and more drinkable; reduce to 1½ cups for a thicker texture
 - **Low calorie alert:** At 142 cal per serving this is a light start — pair with eggs or add protein powder to make it a real meal
+

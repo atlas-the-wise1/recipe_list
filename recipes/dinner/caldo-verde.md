@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~320 | ~22g | ~10g | ~35g | ~4g | ~55mg |
+**Health Score:** 6/10
 
 ---
 
@@ -43,3 +44,4 @@
 **Reheat:** Stovetop over medium-low with a splash of broth or water to loosen. Microwave works well too.
 **Batch size:** Doubles easily — great Sunday meal prep soup for the week
 **Notes:** Excellent meal prep candidate — actually gets better after a day in the fridge. Turkey sausage keeps fat and cholesterol low while maintaining the smoky flavor. Spinach wilts faster than collard greens (3 min vs 5 min) and adds iron and folate. One of the strongest all-around recipes in the book for your health goals.
+

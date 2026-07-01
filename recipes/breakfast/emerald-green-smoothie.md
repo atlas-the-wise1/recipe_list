@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~55 | ~1g | ~0g | ~14g | ~1g | ~0mg |
+**Health Score:** 6/10
+
 **Serves:** 3–4
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -38,3 +40,4 @@
 - **Cucumber:** English cucumber preferred — thinner skin, fewer seeds, blends smoother
 - **Lime juice is important** — brightens all the melon flavors; don't skip or sub bottled lime
 - **Serve immediately** — melon oxidizes and the color fades fast; not a make-ahead drink
+

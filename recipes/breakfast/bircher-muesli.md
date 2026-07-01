@@ -11,6 +11,8 @@
 | Fat | 12g |
 | Fiber | 5g |
 | Cholesterol | 8mg |
+**Health Score:** 7/10
+
 **Serves:** 4
 **Prep Time:** 10 min | **Chill Time:** 1h–4 days | **Total:** 10 min active
 
@@ -47,3 +49,4 @@
 - **Boost protein:** Add a scoop of vanilla protein powder or swap regular yogurt for higher-protein skyr (~20g protein/serving)
 - **Keto-unfriendly** — oats + fruit + raisins = moderate-high carb; not suitable for strict keto
 - **Topping ideas:** Sliced banana + honey, fresh berries + pumpkin seeds, or mango + coconut flakes
+

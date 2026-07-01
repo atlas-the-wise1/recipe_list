@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~216 | ~0g | ~0g | ~18g | ~0g | ~0mg |
+**Health Score:** 5/10
+
 **Serves:** 3–4
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -39,3 +41,4 @@
 - **Salted rim:** Rub a lime wedge around the glass rim, dip in coarse salt — classic presentation
 - **Skip the sweetener** if your limes are ripe — taste before adding; over-sweetening is the most common margarita mistake
 - **Skinny version:** Skip the orange liqueur, sub with a splash of OJ — saves ~100 cal per serving
+

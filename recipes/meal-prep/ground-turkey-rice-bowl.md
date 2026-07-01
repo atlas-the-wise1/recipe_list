@@ -86,3 +86,5 @@ Cotija or feta give you more flavor per calorie with a cleaner cholesterol profi
 - **Swap rice:** Cauliflower rice saves ~90 cal and 20g carbs if going lower-carb
 - **Boost protein:** Add ¼ cup black beans (+7g protein, 0mg chol)
 - **Swap veggie:** Broccoli, roasted zucchini, or bell peppers all work with this seasoning profile
+
+**Health Score:** 8/10

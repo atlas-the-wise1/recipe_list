@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~420 | ~18g | ~22g | ~42g | ~4g | ~35mg |
+**Health Score:** 4/10
+
 **Serves:** 4–6
 **Prep Time:** 15 min | **Cook Time:** 55 min | **Total:** ~70 min
 
@@ -54,3 +56,4 @@ If using delicata squash, no need to peel — the skin softens during roasting a
 - **Lighter swap:** Sub turkey bacon for pancetta to cut ~80 cal and significant saturated fat per serving
 - **Delicata vs butternut:** Delicata is easier (no peeling), slightly nuttier; butternut is sweeter and more widely available — both work great
 - **Low-sodium broth matters:** 8 cups is a lot of liquid; start low-sodium and season at the end rather than fighting saltiness
+

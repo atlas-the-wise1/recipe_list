@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~580 | ~52g | ~28g | ~28g | ~2g | ~175mg |
+**Health Score:** 6/10
 
 ---
 
@@ -53,3 +54,4 @@
 **Reheat:** Oven at 375°F on a wire rack for 10–12 min to re-crisp. Avoid microwave — kills the crust.
 **Batch size:** Recipe makes 4 cutlets — doubles easily. Bread all at once and fry in batches.
 **Notes:** Protein powerhouse at 52g per serving. Higher in calories due to pan-frying oil absorption and Parmesan — air-frying the cutlets instead of pan-frying cuts fat significantly (~380 cal, ~15g fat) and keeps the crust crispy. Worth considering as a swap for weekly rotation. Best served fresh for optimal crust texture. See `chicken-milanese-air-fryer.md` for the healthier air-fryer variant.
+

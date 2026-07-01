@@ -13,6 +13,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~430 | ~48g | ~22g | ~8g | ~3g | ~95mg |
+**Health Score:** 6/10
 
 **What changed vs. classic:** ~190 fewer calories, ~22g less fat, ~70mg less cholesterol per serving. Achieves this by:
 - Replacing **4 tbsp butter + 2 tbsp blue cheese** topping with a **Greek yogurt–herb sauce** (same tangy richness, a fraction of the sat fat)
@@ -66,3 +67,4 @@
 
 **Storage:** Steak 3 days fridge. Herb-yogurt topping 3 days fridge. Salad components best fresh — dress day-of.
 **Notes:** The Greek yogurt topping reads as rich and indulgent but has a fraction of the saturated fat of compound butter. The 1 tbsp blue cheese gives enough punchy flavor without the cholesterol hit of 2 full tablespoons. A near-perfect keto and fat-loss dinner — high satiety from protein, minimal carbs, heart-healthy fats.
+

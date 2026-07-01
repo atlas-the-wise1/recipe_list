@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~345 | ~1g | ~0g | ~37g | ~2g | ~0mg |
+**Health Score:** 5/10
+
 **Serves:** 2–3
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -39,3 +41,4 @@
 - **Fresh OJ** is noticeably better here — the citrus is the main flavor driver; bottled works but fresh is worth it
 - **Chilled glasses:** Pop glasses in the freezer 10 min before serving for the best slushy texture
 - **Mocktail:** Skip the spirits, add ½ cup coconut water — tropical OJ-pineapple slushie
+

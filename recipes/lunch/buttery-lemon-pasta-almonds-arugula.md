@@ -11,6 +11,8 @@
 | Fat | 28g |
 | Fiber | 8g |
 | Cholesterol | 40mg |
+**Health Score:** 4/10
+
 **Prep Time:** 5 min | **Cook Time:** 20 min | **Total:** ~25 min
 
 ---
@@ -54,3 +56,4 @@
 - **Not keto** — pasta-based; could swap for zucchini noodles or hearts of palm pasta for a low-carb version
 - **Greens flexibility:** Baby kale holds up slightly better if making ahead; arugula is peppery and bright; spinach is mildest
 - **Make-ahead:** Not great for leftovers — pasta absorbs sauce quickly; best served immediately
+

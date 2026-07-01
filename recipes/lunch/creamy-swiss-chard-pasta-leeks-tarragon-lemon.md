@@ -11,6 +11,8 @@
 | Fat | 33g |
 | Fiber | 7g |
 | Cholesterol | 85mg |
+**Health Score:** 4/10
+
 **Serves:** 6
 **Prep Time:** 15 min | **Cook Time:** 30 min | **Total:** ~45 min
 
@@ -61,3 +63,4 @@
 - **Tarragon is key** — don't sub dried; fresh tarragon has a distinct anise brightness that makes this dish. If you can't find it, fresh basil is the closest substitute
 - **Lemon zest last** — grate it on right before serving; the oils fade fast once it hits hot food
 - **Reheat tip:** Add a splash of stock or water when reheating — the Banza will have absorbed most of the sauce overnight
+

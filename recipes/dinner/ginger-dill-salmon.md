@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~420 | ~42g | ~24g | ~12g | ~5g | ~95mg |
+**Health Score:** 8/10
+
 **Serves:** 4
 **Prep Time:** 15 min | **Cook Time:** 15–20 min | **Total:** ~35 min
 
@@ -52,3 +54,4 @@ Both the salad and salmon can be made up to two days ahead — everything is goo
 - **Hits every health goal** — omega-3 rich salmon + citrus + avocado = heart-healthy trifecta; low carb, high protein, anti-inflammatory
 - **Serve cold too** — works beautifully as a cold lunch the next day over greens or with tostadas
 - **Keto note:** Citrus adds some carbs (~12g/serving); sub radishes + cucumber + avocado only for strict keto (~4g net carbs)
+

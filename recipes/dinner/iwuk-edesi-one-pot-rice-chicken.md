@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~680 | ~52g | ~30g | ~48g | ~3g | ~145mg |
+**Health Score:** 7/10
 
 ---
 
@@ -56,3 +57,4 @@
 - **Red palm oil:** African grocery stores or online. Has a distinct flavor and color — do not substitute with regular palm oil
 - **Scotch bonnets/habaneros:** Very hot — use 1 chile for moderate heat, 2 for bold
 **Notes:** A deeply flavorful West African classic. Red palm oil is rich in vitamin E and beta-carotene — nutritionally distinct from other oils. Higher in fat due to palm oil and skin-on chicken — remove skin before eating to reduce fat and cholesterol if desired. The pepper paste is the soul of the dish — worth making a double batch and freezing. See `iwuk-edesi-one-pot-rice-chicken-healthier.md` for a skinless version with reduced palm oil that earns #low-cholesterol.
+

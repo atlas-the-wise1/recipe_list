@@ -13,6 +13,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~390 | ~52g | ~16g | ~5g | ~0g | ~95mg |
+**Health Score:** 7/10
 
 **What changed vs. classic:** ~230 fewer calories, ~28g less fat, ~90mg less cholesterol per serving. Achieves this by:
 - Using **lean sirloin** instead of filet mignon or strip steak (lower marbling, same great flavor when cooked hot)
@@ -57,3 +58,4 @@
 **Storage:** 3 days fridge. Yogurt sauce stores separately — reheat gently on low (do not boil).
 **Reheat:** Steak in a warm skillet 1–2 min per side. Reheat sauce in a small pan over the lowest possible heat, add a splash of stock if it tightens up.
 **Notes:** The Greek yogurt sauce is the key innovation — folded in off-heat, it creates a glossy, creamy pan sauce with a tangy brightness that actually enhances the mustard and Worcestershire. The lean sirloin delivers significantly more protein-per-calorie than filet mignon while holding up well to high-heat searing. This version earns #heart-healthy and #low-cholesterol while remaining #keto — a rare combination for a steak dinner.
+

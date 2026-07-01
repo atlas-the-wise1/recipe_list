@@ -11,6 +11,8 @@
 
 ---
 
+**Health Score:** 5/10
+
 ## Ingredients
 
 - ½ cup toasted pine nuts
@@ -40,3 +42,4 @@
 - **Oxidation:** Pesto browns fast — press plastic wrap directly onto the surface before refrigerating; a thin drizzle of olive oil on top also helps
 - **Use it for:** Pasta, pizza base, grilled chicken, fish, sandwiches, grain bowls, scrambled eggs, roasted veggies
 - **Sub walnuts** for pine nuts to cut cost significantly — different flavor but still excellent
+

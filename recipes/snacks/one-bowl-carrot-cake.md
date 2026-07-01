@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~380 | ~6g | ~22g | ~42g | ~1g | ~95mg |
+**Health Score:** 3/10
+
 **Serves:** 9 squares (8-inch square pan)
 **Prep Time:** 20 min | **Cook Time:** 50–60 min | **Total:** ~80 min + cooling
 
@@ -59,3 +61,4 @@
 - **Lighter swap:** Sub Greek yogurt for the sour cream in the topping (saves ~20 cal/serving, adds protein); use light cream cheese to drop another ~30 cal
 - **Occasion vs. everyday:** Higher sugar and fat — treat/snack territory, not a daily health-goals item. The cream cheese topping is non-negotiable for the experience.
 - **Spice blend tip:** Equal parts cinnamon and cardamom with a pinch of ginger is the sweet spot if you don't have baking spice
+

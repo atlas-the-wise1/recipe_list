@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~555 | ~56g | ~12g | ~64g | ~8g | ~105mg |
+**Health Score:** 9/10
 
 ---
 
@@ -53,3 +54,4 @@
 - Skip the chicken skin to reduce fat further
 **Greek yogurt tip:** Always stir in off heat — adding it while the pan is still on the burner can cause it to break and curdle. Stir quickly and thoroughly.
 **Notes:** Fast, deeply satisfying weeknight pasta. Greek yogurt replaces cream with more protein, less fat, and a subtle tang that plays beautifully with the Dijon and lemon. The pasta water adds silky starch-based body. Rotisserie chicken makes this a true 35-minute dinner. Already heart-healthy as written — skip the chicken skin to drop sat fat further. See `rotisserie-chicken-greens-pasta-healthier.md` for a whole-wheat pasta version with reduced butter that adds #fat-loss tag.
+

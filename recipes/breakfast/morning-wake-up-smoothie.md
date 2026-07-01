@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~175 | ~14g | ~2g | ~27g | ~2g | ~8mg |
+**Health Score:** 7/10
+
 **Serves:** 2
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -38,3 +40,4 @@
 - **Protein powder:** Vanilla whey pairs best; unflavored works if you want to control sweetness
 - **Boost fat:** Add ½ tablespoon almond butter for ~50 cal, +2g protein, +4g healthy fat — makes it more satiating
 - **Meal prep:** Pre-bag banana + mango portions in the freezer for grab-and-blend mornings
+

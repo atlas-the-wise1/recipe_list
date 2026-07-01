@@ -13,6 +13,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~475 | ~50g | ~8g | ~48g | ~12g | ~75mg |
+**Health Score:** 7/10
 
 **What changed vs. classic (ground turkey version):** ~100 fewer calories, ~4g less fat, similar protein. Achieves this by:
 - Switching to **Banza chickpea spaghetti** — adds 4g fiber per serving, lower glycemic index
@@ -61,3 +62,4 @@
 **Reheat:** Sauce on stovetop over medium-low with a splash of water. Pasta microwaved with a splash of water.
 **Batch size:** Doubles easily — make a double batch of sauce and freeze half for future meals
 **Notes:** The hidden vegetable technique (zucchini + mushrooms + bell pepper) adds significant volume and fiber to the sauce without changing the eating experience — you barely notice them once everything is simmered together. Whole-wheat pasta adds a pleasant nutty depth that actually pairs well with meat sauce. The Parmesan rind trick adds savory body to the sauce without adding meaningful calories.
+

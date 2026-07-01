@@ -11,6 +11,8 @@
 | Fat | 22g |
 | Fiber | 8g |
 | Cholesterol | 15mg |
+**Health Score:** 7/10
+
 **Prep Time:** 15 min | **Cook Time:** 15 min | **Total:** ~30 min
 
 ---
@@ -55,3 +57,4 @@
 - **Cranberry note:** Adds natural sweetness but also sugar — sub chopped dried apricots or just reduce to ¼ cup if watching sugar closely
 - **Apple choice:** Granny Smith or Honeycrisp — tartness balances the honey-mustard dressing
 - **Complete protein:** Quinoa is a full protein source — this is one of the few vegetarian lunches that holds you through the afternoon
+

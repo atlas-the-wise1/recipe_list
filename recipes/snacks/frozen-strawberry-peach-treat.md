@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~87 | ~2g | ~1g | ~17g | ~1g | ~3mg |
+**Health Score:** 6/10
+
 **Serves:** 4
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -39,3 +41,4 @@
 - **Dairy swap:** Sub almond milk for whole milk and coconut yogurt for a fully vegan version — same texture
 - **Only 87 cal** — one of the lightest desserts in the library; doubles easily without guilt
 - **Agave:** Reduce to 1 tbsp if your frozen fruit is already sweet
+

@@ -11,6 +11,8 @@
 | Fat | 30g |
 | Fiber | 7g |
 | Cholesterol | 10mg |
+**Health Score:** 7/10
+
 **Prep Time:** 15 min | **Cook Time:** 20 min | **Total:** ~35 min
 
 ---
@@ -51,3 +53,4 @@
 - **Day-old bread** makes noticeably better croutons — worth planning ahead
 - **No anchovy** — this Caesar skips the traditional anchovy, making it fully vegetarian; if you want that umami depth, add 1–2 anchovy fillets to the dressing
 - **Make-ahead:** Roasted sprouts and croutons can be made a few hours ahead; assemble just before serving
+

@@ -11,6 +11,8 @@
 
 ---
 
+**Health Score:** 4/10
+
 ## Ingredients
 
 - ½ cup buttermilk
@@ -40,3 +42,4 @@
 - **Thinner dressing:** Add more buttermilk 1 tbsp at a time until desired consistency; thicker = dip, thinner = dressing
 - **Fridge life:** Keeps up to 2 weeks refrigerated — make a full batch Sunday, use all week
 - **Lighten it up:** Sub half the mayo for plain Greek yogurt — cuts ~30 cal and 3g fat per serving while keeping it creamy
+

@@ -11,6 +11,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~620 | ~50g | ~44g | ~4g | ~0g | ~185mg |
+**Health Score:** 3/10
 
 ---
 
@@ -51,3 +52,4 @@
 **Batch size:** Double the steak and sauce proportionally — use a larger skillet to avoid crowding.
 **Safety note:** The Cognac flambé step is dramatic but optional — you can skip igniting and just cook until evaporated. Same flavor result, less theater.
 **Notes:** Impressive restaurant-quality dish ready in 35 min. High fat and cholesterol from butter, cream, and steak — firmly in the occasional column. The sauce alone is worth making for other proteins (chicken, pork tenderloin) to stretch the recipe into healthier territory. See `steak-diane-healthier.md` for a lightened version using Greek yogurt sauce and leaner sirloin.
+

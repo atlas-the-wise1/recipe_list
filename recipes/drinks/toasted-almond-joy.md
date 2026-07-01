@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~378 | ~3g | ~15g | ~44g | ~0g | ~37mg |
+**Health Score:** 4/10
+
 **Serves:** 3–4
 **Prep Time:** 5 min | **Total:** ~5 min
 
@@ -37,3 +39,4 @@
 - **Serve fast:** Ice cream melts quickly once blended; have glasses ready before you hit blend
 - **Dessert cocktail:** At ~378 cal this drinks like dessert — treat it as one; not a session drink
 - **Lighter version:** Swap ice cream for frozen banana (1 each) + 2 tbsp cocoa powder — cuts ~150 cal and all the cholesterol while keeping the chocolate-coconut profile
+

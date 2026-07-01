@@ -13,6 +13,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~475 | ~56g | ~7g | ~50g | ~11g | ~90mg |
+**Health Score:** 9/10
 
 **What changed vs. classic:** ~80 fewer calories, ~5g less fat, ~15mg less cholesterol per serving. Achieves this by:
 - Using **Banza chickpea rigatoni** instead of regular (adds ~3g fiber per serving, lower glycemic impact)
@@ -58,3 +59,4 @@
 **Batch size:** Doubles easily
 **Greek yogurt tip:** Always stir in off heat — adding while the pan is still on the burner can cause it to break and curdle.
 **Notes:** The Banza chickpea pasta swap is barely noticeable in this dish given the bold Dijon-lemon-yogurt sauce. Dropping the chicken skin and two tablespoons of butter cuts significant saturated fat without losing richness — the pasta water and Greek yogurt provide all the body you need.
+

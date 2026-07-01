@@ -16,6 +16,7 @@
 | Fat | 6g |
 | Fiber | 3g |
 | Cholesterol | 0mg |
+**Health Score:** 7/10
 
 ---
 
@@ -50,3 +51,4 @@
 **Batch size:** Doubles easily — great for meal prepping lunches for the week.
 **Pairs well with:** Air-Fryer Salmon, Blue-Cheese Steak, grilled chicken, or any lean protein.
 **Notes:** Zero cholesterol, high fiber, heart-healthy fats from olive oil. Excellent weekly staple side. Dress just before eating to keep endive crisp.
+

@@ -6,6 +6,8 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | ~480 | ~38g | ~18g | ~42g | ~4g | ~80mg |
+**Health Score:** 8/10
+
 **Serves:** 4
 **Prep Time:** 10 min | **Cook Time:** 25 min | **Total:** ~35 min
 
@@ -48,3 +50,4 @@
 - **Tomato vinaigrette is served raw/fresh** — don't cook it; the contrast of warm orzo + salmon against the bright cold vinaigrette is the whole point
 - **Meal-prep note:** Best eaten same day — orzo absorbs liquid overnight; if reheating, add a splash of water and reheat gently
 - **Boost it:** Add a handful of arugula under the tomato vinaigrette for peppery freshness; or top with a soft-boiled egg per person to push protein over 45g
+
