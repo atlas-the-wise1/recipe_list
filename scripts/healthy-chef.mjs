@@ -5,6 +5,7 @@ import path from 'node:path';
 
 const ROOT = path.resolve(process.cwd());
 const RECIPE_ROOT = path.join(ROOT, 'recipes');
+const RECIPE_INDEX = path.join(ROOT, 'indexes', 'recipes.json');
 const MEAL_PLAN_ROOT = path.join(ROOT, 'meal-plans');
 const SHOPPING_ROOT = path.join(ROOT, 'shopping-lists');
 
@@ -131,6 +132,61 @@ function parseRecipe(filePath) {
   };
 }
 
+function normalizeIngredientRecord(ingredient) {
+  return {
+    display: clean(ingredient.display || ingredient.name || ''),
+    name: clean(ingredient.name || ingredient.display || ''),
+    ingredient_id: clean(ingredient.ingredient_id || slugify(ingredient.name || ingredient.display || '')),
+    quantity: ingredient.quantity == null ? null : Number(ingredient.quantity),
+    unit: ingredient.unit == null ? null : clean(ingredient.unit) || null,
+    preparation: ingredient.preparation == null ? null : clean(ingredient.preparation) || null,
+    optional: Boolean(ingredient.optional),
+    grocery_department: clean(ingredient.grocery_department || 'uncategorized') || 'uncategorized',
+  };
+}
+
+function normalizeRecipeFromIndex(entry) {
+  const filePath = path.join(ROOT, entry.path || `recipes/${entry.id}.md`);
+  const score = entry.health_score == null ? null : Number(entry.health_score);
+  return {
+    filePath,
+    name: clean(entry.title || entry.id),
+    slug: entry.id,
+    category: normalizeCategory(entry.category, filePath),
+    score,
+    signal: scoreSignal(score),
+    tags: Array.isArray(entry.tags) ? entry.tags.slice() : [],
+    meal_types: Array.isArray(entry.meal_types) ? entry.meal_types.slice() : [],
+    servings: entry.servings == null ? 1 : Number(entry.servings) || 1,
+    ingredients: Array.isArray(entry.ingredients) ? entry.ingredients.map(normalizeIngredientRecord) : [],
+    mealPrepFriendly: Boolean(entry.meal_prep_friendly),
+    nutrition_verified: Boolean(entry.nutrition_verified),
+    nutrition: {
+      calories_kcal: entry.calories_kcal ?? null,
+      protein_g: entry.protein_g ?? null,
+      fiber_g: entry.fiber_g ?? null,
+      sodium_mg: entry.sodium_mg ?? null,
+    },
+    raw: entry,
+  };
+}
+
+function loadRecipes() {
+  if (fs.existsSync(RECIPE_INDEX)) {
+    try {
+      const index = JSON.parse(fs.readFileSync(RECIPE_INDEX, 'utf8'));
+      if (Array.isArray(index)) {
+        return index.map(normalizeRecipeFromIndex).sort(sortByScoreThenName);
+      }
+    } catch (error) {
+      // Fall back to markdown parsing if the committed index is unavailable or malformed.
+    }
+  }
+
+  const files = walkMarkdownFiles(RECIPE_ROOT);
+  return files.map(parseRecipe).sort(sortByScoreThenName);
+}
+
 function sortByScoreThenName(a, b) {
   const aScore = a.score == null ? -1 : a.score;
   const bScore = b.score == null ? -1 : b.score;
@@ -212,6 +268,24 @@ function takeTop(recipes, count, predicate = () => true) {
     .slice()
     .sort(sortByScoreThenName)
     .slice(0, count);
+}
+
+function sortByScoreAscendingThenName(a, b) {
+  const aScore = a.score == null ? -1 : a.score;
+  const bScore = b.score == null ? -1 : b.score;
+  if (aScore !== bScore) return aScore - bScore;
+  return a.name.localeCompare(b.name);
+}
+
+function isDessertCandidate(recipe) {
+  const text = `${recipe.name} ${recipe.tags.join(' ')}`.toLowerCase();
+  return /dessert|ice cream|sorbet|granita|cake|cookie|cookies|pudding|brulee|split|crisp|treat|mousse|shake|smoothie|martini|colada|screwdriver/.test(
+    text,
+  );
+}
+
+function isSnackCandidate(recipe) {
+  return recipe.category === 'snacks' || recipe.category === 'drinks';
 }
 
 function buildCookbook(recipes) {
@@ -358,8 +432,19 @@ function chooseRecipeWithFallback(pool, used, rand, options = {}) {
   return null;
 }
 
-function ingredientBucket(line) {
-  const lower = line.toLowerCase();
+function sectionForDepartment(department, ingredientText = '') {
+  const dep = clean(department || '').toLowerCase();
+  if (dep === 'produce') return 'Produce';
+  if (dep === 'meat' || dep === 'seafood' || dep === 'proteins') return 'Proteins';
+  if (dep === 'dairy') return 'Dairy';
+  if (dep === 'frozen') return 'Frozen';
+  if (dep === 'beverages') return 'Beverages';
+  if (dep === 'spices') return 'Spices';
+  if (dep === 'condiments' || dep === 'pantry' || dep === 'grains' || dep === 'uncategorized') {
+    return 'Pantry';
+  }
+
+  const lower = ingredientText.toLowerCase();
   if (
     /\b(chicken|turkey|beef|pork|lamb|fish|salmon|cod|tilapia|tuna|swordfish|shrimp|steak|tofu|eggs?|egg whites?|rotisserie chicken|deli turkey|sausage|ham|bacon|cottage cheese|greek yogurt|yogurt|cheese|mozzarella|feta|halloumi|ricotta|parmesan|goat cheese)\b/.test(
       lower,
@@ -381,34 +466,69 @@ function ingredientBucket(line) {
   ) {
     return 'Spices';
   }
-  if (
-    /\b(oil|vinegar|rice|pasta|bread|oats|flour|tortilla|chips|beans|lentils|quinoa|couscous|noodle|sauce|soy sauce|tamari|honey|maple|mustard|broth|stock|canned|marinara|pesto|jam|peanut butter|almond butter|nuts|seeds|breadcrumbs|panko|granola)\b/.test(
-      lower,
-    )
-  ) {
-    return 'Pantry';
-  }
-  return 'Produce';
+  return 'Pantry';
 }
 
-function buildShoppingList(selectedRecipes) {
+function ingredientSortKey(item) {
+  return `${item.name || item.display || item.ingredient_id}`.toLowerCase();
+}
+
+function formatQuantity(value) {
+  if (value == null) return null;
+  const rounded = Math.round(value * 1000) / 1000;
+  return Number.isInteger(rounded) ? String(rounded) : String(rounded).replace(/0+$/, '').replace(/\.$/, '');
+}
+
+function ingredientKey(ingredient) {
+  return [
+    ingredient.ingredient_id || slugify(ingredient.name || ingredient.display || ''),
+    ingredient.unit || 'unitless',
+    ingredient.preparation || '',
+    ingredient.grocery_department || 'uncategorized',
+  ].join('|');
+}
+
+function buildShoppingList(selectedMeals) {
   const sections = new Map([
-    ['Proteins', new Map()],
     ['Produce', new Map()],
+    ['Proteins', new Map()],
     ['Dairy', new Map()],
+    ['Frozen', new Map()],
+    ['Beverages', new Map()],
     ['Pantry', new Map()],
     ['Spices', new Map()],
   ]);
 
-  for (const recipe of selectedRecipes) {
-    for (const ingredient of recipe.ingredients) {
-      const section = ingredientBucket(ingredient);
-      const normalized = ingredient.toLowerCase();
-      const bucket = sections.get(section) || sections.get('Pantry');
-      if (!bucket.has(normalized)) {
-        bucket.set(normalized, { ingredient, recipes: [recipe.name] });
+  for (const meal of selectedMeals) {
+    const recipe = meal.recipe;
+    const recipeServings = recipe.servings || 1;
+    const plannedServings = meal.servings || 1;
+    const scale = plannedServings / recipeServings;
+
+    for (const ingredient of recipe.ingredients || []) {
+      const dept = sectionForDepartment(ingredient.grocery_department, ingredient.display || ingredient.name);
+      const bucket = sections.get(dept) || sections.get('Pantry');
+      const key = ingredientKey(ingredient);
+      const scaledQuantity = ingredient.quantity == null ? null : ingredient.quantity * scale;
+
+      if (!bucket.has(key)) {
+        bucket.set(key, {
+          ingredient_id: ingredient.ingredient_id,
+          name: ingredient.name || ingredient.display,
+          display: ingredient.display || ingredient.name,
+          unit: ingredient.unit || null,
+          quantity: scaledQuantity,
+          recipes: [meal.label],
+          department: dept,
+        });
       } else {
-        bucket.get(normalized).recipes.push(recipe.name);
+        const entry = bucket.get(key);
+        if (entry.quantity == null || scaledQuantity == null) {
+          entry.quantity = entry.quantity == null ? scaledQuantity : entry.quantity;
+        } else {
+          entry.quantity += scaledQuantity;
+        }
+        entry.recipes.push(meal.label);
       }
     }
   }
@@ -423,9 +543,12 @@ function buildShoppingList(selectedRecipes) {
     if (!items.size) continue;
     lines.push(`## ${section}`);
     lines.push('');
-    for (const item of items.values()) {
-      const recipeRefs = [...new Set(item.recipes)].join(', ');
-      lines.push(`- ${item.ingredient} [${recipeRefs}]`);
+    const sorted = [...items.values()].sort((a, b) => ingredientSortKey(a).localeCompare(ingredientSortKey(b)));
+    for (const item of sorted) {
+      const refs = [...new Set(item.recipes)].join(', ');
+      const amount = formatQuantity(item.quantity);
+      const quantityText = amount == null ? item.display : `${amount} ${item.unit || ''} ${item.name || item.display}`.replace(/\s+/g, ' ').trim();
+      lines.push(`- ${quantityText} (${item.ingredient_id}) [${refs}]`);
     }
     lines.push('');
   }
@@ -433,61 +556,80 @@ function buildShoppingList(selectedRecipes) {
   return `${lines.join('\n')}\n`;
 }
 
-function buildWeeklyPlan(recipes, weekName, rand) {
+function chooseUnique(pool, count, used, comparator = sortByScoreThenName) {
+  const chosen = [];
+  const sorted = pool.slice().sort(comparator);
+  for (const recipe of sorted) {
+    if (used.has(recipe.filePath)) continue;
+    chosen.push(recipe);
+    used.add(recipe.filePath);
+    if (chosen.length === count) break;
+  }
+  return chosen;
+}
+
+function buildWeeklyPlan(recipes, weekName) {
   const used = new Set();
-  const byCategory = {
-    breakfast: recipes.filter((recipe) => recipe.category === 'breakfast' && recipe.score != null),
-    lunch: recipes.filter((recipe) => recipe.category === 'lunch' && recipe.score != null),
-    dinner: recipes.filter((recipe) => recipe.category === 'dinner' && recipe.score != null),
-    snacks: recipes.filter((recipe) => recipe.category === 'snacks' && recipe.score != null),
-    mealPrep: recipes.filter(
-      (recipe) =>
-        recipe.score != null &&
-        (recipe.category === 'meal-prep' || recipe.tags.includes('#meal-prep')),
-    ),
-  };
+  const clovis = recipes.find((recipe) => recipe.slug === 'clovis-farms-organic-super-smoothie');
+  if (!clovis) {
+    throw new Error('Missing required clovis-farms-organic-super-smoothie recipe');
+  }
+  used.add(clovis.filePath);
 
-  const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-  const plan = [];
-  const selected = [];
-  const prepAnchors = [];
+  const lunchPool = recipes.filter((recipe) => recipe.category === 'lunch' && recipe.score != null);
+  const dinnerPool = recipes.filter((recipe) => recipe.category === 'dinner' && recipe.score != null);
+  const snackPool = recipes.filter((recipe) => isSnackCandidate(recipe) && recipe.score != null);
+  const dessertPool = recipes.filter((recipe) => isSnackCandidate(recipe) && recipe.score != null && isDessertCandidate(recipe));
+  const mealPrepPool = recipes.filter(
+    (recipe) => recipe.score != null && (recipe.category === 'meal-prep' || recipe.tags.includes('#meal-prep')),
+  );
 
-  for (const meal of byCategory.mealPrep.slice().sort(sortByScoreThenName).slice(0, 2)) {
-    prepAnchors.push(meal);
-    used.add(meal.filePath);
-    selected.push(meal);
+  const dessert = chooseUnique(dessertPool, 7, used, sortByScoreAscendingThenName);
+  const snackEligible = snackPool.filter((recipe) => !used.has(recipe.filePath));
+  const snack1 = chooseUnique(snackEligible, 7, used, sortByScoreThenName);
+  const snack2 = chooseUnique(
+    snackPool.filter((recipe) => !used.has(recipe.filePath)),
+    7,
+    used,
+    sortByScoreThenName,
+  );
+  const lunch = chooseUnique(lunchPool, 7, used, sortByScoreThenName);
+  const dinner = chooseUnique(dinnerPool, 7, used, sortByScoreThenName);
+  const prepAnchors = chooseUnique(mealPrepPool, 2, used, sortByScoreThenName);
+
+  if (snack1.length < 7 || lunch.length < 7 || snack2.length < 7 || dinner.length < 7 || dessert.length < 7) {
+    throw new Error('Unable to assemble a full 7-day weekly plan from the available recipe pools');
   }
 
-  for (let i = 0; i < days.length; i += 1) {
-    const dayName = days[i];
-    const breakfast = chooseRecipeWithFallback(byCategory.breakfast, used, rand, {
-      thresholds: i === 5 ? [7, 5, 0] : [8, 7, 5, 0],
-      preferredBuckets: ['healthy', 'balanced', 'treat'],
-    });
-    const lunch = chooseRecipeWithFallback(byCategory.lunch, used, rand, {
-      thresholds: i === 5 ? [6, 5, 0] : [7, 6, 5, 0],
-      preferredBuckets: ['healthy', 'balanced', 'treat'],
-    });
-    const dinner = chooseRecipeWithFallback(byCategory.dinner, used, rand, {
-      thresholds: i === 5 ? [7, 5, 0] : [8, 7, 6, 5, 0],
-      preferredBuckets: ['healthy', 'balanced', 'treat'],
-    });
-    const snack = chooseRecipeWithFallback(byCategory.snacks, used, rand, {
-      thresholds: i === 5 ? [5, 4, 0] : [6, 5, 4, 0],
-      preferredBuckets: ['healthy', 'balanced', 'treat'],
-    });
+  const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+  const plan = days.map((dayName, index) => ({
+    dayName,
+    breakfast: clovis,
+    snack1: snack1[index],
+    lunch: lunch[index],
+    snack2: snack2[index],
+    dinner: dinner[index],
+    dessert: dessert[index],
+  }));
 
-    for (const item of [breakfast, lunch, dinner, snack]) {
-      if (item) selected.push(item);
+  const selectedMeals = [];
+  for (const day of plan) {
+    for (const [slot, recipe] of [
+      ['breakfast', day.breakfast],
+      ['snack_1', day.snack1],
+      ['lunch', day.lunch],
+      ['snack_2', day.snack2],
+      ['dinner', day.dinner],
+      ['dessert', day.dessert],
+    ]) {
+      selectedMeals.push({
+        dayName: day.dayName,
+        slot,
+        recipe,
+        servings: 1,
+        label: `${day.dayName} ${slot.replace('_', ' ')}: ${recipe.name}`,
+      });
     }
-
-    plan.push({
-      dayName,
-      breakfast,
-      lunch,
-      dinner,
-      snack,
-    });
   }
 
   const lines = [];
@@ -495,6 +637,7 @@ function buildWeeklyPlan(recipes, weekName, rand) {
   lines.push('');
   lines.push('**Goal:** high-signal meal prep for a leaner wedding-season cut');
   lines.push('**Signal rules:** `healthy` = 7-10, `balanced` = 5-6, `treat` = 0-4');
+  lines.push('**Breakfast anchor:** Clovis Farms Organic Super Smoothie for all seven days');
   lines.push('');
 
   if (prepAnchors.length) {
@@ -510,15 +653,12 @@ function buildWeeklyPlan(recipes, weekName, rand) {
 
   lines.push('## Daily Plan');
   lines.push('');
-  lines.push('| Day | Breakfast | Lunch | Dinner | Snack |');
-  lines.push('|---|---|---|---|---|');
+  lines.push('| Day | Breakfast | Snack 1 | Lunch | Snack 2 | Dinner | Dessert |');
+  lines.push('|---|---|---|---|---|---|---|');
   for (const day of plan) {
-    const mealText = (recipe) =>
-      recipe
-        ? `${recipe.name} (${recipe.score}/10, ${recipe.signal.emoji} ${recipe.signal.label})`
-        : 'TBD';
+    const mealText = (recipe) => `${recipe.name} (${recipe.score}/10, ${recipe.signal.emoji} ${recipe.signal.label})`;
     lines.push(
-      `| ${day.dayName} | ${mealText(day.breakfast)} | ${mealText(day.lunch)} | ${mealText(day.dinner)} | ${mealText(day.snack)} |`,
+      `| ${day.dayName} | ${mealText(day.breakfast)} | ${mealText(day.snack1)} | ${mealText(day.lunch)} | ${mealText(day.snack2)} | ${mealText(day.dinner)} | ${mealText(day.dessert)} |`,
     );
   }
   lines.push('');
@@ -528,8 +668,9 @@ function buildWeeklyPlan(recipes, weekName, rand) {
     balanced: 0,
     treat: 0,
   };
-  for (const recipe of selected) {
-    if (recipe.signal.bucket in counts) counts[recipe.signal.bucket] += 1;
+  for (const meal of selectedMeals) {
+    const bucket = meal.recipe.signal.bucket;
+    if (bucket in counts) counts[bucket] += 1;
   }
 
   lines.push('## Weekly Balance');
@@ -537,11 +678,12 @@ function buildWeeklyPlan(recipes, weekName, rand) {
   lines.push(`- Healthy picks: ${counts.healthy}`);
   lines.push(`- Balanced picks: ${counts.balanced}`);
   lines.push(`- Treat picks: ${counts.treat}`);
+  lines.push(`- Unique recipes: ${new Set(selectedMeals.map((item) => item.recipe.filePath)).size}`);
   lines.push('');
 
   return {
     markdown: `${lines.join('\n')}\n`,
-    selected,
+    selected: selectedMeals,
   };
 }
 
@@ -562,8 +704,7 @@ function writeFile(relativePath, content) {
 }
 
 function main() {
-  const files = walkMarkdownFiles(RECIPE_ROOT);
-  const recipes = files.map(parseRecipe).sort(sortByScoreThenName);
+  const recipes = loadRecipes();
 
   const commands = [];
   if (mode === 'all' || mode === 'index') commands.push('index');
@@ -576,16 +717,13 @@ function main() {
   }
 
   const weekName = getFlag('week', weekLabel(defaultWeekDate()));
-  const seedText = getFlag('seed', weekName);
-  const rand = mulberry32(hashSeed(seedText));
-
   if (commands.includes('index')) {
     const indexPath = writeFile('meal-plans/health-signal-index.md', buildSignalIndex(recipes));
     console.log(`wrote ${path.relative(ROOT, indexPath)}`);
   }
 
   if (commands.includes('plan')) {
-    const { markdown, selected } = buildWeeklyPlan(recipes, weekName, rand);
+    const { markdown, selected } = buildWeeklyPlan(recipes, weekName);
     const planPath = writeFile(`meal-plans/${weekName}.md`, markdown);
     const shoppingPath = writeFile(`shopping-lists/${weekName}.md`, buildShoppingList(selected));
     console.log(`wrote ${path.relative(ROOT, planPath)}`);

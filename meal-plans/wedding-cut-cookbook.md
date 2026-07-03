@@ -73,19 +73,17 @@ Use these when the goal is a fast, low-friction dinner on a cut.
 ## Balanced Backups
 
 - Blue-Cheese Steak and Endive Salad for Two — Healthier Variant (6/10, ⚖️ balanced)
-- Caldo Verde (Potato and Greens Soup With Sausage) (6/10, ⚖️ balanced)
 - Brothy Thai Curry With Silken Tofu and Herbs (6/10, ⚖️ balanced)
-- Caramelized Corn and Asparagus Pasta With Ricotta (6/10, ⚖️ balanced)
+- Caldo Verde (Potato and Greens Soup With Sausage) (6/10, ⚖️ balanced)
 - Changua (Colombian Bread and Egg Soup) (6/10, ⚖️ balanced)
 - Cheese-Topped Cauliflower Steaks (6/10, ⚖️ balanced)
 - Cheesy Spinach Bake (6/10, ⚖️ balanced)
 - Chicken Breasts With Lemon (6/10, ⚖️ balanced)
 - Chicken Francese (6/10, ⚖️ balanced)
-- Chicken Milanese (6/10, ⚖️ balanced)
-- Skillet Chicken Thighs With Broccoli and Orzo (6/10, ⚖️ balanced)
 
 ## Weekly Use
 
 - Pick one breakfast anchor, one lunch anchor, and two or three quick dinners for the week.
 - Let the weekly planner generate the full day-by-day menu and grocery list from the selected pool.
 - If a dinner needs to be especially fast, prefer the quick-dinner pool first.
+

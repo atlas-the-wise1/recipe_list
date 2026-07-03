@@ -392,6 +392,9 @@ def build_recipe_index(records: list[RecipeRecord], root: Path) -> list[dict[str
                 "status": data.get("status"),
                 "category": data.get("category"),
                 "meal_types": data.get("meal_types", []),
+                "servings": data.get("servings"),
+                "health_score": data.get("health_score"),
+                "tags": data.get("tags", []),
                 "dietary_tags": data.get("dietary_tags", []),
                 "goal_tags": data.get("goal_tags", []),
                 "calories_kcal": nutrition.get("calories_kcal"),
@@ -402,6 +405,10 @@ def build_recipe_index(records: list[RecipeRecord], root: Path) -> list[dict[str
                 "total_minutes": times.get("total_minutes"),
                 "meal_prep_friendly": bool(meal_prep.get("friendly", False)),
                 "nutrition_verified": bool(source.get("nutrition_verified", False)),
+                "ingredients": data.get("ingredients", []),
+                "relationships": data.get("relationships", {}),
+                "meal_prep": meal_prep,
+                "source": source,
             }
         )
     return index
