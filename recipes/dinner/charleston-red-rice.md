@@ -1,3 +1,184 @@
+---
+schema_version: 1
+id: "charleston-red-rice"
+title: "Charleston Red Rice"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 6
+times:
+  prep_minutes: 15
+  cook_minutes: 55
+  total_minutes: 70
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 340
+  protein_g: 10
+  carbohydrate_g: 55
+  net_carbohydrate_g: null
+  fat_g: 9
+  saturated_fat_g: null
+  fiber_g: 2
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 25
+health_score: 5
+tags:
+  - "#meal-prep"
+  - "#budget-friendly"
+dietary_tags:
+  []
+goal_tags:
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "Nonstick cooking spray"
+    name: "Nonstick cooking spray"
+    ingredient_id: "nonstick-cooking-spray"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "6 bacon slices"
+    name: "bacon slices"
+    ingredient_id: "bacon-slices"
+    quantity: 6
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 medium Vidalia or other sweet, Spanish, or yellow onion, chopped"
+    name: "Vidalia or other sweet"
+    ingredient_id: "vidalia-or-other-sweet"
+    quantity: 1
+    unit: null
+    preparation: "Spanish, or yellow onion, chopped"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 celery ribs, chopped"
+    name: "celery ribs"
+    ingredient_id: "celery-ribs"
+    quantity: 2
+    unit: null
+    preparation: "chopped"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 large green bell pepper, chopped"
+    name: "green bell pepper"
+    ingredient_id: "green-bell-pepper"
+    quantity: 1
+    unit: null
+    preparation: "chopped"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 teaspoon kosher salt, plus more to taste"
+    name: "kosher salt"
+    ingredient_id: "kosher-salt"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: "plus more to taste"
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 garlic cloves, minced"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 2
+    unit: null
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 cups long-grain or Carolina gold rice, rinsed until water runs clear"
+    name: "long-grain or Carolina gold rice"
+    ingredient_id: "long-grain-or-carolina-gold-rice"
+    quantity: 2
+    unit: "cups"
+    preparation: "rinsed until water runs clear"
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 14-ounce can tomato puree"
+    name: "14-ounce can tomato puree"
+    ingredient_id: "14-ounce-can-tomato-puree"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 1/2 cups chicken stock or water, plus more as needed"
+    name: "chicken stock or water"
+    ingredient_id: "chicken-stock-or-water"
+    quantity: 1.5
+    unit: "cups"
+    preparation: "plus more as needed"
+    optional: false
+    grocery_department: "meat"
+  - display: "1 tablespoon hot sauce"
+    name: "hot sauce"
+    ingredient_id: "hot-sauce"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 teaspoon Cajun seasoning"
+    name: "Cajun seasoning"
+    ingredient_id: "cajun-seasoning"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 teaspoon granulated sugar"
+    name: "granulated sugar"
+    ingredient_id: "granulated-sugar"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/2 teaspoon black pepper"
+    name: "black pepper"
+    ingredient_id: "black-pepper"
+    quantity: 0.5
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Pinch of ground cayenne"
+    name: "Pinch of ground cayenne"
+    ingredient_id: "pinch-of-ground-cayenne"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Parsley leaves, for garnish"
+    name: "Parsley leaves"
+    ingredient_id: "parsley-leaves"
+    quantity: null
+    unit: null
+    preparation: "for garnish"
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Charleston Red Rice
 
 **Category:** Dinner

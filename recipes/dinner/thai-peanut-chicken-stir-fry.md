@@ -1,3 +1,123 @@
+---
+schema_version: 1
+id: "thai-peanut-chicken-stir-fry"
+title: "Thai Peanut Chicken Stir Fry"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 15
+  total_minutes: 30
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 440
+  protein_g: 38
+  carbohydrate_g: 32
+  net_carbohydrate_g: null
+  fat_g: 18
+  saturated_fat_g: null
+  fiber_g: 5
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 85
+health_score: 7
+tags:
+  - "#high-protein"
+  - "#meal-prep"
+  - "#heart-healthy"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+  - "heart_health"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1.5 lbs boneless, skinless chicken breast, cut into bite-sized strips"
+    name: "boneless"
+    ingredient_id: "boneless"
+    quantity: 1.5
+    unit: "lbs"
+    preparation: "skinless chicken breast, cut into bite-sized strips"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tbsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 red bell peppers, sliced thin"
+    name: "red bell peppers"
+    ingredient_id: "red-bell-peppers"
+    quantity: 2
+    unit: null
+    preparation: "sliced thin"
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 cups snap peas"
+    name: "snap peas"
+    ingredient_id: "snap-peas"
+    quantity: 2
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 cup shredded carrots"
+    name: "shredded carrots"
+    ingredient_id: "shredded-carrots"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "3 cloves garlic, minced"
+    name: "garlic"
+    ingredient_id: "garlic"
+    quantity: 3
+    unit: "cloves"
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 tbsp fresh ginger, minced"
+    name: "fresh ginger"
+    ingredient_id: "fresh-ginger"
+    quantity: 1
+    unit: "tbsp"
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "Salt and pepper to taste"
+    name: "Salt and pepper"
+    ingredient_id: "salt-and-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Thai Peanut Chicken Stir Fry
 
 **Category:** D — Dinner

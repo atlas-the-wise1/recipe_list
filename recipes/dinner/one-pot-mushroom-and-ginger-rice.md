@@ -1,3 +1,145 @@
+---
+schema_version: 1
+id: "one-pot-mushroom-and-ginger-rice"
+title: "One-Pot Mushroom and Ginger Rice"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 20
+  total_minutes: 30
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 310
+  protein_g: 8
+  carbohydrate_g: 48
+  net_carbohydrate_g: null
+  fat_g: 10
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 0
+health_score: 7
+tags:
+  - "#vegetarian"
+  - "#one-pot"
+  - "#meal-prep"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 1/2 cups medium-grain white rice"
+    name: "medium-grain white rice"
+    ingredient_id: "medium-grain-white-rice"
+    quantity: 1.5
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "2 cups vegetable stock, store-bought or homemade"
+    name: "vegetable stock"
+    ingredient_id: "vegetable-stock"
+    quantity: 2
+    unit: "cups"
+    preparation: "store-bought or homemade"
+    optional: false
+    grocery_department: "condiments"
+  - display: "10 ounces mushrooms, such as shiitake, cremini, button, or blue oysters (or a mix), halved or quartered"
+    name: "mushrooms"
+    ingredient_id: "mushrooms"
+    quantity: 10
+    unit: "ounces"
+    preparation: "such as shiitake, cremini, button, or blue oysters (or a mix), halved or quartered"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 teaspoons cornstarch"
+    name: "cornstarch"
+    ingredient_id: "cornstarch"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "6 to 7 teaspoons tamari soy sauce"
+    name: "tamari soy sauce"
+    ingredient_id: "tamari-soy-sauce"
+    quantity: 6
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 teaspoons Shaoxing wine, optional"
+    name: "Shaoxing wine,"
+    ingredient_id: "shaoxing-wine"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: "optional"
+    optional: true
+    grocery_department: "beverages"
+  - display: "3 teaspoons sesame oil"
+    name: "sesame oil"
+    ingredient_id: "sesame-oil"
+    quantity: 3
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Salt and white or black pepper"
+    name: "Salt and white or black pepper"
+    ingredient_id: "salt-and-white-or-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 (1-inch) piece fresh ginger, peeled and thinly sliced"
+    name: "(1-inch) piece fresh ginger"
+    ingredient_id: "1-inch-piece-fresh-ginger"
+    quantity: 1
+    unit: null
+    preparation: "peeled and thinly sliced"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 scallions, thinly sliced"
+    name: "scallions"
+    ingredient_id: "scallions"
+    quantity: 2
+    unit: null
+    preparation: "thinly sliced"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Toasted white sesame seeds, optional"
+    name: "Toasted white sesame seeds,"
+    ingredient_id: "toasted-white-sesame-seeds"
+    quantity: null
+    unit: null
+    preparation: "optional"
+    optional: true
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # One-Pot Mushroom and Ginger Rice
 
 **Category:** Dinner

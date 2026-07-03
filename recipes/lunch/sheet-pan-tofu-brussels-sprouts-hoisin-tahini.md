@@ -1,3 +1,96 @@
+---
+schema_version: 1
+id: "sheet-pan-tofu-brussels-sprouts-hoisin-tahini"
+title: "Sheet-Pan Tofu and Brussels Sprouts With Hoisin-Tahini Sauce"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 30
+  total_minutes: 40
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 7
+tags:
+  - "#vegetarian"
+  - "#vegan"
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#high-protein"
+  - "#meal-prep"
+dietary_tags:
+  - "vegetarian"
+  - "vegan"
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 pounds brussels sprouts, trimmed and halved"
+    name: "brussels sprouts"
+    ingredient_id: "brussels-sprouts"
+    quantity: 2
+    unit: "pounds"
+    preparation: "trimmed and halved"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Extra-virgin olive oil"
+    name: "Extra-virgin olive oil"
+    ingredient_id: "extra-virgin-olive-oil"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Kosher salt (such as Diamond Crystal) and black pepper"
+    name: "Kosher salt (such as Diamond Crystal) and black pepper"
+    ingredient_id: "kosher-salt-such-as-diamond-crystal-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 (14-ounce) packages extra-firm tofu, drained and cut into ¼-inch thick slices"
+    name: "(14-ounce) packages extra-firm tofu"
+    ingredient_id: "14-ounce-packages-extra-firm-tofu"
+    quantity: 2
+    unit: null
+    preparation: "drained and cut into ¼-inch thick slices"
+    optional: false
+    grocery_department: "pantry"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Sheet-Pan Tofu and Brussels Sprouts With Hoisin-Tahini Sauce
 
 **Category:** L — Lunch

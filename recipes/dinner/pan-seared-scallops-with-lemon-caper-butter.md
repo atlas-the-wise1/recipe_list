@@ -1,3 +1,92 @@
+---
+schema_version: 1
+id: "pan-seared-scallops-with-lemon-caper-butter"
+title: "Pan-Seared Scallops with Lemon Caper Butter"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 8
+  total_minutes: 18
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 360
+  protein_g: 30
+  carbohydrate_g: 10
+  net_carbohydrate_g: null
+  fat_g: 20
+  saturated_fat_g: null
+  fiber_g: 2
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 40
+health_score: 6
+tags:
+  - "#high-protein"
+  - "#low-cholesterol"
+  - "#heart-healthy"
+  - "#keto"
+dietary_tags:
+  - "keto_friendly"
+goal_tags:
+  - "high_protein"
+  - "lower_cholesterol"
+  - "heart_health"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1.25 lbs large sea scallops (U/10 or U/15 count)"
+    name: "large sea scallops"
+    ingredient_id: "large-sea-scallops"
+    quantity: 1.25
+    unit: "lbs"
+    preparation: null
+    optional: false
+    grocery_department: "seafood"
+  - display: "2 tbsp butter, divided"
+    name: "butter"
+    ingredient_id: "butter"
+    quantity: 2
+    unit: "tbsp"
+    preparation: "divided"
+    optional: false
+    grocery_department: "dairy"
+  - display: "Salt and white pepper to taste"
+    name: "Salt and white pepper"
+    ingredient_id: "salt-and-white-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tbsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Pan-Seared Scallops with Lemon Caper Butter
 
 **Category:** D — Dinner

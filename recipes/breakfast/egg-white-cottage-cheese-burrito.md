@@ -1,3 +1,126 @@
+---
+schema_version: 1
+id: "egg-white-cottage-cheese-burrito"
+title: "Egg White, Cottage Cheese & Turkey Breakfast Burrito"
+status: reviewed
+category: "breakfast"
+meal_types:
+  - breakfast
+servings: 1
+times:
+  prep_minutes: 10
+  cook_minutes: 8
+  total_minutes: 18
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 390
+  protein_g: 47
+  carbohydrate_g: 28
+  net_carbohydrate_g: null
+  fat_g: 8
+  saturated_fat_g: null
+  fiber_g: 4
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 35
+health_score: 8
+tags:
+  - "#high-protein"
+  - "#low-cholesterol"
+  - "#fat-loss"
+  - "#meal-prep"
+  - "#freezer-friendly"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "lower_cholesterol"
+  - "fat_loss"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "6 egg whites (or ¾ cup liquid egg whites)"
+    name: "egg whites"
+    ingredient_id: "egg-whites"
+    quantity: 6
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ cup low-fat cottage cheese"
+    name: "½ cup low-fat cottage cheese"
+    ingredient_id: "cup-low-fat-cottage-cheese"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "2 oz lean turkey breast (deli-sliced or crumbled cooked)"
+    name: "lean turkey breast"
+    ingredient_id: "lean-turkey-breast"
+    quantity: 2
+    unit: "oz"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "1 cup fresh spinach"
+    name: "fresh spinach"
+    ingredient_id: "fresh-spinach"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "½ cup sliced mushrooms"
+    name: "½ cup sliced mushrooms"
+    ingredient_id: "cup-sliced-mushrooms"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 whole wheat tortilla (large, ~10\")"
+    name: "whole wheat tortilla (large"
+    ingredient_id: "whole-wheat-tortilla-large"
+    quantity: 1
+    unit: null
+    preparation: "~10\")"
+    optional: false
+    grocery_department: "grains"
+  - display: "Salt, pepper, garlic powder to taste"
+    name: "Salt"
+    ingredient_id: "salt"
+    quantity: null
+    unit: null
+    preparation: "pepper, garlic powder to taste"
+    optional: false
+    grocery_department: "condiments"
+  - display: "Optional: hot sauce, salsa, or everything bagel seasoning"
+    name: ": hot sauce"
+    ingredient_id: "hot-sauce"
+    quantity: null
+    unit: null
+    preparation: "salsa, or everything bagel seasoning"
+    optional: true
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Egg White, Cottage Cheese & Turkey Breakfast Burrito
 
 **Category:** B — Breakfast

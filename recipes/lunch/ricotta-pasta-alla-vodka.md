@@ -1,3 +1,176 @@
+---
+schema_version: 1
+id: "ricotta-pasta-alla-vodka"
+title: "Ricotta Pasta Alla Vodka"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 20
+  total_minutes: 30
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: null
+tags:
+  - "#vegetarian"
+  - "#quick"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  - "quick_preparation"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "Kosher salt"
+    name: "Kosher salt"
+    ingredient_id: "kosher-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tablespoon olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "4 slices thick-cut bacon (6 ounces), coarsely chopped"
+    name: "thick-cut bacon"
+    ingredient_id: "thick-cut-bacon"
+    quantity: 4
+    unit: "slices"
+    preparation: "coarsely chopped"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 1/2 teaspoons red-pepper flakes"
+    name: "red-pepper flakes"
+    ingredient_id: "red-pepper-flakes"
+    quantity: 1.5
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 teaspoon dried oregano"
+    name: "dried oregano"
+    ingredient_id: "dried-oregano"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "4 large garlic cloves, crushed but left whole"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 4
+    unit: null
+    preparation: "crushed but left whole"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 medium yellow onion, finely chopped"
+    name: "yellow onion"
+    ingredient_id: "yellow-onion"
+    quantity: 1
+    unit: null
+    preparation: "finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "Freshly ground black pepper"
+    name: "Freshly ground black pepper"
+    ingredient_id: "freshly-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "5 tablespoons tomato paste, preferably double-concentrated"
+    name: "tomato paste"
+    ingredient_id: "tomato-paste"
+    quantity: 5
+    unit: "tablespoons"
+    preparation: "preferably double-concentrated"
+    optional: false
+    grocery_department: "produce"
+  - display: "3/4 to 1 cup vodka, depending on how boozy you want it"
+    name: "vodka"
+    ingredient_id: "vodka"
+    quantity: 0.75
+    unit: "cup"
+    preparation: "depending on how boozy you want it"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 pound fusilli, penne or rigatoni"
+    name: "fusilli"
+    ingredient_id: "fusilli"
+    quantity: 1
+    unit: "pound"
+    preparation: "penne or rigatoni"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 cup heavy cream"
+    name: "heavy cream"
+    ingredient_id: "heavy-cream"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "4 ounces Pecorino Romano or Parmesan, finely grated (1 cup)"
+    name: "Pecorino Romano or Parmesan"
+    ingredient_id: "pecorino-romano-or-parmesan"
+    quantity: 4
+    unit: "ounces"
+    preparation: "finely grated (1 cup)"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 cup / 8 ounces whole-milk ricotta"
+    name: "/ 8 ounces whole-milk ricotta"
+    ingredient_id: "8-ounces-whole-milk-ricotta"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "Finely chopped flat-leaf parsley or basil, for serving"
+    name: "Finely chopped flat-leaf parsley or basil"
+    ingredient_id: "finely-chopped-flat-leaf-parsley-or-basil"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Ricotta Pasta Alla Vodka
 
 **Category:** L — Lunch

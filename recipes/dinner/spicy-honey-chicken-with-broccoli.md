@@ -1,3 +1,114 @@
+---
+schema_version: 1
+id: "spicy-honey-chicken-with-broccoli"
+title: "Spicy Honey Chicken With Broccoli"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 15
+  total_minutes: 25
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 410
+  protein_g: 29
+  carbohydrate_g: 18
+  net_carbohydrate_g: null
+  fat_g: 22
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 140
+health_score: 6
+tags:
+  - "#quick"
+  - "#high-protein"
+  - "#weeknight"
+dietary_tags:
+  []
+goal_tags:
+  - "quick_preparation"
+  - "high_protein"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 tablespoons olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tablespoon honey"
+    name: "honey"
+    ingredient_id: "honey"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 heaping tablespoons jarred pickled jalapeños, plus 1 to 2 tablespoons of the pickling liquid"
+    name: "heaping tablespoons jarred pickled jalapeños"
+    ingredient_id: "heaping-tablespoons-jarred-pickled-jalape-os"
+    quantity: 2
+    unit: null
+    preparation: "plus 1 to 2 tablespoons of the pickling liquid"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 1/2 pounds boneless, skinless chicken thighs, cut into 1- to 1 1/2-inch pieces"
+    name: "boneless"
+    ingredient_id: "boneless"
+    quantity: 1.5
+    unit: "pounds"
+    preparation: "skinless chicken thighs, cut into 1- to 1 1/2-inch pieces"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Kosher salt"
+    name: "Kosher salt"
+    ingredient_id: "kosher-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 small head broccoli, florets cut into bite-size pieces (3 to 4 cups)"
+    name: "broccoli"
+    ingredient_id: "broccoli"
+    quantity: 1
+    unit: "head"
+    preparation: "florets cut into bite-size pieces (3 to 4 cups)"
+    optional: false
+    grocery_department: "produce"
+  - display: "1/2 cup crumbled feta"
+    name: "crumbled feta"
+    ingredient_id: "crumbled-feta"
+    quantity: 0.5
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Spicy Honey Chicken With Broccoli
 
 **Category:** Dinner

@@ -1,3 +1,142 @@
+---
+schema_version: 1
+id: "ginger-dill-salmon"
+title: "Ginger-Dill Salmon"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 15
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 420
+  protein_g: 42
+  carbohydrate_g: 12
+  net_carbohydrate_g: null
+  fat_g: 24
+  saturated_fat_g: null
+  fiber_g: 5
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 95
+health_score: 8
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#high-protein"
+  - "#keto"
+  - "#meal-prep"
+dietary_tags:
+  - "keto_friendly"
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 (1½-pound) salmon fillet, skin-on or skinless"
+    name: "(1½-pound) salmon fillet"
+    ingredient_id: "1-pound-salmon-fillet"
+    quantity: 1
+    unit: null
+    preparation: "skin-on or skinless"
+    optional: false
+    grocery_department: "seafood"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "6 tablespoons finely chopped dill"
+    name: "finely chopped dill"
+    ingredient_id: "finely-chopped-dill"
+    quantity: 6
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 (2-inch) piece ginger, scrubbed and finely grated (no need to peel)"
+    name: "(2-inch) piece ginger"
+    ingredient_id: "2-inch-piece-ginger"
+    quantity: 1
+    unit: null
+    preparation: "scrubbed and finely grated (no need to peel)"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tablespoons extra-virgin olive oil, plus more for serving"
+    name: "extra-virgin olive oil"
+    ingredient_id: "extra-virgin-olive-oil"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: "plus more for serving"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 grapefruit"
+    name: "grapefruit"
+    ingredient_id: "grapefruit"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "2 oranges"
+    name: "oranges"
+    ingredient_id: "oranges"
+    quantity: 2
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "6 small radishes, cut into thin wedges"
+    name: "radishes"
+    ingredient_id: "radishes"
+    quantity: 6
+    unit: null
+    preparation: "cut into thin wedges"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 avocado"
+    name: "avocado"
+    ingredient_id: "avocado"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "Flaky sea salt, for finishing *(optional)*"
+    name: "Flaky sea salt"
+    ingredient_id: "flaky-sea-salt"
+    quantity: null
+    unit: null
+    preparation: "for finishing **"
+    optional: true
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Ginger-Dill Salmon
 
 **Category:** D — Dinner

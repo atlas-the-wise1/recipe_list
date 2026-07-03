@@ -1,3 +1,58 @@
+---
+schema_version: 1
+id: "no-bake-melon-cheesecake-bars"
+title: "No-Bake Melon Cheesecake Bars"
+status: reviewed
+category: "snacks"
+meal_types:
+  - snack_1
+  - snack_2
+servings: 8
+times:
+  prep_minutes: 25
+  cook_minutes: 0
+  total_minutes: 6
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 4
+tags:
+  - "#vegetarian"
+  - "#no-bake"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  []
+allergens: []
+equipment:
+[]
+ingredients:
+[]
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # No-Bake Melon Cheesecake Bars
 
 **Category:** S — Snack
@@ -6,7 +61,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | TBD | TBD | TBD | TBD | TBD | TBD |
-**Health Score:** TBD
+**Health Score:** 4/10
 
 **Serves:** 8 bars
 **Prep Time:** 25 min | **Cook Time:** 0 min | **Total:** ~6 hr 25 min

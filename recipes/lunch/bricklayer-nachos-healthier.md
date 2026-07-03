@@ -1,3 +1,161 @@
+---
+schema_version: 1
+id: "bricklayer-nachos-healthier"
+title: "Bricklayer-Style Nachos — Healthier Variant"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: null
+times:
+  prep_minutes: 20
+  cook_minutes: 25
+  total_minutes: 45
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 5
+tags:
+  - "#high-protein"
+  - "#heart-healthy"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "heart_health"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 pounds ripe Roma tomatoes, OR 2 (15-oz) cans fire-roasted tomatoes"
+    name: "ripe Roma tomatoes"
+    ingredient_id: "ripe-roma-tomatoes"
+    quantity: 2
+    unit: "pounds"
+    preparation: "OR 2 (15-oz) cans fire-roasted tomatoes"
+    optional: false
+    grocery_department: "produce"
+  - display: "8 oz **turkey chorizo**, casing removed, coarsely chopped"
+    name: "**turkey chorizo**"
+    ingredient_id: "turkey-chorizo"
+    quantity: 8
+    unit: "oz"
+    preparation: "casing removed, coarsely chopped"
+    optional: false
+    grocery_department: "meat"
+  - display: "1½ pounds **extra-lean ground turkey (93/7)** or ground chicken"
+    name: "1½ pounds **extra-lean ground turkey (93/7)** or ground chicken"
+    ingredient_id: "1-pounds-extra-lean-ground-turkey-93-7-or-ground-chicken"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 medium white onion, halved and slivered (~1½ cups)"
+    name: "white onion"
+    ingredient_id: "white-onion"
+    quantity: 1
+    unit: null
+    preparation: "halved and slivered (~1½ cups)"
+    optional: false
+    grocery_department: "produce"
+  - display: "1–2 jalapeños or serrano chiles, halved, deseeded if desired, sliced"
+    name: "1–2 jalapeños or serrano chiles"
+    ingredient_id: "1-2-jalape-os-or-serrano-chiles"
+    quantity: null
+    unit: null
+    preparation: "halved, deseeded if desired, sliced"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 garlic cloves, finely chopped"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 2
+    unit: null
+    preparation: "finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 tsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1–1½ pounds **baked tortilla chips** (Baked! Tostitos or similar)"
+    name: "1–1½ pounds **baked tortilla chips**"
+    ingredient_id: "1-1-pounds-baked-tortilla-chips"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "8 oz shredded **part-skim mozzarella** (~2 cups)"
+    name: "shredded **part-skim mozzarella**"
+    ingredient_id: "shredded-part-skim-mozzarella"
+    quantity: 8
+    unit: "oz"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 ripe avocado, halved, pitted, finely chopped"
+    name: "ripe avocado"
+    ingredient_id: "ripe-avocado"
+    quantity: 1
+    unit: null
+    preparation: "halved, pitted, finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "½ cup crumbled **light queso fresco** (reduced from 1 cup)"
+    name: "½ cup crumbled **light queso fresco**"
+    ingredient_id: "cup-crumbled-light-queso-fresco"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "8 scallions, trimmed and thinly sliced"
+    name: "scallions"
+    ingredient_id: "scallions"
+    quantity: 8
+    unit: null
+    preparation: "trimmed and thinly sliced"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Bricklayer-Style Nachos — Healthier Variant
 
 > 💡 **Healthier Variant** of Bricklayer-Style Nachos — see `bricklayer-nachos.md` for the classic version.

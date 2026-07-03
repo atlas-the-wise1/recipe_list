@@ -1,3 +1,130 @@
+---
+schema_version: 1
+id: "broiled-turmeric-salmon-with-corn-and-green-beans"
+title: "Broiled Turmeric Salmon With Corn and Green Beans"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 10
+  total_minutes: 25
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 410
+  protein_g: 32
+  carbohydrate_g: 19
+  net_carbohydrate_g: null
+  fat_g: 22
+  saturated_fat_g: null
+  fiber_g: 5
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 90
+health_score: 8
+tags:
+  - "#high-protein"
+  - "#gluten-free"
+  - "#weeknight"
+  - "#omega-3-rich"
+dietary_tags:
+  - "gluten_free"
+goal_tags:
+  - "high_protein"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "3 tablespoons extra-virgin olive oil, plus more for serving"
+    name: "extra-virgin olive oil"
+    ingredient_id: "extra-virgin-olive-oil"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: "plus more for serving"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 teaspoon ground turmeric"
+    name: "ground turmeric"
+    ingredient_id: "ground-turmeric"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/2 teaspoon red-pepper flakes"
+    name: "red-pepper flakes"
+    ingredient_id: "red-pepper-flakes"
+    quantity: 0.5
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "4 (6- to 8-ounce) skin-on salmon fillets, patted dry"
+    name: "(6- to 8-ounce) skin-on salmon fillets"
+    ingredient_id: "6-to-8-ounce-skin-on-salmon-fillets"
+    quantity: 4
+    unit: null
+    preparation: "patted dry"
+    optional: false
+    grocery_department: "seafood"
+  - display: "Kosher salt (such as Diamond Crystal)"
+    name: "Kosher salt"
+    ingredient_id: "kosher-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 pound green beans, stem ends trimmed and beans halved crosswise"
+    name: "green beans"
+    ingredient_id: "green-beans"
+    quantity: 1
+    unit: "pound"
+    preparation: "stem ends trimmed and beans halved crosswise"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Kernels from 4 ears of corn (about 4 cups)"
+    name: "Kernels from 4 ears of corn"
+    ingredient_id: "kernels-from-4-ears-of-corn"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/2 small red onion, thinly sliced"
+    name: "red onion"
+    ingredient_id: "red-onion"
+    quantity: 0.5
+    unit: null
+    preparation: "thinly sliced"
+    optional: false
+    grocery_department: "produce"
+  - display: "3 tablespoons lime juice (from 2 limes)"
+    name: "lime juice"
+    ingredient_id: "lime-juice"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Broiled Turmeric Salmon With Corn and Green Beans
 
 **Category:** Dinner

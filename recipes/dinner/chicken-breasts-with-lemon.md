@@ -1,3 +1,145 @@
+---
+schema_version: 1
+id: "chicken-breasts-with-lemon"
+title: "Chicken Breasts With Lemon"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 15
+  total_minutes: 25
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 340
+  protein_g: 35
+  carbohydrate_g: 8
+  net_carbohydrate_g: null
+  fat_g: 16
+  saturated_fat_g: null
+  fiber_g: 0
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 145
+health_score: 6
+tags:
+  - "#high-protein"
+  - "#weeknight"
+  - "#classic"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1/2 cup flour for dredging"
+    name: "flour for dredging"
+    ingredient_id: "flour-for-dredging"
+    quantity: 0.5
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "Salt and freshly ground pepper to taste"
+    name: "Salt and freshly ground pepper"
+    ingredient_id: "salt-and-freshly-ground-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "4 skinless boneless chicken breasts, about 6 ounces each"
+    name: "skinless boneless chicken breasts"
+    ingredient_id: "skinless-boneless-chicken-breasts"
+    quantity: 4
+    unit: null
+    preparation: "about 6 ounces each"
+    optional: false
+    grocery_department: "meat"
+  - display: "2 tablespoons olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "4 sprigs fresh thyme or 1 teaspoon dried"
+    name: "fresh thyme or 1 teaspoon dried"
+    ingredient_id: "fresh-thyme-or-1-teaspoon-dried"
+    quantity: 4
+    unit: "sprigs"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "2 tablespoons finely chopped shallots"
+    name: "finely chopped shallots"
+    ingredient_id: "finely-chopped-shallots"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 teaspoons finely chopped garlic"
+    name: "finely chopped garlic"
+    ingredient_id: "finely-chopped-garlic"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "2 teaspoons grated lemon zest"
+    name: "grated lemon zest"
+    ingredient_id: "grated-lemon-zest"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "3 tablespoons lemon juice"
+    name: "lemon juice"
+    ingredient_id: "lemon-juice"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "1/2 cup chicken broth, fresh or canned"
+    name: "chicken broth"
+    ingredient_id: "chicken-broth"
+    quantity: 0.5
+    unit: "cup"
+    preparation: "fresh or canned"
+    optional: false
+    grocery_department: "meat"
+  - display: "2 tablespoons butter"
+    name: "butter"
+    ingredient_id: "butter"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Chicken Breasts With Lemon
 
 **Category:** Dinner

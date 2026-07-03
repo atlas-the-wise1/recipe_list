@@ -1,3 +1,129 @@
+---
+schema_version: 1
+id: "sheet-pan-roasted-salmon-with-pea-pesto"
+title: "Sheet-Pan Roasted Salmon With Pea Pesto"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 25
+  total_minutes: 40
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 620
+  protein_g: 32
+  carbohydrate_g: 31
+  net_carbohydrate_g: null
+  fat_g: 38
+  saturated_fat_g: null
+  fiber_g: 5
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 95
+health_score: 7
+tags:
+  - "#high-protein"
+  - "#gluten-free"
+  - "#weeknight"
+dietary_tags:
+  - "gluten_free"
+goal_tags:
+  - "high_protein"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 1/2 pounds fingerling or baby potatoes, sliced in half lengthwise"
+    name: "fingerling or baby potatoes"
+    ingredient_id: "fingerling-or-baby-potatoes"
+    quantity: 1.5
+    unit: "pounds"
+    preparation: "sliced in half lengthwise"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 cup olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Salt and pepper"
+    name: "Salt and pepper"
+    ingredient_id: "salt-and-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "4 (6-ounce) skin-on salmon fillets"
+    name: "(6-ounce) skin-on salmon fillets"
+    ingredient_id: "6-ounce-skin-on-salmon-fillets"
+    quantity: 4
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "seafood"
+  - display: "1/2 cup fresh or frozen green peas"
+    name: "fresh or frozen green peas"
+    ingredient_id: "fresh-or-frozen-green-peas"
+    quantity: 0.5
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1/3 cup roasted almonds"
+    name: "roasted almonds"
+    ingredient_id: "roasted-almonds"
+    quantity: 0.333
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "4 garlic cloves"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 4
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 cup packed fresh basil leaves"
+    name: "packed fresh basil leaves"
+    ingredient_id: "packed-fresh-basil-leaves"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/2 cup lemon juice (from 2 to 3 lemons)"
+    name: "lemon juice"
+    ingredient_id: "lemon-juice"
+    quantity: 0.5
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Sheet-Pan Roasted Salmon With Pea Pesto
 
 **Category:** Dinner

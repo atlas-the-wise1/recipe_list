@@ -1,3 +1,59 @@
+---
+schema_version: 1
+id: "crispy-sheet-pan-noodles-with-glazed-tofu"
+title: "Crispy Sheet-Pan Noodles With Glazed Tofu"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 20
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 520
+  protein_g: 22
+  carbohydrate_g: 64
+  net_carbohydrate_g: null
+  fat_g: 18
+  saturated_fat_g: null
+  fiber_g: 5
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 0
+health_score: 7
+tags:
+  - "#vegetarian"
+  - "#meal-prep"
+  - "#high-protein"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  - "meal_prep"
+  - "high_protein"
+allergens: []
+equipment:
+[]
+ingredients:
+[]
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Crispy Sheet-Pan Noodles With Glazed Tofu
 
 **Category:** Dinner

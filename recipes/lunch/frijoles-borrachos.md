@@ -1,3 +1,131 @@
+---
+schema_version: 1
+id: "frijoles-borrachos"
+title: "Frijoles Borrachos (Drunken Beans)"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: null
+times:
+  prep_minutes: 15
+  cook_minutes: 2
+  total_minutes: 2.5
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 5
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 pound dried pinto beans"
+    name: "dried pinto beans"
+    ingredient_id: "dried-pinto-beans"
+    quantity: 1
+    unit: "pound"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "5 slices thick-cut turkey bacon, thinly sliced crosswise"
+    name: "thick-cut turkey bacon"
+    ingredient_id: "thick-cut-turkey-bacon"
+    quantity: 5
+    unit: "slices"
+    preparation: "thinly sliced crosswise"
+    optional: false
+    grocery_department: "meat"
+  - display: "1 large yellow or white onion, coarsely chopped"
+    name: "yellow or white onion"
+    ingredient_id: "yellow-or-white-onion"
+    quantity: 1
+    unit: null
+    preparation: "coarsely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "4 garlic cloves, chopped"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 4
+    unit: null
+    preparation: "chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 jalapeño, serrano, or poblano peppers, seeded and coarsely chopped"
+    name: "jalapeño"
+    ingredient_id: "jalape-o"
+    quantity: 2
+    unit: null
+    preparation: "serrano, or poblano peppers, seeded and coarsely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "Handful of cilantro sprigs — stems finely chopped, leaves left whole"
+    name: "Handful of cilantro sprigs — stems finely chopped"
+    ingredient_id: "handful-of-cilantro-sprigs-stems-finely-chopped"
+    quantity: null
+    unit: null
+    preparation: "leaves left whole"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 medium to large tomatoes, coarsely chopped"
+    name: "to large tomatoes"
+    ingredient_id: "to-large-tomatoes"
+    quantity: 2
+    unit: null
+    preparation: "coarsely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "Salt"
+    name: "Salt"
+    ingredient_id: "salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "12 oz light or dark Mexican beer (1 bottle or can)"
+    name: "light or dark Mexican beer"
+    ingredient_id: "light-or-dark-mexican-beer"
+    quantity: 12
+    unit: "oz"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Frijoles Borrachos (Drunken Beans)
 
 **Category:** L — Lunch

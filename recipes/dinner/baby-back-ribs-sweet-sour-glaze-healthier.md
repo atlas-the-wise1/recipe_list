@@ -1,3 +1,99 @@
+---
+schema_version: 1
+id: "baby-back-ribs-sweet-sour-glaze-healthier"
+title: "Baby Back Ribs With Sweet and Sour Glaze — Healthier Variant"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 2.5
+  total_minutes: 2
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 420
+  protein_g: 42
+  carbohydrate_g: 14
+  net_carbohydrate_g: null
+  fat_g: 20
+  saturated_fat_g: null
+  fiber_g: 0
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 105
+health_score: 7
+tags:
+  - "#high-protein"
+  - "#meal-prep"
+  - "#heart-healthy"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+  - "heart_health"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 rack St. Louis-cut spare ribs (~3 lbs), fat cap trimmed, membrane removed"
+    name: "rack St. Louis-cut spare ribs"
+    ingredient_id: "rack-st-louis-cut-spare-ribs"
+    quantity: 1
+    unit: null
+    preparation: "fat cap trimmed, membrane removed"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1½ tsp coarse kosher salt"
+    name: "1½ tsp coarse kosher salt"
+    ingredient_id: "1-tsp-coarse-kosher-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tsp onion powder"
+    name: "onion powder"
+    ingredient_id: "onion-powder"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "½ tsp smoked paprika"
+    name: "½ tsp smoked paprika"
+    ingredient_id: "tsp-smoked-paprika"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ tsp freshly ground black pepper"
+    name: "½ tsp freshly ground black pepper"
+    ingredient_id: "tsp-freshly-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Baby Back Ribs With Sweet and Sour Glaze — Healthier Variant
 
 > 💡 **Healthier Variant** of Baby Back Ribs With Sweet and Sour Glaze — see `baby-back-ribs-sweet-sour-glaze.md` for the classic version.

@@ -1,3 +1,152 @@
+---
+schema_version: 1
+id: "sausage-and-egg-tater-tot-casserole"
+title: "Sausage and Egg Tater Tot Casserole"
+status: reviewed
+category: "breakfast"
+meal_types:
+  - breakfast
+servings: 6
+times:
+  prep_minutes: 15
+  cook_minutes: 45
+  total_minutes: 1
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 4
+tags:
+  - "#eggs"
+  - "#make-ahead"
+dietary_tags:
+  []
+goal_tags:
+  []
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "8 large eggs"
+    name: "eggs"
+    ingredient_id: "eggs"
+    quantity: 8
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 cup milk"
+    name: "milk"
+    ingredient_id: "milk"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 tablespoon smoked paprika"
+    name: "smoked paprika"
+    ingredient_id: "smoked-paprika"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 teaspoon garlic powder"
+    name: "garlic powder"
+    ingredient_id: "garlic-powder"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 teaspoon onion powder"
+    name: "onion powder"
+    ingredient_id: "onion-powder"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1/2 teaspoon black pepper"
+    name: "black pepper"
+    ingredient_id: "black-pepper"
+    quantity: 0.5
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 pound uncooked pork, chicken, or turkey breakfast sausage, casings removed, if any (see Tip)"
+    name: "uncooked pork"
+    ingredient_id: "uncooked-pork"
+    quantity: 1
+    unit: "pound"
+    preparation: "chicken, or turkey breakfast sausage, casings removed, if any (see Tip)"
+    optional: false
+    grocery_department: "meat"
+  - display: "Olive oil, if necessary"
+    name: "Olive oil"
+    ingredient_id: "olive-oil"
+    quantity: null
+    unit: null
+    preparation: "if necessary"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 green bell pepper, diced"
+    name: "green bell pepper"
+    ingredient_id: "green-bell-pepper"
+    quantity: 1
+    unit: null
+    preparation: "diced"
+    optional: false
+    grocery_department: "condiments"
+  - display: "4 cups frozen Tater Tots (seasoned or unseasoned), about 19 ounces"
+    name: "frozen Tater Tots"
+    ingredient_id: "frozen-tater-tots"
+    quantity: 4
+    unit: "cups"
+    preparation: "about 19 ounces"
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 cup shredded sharp Cheddar"
+    name: "shredded sharp Cheddar"
+    ingredient_id: "shredded-sharp-cheddar"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/4 cup sliced scallions (about 2 scallions)"
+    name: "sliced scallions"
+    ingredient_id: "sliced-scallions"
+    quantity: 0.25
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Sausage and Egg Tater Tot Casserole
 
 **Category:** Breakfast
@@ -6,7 +155,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | TBD | TBD | TBD | TBD | TBD | TBD |
-**Health Score:** TBD
+**Health Score:** 4/10
 
 **Serves:** 6 to 8
 **Prep Time:** 15 min | **Cook Time:** 45–55 min | **Total:** ~1 hr 10 min

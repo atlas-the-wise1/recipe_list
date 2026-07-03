@@ -1,3 +1,153 @@
+---
+schema_version: 1
+id: "marry-me-chicken"
+title: "Marry Me Chicken"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 20
+  total_minutes: 30
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 280
+  protein_g: 30
+  carbohydrate_g: 12
+  net_carbohydrate_g: null
+  fat_g: 11
+  saturated_fat_g: null
+  fiber_g: 2
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 85
+health_score: 7
+tags:
+  - "#high-protein"
+  - "#low-cholesterol"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "lower_cholesterol"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "4 boneless, skinless chicken breasts (6 oz each)"
+    name: "boneless"
+    ingredient_id: "boneless"
+    quantity: 4
+    unit: null
+    preparation: "skinless chicken breasts (6 oz each)"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Salt and black pepper to taste"
+    name: "Salt and black pepper"
+    ingredient_id: "salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tbsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "4 cloves garlic, minced"
+    name: "garlic"
+    ingredient_id: "garlic"
+    quantity: 4
+    unit: "cloves"
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "½ cup sun-dried tomatoes (oil-packed), chopped"
+    name: "½ cup sun-dried tomatoes"
+    ingredient_id: "cup-sun-dried-tomatoes"
+    quantity: null
+    unit: null
+    preparation: "chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "½ cup chicken broth"
+    name: "½ cup chicken broth"
+    ingredient_id: "cup-chicken-broth"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "½ cup heavy cream"
+    name: "½ cup heavy cream"
+    ingredient_id: "cup-heavy-cream"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 tsp Italian seasoning"
+    name: "Italian seasoning"
+    ingredient_id: "italian-seasoning"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 cup fresh spinach, roughly chopped"
+    name: "fresh spinach"
+    ingredient_id: "fresh-spinach"
+    quantity: 1
+    unit: "cup"
+    preparation: "roughly chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "¼ cup grated Parmesan cheese"
+    name: "¼ cup grated Parmesan cheese"
+    ingredient_id: "cup-grated-parmesan-cheese"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 tbsp butter"
+    name: "butter"
+    ingredient_id: "butter"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "½ tsp red pepper flakes (optional)"
+    name: "½ tsp red pepper flakes"
+    ingredient_id: "tsp-red-pepper-flakes"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: true
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Marry Me Chicken
 
 **Category:** D — Dinner

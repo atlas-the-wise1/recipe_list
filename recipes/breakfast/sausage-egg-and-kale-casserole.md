@@ -1,3 +1,152 @@
+---
+schema_version: 1
+id: "sausage-egg-and-kale-casserole"
+title: "Sausage, Egg and Kale Casserole"
+status: reviewed
+category: "breakfast"
+meal_types:
+  - breakfast
+servings: null
+times:
+  prep_minutes: null
+  cook_minutes: null
+  total_minutes: null
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 5
+tags:
+  - "#eggs"
+  - "#make-ahead"
+dietary_tags:
+  []
+goal_tags:
+  []
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "Softened butter, for greasing the dish"
+    name: "Softened butter"
+    ingredient_id: "softened-butter"
+    quantity: null
+    unit: null
+    preparation: "for greasing the dish"
+    optional: false
+    grocery_department: "dairy"
+  - display: "6 teaspoons olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 6
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "3/4 pound fresh hot sausage, like Italian, chorizo or merguez, casings removed"
+    name: "fresh hot sausage"
+    ingredient_id: "fresh-hot-sausage"
+    quantity: 0.75
+    unit: "pound"
+    preparation: "like Italian, chorizo or merguez, casings removed"
+    optional: false
+    grocery_department: "meat"
+  - display: "1 large red onion (about 12 ounces), halved, then sliced lengthwise into 1/4-inch-thick wedges"
+    name: "red onion"
+    ingredient_id: "red-onion"
+    quantity: 1
+    unit: null
+    preparation: "halved, then sliced lengthwise into 1/4-inch-thick wedges"
+    optional: false
+    grocery_department: "produce"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "4 cups torn kale leaves (about 3 ounces)"
+    name: "torn kale leaves"
+    ingredient_id: "torn-kale-leaves"
+    quantity: 4
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "10 ounces grape tomatoes, halved crosswise"
+    name: "grape tomatoes"
+    ingredient_id: "grape-tomatoes"
+    quantity: 10
+    unit: "ounces"
+    preparation: "halved crosswise"
+    optional: false
+    grocery_department: "produce"
+  - display: "3/4 cup diced fontina (about 3 ounces)"
+    name: "diced fontina"
+    ingredient_id: "diced-fontina"
+    quantity: 0.75
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "12 large eggs"
+    name: "eggs"
+    ingredient_id: "eggs"
+    quantity: 12
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "3/4 cup heavy cream or milk"
+    name: "heavy cream or milk"
+    ingredient_id: "heavy-cream-or-milk"
+    quantity: 0.75
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1/2 cup grated Parmesan (about 1 ounce)"
+    name: "grated Parmesan"
+    ingredient_id: "grated-parmesan"
+    quantity: 0.5
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Aleppo pepper, for finishing (optional)"
+    name: "Aleppo pepper"
+    ingredient_id: "aleppo-pepper"
+    quantity: null
+    unit: null
+    preparation: "for finishing"
+    optional: true
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Sausage, Egg and Kale Casserole
 
 **Category:** Breakfast
@@ -6,7 +155,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | TBD | TBD | TBD | TBD | TBD | TBD |
-**Health Score:** TBD
+**Health Score:** 5/10
 
 **Serves:** TBD
 **Prep Time:** TBD | **Cook Time:** TBD | **Total:** TBD
@@ -45,4 +194,3 @@
 **STEP 6:** Pour the egg mixture over the ingredients in the baking dish, and sprinkle with Parmesan. Bake until the eggs are just set in the middle, 25 to 30 minutes. (Increase the baking time by about 15 minutes if the components were refrigerated ahead of time.)
 
 **STEP 7:** Broil until the top is lightly browned, 2 to 3 minutes. Sprinkle with Aleppo, if using.
-

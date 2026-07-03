@@ -1,3 +1,115 @@
+---
+schema_version: 1
+id: "pear-ginger-sake-martini"
+title: "Pear & Ginger Saké Martini"
+status: reviewed
+category: "drinks"
+meal_types:
+  - drink
+servings: 3
+times:
+  prep_minutes: 5
+  cook_minutes: null
+  total_minutes: 5
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 173
+  protein_g: 0
+  carbohydrate_g: 36
+  net_carbohydrate_g: null
+  fat_g: 0
+  saturated_fat_g: null
+  fiber_g: 2
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 0
+health_score: 5
+tags:
+  - "#cocktail"
+  - "#quick"
+  - "#vegan"
+  - "#low-cholesterol"
+dietary_tags:
+  - "vegan"
+goal_tags:
+  - "quick_preparation"
+  - "lower_cholesterol"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 frozen pear, peeled, cored, and quartered"
+    name: "frozen pear"
+    ingredient_id: "frozen-pear"
+    quantity: 1
+    unit: null
+    preparation: "peeled, cored, and quartered"
+    optional: false
+    grocery_department: "frozen"
+  - display: "½ teaspoon grated fresh ginger"
+    name: "½ teaspoon grated fresh ginger"
+    ingredient_id: "teaspoon-grated-fresh-ginger"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "2 cups pear juice"
+    name: "pear juice"
+    ingredient_id: "pear-juice"
+    quantity: 2
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "½ cup saké"
+    name: "½ cup saké"
+    ingredient_id: "cup-sak"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tablespoon agave"
+    name: "agave"
+    ingredient_id: "agave"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 cup ice"
+    name: "ice"
+    ingredient_id: "ice"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "Crystallized ginger pieces, slit partway through *(optional, for garnish)*"
+    name: "Crystallized ginger pieces"
+    ingredient_id: "crystallized-ginger-pieces"
+    quantity: null
+    unit: null
+    preparation: "slit partway through *(, for garnish)*"
+    optional: true
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Pear & Ginger Saké Martini
 
 **Category:** D — Drinks

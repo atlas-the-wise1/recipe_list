@@ -1,3 +1,109 @@
+---
+schema_version: 1
+id: "lite-chocolate-ice-cream-creami"
+title: "Lite Chocolate Ice Cream"
+status: reviewed
+category: "snacks"
+meal_types:
+  - snack_1
+  - snack_2
+servings: 4
+times:
+  prep_minutes: 5
+  cook_minutes: null
+  total_minutes: null
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 132
+  protein_g: 1
+  carbohydrate_g: 13
+  net_carbohydrate_g: null
+  fat_g: 9
+  saturated_fat_g: null
+  fiber_g: 1
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 0
+health_score: 6
+tags:
+  - "#vegan"
+  - "#low-cholesterol"
+  - "#heart-healthy"
+  - "#fat-loss"
+dietary_tags:
+  - "vegan"
+goal_tags:
+  - "lower_cholesterol"
+  - "heart_health"
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "¾ cup unsweetened coconut cream"
+    name: "¾ cup unsweetened coconut cream"
+    ingredient_id: "cup-unsweetened-coconut-cream"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "3 tablespoons monk fruit sweetener with erythritol"
+    name: "monk fruit sweetener with erythritol"
+    ingredient_id: "monk-fruit-sweetener-with-erythritol"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons dark cocoa powder"
+    name: "dark cocoa powder"
+    ingredient_id: "dark-cocoa-powder"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tablespoon raw agave nectar"
+    name: "raw agave nectar"
+    ingredient_id: "raw-agave-nectar"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 teaspoon vanilla extract"
+    name: "vanilla extract"
+    ingredient_id: "vanilla-extract"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 cup chocolate oat milk"
+    name: "chocolate oat milk"
+    ingredient_id: "chocolate-oat-milk"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Lite Chocolate Ice Cream
 
 **Category:** S — Snacks

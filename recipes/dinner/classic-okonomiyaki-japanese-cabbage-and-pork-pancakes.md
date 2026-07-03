@@ -1,3 +1,161 @@
+---
+schema_version: 1
+id: "classic-okonomiyaki-japanese-cabbage-and-pork-pancakes"
+title: "Classic Okonomiyaki (Japanese Cabbage and Pork Pancakes)"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 2
+times:
+  prep_minutes: 15
+  cook_minutes: 20
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 5
+tags:
+  - "#savory"
+  - "#weeknight"
+  - "#japanese"
+dietary_tags:
+  []
+goal_tags:
+  []
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 teaspoon hondashi (bonito soup stock) or instant dashi"
+    name: "hondashi (bonito soup stock) or instant dashi"
+    ingredient_id: "hondashi-bonito-soup-stock-or-instant-dashi"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 cup water"
+    name: "water"
+    ingredient_id: "water"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "2 large eggs"
+    name: "eggs"
+    ingredient_id: "eggs"
+    quantity: 2
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "3/4 cup all-purpose flour"
+    name: "all-purpose flour"
+    ingredient_id: "all-purpose-flour"
+    quantity: 0.75
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "1 1/2 teaspoons kosher salt"
+    name: "kosher salt"
+    ingredient_id: "kosher-salt"
+    quantity: 1.5
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1/2 teaspoon baking powder"
+    name: "baking powder"
+    ingredient_id: "baking-powder"
+    quantity: 0.5
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/4 teaspoon baking soda"
+    name: "baking soda"
+    ingredient_id: "baking-soda"
+    quantity: 0.25
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "4 cups finely shredded green cabbage (about 1/2 pound)"
+    name: "finely shredded green cabbage"
+    ingredient_id: "finely-shredded-green-cabbage"
+    quantity: 4
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 cup thinly sliced scallions (about 5 scallions)"
+    name: "thinly sliced scallions"
+    ingredient_id: "thinly-sliced-scallions"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 tablespoon drained pickled red ginger (or finely chopped pickled sushi ginger)"
+    name: "drained pickled red ginger"
+    ingredient_id: "drained-pickled-red-ginger"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1/4 cup safflower or canola oil"
+    name: "safflower or canola oil"
+    ingredient_id: "safflower-or-canola-oil"
+    quantity: 0.25
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "3 ounces sliced pork belly or bacon, cut crosswise into 5-inch pieces"
+    name: "sliced pork belly or bacon"
+    ingredient_id: "sliced-pork-belly-or-bacon"
+    quantity: 3
+    unit: "ounces"
+    preparation: "cut crosswise into 5-inch pieces"
+    optional: false
+    grocery_department: "meat"
+  - display: "Okonomi sauce, Kewpie mayonnaise, dried shaved bonito, and shredded nori, for serving"
+    name: "Okonomi sauce"
+    ingredient_id: "okonomi-sauce"
+    quantity: null
+    unit: null
+    preparation: "Kewpie mayonnaise, dried shaved bonito, and shredded nori, for serving"
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Classic Okonomiyaki (Japanese Cabbage and Pork Pancakes)
 
 **Category:** Dinner

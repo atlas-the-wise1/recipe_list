@@ -1,3 +1,85 @@
+---
+schema_version: 1
+id: "iwuk-edesi-one-pot-rice-chicken-healthier"
+title: "Iwuk Edesi (One-Pot Rice With Chicken) — Healthier Variant"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 20
+  cook_minutes: 45
+  total_minutes: 65
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 510
+  protein_g: 50
+  carbohydrate_g: 48
+  net_carbohydrate_g: null
+  fat_g: 14
+  saturated_fat_g: null
+  fiber_g: 4
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 90
+health_score: 8
+tags:
+  - "#high-protein"
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "heart_health"
+  - "lower_cholesterol"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1–2 yellow or red Scotch bonnet chiles or red habanero chiles"
+    name: "1–2 yellow or red Scotch bonnet chiles or red habanero chiles"
+    ingredient_id: "1-2-yellow-or-red-scotch-bonnet-chiles-or-red-habanero-chiles"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tbsp whole crayfish or dried shrimp, soaked in warm water 10 min then drained (or ½ tbsp ground crayfish)"
+    name: "whole crayfish or dried shrimp"
+    ingredient_id: "whole-crayfish-or-dried-shrimp"
+    quantity: 1
+    unit: "tbsp"
+    preparation: "soaked in warm water 10 min then drained (or ½ tbsp ground crayfish)"
+    optional: false
+    grocery_department: "seafood"
+  - display: "¼ tsp fresh or dried irú, soaked in warm water 10 min and drained (or substitute fish sauce or fermented black beans)"
+    name: "¼ tsp fresh or dried irú"
+    ingredient_id: "tsp-fresh-or-dried-ir"
+    quantity: null
+    unit: null
+    preparation: "soaked in warm water 10 min and drained (or substitute fish sauce or fermented black beans)"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Iwuk Edesi (One-Pot Rice With Chicken) — Healthier Variant
 
 > 💡 **Healthier Variant** of Iwuk Edesi (One-Pot Rice With Chicken) — see `iwuk-edesi-one-pot-rice-chicken.md` for the classic version.

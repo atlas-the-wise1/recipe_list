@@ -1,3 +1,149 @@
+---
+schema_version: 1
+id: "one-pan-salmon-nicoise-orzo"
+title: "One-Pan Salmon Niçoise With Orzo"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 25
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 480
+  protein_g: 38
+  carbohydrate_g: 42
+  net_carbohydrate_g: null
+  fat_g: 18
+  saturated_fat_g: null
+  fiber_g: 4
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 80
+health_score: 8
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#high-protein"
+  - "#fat-loss"
+dietary_tags:
+  []
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "high_protein"
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 large shallot, coarsely chopped"
+    name: "shallot"
+    ingredient_id: "shallot"
+    quantity: 1
+    unit: null
+    preparation: "coarsely chopped"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons extra-virgin olive oil"
+    name: "extra-virgin olive oil"
+    ingredient_id: "extra-virgin-olive-oil"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 cup orzo"
+    name: "orzo"
+    ingredient_id: "orzo"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "½ cup pitted kalamata olives"
+    name: "½ cup pitted kalamata olives"
+    ingredient_id: "cup-pitted-kalamata-olives"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 pint cherry or other small tomatoes, halved (8–10 oz)"
+    name: "pint cherry or other small tomatoes"
+    ingredient_id: "pint-cherry-or-other-small-tomatoes"
+    quantity: 1
+    unit: null
+    preparation: "halved (8–10 oz)"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tablespoons red wine vinegar"
+    name: "red wine vinegar"
+    ingredient_id: "red-wine-vinegar"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "1 tablespoon Dijon mustard"
+    name: "Dijon mustard"
+    ingredient_id: "dijon-mustard"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Handful of basil leaves or pinch of thyme leaves *(optional)*"
+    name: "Handful of basil leaves or pinch of thyme leaves **"
+    ingredient_id: "handful-of-basil-leaves-or-pinch-of-thyme-leaves"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: true
+    grocery_department: "uncategorized"
+  - display: "4 (4–5 oz) salmon fillets, skin-on or skinless"
+    name: "(4–5 oz) salmon fillets"
+    ingredient_id: "4-5-oz-salmon-fillets"
+    quantity: 4
+    unit: null
+    preparation: "skin-on or skinless"
+    optional: false
+    grocery_department: "seafood"
+  - display: "8 oz green beans, trimmed and cut into 1-inch lengths"
+    name: "green beans"
+    ingredient_id: "green-beans"
+    quantity: 8
+    unit: "oz"
+    preparation: "trimmed and cut into 1-inch lengths"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # One-Pan Salmon Niçoise With Orzo
 
 **Category:** D — Dinner

@@ -1,3 +1,146 @@
+---
+schema_version: 1
+id: "bengali-style-mustard-oil-fish"
+title: "Bengali-Style Mustard Oil Fish"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 15
+  total_minutes: 30
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 360
+  protein_g: 32
+  carbohydrate_g: 18
+  net_carbohydrate_g: null
+  fat_g: 16
+  saturated_fat_g: null
+  fiber_g: 1
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 85
+health_score: 7
+tags:
+  - "#high-protein"
+  - "#gluten-free"
+  - "#global"
+  - "#weeknight"
+dietary_tags:
+  - "gluten_free"
+goal_tags:
+  - "high_protein"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 1/2 teaspoons black mustard seeds"
+    name: "black mustard seeds"
+    ingredient_id: "black-mustard-seeds"
+    quantity: 1.5
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 fresh hot green chile (such as serrano or Thai bird's eye), finely chopped"
+    name: "fresh hot green chile"
+    ingredient_id: "fresh-hot-green-chile"
+    quantity: 1
+    unit: null
+    preparation: "finely chopped"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons unsweetened grated dried coconut"
+    name: "unsweetened grated dried coconut"
+    ingredient_id: "unsweetened-grated-dried-coconut"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons finely chopped yellow onion"
+    name: "finely chopped yellow onion"
+    ingredient_id: "finely-chopped-yellow-onion"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "3/4 teaspoon coarse kosher salt"
+    name: "coarse kosher salt"
+    ingredient_id: "coarse-kosher-salt"
+    quantity: 0.75
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1/4 teaspoon ground turmeric"
+    name: "ground turmeric"
+    ingredient_id: "ground-turmeric"
+    quantity: 0.25
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/4 teaspoon red chile powder (such as cayenne or Kashmiri)"
+    name: "red chile powder"
+    ingredient_id: "red-chile-powder"
+    quantity: 0.25
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "3 teaspoons mustard oil, plus more if needed"
+    name: "mustard oil"
+    ingredient_id: "mustard-oil"
+    quantity: 3
+    unit: "teaspoons"
+    preparation: "plus more if needed"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 1/2 pounds cod or haddock, divided into 4 fillets"
+    name: "cod or haddock"
+    ingredient_id: "cod-or-haddock"
+    quantity: 1.5
+    unit: "pounds"
+    preparation: "divided into 4 fillets"
+    optional: false
+    grocery_department: "seafood"
+  - display: "4 pieces aluminum foil, each large enough to make a loose packet around a fish fillet"
+    name: "pieces aluminum foil"
+    ingredient_id: "pieces-aluminum-foil"
+    quantity: 4
+    unit: null
+    preparation: "each large enough to make a loose packet around a fish fillet"
+    optional: false
+    grocery_department: "condiments"
+  - display: "Cooked rice, for serving"
+    name: "Cooked rice"
+    ingredient_id: "cooked-rice"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "frozen"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Bengali-Style Mustard Oil Fish
 
 **Category:** Dinner

@@ -1,3 +1,167 @@
+---
+schema_version: 1
+id: "rotisserie-chicken-greens-pasta-healthier"
+title: "Rotisserie Chicken and Greens Pasta — Healthier Variant"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 25
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 475
+  protein_g: 56
+  carbohydrate_g: 50
+  net_carbohydrate_g: null
+  fat_g: 7
+  saturated_fat_g: null
+  fiber_g: 11
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 90
+health_score: 9
+tags:
+  - "#high-protein"
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#meal-prep"
+  - "#fat-loss"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "heart_health"
+  - "lower_cholesterol"
+  - "meal_prep"
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "Salt and freshly ground black pepper"
+    name: "Salt and freshly ground black pepper"
+    ingredient_id: "salt-and-freshly-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 lb **Banza chickpea** rigatoni or penne"
+    name: "**Banza chickpea** rigatoni or penne"
+    ingredient_id: "banza-chickpea-rigatoni-or-penne"
+    quantity: 1
+    unit: "lb"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 small rotisserie chicken (~1¾ lbs) or ~2½ cups shredded cooked chicken"
+    name: "rotisserie chicken (~1¾ lbs) or ~2½ cups shredded cooked chicken"
+    ingredient_id: "rotisserie-chicken-1-lbs-or-2-cups-shredded-cooked-chicken"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "**1 tbsp** unsalted butter (reduced from 3 tbsp)"
+    name: "**1 tbsp** unsalted butter"
+    ingredient_id: "1-tbsp-unsalted-butter"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 medium yellow onion, thinly sliced (~2 packed cups)"
+    name: "yellow onion"
+    ingredient_id: "yellow-onion"
+    quantity: 1
+    unit: null
+    preparation: "thinly sliced (~2 packed cups)"
+    optional: false
+    grocery_department: "produce"
+  - display: "5 large garlic cloves, finely chopped or grated"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 5
+    unit: null
+    preparation: "finely chopped or grated"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tsp Dijon mustard"
+    name: "Dijon mustard"
+    ingredient_id: "dijon-mustard"
+    quantity: 2
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 cup low-sodium chicken stock"
+    name: "low-sodium chicken stock"
+    ingredient_id: "low-sodium-chicken-stock"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "¼ cup plain Greek yogurt (full-fat or 2%)"
+    name: "¼ cup plain Greek yogurt"
+    ingredient_id: "cup-plain-greek-yogurt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "½ cup reserved pasta water (plus more as needed)"
+    name: "½ cup reserved pasta water"
+    ingredient_id: "cup-reserved-pasta-water"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "**12 oz** baby kale, spinach, or chopped chard (increased from 8–10 oz)"
+    name: "**12 oz** baby kale"
+    ingredient_id: "12-oz-baby-kale"
+    quantity: null
+    unit: null
+    preparation: "spinach, or chopped chard (increased from 8–10 oz)"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 juicy lemon, zested then halved"
+    name: "juicy lemon"
+    ingredient_id: "juicy-lemon"
+    quantity: 1
+    unit: null
+    preparation: "zested then halved"
+    optional: false
+    grocery_department: "produce"
+  - display: "Parmesan, for serving"
+    name: "Parmesan"
+    ingredient_id: "parmesan"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Rotisserie Chicken and Greens Pasta — Healthier Variant
 
 > 💡 **Healthier Variant** of Rotisserie Chicken and Greens Pasta — see `rotisserie-chicken-greens-pasta.md` for the classic version.

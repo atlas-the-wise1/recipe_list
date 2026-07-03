@@ -1,3 +1,161 @@
+---
+schema_version: 1
+id: "skillet-chicken-with-orzo-dill-and-feta"
+title: "Skillet Chicken With Orzo, Dill and Feta"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 35
+  total_minutes: 50
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 560
+  protein_g: 34
+  carbohydrate_g: 40
+  net_carbohydrate_g: null
+  fat_g: 26
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 145
+health_score: 6
+tags:
+  - "#high-protein"
+  - "#weeknight"
+  - "#one-pan"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 lemons"
+    name: "lemons"
+    ingredient_id: "lemons"
+    quantity: 2
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "5 tablespoons olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 5
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "3 garlic cloves, smashed"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 3
+    unit: null
+    preparation: "smashed"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 teaspoon kosher salt"
+    name: "kosher salt"
+    ingredient_id: "kosher-salt"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 teaspoon black pepper"
+    name: "black pepper"
+    ingredient_id: "black-pepper"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 pounds chicken drumsticks or bone-in thighs"
+    name: "chicken drumsticks or bone-in thighs"
+    ingredient_id: "chicken-drumsticks-or-bone-in-thighs"
+    quantity: 2
+    unit: "pounds"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "1 yellow onion, peeled and chopped"
+    name: "yellow onion"
+    ingredient_id: "yellow-onion"
+    quantity: 1
+    unit: null
+    preparation: "peeled and chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 cups orzo"
+    name: "orzo"
+    ingredient_id: "orzo"
+    quantity: 2
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "3 cups chicken broth or water"
+    name: "chicken broth or water"
+    ingredient_id: "chicken-broth-or-water"
+    quantity: 3
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "2 small or 1 large thin-skinned English cucumbers, chopped"
+    name: "or 1 large thin-skinned English cucumbers"
+    ingredient_id: "or-1-large-thin-skinned-english-cucumbers"
+    quantity: 2
+    unit: null
+    preparation: "chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "5 ounces feta, crumbled (about 1 1/4 cups)"
+    name: "feta"
+    ingredient_id: "feta"
+    quantity: 5
+    unit: "ounces"
+    preparation: "crumbled (about 1 1/4 cups)"
+    optional: false
+    grocery_department: "dairy"
+  - display: "2 tablespoons chopped fresh dill"
+    name: "chopped fresh dill"
+    ingredient_id: "chopped-fresh-dill"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Castelvetrano or other green olives, for serving"
+    name: "Castelvetrano or other green olives"
+    ingredient_id: "castelvetrano-or-other-green-olives"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Skillet Chicken With Orzo, Dill and Feta
 
 **Category:** Dinner

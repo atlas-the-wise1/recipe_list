@@ -1,3 +1,179 @@
+---
+schema_version: 1
+id: "eggplant-bean-chili"
+title: "Eggplant and Bean Chili"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 45
+  total_minutes: 60
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 415
+  protein_g: 24
+  carbohydrate_g: 69
+  net_carbohydrate_g: null
+  fat_g: 8
+  saturated_fat_g: null
+  fiber_g: 22
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 0
+health_score: 6
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "¼ cup neutral oil (safflower or canola)"
+    name: "¼ cup neutral oil"
+    ingredient_id: "cup-neutral-oil"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 lb eggplant (1 medium), peeled and cut into ½-inch cubes (~6 cups)"
+    name: "eggplant"
+    ingredient_id: "eggplant"
+    quantity: 1
+    unit: "lb"
+    preparation: "peeled and cut into ½-inch cubes (~6 cups)"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 small onion, finely chopped (~1 cup)"
+    name: "onion"
+    ingredient_id: "onion"
+    quantity: 1
+    unit: null
+    preparation: "finely chopped (~1 cup)"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 small carrots, peeled and cut into ¼-inch dice (~1 cup)"
+    name: "carrots"
+    ingredient_id: "carrots"
+    quantity: 2
+    unit: null
+    preparation: "peeled and cut into ¼-inch dice (~1 cup)"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tbsp tomato paste"
+    name: "tomato paste"
+    ingredient_id: "tomato-paste"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "3 large garlic cloves, minced"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 3
+    unit: null
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 tbsp pure chile powder (ancho, chipotle, or a mix)"
+    name: "pure chile powder (ancho"
+    ingredient_id: "pure-chile-powder-ancho"
+    quantity: 1
+    unit: "tbsp"
+    preparation: "chipotle, or a mix)"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tsp ground cumin"
+    name: "ground cumin"
+    ingredient_id: "ground-cumin"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ tsp dried oregano"
+    name: "½ tsp dried oregano"
+    ingredient_id: "tsp-dried-oregano"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 (14 oz) can whole tomatoes and their juices, crushed by hand"
+    name: "(14 oz) can whole tomatoes and their juices"
+    ingredient_id: "14-oz-can-whole-tomatoes-and-their-juices"
+    quantity: 1
+    unit: null
+    preparation: "crushed by hand"
+    optional: false
+    grocery_department: "beverages"
+  - display: "1 (15 oz) can red kidney beans, rinsed"
+    name: "(15 oz) can red kidney beans"
+    ingredient_id: "15-oz-can-red-kidney-beans"
+    quantity: 1
+    unit: null
+    preparation: "rinsed"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 (14 oz) can lentils, rinsed"
+    name: "(14 oz) can lentils"
+    ingredient_id: "14-oz-can-lentils"
+    quantity: 1
+    unit: null
+    preparation: "rinsed"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Thinly sliced scallions"
+    name: "Thinly sliced scallions"
+    ingredient_id: "thinly-sliced-scallions"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 tbsp lime juice"
+    name: "lime juice"
+    ingredient_id: "lime-juice"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Eggplant and Bean Chili
 
 **Category:** Dinner

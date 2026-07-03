@@ -1,3 +1,170 @@
+---
+schema_version: 1
+id: "creamy-swiss-chard-pasta-leeks-tarragon-lemon"
+title: "Creamy Swiss Chard Pasta With Leeks, Tarragon and Lemon Zest"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: 6
+times:
+  prep_minutes: 15
+  cook_minutes: 30
+  total_minutes: 45
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 4
+tags:
+  - "#vegetarian"
+  - "#high-protein"
+  - "#meal-prep"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "¾ pound green Swiss chard (1 large bunch), washed and trimmed"
+    name: "¾ pound green Swiss chard"
+    ingredient_id: "pound-green-swiss-chard"
+    quantity: null
+    unit: null
+    preparation: "washed and trimmed"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 large leeks (10–12 oz each)"
+    name: "leeks"
+    ingredient_id: "leeks"
+    quantity: 2
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "5 tablespoons unsalted butter"
+    name: "unsalted butter"
+    ingredient_id: "unsalted-butter"
+    quantity: 5
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "½ cup panko bread crumbs"
+    name: "½ cup panko bread crumbs"
+    ingredient_id: "cup-panko-bread-crumbs"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "3 tablespoons nutritional yeast"
+    name: "nutritional yeast"
+    ingredient_id: "nutritional-yeast"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "3 garlic cloves, thinly sliced"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 3
+    unit: null
+    preparation: "thinly sliced"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 teaspoons fresh thyme leaves"
+    name: "fresh thyme leaves"
+    ingredient_id: "fresh-thyme-leaves"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 cups chicken or vegetable stock"
+    name: "chicken or vegetable stock"
+    ingredient_id: "chicken-or-vegetable-stock"
+    quantity: 2
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "1 cup heavy cream"
+    name: "heavy cream"
+    ingredient_id: "heavy-cream"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "16 ounces Banza chickpea linguine"
+    name: "Banza chickpea linguine"
+    ingredient_id: "banza-chickpea-linguine"
+    quantity: 16
+    unit: "ounces"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "¾ cup finely grated Parmesan"
+    name: "¾ cup finely grated Parmesan"
+    ingredient_id: "cup-finely-grated-parmesan"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Fresh tarragon leaves, for garnish"
+    name: "Fresh tarragon leaves"
+    ingredient_id: "fresh-tarragon-leaves"
+    quantity: null
+    unit: null
+    preparation: "for garnish"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 lemon, for zest garnish"
+    name: "lemon"
+    ingredient_id: "lemon"
+    quantity: 1
+    unit: null
+    preparation: "for zest garnish"
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Creamy Swiss Chard Pasta With Leeks, Tarragon and Lemon Zest
 
 **Category:** L — Lunch

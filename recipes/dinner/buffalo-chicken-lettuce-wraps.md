@@ -1,3 +1,108 @@
+---
+schema_version: 1
+id: "buffalo-chicken-lettuce-wraps"
+title: "Buffalo Chicken Lettuce Wraps"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 12
+  total_minutes: 22
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 320
+  protein_g: 35
+  carbohydrate_g: 6
+  net_carbohydrate_g: null
+  fat_g: 15
+  saturated_fat_g: null
+  fiber_g: 1
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 70
+health_score: 8
+tags:
+  - "#keto"
+  - "#high-protein"
+  - "#low-cholesterol"
+  - "#fat-loss"
+dietary_tags:
+  - "keto_friendly"
+goal_tags:
+  - "high_protein"
+  - "lower_cholesterol"
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1.25 lbs ground chicken (93/7 lean)"
+    name: "ground chicken"
+    ingredient_id: "ground-chicken"
+    quantity: 1.25
+    unit: "lbs"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "1 tbsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "¾ cup buffalo sauce (Frank's RedHot or similar)"
+    name: "¾ cup buffalo sauce"
+    ingredient_id: "cup-buffalo-sauce"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 cloves garlic, minced"
+    name: "garlic"
+    ingredient_id: "garlic"
+    quantity: 2
+    unit: "cloves"
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "½ tsp onion powder"
+    name: "½ tsp onion powder"
+    ingredient_id: "tsp-onion-powder"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "Salt and pepper to taste"
+    name: "Salt and pepper"
+    ingredient_id: "salt-and-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Buffalo Chicken Lettuce Wraps
 
 **Category:** D — Dinner

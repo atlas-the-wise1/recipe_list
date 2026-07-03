@@ -1,3 +1,115 @@
+---
+schema_version: 1
+id: "wonton-soup"
+title: "Wonton Soup"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 25
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 320
+  protein_g: 18
+  carbohydrate_g: 42
+  net_carbohydrate_g: null
+  fat_g: 8
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 55
+health_score: 7
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#fat-loss"
+dietary_tags:
+  []
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "Salt"
+    name: "Salt"
+    ingredient_id: "salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 quarts chicken stock (preferably homemade — see below)"
+    name: "quarts chicken stock"
+    ingredient_id: "quarts-chicken-stock"
+    quantity: 2
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "12 baby bok choy, cut in halves or quarters lengthwise"
+    name: "baby bok choy"
+    ingredient_id: "baby-bok-choy"
+    quantity: 12
+    unit: null
+    preparation: "cut in halves or quarters lengthwise"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "8 oz fresh wonton noodles (optional)"
+    name: "fresh wonton noodles"
+    ingredient_id: "fresh-wonton-noodles"
+    quantity: 8
+    unit: "oz"
+    preparation: null
+    optional: true
+    grocery_department: "uncategorized"
+  - display: "20 fresh or unthawed frozen wontons"
+    name: "fresh or unthawed frozen wontons"
+    ingredient_id: "fresh-or-unthawed-frozen-wontons"
+    quantity: 20
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 scallion, thinly sliced"
+    name: "scallion"
+    ingredient_id: "scallion"
+    quantity: 1
+    unit: null
+    preparation: "thinly sliced"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Soy sauce, red vinegar, chile oil or chile crisp, for serving"
+    name: "Soy sauce"
+    ingredient_id: "soy-sauce"
+    quantity: null
+    unit: null
+    preparation: "red vinegar, chile oil or chile crisp, for serving"
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Wonton Soup
 
 **Category:** Dinner

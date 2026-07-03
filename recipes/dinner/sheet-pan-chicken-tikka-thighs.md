@@ -1,3 +1,168 @@
+---
+schema_version: 1
+id: "sheet-pan-chicken-tikka-thighs"
+title: "Sheet-Pan Chicken Tikka Thighs"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 20
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 8
+tags:
+  - "#chicken"
+  - "#sheet-pan"
+dietary_tags:
+  []
+goal_tags:
+  []
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 tablespoons full-fat Greek or Indian yogurt"
+    name: "full-fat Greek or Indian yogurt"
+    ingredient_id: "full-fat-greek-or-indian-yogurt"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 teaspoon ginger paste or freshly grated ginger"
+    name: "ginger paste or freshly grated ginger"
+    ingredient_id: "ginger-paste-or-freshly-grated-ginger"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 teaspoon garlic paste or freshly grated garlic"
+    name: "garlic paste or freshly grated garlic"
+    ingredient_id: "garlic-paste-or-freshly-grated-garlic"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 1/2 teaspoons Kashmiri red chile powder"
+    name: "Kashmiri red chile powder"
+    ingredient_id: "kashmiri-red-chile-powder"
+    quantity: 1.5
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 1/2 teaspoons garam masala"
+    name: "garam masala"
+    ingredient_id: "garam-masala"
+    quantity: 1.5
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 1/2 teaspoons ground cumin"
+    name: "ground cumin"
+    ingredient_id: "ground-cumin"
+    quantity: 1.5
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/2 teaspoon ground turmeric"
+    name: "ground turmeric"
+    ingredient_id: "ground-turmeric"
+    quantity: 0.5
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Salt"
+    name: "Salt"
+    ingredient_id: "salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tablespoons vegetable oil"
+    name: "vegetable oil"
+    ingredient_id: "vegetable-oil"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 pound boneless, skinless chicken thighs"
+    name: "boneless"
+    ingredient_id: "boneless"
+    quantity: 1
+    unit: "pound"
+    preparation: "skinless chicken thighs"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 large bell peppers, chopped into 1-inch pieces"
+    name: "bell peppers"
+    ingredient_id: "bell-peppers"
+    quantity: 2
+    unit: null
+    preparation: "chopped into 1-inch pieces"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 red onion, chopped into 1-inch pieces"
+    name: "red onion"
+    ingredient_id: "red-onion"
+    quantity: 1
+    unit: null
+    preparation: "chopped into 1-inch pieces"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 teaspoon cumin seeds"
+    name: "cumin seeds"
+    ingredient_id: "cumin-seeds"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Cooked rice, for serving (optional)"
+    name: "Cooked rice"
+    ingredient_id: "cooked-rice"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: true
+    grocery_department: "frozen"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Sheet-Pan Chicken Tikka Thighs
 
 **Category:** Dinner
@@ -6,7 +171,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | TBD | TBD | TBD | TBD | TBD | TBD |
-**Health Score:** TBD
+**Health Score:** 8/10
 
 **Serves:** 4
 **Prep Time:** 15 min | **Cook Time:** 20 min | **Total:** ~35 min

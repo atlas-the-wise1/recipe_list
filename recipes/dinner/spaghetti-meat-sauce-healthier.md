@@ -1,3 +1,191 @@
+---
+schema_version: 1
+id: "spaghetti-meat-sauce-healthier"
+title: "Spaghetti with Meat Sauce — Healthier Variant"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 30
+  total_minutes: 40
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 475
+  protein_g: 50
+  carbohydrate_g: 48
+  net_carbohydrate_g: null
+  fat_g: 8
+  saturated_fat_g: null
+  fiber_g: 12
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 75
+health_score: 7
+tags:
+  - "#high-protein"
+  - "#meal-prep"
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#fat-loss"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+  - "heart_health"
+  - "lower_cholesterol"
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 lb **Banza chickpea spaghetti** (or chickpea pasta for even more protein)"
+    name: "**Banza chickpea spaghetti**"
+    ingredient_id: "banza-chickpea-spaghetti"
+    quantity: 1
+    unit: "lb"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 lb ground chicken or extra-lean ground turkey (93% lean)"
+    name: "ground chicken or extra-lean ground turkey"
+    ingredient_id: "ground-chicken-or-extra-lean-ground-turkey"
+    quantity: 1
+    unit: "lb"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "1 medium onion, finely chopped"
+    name: "onion"
+    ingredient_id: "onion"
+    quantity: 1
+    unit: null
+    preparation: "finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 medium zucchini, finely diced"
+    name: "zucchini"
+    ingredient_id: "zucchini"
+    quantity: 1
+    unit: null
+    preparation: "finely diced"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "8 oz cremini mushrooms, finely chopped"
+    name: "cremini mushrooms"
+    ingredient_id: "cremini-mushrooms"
+    quantity: 8
+    unit: "oz"
+    preparation: "finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 red bell pepper, finely diced"
+    name: "red bell pepper"
+    ingredient_id: "red-bell-pepper"
+    quantity: 1
+    unit: null
+    preparation: "finely diced"
+    optional: false
+    grocery_department: "condiments"
+  - display: "3 garlic cloves, minced"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 3
+    unit: null
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 tbsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tbsp tomato paste"
+    name: "tomato paste"
+    ingredient_id: "tomato-paste"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 (24 oz) jar low-sodium tomato or marinara sauce"
+    name: "(24 oz) jar low-sodium tomato or marinara sauce"
+    ingredient_id: "24-oz-jar-low-sodium-tomato-or-marinara-sauce"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tsp dried oregano"
+    name: "dried oregano"
+    ingredient_id: "dried-oregano"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ tsp dried basil"
+    name: "½ tsp dried basil"
+    ingredient_id: "tsp-dried-basil"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "¼ tsp red pepper flakes (optional)"
+    name: "¼ tsp red pepper flakes"
+    ingredient_id: "tsp-red-pepper-flakes"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: true
+    grocery_department: "condiments"
+  - display: "Salt and pepper to taste"
+    name: "Salt and pepper"
+    ingredient_id: "salt-and-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 Parmesan rind (optional — adds body and depth without adding much fat)"
+    name: "Parmesan rind"
+    ingredient_id: "parmesan-rind"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: true
+    grocery_department: "uncategorized"
+  - display: "Grated Parmesan, for serving"
+    name: "Grated Parmesan"
+    ingredient_id: "grated-parmesan"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Spaghetti with Meat Sauce — Healthier Variant
 
 > 💡 **Healthier Variant** of Spaghetti with Meat Sauce — see `spaghetti-meat-sauce.md` for the classic version.

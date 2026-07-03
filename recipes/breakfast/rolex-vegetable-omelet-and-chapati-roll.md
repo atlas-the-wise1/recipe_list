@@ -1,3 +1,119 @@
+---
+schema_version: 1
+id: "rolex-vegetable-omelet-and-chapati-roll"
+title: "Rolex (Vegetable Omelet and Chapati Roll)"
+status: reviewed
+category: "breakfast"
+meal_types:
+  - breakfast
+servings: 2
+times:
+  prep_minutes: 10
+  cook_minutes: 10
+  total_minutes: 20
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 5
+tags:
+  - "#vegetarian"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  []
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "4 large eggs"
+    name: "eggs"
+    ingredient_id: "eggs"
+    quantity: 4
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Salt and black pepper"
+    name: "Salt and black pepper"
+    ingredient_id: "salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 (10-inch) chapatis, homemade or store-bought"
+    name: "(10-inch) chapatis"
+    ingredient_id: "10-inch-chapatis"
+    quantity: 2
+    unit: null
+    preparation: "homemade or store-bought"
+    optional: false
+    grocery_department: "grains"
+  - display: "2 tablespoons neutral oil, such as grapeseed"
+    name: "neutral oil"
+    ingredient_id: "neutral-oil"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: "such as grapeseed"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1/4 cup minced yellow onion"
+    name: "minced yellow onion"
+    ingredient_id: "minced-yellow-onion"
+    quantity: 0.25
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1/4 cup chopped fresh tomato"
+    name: "chopped fresh tomato"
+    ingredient_id: "chopped-fresh-tomato"
+    quantity: 0.25
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 serrano, seeded and minced"
+    name: "serrano"
+    ingredient_id: "serrano"
+    quantity: 1
+    unit: null
+    preparation: "seeded and minced"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/4 cup thinly sliced green cabbage"
+    name: "thinly sliced green cabbage"
+    ingredient_id: "thinly-sliced-green-cabbage"
+    quantity: 0.25
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Rolex (Vegetable Omelet and Chapati Roll)
 
 **Category:** B — Breakfast

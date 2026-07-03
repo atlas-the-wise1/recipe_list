@@ -1,3 +1,98 @@
+---
+schema_version: 1
+id: "air-fryer-sweet-potato-fries"
+title: "Air-Fryer Sweet Potato Fries"
+status: reviewed
+category: "snacks"
+meal_types:
+  - snack_1
+  - snack_2
+servings: 2
+times:
+  prep_minutes: 10
+  cook_minutes: 12
+  total_minutes: 22
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 180
+  protein_g: 2
+  carbohydrate_g: 22
+  net_carbohydrate_g: null
+  fat_g: 10
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 0
+health_score: 7
+tags:
+  - "#quick"
+  - "#air-fryer"
+  - "#vegetarian"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  - "quick_preparation"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 small sweet potato, about 8 ounces, peeled"
+    name: "sweet potato"
+    ingredient_id: "sweet-potato"
+    quantity: 1
+    unit: null
+    preparation: "about 8 ounces, peeled"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tablespoons extra-virgin olive oil"
+    name: "extra-virgin olive oil"
+    ingredient_id: "extra-virgin-olive-oil"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 teaspoons ground paprika"
+    name: "ground paprika"
+    ingredient_id: "ground-paprika"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Salt"
+    name: "Salt"
+    ingredient_id: "salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Ketchup or mustard, optional, for serving"
+    name: "Ketchup or mustard,"
+    ingredient_id: "ketchup-or-mustard"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: true
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Air-Fryer Sweet Potato Fries
 
 **Category:** Snack

@@ -1,3 +1,145 @@
+---
+schema_version: 1
+id: "oyakodon-chicken-and-egg-rice-bowl"
+title: "Oyakodon (Chicken and Egg Rice Bowl)"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 20
+  total_minutes: 30
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 520
+  protein_g: 32
+  carbohydrate_g: 54
+  net_carbohydrate_g: null
+  fat_g: 18
+  saturated_fat_g: null
+  fiber_g: 2
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 300
+health_score: 6
+tags:
+  - "#quick"
+  - "#rice-bowl"
+  - "#weeknight"
+dietary_tags:
+  []
+goal_tags:
+  - "quick_preparation"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 cups Japanese short-grain rice"
+    name: "Japanese short-grain rice"
+    ingredient_id: "japanese-short-grain-rice"
+    quantity: 2
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 pound boneless, skinless chicken thighs, sliced into bite-size pieces"
+    name: "boneless"
+    ingredient_id: "boneless"
+    quantity: 1
+    unit: "pound"
+    preparation: "skinless chicken thighs, sliced into bite-size pieces"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tablespoon sake"
+    name: "sake"
+    ingredient_id: "sake"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "1 cup dashi"
+    name: "dashi"
+    ingredient_id: "dashi"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons mirin"
+    name: "mirin"
+    ingredient_id: "mirin"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons soy sauce, or more to taste"
+    name: "soy sauce"
+    ingredient_id: "soy-sauce"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: "or more to taste"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tablespoon granulated sugar, or more to taste"
+    name: "granulated sugar"
+    ingredient_id: "granulated-sugar"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: "or more to taste"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 small onion, thinly sliced"
+    name: "onion"
+    ingredient_id: "onion"
+    quantity: 1
+    unit: null
+    preparation: "thinly sliced"
+    optional: false
+    grocery_department: "produce"
+  - display: "4 large eggs"
+    name: "eggs"
+    ingredient_id: "eggs"
+    quantity: 4
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 scallions, sliced, or 3 sprigs mitsuba"
+    name: "scallions"
+    ingredient_id: "scallions"
+    quantity: 2
+    unit: null
+    preparation: "sliced, or 3 sprigs mitsuba"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Togarashi, optional, for serving"
+    name: "Togarashi,"
+    ingredient_id: "togarashi"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: true
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Oyakodon (Chicken and Egg Rice Bowl)
 
 **Category:** Dinner

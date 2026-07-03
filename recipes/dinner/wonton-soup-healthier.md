@@ -1,3 +1,117 @@
+---
+schema_version: 1
+id: "wonton-soup-healthier"
+title: "Wonton Soup — Healthier Variant"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 20
+  cook_minutes: 20
+  total_minutes: 40
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 240
+  protein_g: 22
+  carbohydrate_g: 22
+  net_carbohydrate_g: null
+  fat_g: 6
+  saturated_fat_g: null
+  fiber_g: 4
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 75
+health_score: 8
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#fat-loss"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "fat_loss"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "8 oz medium shrimp, peeled and deveined, roughly chopped (not pureed — keep texture)"
+    name: "medium shrimp"
+    ingredient_id: "medium-shrimp"
+    quantity: 8
+    unit: "oz"
+    preparation: "peeled and deveined, roughly chopped (not pureed — keep texture)"
+    optional: false
+    grocery_department: "seafood"
+  - display: "2 tbsp finely minced scallions"
+    name: "finely minced scallions"
+    ingredient_id: "finely-minced-scallions"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tsp grated fresh ginger"
+    name: "grated fresh ginger"
+    ingredient_id: "grated-fresh-ginger"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 tsp low-sodium soy sauce"
+    name: "low-sodium soy sauce"
+    ingredient_id: "low-sodium-soy-sauce"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "½ tsp sesame oil"
+    name: "½ tsp sesame oil"
+    ingredient_id: "tsp-sesame-oil"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "¼ tsp white pepper"
+    name: "¼ tsp white pepper"
+    ingredient_id: "tsp-white-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "20 wonton wrappers"
+    name: "wonton wrappers"
+    ingredient_id: "wonton-wrappers"
+    quantity: 20
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Wonton Soup — Healthier Variant
 
 > 💡 **Healthier Variant** of Wonton Soup — see `wonton-soup.md` for the classic version.

@@ -1,3 +1,120 @@
+---
+schema_version: 1
+id: "sheet-pan-roasted-chicken-greens"
+title: "Sheet Pan Roasted Chicken With Greens"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 50
+  total_minutes: 65
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 480
+  protein_g: 52
+  carbohydrate_g: 8
+  net_carbohydrate_g: null
+  fat_g: 26
+  saturated_fat_g: null
+  fiber_g: 4
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 145
+health_score: 8
+tags:
+  - "#heart-healthy"
+  - "#high-protein"
+  - "#low-cholesterol"
+  - "#fat-loss"
+  - "#meal-prep"
+  - "#keto"
+dietary_tags:
+  - "keto_friendly"
+goal_tags:
+  - "heart_health"
+  - "high_protein"
+  - "lower_cholesterol"
+  - "fat_loss"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 whole chicken (~3½ to 4½ lbs)"
+    name: "whole chicken"
+    ingredient_id: "whole-chicken"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "Salt (Diamond Crystal kosher — ~½ tsp per lb of chicken)"
+    name: "Salt"
+    ingredient_id: "salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 large or 3 medium bunches dark leafy greens — kale, collard greens, mustard greens, dandelion greens, chard, or broccoli rabe (preferably a mix)"
+    name: "or 3 medium bunches dark leafy greens — kale"
+    ingredient_id: "or-3-medium-bunches-dark-leafy-greens-kale"
+    quantity: 2
+    unit: null
+    preparation: "collard greens, mustard greens, dandelion greens, chard, or broccoli rabe (preferably a mix)"
+    optional: false
+    grocery_department: "produce"
+  - display: "¼ cup extra-virgin olive oil"
+    name: "¼ cup extra-virgin olive oil"
+    ingredient_id: "cup-extra-virgin-olive-oil"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "½ tsp red-pepper flakes"
+    name: "½ tsp red-pepper flakes"
+    ingredient_id: "tsp-red-pepper-flakes"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "6 garlic cloves, smashed and peeled"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 6
+    unit: null
+    preparation: "smashed and peeled"
+    optional: false
+    grocery_department: "produce"
+  - display: "Lemon wedges, for serving (optional)"
+    name: "Lemon wedges"
+    ingredient_id: "lemon-wedges"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: true
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Sheet Pan Roasted Chicken With Greens
 
 **Category:** Dinner

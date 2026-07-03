@@ -1,3 +1,166 @@
+---
+schema_version: 1
+id: "baked-lemon-herb-tilapia"
+title: "Baked Lemon Herb Tilapia"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 14
+  total_minutes: 24
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 244
+  protein_g: 35
+  carbohydrate_g: 4
+  net_carbohydrate_g: null
+  fat_g: 10
+  saturated_fat_g: null
+  fiber_g: 1
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 85
+health_score: 9
+tags:
+  - "#keto"
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#high-protein"
+  - "#fat-loss"
+dietary_tags:
+  - "keto_friendly"
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "high_protein"
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "4 tilapia fillets (5–6 oz each)"
+    name: "tilapia fillets"
+    ingredient_id: "tilapia-fillets"
+    quantity: 4
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "seafood"
+  - display: "2 tbsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Zest of 2 lemons"
+    name: "Zest of 2 lemons"
+    ingredient_id: "zest-of-2-lemons"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "3 tbsp fresh lemon juice"
+    name: "fresh lemon juice"
+    ingredient_id: "fresh-lemon-juice"
+    quantity: 3
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "4 cloves garlic, minced"
+    name: "garlic"
+    ingredient_id: "garlic"
+    quantity: 4
+    unit: "cloves"
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tbsp fresh parsley, chopped"
+    name: "fresh parsley"
+    ingredient_id: "fresh-parsley"
+    quantity: 2
+    unit: "tbsp"
+    preparation: "chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 tbsp capers (drained and rinsed)"
+    name: "capers"
+    ingredient_id: "capers"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tbsp Dijon mustard"
+    name: "Dijon mustard"
+    ingredient_id: "dijon-mustard"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "½ tsp dried thyme"
+    name: "½ tsp dried thyme"
+    ingredient_id: "tsp-dried-thyme"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "¼ tsp dried oregano"
+    name: "¼ tsp dried oregano"
+    ingredient_id: "tsp-dried-oregano"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Salt and white pepper to taste"
+    name: "Salt and white pepper"
+    ingredient_id: "salt-and-white-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Lemon slices for garnish"
+    name: "Lemon slices"
+    ingredient_id: "lemon-slices"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "Fresh dill or additional parsley for serving"
+    name: "Fresh dill or additional parsley"
+    ingredient_id: "fresh-dill-or-additional-parsley"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Baked Lemon Herb Tilapia
 
 **Category:** D — Dinner

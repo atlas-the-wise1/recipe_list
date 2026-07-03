@@ -1,3 +1,164 @@
+---
+schema_version: 1
+id: "cauliflower-salad-sandwiches"
+title: "Cauliflower Salad Sandwiches"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: null
+times:
+  prep_minutes: 15
+  cook_minutes: 25
+  total_minutes: 40
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 6
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#meal-prep"
+  - "#vegetarian"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 large head cauliflower (about 2 lbs), cored, halved, and cut into 1-inch slices"
+    name: "cauliflower"
+    ingredient_id: "cauliflower"
+    quantity: 1
+    unit: "head"
+    preparation: "cored, halved, and cut into 1-inch slices"
+    optional: false
+    grocery_department: "produce"
+  - display: "6 tablespoons neutral oil"
+    name: "neutral oil"
+    ingredient_id: "neutral-oil"
+    quantity: 6
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "5 teaspoons curry powder"
+    name: "curry powder"
+    ingredient_id: "curry-powder"
+    quantity: 5
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Kosher salt and freshly ground black pepper"
+    name: "Kosher salt and freshly ground black pepper"
+    ingredient_id: "kosher-salt-and-freshly-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 cup / 4 oz raw walnuts, roughly chopped"
+    name: "/ 4 oz raw walnuts"
+    ingredient_id: "4-oz-raw-walnuts"
+    quantity: 1
+    unit: "cup"
+    preparation: "roughly chopped"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tart, crisp apple, cored and chopped into ½-inch pieces"
+    name: "tart"
+    ingredient_id: "tart"
+    quantity: 1
+    unit: null
+    preparation: "crisp apple, cored and chopped into ½-inch pieces"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 lemon, zested and juiced, plus more to taste"
+    name: "lemon"
+    ingredient_id: "lemon"
+    quantity: 1
+    unit: null
+    preparation: "zested and juiced, plus more to taste"
+    optional: false
+    grocery_department: "produce"
+  - display: "½ cup mayonnaise"
+    name: "½ cup mayonnaise"
+    ingredient_id: "cup-mayonnaise"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "½ cup strained yogurt (Greek or skyr)"
+    name: "½ cup strained yogurt"
+    ingredient_id: "cup-strained-yogurt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "½ cup raisins"
+    name: "½ cup raisins"
+    ingredient_id: "cup-raisins"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ cup cilantro leaves and tender stems, roughly chopped"
+    name: "½ cup cilantro leaves and tender stems"
+    ingredient_id: "cup-cilantro-leaves-and-tender-stems"
+    quantity: null
+    unit: null
+    preparation: "roughly chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "½ cup parsley leaves, roughly chopped"
+    name: "½ cup parsley leaves"
+    ingredient_id: "cup-parsley-leaves"
+    quantity: null
+    unit: null
+    preparation: "roughly chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "4 hoagie rolls, split lengthwise"
+    name: "hoagie rolls"
+    ingredient_id: "hoagie-rolls"
+    quantity: 4
+    unit: null
+    preparation: "split lengthwise"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Cauliflower Salad Sandwiches
 
 **Category:** L — Lunch

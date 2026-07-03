@@ -1,3 +1,209 @@
+---
+schema_version: 1
+id: "slow-cooker-picadillo"
+title: "Slow-Cooker Picadillo"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 6
+times:
+  prep_minutes: 15
+  cook_minutes: 5
+  total_minutes: 5
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 6
+tags:
+  - "#high-protein"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 tablespoons olive oil, plus more if necessary"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: "plus more if necessary"
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 pounds ground beef, preferably 85 percent lean"
+    name: "ground beef"
+    ingredient_id: "ground-beef"
+    quantity: 2
+    unit: "pounds"
+    preparation: "preferably 85 percent lean"
+    optional: false
+    grocery_department: "meat"
+  - display: "Salt and pepper"
+    name: "Salt and pepper"
+    ingredient_id: "salt-and-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 large yellow or red onion, diced"
+    name: "yellow or red onion"
+    ingredient_id: "yellow-or-red-onion"
+    quantity: 1
+    unit: null
+    preparation: "diced"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 large red bell pepper, chopped"
+    name: "red bell pepper"
+    ingredient_id: "red-bell-pepper"
+    quantity: 1
+    unit: null
+    preparation: "chopped"
+    optional: false
+    grocery_department: "condiments"
+  - display: "8 garlic cloves, smashed and chopped"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 8
+    unit: null
+    preparation: "smashed and chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tablespoons tomato paste"
+    name: "tomato paste"
+    ingredient_id: "tomato-paste"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "2 teaspoons ground cumin"
+    name: "ground cumin"
+    ingredient_id: "ground-cumin"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 teaspoon dried oregano"
+    name: "dried oregano"
+    ingredient_id: "dried-oregano"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/2 teaspoon ground cinnamon"
+    name: "ground cinnamon"
+    ingredient_id: "ground-cinnamon"
+    quantity: 0.5
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 (14-ounce) can diced tomatoes, preferably fire-roasted"
+    name: "(14-ounce) can diced tomatoes"
+    ingredient_id: "14-ounce-can-diced-tomatoes"
+    quantity: 1
+    unit: null
+    preparation: "preferably fire-roasted"
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 1/2 teaspoons red wine vinegar"
+    name: "red wine vinegar"
+    ingredient_id: "red-wine-vinegar"
+    quantity: 1.5
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "1 large Yukon Gold or red potato (about 12 ounces), scrubbed and chopped into 1/2-inch pieces, optional"
+    name: "Yukon Gold or red potato"
+    ingredient_id: "yukon-gold-or-red-potato"
+    quantity: 1
+    unit: null
+    preparation: "scrubbed and chopped into 1/2-inch pieces,"
+    optional: true
+    grocery_department: "produce"
+  - display: "2 fresh or dried bay leaves"
+    name: "fresh or dried bay leaves"
+    ingredient_id: "fresh-or-dried-bay-leaves"
+    quantity: 2
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 teaspoons Worcestershire sauce"
+    name: "Worcestershire sauce"
+    ingredient_id: "worcestershire-sauce"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 cup / about 5 ounces drained, halved pimento-stuffed green olives"
+    name: "/ about 5 ounces drained"
+    ingredient_id: "about-5-ounces-drained"
+    quantity: 1
+    unit: "cup"
+    preparation: "halved pimento-stuffed green olives"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "3/4 cup raisins"
+    name: "raisins"
+    ingredient_id: "raisins"
+    quantity: 0.75
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Cuban black beans, for serving"
+    name: "Cuban black beans"
+    ingredient_id: "cuban-black-beans"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "White rice, for serving"
+    name: "White rice"
+    ingredient_id: "white-rice"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "frozen"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Slow-Cooker Picadillo
 
 **Category:** D — Dinner
@@ -6,7 +212,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | TBD | TBD | TBD | TBD | TBD | TBD |
-**Health Score:** TBD
+**Health Score:** 6/10
 
 **Serves:** 6
 **Prep Time:** 15 min | **Cook Time:** 5 hr | **Total:** ~5 hr 15 min

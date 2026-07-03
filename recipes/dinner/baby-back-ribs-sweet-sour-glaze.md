@@ -1,3 +1,121 @@
+---
+schema_version: 1
+id: "baby-back-ribs-sweet-sour-glaze"
+title: "Baby Back Ribs With Sweet and Sour Glaze"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 2.5
+  total_minutes: 2
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 620
+  protein_g: 42
+  carbohydrate_g: 14
+  net_carbohydrate_g: null
+  fat_g: 42
+  saturated_fat_g: null
+  fiber_g: 0
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 160
+health_score: 4
+tags:
+  - "#high-protein"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 large rack baby back pork ribs (3 to 3½ pounds)"
+    name: "rack baby back pork ribs"
+    ingredient_id: "rack-baby-back-pork-ribs"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "1½ tsp coarse kosher salt"
+    name: "1½ tsp coarse kosher salt"
+    ingredient_id: "1-tsp-coarse-kosher-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tsp onion powder"
+    name: "onion powder"
+    ingredient_id: "onion-powder"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "½ tsp freshly ground black pepper"
+    name: "½ tsp freshly ground black pepper"
+    ingredient_id: "tsp-freshly-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "4 garlic cloves, crushed but left whole"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 4
+    unit: null
+    preparation: "crushed but left whole"
+    optional: false
+    grocery_department: "produce"
+  - display: "¼ cup Concord grape jelly"
+    name: "¼ cup Concord grape jelly"
+    ingredient_id: "cup-concord-grape-jelly"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tbsp rice vinegar"
+    name: "rice vinegar"
+    ingredient_id: "rice-vinegar"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 tbsp soy sauce"
+    name: "soy sauce"
+    ingredient_id: "soy-sauce"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Baby Back Ribs With Sweet and Sour Glaze
 
 **Category:** Dinner

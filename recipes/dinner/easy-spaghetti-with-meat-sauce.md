@@ -1,3 +1,130 @@
+---
+schema_version: 1
+id: "easy-spaghetti-with-meat-sauce"
+title: "Easy Spaghetti With Meat Sauce"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 15
+  total_minutes: 25
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 600
+  protein_g: 30
+  carbohydrate_g: 70
+  net_carbohydrate_g: null
+  fat_g: 18
+  saturated_fat_g: null
+  fiber_g: 4
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 85
+health_score: 6
+tags:
+  - "#quick"
+  - "#meal-prep"
+  - "#classic"
+dietary_tags:
+  []
+goal_tags:
+  - "quick_preparation"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tablespoons olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 medium yellow onion, finely chopped"
+    name: "yellow onion"
+    ingredient_id: "yellow-onion"
+    quantity: 1
+    unit: null
+    preparation: "finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 garlic cloves, finely chopped"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 2
+    unit: null
+    preparation: "finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "1/2 pound ground beef, preferably 20 percent fat, pork, or dark meat turkey"
+    name: "ground beef"
+    ingredient_id: "ground-beef"
+    quantity: 0.5
+    unit: "pound"
+    preparation: "preferably 20 percent fat, pork, or dark meat turkey"
+    optional: false
+    grocery_department: "meat"
+  - display: "12 ounces spaghetti, pappardelle, or other long pasta"
+    name: "spaghetti"
+    ingredient_id: "spaghetti"
+    quantity: 12
+    unit: "ounces"
+    preparation: "pappardelle, or other long pasta"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/4 cup tomato paste"
+    name: "tomato paste"
+    ingredient_id: "tomato-paste"
+    quantity: 0.25
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "2 teaspoons Worcestershire sauce"
+    name: "Worcestershire sauce"
+    ingredient_id: "worcestershire-sauce"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Grated Parmesan, for serving"
+    name: "Grated Parmesan"
+    ingredient_id: "grated-parmesan"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Easy Spaghetti With Meat Sauce
 
 **Category:** Dinner

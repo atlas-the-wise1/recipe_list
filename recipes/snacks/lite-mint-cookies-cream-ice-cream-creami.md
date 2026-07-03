@@ -1,3 +1,116 @@
+---
+schema_version: 1
+id: "lite-mint-cookies-cream-ice-cream-creami"
+title: "Lite Mint Cookies & Cream Ice Cream"
+status: reviewed
+category: "snacks"
+meal_types:
+  - snack_1
+  - snack_2
+servings: 4
+times:
+  prep_minutes: 5
+  cook_minutes: null
+  total_minutes: null
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 158
+  protein_g: 1
+  carbohydrate_g: 17
+  net_carbohydrate_g: null
+  fat_g: 10
+  saturated_fat_g: null
+  fiber_g: 0
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 0
+health_score: 4
+tags:
+  - "#vegan"
+  - "#low-cholesterol"
+  - "#dairy-free"
+  - "#nut-free"
+dietary_tags:
+  - "vegan"
+  - "dairy_free"
+goal_tags:
+  - "lower_cholesterol"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "¾ cup unsweetened coconut cream"
+    name: "¾ cup unsweetened coconut cream"
+    ingredient_id: "cup-unsweetened-coconut-cream"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "¼ cup monk fruit sweetener with erythritol"
+    name: "¼ cup monk fruit sweetener with erythritol"
+    ingredient_id: "cup-monk-fruit-sweetener-with-erythritol"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons raw agave nectar"
+    name: "raw agave nectar"
+    ingredient_id: "raw-agave-nectar"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "5–6 drops green food coloring"
+    name: "5–6 drops green food coloring"
+    ingredient_id: "5-6-drops-green-food-coloring"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ teaspoon mint extract"
+    name: "½ teaspoon mint extract"
+    ingredient_id: "teaspoon-mint-extract"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "1 cup unsweetened oat milk"
+    name: "unsweetened oat milk"
+    ingredient_id: "unsweetened-oat-milk"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "3 chocolate sandwich cookies, cut into quarters *(for mix-in)*"
+    name: "chocolate sandwich cookies"
+    ingredient_id: "chocolate-sandwich-cookies"
+    quantity: 3
+    unit: null
+    preparation: "cut into quarters *(for mix-in)*"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Lite Mint Cookies & Cream Ice Cream
 
 **Category:** S — Snacks

@@ -1,3 +1,116 @@
+---
+schema_version: 1
+id: "brussels-sprouts-caesar-salad"
+title: "Brussels Sprouts Caesar Salad"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: null
+times:
+  prep_minutes: 15
+  cook_minutes: 20
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 7
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#vegetarian"
+  - "#meal-prep"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 pounds brussels sprouts, trimmed"
+    name: "brussels sprouts"
+    ingredient_id: "brussels-sprouts"
+    quantity: 2
+    unit: "pounds"
+    preparation: "trimmed"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ cup + 3 tablespoons extra-virgin olive oil, plus more as needed"
+    name: "½ cup + 3 tablespoons extra-virgin olive oil"
+    ingredient_id: "cup-3-tablespoons-extra-virgin-olive-oil"
+    quantity: null
+    unit: null
+    preparation: "plus more as needed"
+    optional: false
+    grocery_department: "condiments"
+  - display: "Salt and freshly ground black pepper"
+    name: "Salt and freshly ground black pepper"
+    ingredient_id: "salt-and-freshly-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 small baguette or chunk of sourdough (about 8 oz), preferably day-old, torn into bite-size pieces (~4 cups)"
+    name: "baguette or chunk of sourdough"
+    ingredient_id: "baguette-or-chunk-of-sourdough"
+    quantity: 1
+    unit: null
+    preparation: "preferably day-old, torn into bite-size pieces (~4 cups)"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ cup grated Pecorino Romano (~3 oz), plus more as needed"
+    name: "½ cup grated Pecorino Romano"
+    ingredient_id: "cup-grated-pecorino-romano"
+    quantity: null
+    unit: null
+    preparation: "plus more as needed"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1½ tablespoons freshly squeezed lemon juice, plus more as needed"
+    name: "1½ tablespoons freshly squeezed lemon juice"
+    ingredient_id: "1-tablespoons-freshly-squeezed-lemon-juice"
+    quantity: null
+    unit: null
+    preparation: "plus more as needed"
+    optional: false
+    grocery_department: "beverages"
+  - display: "3 garlic cloves, finely grated or minced"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 3
+    unit: null
+    preparation: "finely grated or minced"
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Brussels Sprouts Caesar Salad
 
 **Category:** L — Lunch

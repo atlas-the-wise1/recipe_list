@@ -1,3 +1,121 @@
+---
+schema_version: 1
+id: "spaghetti-meat-sauce"
+title: "Spaghetti with Meat Sauce"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 25
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 575
+  protein_g: 46
+  carbohydrate_g: 62
+  net_carbohydrate_g: null
+  fat_g: 12
+  saturated_fat_g: null
+  fiber_g: 8
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 85
+health_score: 8
+tags:
+  - "#high-protein"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 lb ground beef, turkey, or chicken"
+    name: "ground beef"
+    ingredient_id: "ground-beef"
+    quantity: 1
+    unit: "lb"
+    preparation: "turkey, or chicken"
+    optional: false
+    grocery_department: "meat"
+  - display: "1 onion, chopped"
+    name: "onion"
+    ingredient_id: "onion"
+    quantity: 1
+    unit: null
+    preparation: "chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 tbsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 jar (24 oz) tomato or marinara sauce"
+    name: "(24 oz) tomato or marinara sauce"
+    ingredient_id: "24-oz-tomato-or-marinara-sauce"
+    quantity: 1
+    unit: "jar"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tsp dried oregano"
+    name: "dried oregano"
+    ingredient_id: "dried-oregano"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Salt and pepper to taste"
+    name: "Salt and pepper"
+    ingredient_id: "salt-and-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 lb Banza chickpea spaghetti"
+    name: "Banza chickpea spaghetti"
+    ingredient_id: "banza-chickpea-spaghetti"
+    quantity: 1
+    unit: "lb"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "Grated Parmesan, for serving"
+    name: "Grated Parmesan"
+    ingredient_id: "grated-parmesan"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Spaghetti with Meat Sauce
 
 **Category:** Dinner

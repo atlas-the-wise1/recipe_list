@@ -1,3 +1,161 @@
+---
+schema_version: 1
+id: "crispy-coconut-shrimp-and-shallots"
+title: "Crispy Coconut Shrimp and Shallots"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 15
+  total_minutes: 30
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 460
+  protein_g: 28
+  carbohydrate_g: 34
+  net_carbohydrate_g: null
+  fat_g: 21
+  saturated_fat_g: null
+  fiber_g: 2
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 170
+health_score: 5
+tags:
+  - "#seafood"
+  - "#quick"
+  - "#weeknight"
+dietary_tags:
+  []
+goal_tags:
+  - "quick_preparation"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "5 tablespoons unrefined coconut oil or olive oil, or a mixture of both"
+    name: "unrefined coconut oil or olive oil"
+    ingredient_id: "unrefined-coconut-oil-or-olive-oil"
+    quantity: 5
+    unit: "tablespoons"
+    preparation: "or a mixture of both"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 large shallot, sliced into thin rings (about a heaping 1/2 cup)"
+    name: "shallot"
+    ingredient_id: "shallot"
+    quantity: 1
+    unit: null
+    preparation: "sliced into thin rings (about a heaping 1/2 cup)"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 cup unsweetened coconut flakes"
+    name: "unsweetened coconut flakes"
+    ingredient_id: "unsweetened-coconut-flakes"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Salt and black pepper"
+    name: "Salt and black pepper"
+    ingredient_id: "salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 pound large raw shrimp (20 to 25 count), peeled and deveined, patted dry"
+    name: "large raw shrimp"
+    ingredient_id: "large-raw-shrimp"
+    quantity: 1
+    unit: "pound"
+    preparation: "peeled and deveined, patted dry"
+    optional: false
+    grocery_department: "seafood"
+  - display: "1 tablespoon cornstarch"
+    name: "cornstarch"
+    ingredient_id: "cornstarch"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 cup orange juice"
+    name: "orange juice"
+    ingredient_id: "orange-juice"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "1 tablespoon lime juice"
+    name: "lime juice"
+    ingredient_id: "lime-juice"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "1 tablespoon granulated sugar"
+    name: "granulated sugar"
+    ingredient_id: "granulated-sugar"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 teaspoons fish sauce"
+    name: "fish sauce"
+    ingredient_id: "fish-sauce"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "seafood"
+  - display: "1/2 teaspoon red-pepper flakes"
+    name: "red-pepper flakes"
+    ingredient_id: "red-pepper-flakes"
+    quantity: 0.5
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1/4 cup coarsely chopped cilantro"
+    name: "coarsely chopped cilantro"
+    ingredient_id: "coarsely-chopped-cilantro"
+    quantity: 0.25
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "Freshly steamed rice, for serving"
+    name: "Freshly steamed rice"
+    ingredient_id: "freshly-steamed-rice"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "beverages"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Crispy Coconut Shrimp and Shallots
 
 **Category:** Dinner

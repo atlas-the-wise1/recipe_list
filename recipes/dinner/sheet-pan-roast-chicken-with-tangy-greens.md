@@ -1,3 +1,139 @@
+---
+schema_version: 1
+id: "sheet-pan-roast-chicken-with-tangy-greens"
+title: "Sheet-Pan Roast Chicken With Tangy Greens"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 40
+  total_minutes: 55
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 470
+  protein_g: 31
+  carbohydrate_g: 7
+  net_carbohydrate_g: null
+  fat_g: 32
+  saturated_fat_g: null
+  fiber_g: 2
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 155
+health_score: 6
+tags:
+  - "#high-protein"
+  - "#one-pan"
+  - "#weeknight"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "3 tablespoons extra-virgin olive oil, plus more for drizzling"
+    name: "extra-virgin olive oil"
+    ingredient_id: "extra-virgin-olive-oil"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: "plus more for drizzling"
+    optional: false
+    grocery_department: "condiments"
+  - display: "6 garlic cloves"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 6
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 1/2 tablespoons curry powder"
+    name: "curry powder"
+    ingredient_id: "curry-powder"
+    quantity: 1.5
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 teaspoons kosher salt, plus more for finishing"
+    name: "kosher salt"
+    ingredient_id: "kosher-salt"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: "plus more for finishing"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 teaspoon black pepper"
+    name: "black pepper"
+    ingredient_id: "black-pepper"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1/4 teaspoon red-pepper flakes"
+    name: "red-pepper flakes"
+    ingredient_id: "red-pepper-flakes"
+    quantity: 0.25
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "4 bone-in, skin-on chicken leg quarters (2 1/2 to 3 pounds)"
+    name: "bone-in"
+    ingredient_id: "bone-in"
+    quantity: 4
+    unit: null
+    preparation: "skin-on chicken leg quarters (2 1/2 to 3 pounds)"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "10 ounces chopped fresh kale leaves or other braising greens (about 6 packed cups)"
+    name: "chopped fresh kale leaves or other braising greens"
+    ingredient_id: "chopped-fresh-kale-leaves-or-other-braising-greens"
+    quantity: 10
+    unit: "ounces"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1/2 cup pitted or unpitted green olives (optional)"
+    name: "pitted or unpitted green olives"
+    ingredient_id: "pitted-or-unpitted-green-olives"
+    quantity: 0.5
+    unit: "cup"
+    preparation: null
+    optional: true
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons bread-and-butter pickle brine or apple cider vinegar"
+    name: "bread-and-butter pickle brine or apple cider vinegar"
+    ingredient_id: "bread-and-butter-pickle-brine-or-apple-cider-vinegar"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Sheet-Pan Roast Chicken With Tangy Greens
 
 **Category:** Dinner

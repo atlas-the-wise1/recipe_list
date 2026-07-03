@@ -1,3 +1,147 @@
+---
+schema_version: 1
+id: "lemon-dill-meatballs-orzo"
+title: "Lemon-Dill Meatballs With Orzo"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 20
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 480
+  protein_g: 42
+  carbohydrate_g: 38
+  net_carbohydrate_g: null
+  fat_g: 16
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 105
+health_score: 7
+tags:
+  - "#heart-healthy"
+  - "#high-protein"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "heart_health"
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1½ cups loosely packed chopped dill (~3 oz), plus more for serving"
+    name: "1½ cups loosely packed chopped dill"
+    ingredient_id: "1-cups-loosely-packed-chopped-dill"
+    quantity: null
+    unit: null
+    preparation: "plus more for serving"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 cup full-fat Greek yogurt"
+    name: "full-fat Greek yogurt"
+    ingredient_id: "full-fat-greek-yogurt"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 large garlic clove, finely grated"
+    name: "garlic clove"
+    ingredient_id: "garlic-clove"
+    quantity: 1
+    unit: null
+    preparation: "finely grated"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 lemon, zested and halved"
+    name: "lemon"
+    ingredient_id: "lemon"
+    quantity: 1
+    unit: null
+    preparation: "zested and halved"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 lb ground turkey or chicken"
+    name: "ground turkey or chicken"
+    ingredient_id: "ground-turkey-or-chicken"
+    quantity: 1
+    unit: "lb"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "1 tsp fennel seeds (optional)"
+    name: "fennel seeds"
+    ingredient_id: "fennel-seeds"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: true
+    grocery_department: "produce"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tbsp unsalted butter"
+    name: "unsalted butter"
+    ingredient_id: "unsalted-butter"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 cup orzo"
+    name: "orzo"
+    ingredient_id: "orzo"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "3 anchovy fillets"
+    name: "anchovy fillets"
+    ingredient_id: "anchovy-fillets"
+    quantity: 3
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "4 cups chopped escarole, spinach, mustard greens, or baby kale (~3 oz)"
+    name: "chopped escarole"
+    ingredient_id: "chopped-escarole"
+    quantity: 4
+    unit: "cups"
+    preparation: "spinach, mustard greens, or baby kale (~3 oz)"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Lemon-Dill Meatballs With Orzo
 
 **Category:** Dinner

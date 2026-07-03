@@ -1,3 +1,97 @@
+---
+schema_version: 1
+id: "one-bowl-carrot-cake"
+title: "One-Bowl Carrot Cake"
+status: reviewed
+category: "snacks"
+meal_types:
+  - snack_1
+  - snack_2
+servings: 9
+times:
+  prep_minutes: 20
+  cook_minutes: 50
+  total_minutes: 80
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 380
+  protein_g: 6
+  carbohydrate_g: 42
+  net_carbohydrate_g: null
+  fat_g: 22
+  saturated_fat_g: null
+  fiber_g: 1
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 95
+health_score: 3
+tags:
+  - "#vegetarian"
+  - "#meal-prep"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 (8-oz / 226g) block cream cheese, softened"
+    name: "(8-oz / 226g) block cream cheese"
+    ingredient_id: "8-oz-226g-block-cream-cheese"
+    quantity: 1
+    unit: null
+    preparation: "softened"
+    optional: false
+    grocery_department: "dairy"
+  - display: "½ packed cup / 73g confectioners' sugar"
+    name: "½ packed cup / 73g confectioners' sugar"
+    ingredient_id: "packed-cup-73g-confectioners-sugar"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "¼ teaspoon fine sea salt"
+    name: "¼ teaspoon fine sea salt"
+    ingredient_id: "teaspoon-fine-sea-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "1 large egg"
+    name: "egg"
+    ingredient_id: "egg"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ cup / 120g sour cream"
+    name: "½ cup / 120g sour cream"
+    ingredient_id: "cup-120g-sour-cream"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # One-Bowl Carrot Cake
 
 **Category:** S — Snack

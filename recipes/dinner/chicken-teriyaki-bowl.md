@@ -1,3 +1,85 @@
+---
+schema_version: 1
+id: "chicken-teriyaki-bowl"
+title: "Chicken Teriyaki Bowl"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 25
+  total_minutes: 40
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 480
+  protein_g: 38
+  carbohydrate_g: 48
+  net_carbohydrate_g: null
+  fat_g: 14
+  saturated_fat_g: null
+  fiber_g: 6
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 95
+health_score: 8
+tags:
+  - "#high-protein"
+  - "#meal-prep"
+  - "#heart-healthy"
+  - "#low-cholesterol"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+  - "heart_health"
+  - "lower_cholesterol"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1.5 lbs boneless, skinless chicken thighs, cut into bite-sized pieces"
+    name: "boneless"
+    ingredient_id: "boneless"
+    quantity: 1.5
+    unit: "lbs"
+    preparation: "skinless chicken thighs, cut into bite-sized pieces"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tbsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Salt and black pepper to taste"
+    name: "Salt and black pepper"
+    ingredient_id: "salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Chicken Teriyaki Bowl
 
 **Category:** D — Dinner

@@ -1,3 +1,185 @@
+---
+schema_version: 1
+id: "one-pot-smoky-fish-with-tomato-olives-and-couscous"
+title: "One-Pot Smoky Fish With Tomato, Olives and Couscous"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 25
+  total_minutes: 40
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 7
+tags:
+  - "#fish"
+  - "#one-pot"
+  - "#gluten-free"
+dietary_tags:
+  - "gluten_free"
+goal_tags:
+  []
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1/4 cup olive oil, plus more for serving"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 0.25
+    unit: "cup"
+    preparation: "plus more for serving"
+    optional: false
+    grocery_department: "condiments"
+  - display: "3/4 cup jarred roasted red peppers, roughly chopped, or 1 fresh red bell pepper, cored, seeded, and diced"
+    name: "jarred roasted red peppers"
+    ingredient_id: "jarred-roasted-red-peppers"
+    quantity: 0.75
+    unit: "cup"
+    preparation: "roughly chopped, or 1 fresh red bell pepper, cored, seeded, and diced"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 medium yellow onion, thinly sliced"
+    name: "yellow onion"
+    ingredient_id: "yellow-onion"
+    quantity: 1
+    unit: null
+    preparation: "thinly sliced"
+    optional: false
+    grocery_department: "produce"
+  - display: "4 (6-ounce) skinless mild, white fish fillets, such as cod, fluke, or halibut"
+    name: "(6-ounce) skinless mild"
+    ingredient_id: "6-ounce-skinless-mild"
+    quantity: 4
+    unit: null
+    preparation: "white fish fillets, such as cod, fluke, or halibut"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 1/2 tablespoons minced garlic (about 3 large cloves)"
+    name: "minced garlic"
+    ingredient_id: "minced-garlic"
+    quantity: 1.5
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 tablespoon chopped anchovies (about 4 fillets)"
+    name: "chopped anchovies"
+    ingredient_id: "chopped-anchovies"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 teaspoon smoked paprika"
+    name: "smoked paprika"
+    ingredient_id: "smoked-paprika"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Pinch of ground cayenne"
+    name: "Pinch of ground cayenne"
+    ingredient_id: "pinch-of-ground-cayenne"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/3 cup dry white wine"
+    name: "dry white wine"
+    ingredient_id: "dry-white-wine"
+    quantity: 0.333
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "1 1/2 cups chicken stock, preferably low-sodium"
+    name: "chicken stock"
+    ingredient_id: "chicken-stock"
+    quantity: 1.5
+    unit: "cups"
+    preparation: "preferably low-sodium"
+    optional: false
+    grocery_department: "meat"
+  - display: "1 (14-ounce) can crushed tomatoes"
+    name: "(14-ounce) can crushed tomatoes"
+    ingredient_id: "14-ounce-can-crushed-tomatoes"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1/2 cup olives, preferably black or Kalamata, pitted or not"
+    name: "olives"
+    ingredient_id: "olives"
+    quantity: 0.5
+    unit: "cup"
+    preparation: "preferably black or Kalamata, pitted or not"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons chopped fresh parsley, plus more for serving"
+    name: "chopped fresh parsley"
+    ingredient_id: "chopped-fresh-parsley"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: "plus more for serving"
+    optional: false
+    grocery_department: "produce"
+  - display: "3/4 cup pearl couscous"
+    name: "pearl couscous"
+    ingredient_id: "pearl-couscous"
+    quantity: 0.75
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "2 teaspoons sherry vinegar or red wine vinegar"
+    name: "sherry vinegar or red wine vinegar"
+    ingredient_id: "sherry-vinegar-or-red-wine-vinegar"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # One-Pot Smoky Fish With Tomato, Olives and Couscous
 
 **Category:** Dinner
@@ -6,7 +188,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | TBD | TBD | TBD | TBD | TBD | TBD |
-**Health Score:** TBD
+**Health Score:** 7/10
 
 **Serves:** 4
 **Prep Time:** 15 min | **Cook Time:** 25 min | **Total:** ~40 min

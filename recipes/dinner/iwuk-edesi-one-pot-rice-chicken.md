@@ -1,3 +1,81 @@
+---
+schema_version: 1
+id: "iwuk-edesi-one-pot-rice-chicken"
+title: "Iwuk Edesi (One-Pot Rice With Chicken)"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 20
+  cook_minutes: 45
+  total_minutes: 65
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 680
+  protein_g: 52
+  carbohydrate_g: 48
+  net_carbohydrate_g: null
+  fat_g: 30
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 145
+health_score: 7
+tags:
+  - "#high-protein"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1–2 yellow or red Scotch bonnet chiles or red habanero chiles"
+    name: "1–2 yellow or red Scotch bonnet chiles or red habanero chiles"
+    ingredient_id: "1-2-yellow-or-red-scotch-bonnet-chiles-or-red-habanero-chiles"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tbsp whole crayfish or dried shrimp, soaked in warm water 10 min until plump then drained (or ½ tbsp ground crayfish)"
+    name: "whole crayfish or dried shrimp"
+    ingredient_id: "whole-crayfish-or-dried-shrimp"
+    quantity: 1
+    unit: "tbsp"
+    preparation: "soaked in warm water 10 min until plump then drained (or ½ tbsp ground crayfish)"
+    optional: false
+    grocery_department: "seafood"
+  - display: "¼ tsp fresh or dried irú, soaked in warm water 10 min and drained (or substitute fish sauce or fermented black beans)"
+    name: "¼ tsp fresh or dried irú"
+    ingredient_id: "tsp-fresh-or-dried-ir"
+    quantity: null
+    unit: null
+    preparation: "soaked in warm water 10 min and drained (or substitute fish sauce or fermented black beans)"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Iwuk Edesi (One-Pot Rice With Chicken)
 
 **Category:** Dinner

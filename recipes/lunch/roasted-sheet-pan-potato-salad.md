@@ -1,3 +1,121 @@
+---
+schema_version: 1
+id: "roasted-sheet-pan-potato-salad"
+title: "Roasted Sheet Pan Potato Salad"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 25
+  total_minutes: 40
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 7
+tags:
+  - "#vegetarian"
+  - "#gluten-free"
+dietary_tags:
+  - "vegetarian"
+  - "gluten_free"
+goal_tags:
+  []
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 1/2 pounds baby potatoes, halved if large"
+    name: "baby potatoes"
+    ingredient_id: "baby-potatoes"
+    quantity: 1.5
+    unit: "pounds"
+    preparation: "halved if large"
+    optional: false
+    grocery_department: "produce"
+  - display: "3 tablespoons olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Kosher salt (such as Diamond Crystal)"
+    name: "Kosher salt"
+    ingredient_id: "kosher-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Black pepper"
+    name: "Black pepper"
+    ingredient_id: "black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 bunch thick asparagus (about 1 pound), ends trimmed, stalks cut crosswise in thirds"
+    name: "thick asparagus"
+    ingredient_id: "thick-asparagus"
+    quantity: 1
+    unit: "bunch"
+    preparation: "ends trimmed, stalks cut crosswise in thirds"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 large leek, white and light green parts only, halved lengthwise then cut into 1/2-inch-thick half-moons"
+    name: "leek"
+    ingredient_id: "leek"
+    quantity: 1
+    unit: null
+    preparation: "white and light green parts only, halved lengthwise then cut into 1/2-inch-thick half-moons"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 teaspoon sweet paprika"
+    name: "sweet paprika"
+    ingredient_id: "sweet-paprika"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "4 hard-boiled eggs (optional), quartered"
+    name: "hard-boiled eggs"
+    ingredient_id: "hard-boiled-eggs"
+    quantity: 4
+    unit: null
+    preparation: "quartered"
+    optional: true
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Roasted Sheet Pan Potato Salad
 
 **Category:** Lunch
@@ -6,7 +124,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | TBD | TBD | TBD | TBD | TBD | TBD |
-**Health Score:** TBD
+**Health Score:** 7/10
 
 **Serves:** 4
 **Prep Time:** 15 min | **Cook Time:** 25 min | **Total:** ~40 min

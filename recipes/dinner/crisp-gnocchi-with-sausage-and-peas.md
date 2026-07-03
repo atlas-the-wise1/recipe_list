@@ -1,3 +1,120 @@
+---
+schema_version: 1
+id: "crisp-gnocchi-with-sausage-and-peas"
+title: "Crisp Gnocchi With Sausage and Peas"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: null
+times:
+  prep_minutes: null
+  cook_minutes: null
+  total_minutes: null
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 5
+tags:
+  - "#pasta"
+  - "#sausage"
+dietary_tags:
+  []
+goal_tags:
+  []
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "3 tablespoons extra-virgin olive oil, plus more as needed"
+    name: "extra-virgin olive oil"
+    ingredient_id: "extra-virgin-olive-oil"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: "plus more as needed"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 (12- to 18-ounce) package shelf-stable potato gnocchi"
+    name: "(12- to 18-ounce) package shelf-stable potato gnocchi"
+    ingredient_id: "12-to-18-ounce-package-shelf-stable-potato-gnocchi"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "1 pound hot or sweet Italian sausage, casings removed"
+    name: "hot or sweet Italian sausage"
+    ingredient_id: "hot-or-sweet-italian-sausage"
+    quantity: 1
+    unit: "pound"
+    preparation: "casings removed"
+    optional: false
+    grocery_department: "meat"
+  - display: "2 cups/10 ounces frozen peas (no need to thaw)"
+    name: "cups/10 ounces frozen peas"
+    ingredient_id: "cups-10-ounces-frozen-peas"
+    quantity: 2
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 tablespoon Dijon mustard"
+    name: "Dijon mustard"
+    ingredient_id: "dijon-mustard"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1/2 cup/1 ounce grated Parmesan, plus more for serving"
+    name: "cup/1 ounce grated Parmesan"
+    ingredient_id: "cup-1-ounce-grated-parmesan"
+    quantity: 0.5
+    unit: null
+    preparation: "plus more for serving"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Salt and pepper"
+    name: "Salt and pepper"
+    ingredient_id: "salt-and-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1/2 cup torn dill, mint or basil leaves, plus more for serving"
+    name: "torn dill"
+    ingredient_id: "torn-dill"
+    quantity: 0.5
+    unit: "cup"
+    preparation: "mint or basil leaves, plus more for serving"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Crisp Gnocchi With Sausage and Peas
 
 **Category:** Dinner
@@ -6,7 +123,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | TBD | TBD | TBD | TBD | TBD | TBD |
-**Health Score:** TBD
+**Health Score:** 5/10
 
 **Serves:** TBD
 **Prep Time:** TBD | **Cook Time:** TBD | **Total:** TBD

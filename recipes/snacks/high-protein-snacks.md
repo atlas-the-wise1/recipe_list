@@ -1,3 +1,64 @@
+---
+schema_version: 1
+id: "high-protein-snacks"
+title: "High-Protein Snacks — ET's Fat Loss Rotation"
+status: reviewed
+category: "snacks"
+meal_types:
+  - snack_1
+  - snack_2
+servings: null
+times:
+  prep_minutes: null
+  cook_minutes: null
+  total_minutes: null
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 6
+tags:
+  - "#high-protein"
+  - "#low-cholesterol"
+  - "#fat-loss"
+  - "#meal-prep"
+  - "#no-processed"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "lower_cholesterol"
+  - "fat_loss"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+[]
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # High-Protein Snacks — ET's Fat Loss Rotation
 
 **Category:** Snacks

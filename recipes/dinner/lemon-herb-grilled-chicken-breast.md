@@ -1,3 +1,134 @@
+---
+schema_version: 1
+id: "lemon-herb-grilled-chicken-breast"
+title: "Lemon Herb Grilled Chicken Breast"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 12
+  total_minutes: 27
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 245
+  protein_g: 42
+  carbohydrate_g: 1
+  net_carbohydrate_g: null
+  fat_g: 9
+  saturated_fat_g: null
+  fiber_g: 0
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 85
+health_score: 9
+tags:
+  - "#keto"
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#high-protein"
+  - "#fat-loss"
+dietary_tags:
+  - "keto_friendly"
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "high_protein"
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "4 boneless, skinless chicken breasts (6 oz each)"
+    name: "boneless"
+    ingredient_id: "boneless"
+    quantity: 4
+    unit: null
+    preparation: "skinless chicken breasts (6 oz each)"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "3 tbsp fresh lemon juice"
+    name: "fresh lemon juice"
+    ingredient_id: "fresh-lemon-juice"
+    quantity: 3
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "3 cloves garlic, minced"
+    name: "garlic"
+    ingredient_id: "garlic"
+    quantity: 3
+    unit: "cloves"
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tbsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tsp dried oregano"
+    name: "dried oregano"
+    ingredient_id: "dried-oregano"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tsp dried thyme"
+    name: "dried thyme"
+    ingredient_id: "dried-thyme"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tsp salt"
+    name: "salt"
+    ingredient_id: "salt"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "½ tsp black pepper"
+    name: "½ tsp black pepper"
+    ingredient_id: "tsp-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "½ tsp lemon zest"
+    name: "½ tsp lemon zest"
+    ingredient_id: "tsp-lemon-zest"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Lemon Herb Grilled Chicken Breast
 
 **Category:** D — Dinner

@@ -1,3 +1,185 @@
+---
+schema_version: 1
+id: "italian-beef-sandwiches"
+title: "Italian Beef Sandwiches"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 8
+times:
+  prep_minutes: 20
+  cook_minutes: 8
+  total_minutes: 8
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 650
+  protein_g: 38
+  carbohydrate_g: 40
+  net_carbohydrate_g: null
+  fat_g: 34
+  saturated_fat_g: null
+  fiber_g: 2
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 115
+health_score: 5
+tags:
+  - "#high-protein"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 1/2 to 3 pounds boneless chuck roast, trimmed"
+    name: "boneless chuck roast"
+    ingredient_id: "boneless-chuck-roast"
+    quantity: 2.5
+    unit: "pounds"
+    preparation: "trimmed"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tablespoon kosher salt"
+    name: "kosher salt"
+    ingredient_id: "kosher-salt"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Black pepper"
+    name: "Black pepper"
+    ingredient_id: "black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tablespoons extra-virgin olive oil"
+    name: "extra-virgin olive oil"
+    ingredient_id: "extra-virgin-olive-oil"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 yellow onion, halved"
+    name: "yellow onion"
+    ingredient_id: "yellow-onion"
+    quantity: 1
+    unit: null
+    preparation: "halved"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 head garlic, halved crosswise"
+    name: "garlic"
+    ingredient_id: "garlic"
+    quantity: 1
+    unit: "head"
+    preparation: "halved crosswise"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 carrots, peeled"
+    name: "carrots"
+    ingredient_id: "carrots"
+    quantity: 2
+    unit: null
+    preparation: "peeled"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 celery stalks"
+    name: "celery stalks"
+    ingredient_id: "celery-stalks"
+    quantity: 2
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/2 teaspoon red-pepper flakes"
+    name: "red-pepper flakes"
+    ingredient_id: "red-pepper-flakes"
+    quantity: 0.5
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "6 cups beef broth"
+    name: "beef broth"
+    ingredient_id: "beef-broth"
+    quantity: 6
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "2 tablespoons tamari or soy sauce"
+    name: "tamari or soy sauce"
+    ingredient_id: "tamari-or-soy-sauce"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "6 to 8 soft hoagie rolls, soft French rolls, or ciabatta rolls"
+    name: "soft hoagie rolls"
+    ingredient_id: "soft-hoagie-rolls"
+    quantity: 6
+    unit: null
+    preparation: "soft French rolls, or ciabatta rolls"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/4 pound provolone, thinly sliced"
+    name: "provolone"
+    ingredient_id: "provolone"
+    quantity: 0.25
+    unit: "pound"
+    preparation: "thinly sliced"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "About 2 cups giardiniera, preferably Chicago-style"
+    name: "About 2 cups giardiniera"
+    ingredient_id: "about-2-cups-giardiniera"
+    quantity: null
+    unit: null
+    preparation: "preferably Chicago-style"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 cup pickled green hot peppers"
+    name: "pickled green hot peppers"
+    ingredient_id: "pickled-green-hot-peppers"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Fresh parsley, optional, leaves torn"
+    name: "Fresh parsley,"
+    ingredient_id: "fresh-parsley"
+    quantity: null
+    unit: null
+    preparation: "leaves torn"
+    optional: true
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Italian Beef Sandwiches
 
 **Category:** D — Dinner

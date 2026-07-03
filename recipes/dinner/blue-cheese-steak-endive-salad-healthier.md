@@ -1,3 +1,84 @@
+---
+schema_version: 1
+id: "blue-cheese-steak-endive-salad-healthier"
+title: "Blue-Cheese Steak and Endive Salad for Two — Healthier Variant"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 2
+times:
+  prep_minutes: 15
+  cook_minutes: 10
+  total_minutes: 25
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 430
+  protein_g: 48
+  carbohydrate_g: 8
+  net_carbohydrate_g: null
+  fat_g: 22
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 95
+health_score: 6
+tags:
+  - "#high-protein"
+  - "#keto"
+  - "#heart-healthy"
+  - "#low-cholesterol"
+dietary_tags:
+  - "keto_friendly"
+goal_tags:
+  - "high_protein"
+  - "heart_health"
+  - "lower_cholesterol"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "¾ to 1 lb hanger or flank steak, well-trimmed of fat, at room temperature"
+    name: "¾ to 1 lb hanger or flank steak"
+    ingredient_id: "to-1-lb-hanger-or-flank-steak"
+    quantity: null
+    unit: null
+    preparation: "well-trimmed of fat, at room temperature"
+    optional: false
+    grocery_department: "beverages"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Blue-Cheese Steak and Endive Salad for Two — Healthier Variant
 
 > 💡 **Healthier Variant** of Blue-Cheese Steak and Endive Salad for Two — see `blue-cheese-steak-endive-salad.md` for the classic version.

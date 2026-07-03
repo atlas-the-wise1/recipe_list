@@ -1,3 +1,121 @@
+---
+schema_version: 1
+id: "changua-colombian-bread-and-egg-soup"
+title: "Changua (Colombian Bread and Egg Soup)"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 15
+  total_minutes: 25
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 340
+  protein_g: 17
+  carbohydrate_g: 33
+  net_carbohydrate_g: null
+  fat_g: 15
+  saturated_fat_g: null
+  fiber_g: 2
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 220
+health_score: 6
+tags:
+  - "#quick"
+  - "#comfort-food"
+  - "#budget-friendly"
+dietary_tags:
+  []
+goal_tags:
+  - "quick_preparation"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "4 scallions, quartered lengthwise and finely chopped"
+    name: "scallions"
+    ingredient_id: "scallions"
+    quantity: 4
+    unit: null
+    preparation: "quartered lengthwise and finely chopped"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/2 packed cup cilantro leaves and tender stems, finely chopped"
+    name: "packed cup cilantro leaves and tender stems"
+    ingredient_id: "packed-cup-cilantro-leaves-and-tender-stems"
+    quantity: 0.5
+    unit: null
+    preparation: "finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 quart whole milk"
+    name: "quart whole milk"
+    ingredient_id: "quart-whole-milk"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 quart water or chicken stock"
+    name: "quart water or chicken stock"
+    ingredient_id: "quart-water-or-chicken-stock"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "Salt"
+    name: "Salt"
+    ingredient_id: "salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "About 3 cups stale hearty bread, such as baguettes or lean dinner rolls, torn into bite-size pieces"
+    name: "About 3 cups stale hearty bread"
+    ingredient_id: "about-3-cups-stale-hearty-bread"
+    quantity: null
+    unit: null
+    preparation: "such as baguettes or lean dinner rolls, torn into bite-size pieces"
+    optional: false
+    grocery_department: "grains"
+  - display: "4 eggs, cracked into a bowl"
+    name: "eggs"
+    ingredient_id: "eggs"
+    quantity: 4
+    unit: null
+    preparation: "cracked into a bowl"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "8 ounces diced melting cheese, such as low-moisture mozzarella or Jack, cut into 1/2-inch cubes, optional"
+    name: "diced melting cheese"
+    ingredient_id: "diced-melting-cheese"
+    quantity: 8
+    unit: "ounces"
+    preparation: "such as low-moisture mozzarella or Jack, cut into 1/2-inch cubes,"
+    optional: true
+    grocery_department: "dairy"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Changua (Colombian Bread and Egg Soup)
 
 **Category:** Dinner

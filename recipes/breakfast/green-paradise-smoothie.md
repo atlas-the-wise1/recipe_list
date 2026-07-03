@@ -1,3 +1,108 @@
+---
+schema_version: 1
+id: "green-paradise-smoothie"
+title: "Green Paradise Smoothie"
+status: reviewed
+category: "breakfast"
+meal_types:
+  - breakfast
+servings: 3
+times:
+  prep_minutes: 5
+  cook_minutes: null
+  total_minutes: 5
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 115
+  protein_g: 2
+  carbohydrate_g: 29
+  net_carbohydrate_g: null
+  fat_g: 0
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 0
+health_score: 6
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#quick"
+  - "#vegan"
+dietary_tags:
+  - "vegan"
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "quick_preparation"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 cup packed spinach"
+    name: "packed spinach"
+    ingredient_id: "packed-spinach"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 cup pineapple chunks"
+    name: "pineapple chunks"
+    ingredient_id: "pineapple-chunks"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 cup frozen mango chunks"
+    name: "frozen mango chunks"
+    ingredient_id: "frozen-mango-chunks"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 small banana"
+    name: "banana"
+    ingredient_id: "banana"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "½ cup ice"
+    name: "½ cup ice"
+    ingredient_id: "cup-ice"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1½ cups coconut water"
+    name: "1½ cups coconut water"
+    ingredient_id: "1-cups-coconut-water"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Green Paradise Smoothie
 
 **Category:** B — Breakfast

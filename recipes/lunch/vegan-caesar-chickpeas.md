@@ -1,3 +1,108 @@
+---
+schema_version: 1
+id: "vegan-caesar-chickpeas"
+title: "Vegan Caesar Salad With Crisp Chickpeas"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: null
+times:
+  prep_minutes: 15
+  cook_minutes: 20
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 7
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#vegan"
+  - "#meal-prep"
+dietary_tags:
+  - "vegan"
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "½ small loaf crusty bread (sourdough), torn into 1-inch pieces (~2 cups)"
+    name: "½ small loaf crusty bread"
+    ingredient_id: "small-loaf-crusty-bread"
+    quantity: null
+    unit: null
+    preparation: "torn into 1-inch pieces (~2 cups)"
+    optional: false
+    grocery_department: "grains"
+  - display: "¼ cup extra-virgin olive oil"
+    name: "¼ cup extra-virgin olive oil"
+    ingredient_id: "cup-extra-virgin-olive-oil"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 (14-oz) can chickpeas, drained, rinsed, and thoroughly dried"
+    name: "(14-oz) can chickpeas"
+    ingredient_id: "14-oz-can-chickpeas"
+    quantity: 1
+    unit: null
+    preparation: "drained, rinsed, and thoroughly dried"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 large bunch lacinato kale, stems removed, roughly chopped into 1-inch pieces (~4 cups)"
+    name: "lacinato kale"
+    ingredient_id: "lacinato-kale"
+    quantity: 1
+    unit: "bunch"
+    preparation: "stems removed, roughly chopped into 1-inch pieces (~4 cups)"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 large head romaine lettuce, roughly chopped into 1-inch pieces (~6 cups)"
+    name: "romaine lettuce"
+    ingredient_id: "romaine-lettuce"
+    quantity: 1
+    unit: "head"
+    preparation: "roughly chopped into 1-inch pieces (~6 cups)"
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Vegan Caesar Salad With Crisp Chickpeas
 
 **Category:** L — Lunch

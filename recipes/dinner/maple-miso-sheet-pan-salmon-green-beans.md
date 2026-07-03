@@ -1,3 +1,180 @@
+---
+schema_version: 1
+id: "maple-miso-sheet-pan-salmon-green-beans"
+title: "Maple and Miso Sheet-Pan Salmon With Green Beans"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 12
+  total_minutes: 25
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 420
+  protein_g: 42
+  carbohydrate_g: 12
+  net_carbohydrate_g: null
+  fat_g: 22
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 95
+health_score: 8
+tags:
+  - "#heart-healthy"
+  - "#high-protein"
+  - "#low-cholesterol"
+  - "#keto"
+dietary_tags:
+  - "keto_friendly"
+goal_tags:
+  - "heart_health"
+  - "high_protein"
+  - "lower_cholesterol"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "4 (6 oz) skin-on salmon fillets, ~1-inch thick"
+    name: "(6 oz) skin-on salmon fillets"
+    ingredient_id: "6-oz-skin-on-salmon-fillets"
+    quantity: 4
+    unit: null
+    preparation: "~1-inch thick"
+    optional: false
+    grocery_department: "seafood"
+  - display: "Kosher salt and freshly ground black pepper"
+    name: "Kosher salt and freshly ground black pepper"
+    ingredient_id: "kosher-salt-and-freshly-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "4 tsp maple syrup"
+    name: "maple syrup"
+    ingredient_id: "maple-syrup"
+    quantity: 4
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tbsp white or brown miso"
+    name: "white or brown miso"
+    ingredient_id: "white-or-brown-miso"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tbsp rice wine vinegar"
+    name: "rice wine vinegar"
+    ingredient_id: "rice-wine-vinegar"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "2 tsp soy sauce"
+    name: "soy sauce"
+    ingredient_id: "soy-sauce"
+    quantity: 2
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 garlic clove, grated"
+    name: "garlic clove"
+    ingredient_id: "garlic-clove"
+    quantity: 1
+    unit: null
+    preparation: "grated"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 lb green beans, trimmed"
+    name: "green beans"
+    ingredient_id: "green-beans"
+    quantity: 1
+    unit: "lb"
+    preparation: "trimmed"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tbsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Pinch of red-pepper flakes (optional)"
+    name: "Pinch of red-pepper flakes"
+    ingredient_id: "pinch-of-red-pepper-flakes"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: true
+    grocery_department: "condiments"
+  - display: "¼ tsp toasted sesame oil (optional)"
+    name: "¼ tsp toasted sesame oil"
+    ingredient_id: "tsp-toasted-sesame-oil"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: true
+    grocery_department: "condiments"
+  - display: "¼ cup roughly chopped cilantro (leaves and tender stems)"
+    name: "¼ cup roughly chopped cilantro"
+    ingredient_id: "cup-roughly-chopped-cilantro"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "4 lime wedges, for serving"
+    name: "lime wedges"
+    ingredient_id: "lime-wedges"
+    quantity: 4
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "produce"
+  - display: "Flaky sea salt, for serving (optional)"
+    name: "Flaky sea salt"
+    ingredient_id: "flaky-sea-salt"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: true
+    grocery_department: "condiments"
+  - display: "Cooked white rice, for serving (optional)"
+    name: "Cooked white rice"
+    ingredient_id: "cooked-white-rice"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: true
+    grocery_department: "frozen"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Maple and Miso Sheet-Pan Salmon With Green Beans
 
 **Category:** Dinner

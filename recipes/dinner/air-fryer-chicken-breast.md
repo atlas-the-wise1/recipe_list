@@ -1,3 +1,123 @@
+---
+schema_version: 1
+id: "air-fryer-chicken-breast"
+title: "Air-Fryer Chicken Breast"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 2
+times:
+  prep_minutes: 10
+  cook_minutes: 12
+  total_minutes: 25
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 220
+  protein_g: 35
+  carbohydrate_g: 5
+  net_carbohydrate_g: null
+  fat_g: 7
+  saturated_fat_g: null
+  fiber_g: 0
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 95
+health_score: 8
+tags:
+  - "#high-protein"
+  - "#meal-prep"
+  - "#fat-loss"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 large boneless, skinless chicken breast, about 11 ounces"
+    name: "boneless"
+    ingredient_id: "boneless"
+    quantity: 1
+    unit: null
+    preparation: "skinless chicken breast, about 11 ounces"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Salt"
+    name: "Salt"
+    ingredient_id: "salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Freshly cracked black pepper"
+    name: "Freshly cracked black pepper"
+    ingredient_id: "freshly-cracked-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 teaspoons light brown sugar"
+    name: "light brown sugar"
+    ingredient_id: "light-brown-sugar"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tablespoon rice vinegar"
+    name: "rice vinegar"
+    ingredient_id: "rice-vinegar"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 tablespoon low-sodium soy sauce"
+    name: "low-sodium soy sauce"
+    ingredient_id: "low-sodium-soy-sauce"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 teaspoons olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Lime wedge, optional, for serving"
+    name: "Lime wedge,"
+    ingredient_id: "lime-wedge"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: true
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Air-Fryer Chicken Breast
 
 **Category:** Dinner

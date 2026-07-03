@@ -1,3 +1,60 @@
+---
+schema_version: 1
+id: "soor-iyo-dalac-bilaash-grits-and-tomato-stew"
+title: "Soor iyo Dalac Bilaash (Grits and Tomato Stew)"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 40
+  total_minutes: 50
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 285
+  protein_g: 6
+  carbohydrate_g: 39
+  net_carbohydrate_g: null
+  fat_g: 12
+  saturated_fat_g: null
+  fiber_g: 4
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 0
+health_score: 7
+tags:
+  - "#vegetarian"
+  - "#gluten-free"
+  - "#comfort-food"
+  - "#one-pot"
+dietary_tags:
+  - "vegetarian"
+  - "gluten_free"
+goal_tags:
+  []
+allergens: []
+equipment:
+[]
+ingredients:
+[]
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Soor iyo Dalac Bilaash (Grits and Tomato Stew)
 
 **Category:** Dinner

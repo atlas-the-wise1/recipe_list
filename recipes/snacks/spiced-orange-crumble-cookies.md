@@ -1,3 +1,144 @@
+---
+schema_version: 1
+id: "spiced-orange-crumble-cookies"
+title: "Spiced Orange Crumble Cookies"
+status: reviewed
+category: "snacks"
+meal_types:
+  - snack_1
+  - snack_2
+servings: 8
+times:
+  prep_minutes: 20
+  cook_minutes: 60
+  total_minutes: 90
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 320
+  protein_g: 4
+  carbohydrate_g: 38
+  net_carbohydrate_g: null
+  fat_g: 18
+  saturated_fat_g: null
+  fiber_g: 1
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 45
+health_score: 2
+tags:
+  - "#vegetarian"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  []
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1½ cups / 115g cold unsalted butter, cut into ½-inch cubes, plus more (room temp) for greasing pan"
+    name: "1½ cups / 115g cold unsalted butter"
+    ingredient_id: "1-cups-115g-cold-unsalted-butter"
+    quantity: null
+    unit: null
+    preparation: "cut into ½-inch cubes, plus more (room temp) for greasing pan"
+    optional: false
+    grocery_department: "dairy"
+  - display: "1½ cups / 175g all-purpose flour"
+    name: "1½ cups / 175g all-purpose flour"
+    ingredient_id: "1-cups-175g-all-purpose-flour"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "¾ cup / 80g almond flour"
+    name: "¾ cup / 80g almond flour"
+    ingredient_id: "cup-80g-almond-flour"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "¾ cup packed / 160g dark brown sugar"
+    name: "¾ cup packed / 160g dark brown sugar"
+    ingredient_id: "cup-packed-160g-dark-brown-sugar"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 teaspoon kosher salt (Diamond Crystal)"
+    name: "kosher salt"
+    ingredient_id: "kosher-salt"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "¼ teaspoon ground cloves"
+    name: "¼ teaspoon ground cloves"
+    ingredient_id: "teaspoon-ground-cloves"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "¼ teaspoon freshly ground black pepper"
+    name: "¼ teaspoon freshly ground black pepper"
+    ingredient_id: "teaspoon-freshly-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "¼ cup / 57g heavy cream"
+    name: "¼ cup / 57g heavy cream"
+    ingredient_id: "cup-57g-heavy-cream"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "6 tablespoons / 142g orange marmalade"
+    name: "/ 142g orange marmalade"
+    ingredient_id: "142g-orange-marmalade"
+    quantity: 6
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 whole orange (for zest)"
+    name: "whole orange"
+    ingredient_id: "whole-orange"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "Confectioners' sugar, for dusting"
+    name: "Confectioners' sugar"
+    ingredient_id: "confectioners-sugar"
+    quantity: null
+    unit: null
+    preparation: "for dusting"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Spiced Orange Crumble Cookies
 
 **Category:** S — Snack

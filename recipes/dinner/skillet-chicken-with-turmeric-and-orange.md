@@ -1,3 +1,135 @@
+---
+schema_version: 1
+id: "skillet-chicken-with-turmeric-and-orange"
+title: "Skillet Chicken With Turmeric and Orange"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 2
+times:
+  prep_minutes: 10
+  cook_minutes: 15
+  total_minutes: 25
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 7
+tags:
+  - "#chicken"
+dietary_tags:
+  []
+goal_tags:
+  []
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1/2 medium onion, diced into 1/4-inch pieces"
+    name: "onion"
+    ingredient_id: "onion"
+    quantity: 0.5
+    unit: null
+    preparation: "diced into 1/4-inch pieces"
+    optional: false
+    grocery_department: "produce"
+  - display: "5 tablespoons olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 5
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tablespoon honey"
+    name: "honey"
+    ingredient_id: "honey"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 teaspoons dried mint"
+    name: "dried mint"
+    ingredient_id: "dried-mint"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "3 garlic cloves, crushed or finely chopped"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 3
+    unit: null
+    preparation: "crushed or finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 tablespoon grated orange zest (from about 2 large oranges), plus 1/4 cup orange juice"
+    name: "grated orange zest"
+    ingredient_id: "grated-orange-zest"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: "plus 1/4 cup orange juice"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 teaspoon ground turmeric"
+    name: "ground turmeric"
+    ingredient_id: "ground-turmeric"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "3/4 teaspoon fine sea salt"
+    name: "fine sea salt"
+    ingredient_id: "fine-sea-salt"
+    quantity: 0.75
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1/4 teaspoon black pepper"
+    name: "black pepper"
+    ingredient_id: "black-pepper"
+    quantity: 0.25
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 pound boneless, skinless chicken thighs or breasts"
+    name: "boneless"
+    ingredient_id: "boneless"
+    quantity: 1
+    unit: "pound"
+    preparation: "skinless chicken thighs or breasts"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Skillet Chicken With Turmeric and Orange
 
 **Category:** Dinner
@@ -6,7 +138,7 @@
 | Calories | Protein | Fat | Carbs | Fiber | Cholesterol |
 |---|---|---|---|---|---|
 | TBD | TBD | TBD | TBD | TBD | TBD |
-**Health Score:** TBD
+**Health Score:** 7/10
 
 **Serves:** 2 to 4
 **Prep Time:** 10 min | **Cook Time:** 15 min | **Total:** ~25 min

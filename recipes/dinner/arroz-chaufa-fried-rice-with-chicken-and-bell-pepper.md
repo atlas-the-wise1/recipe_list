@@ -1,3 +1,178 @@
+---
+schema_version: 1
+id: "arroz-chaufa-fried-rice-with-chicken-and-bell-pepper"
+title: "Arroz Chaufa (Fried Rice With Chicken and Bell Pepper)"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 15
+  total_minutes: 30
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 420
+  protein_g: 18
+  carbohydrate_g: 46
+  net_carbohydrate_g: null
+  fat_g: 18
+  saturated_fat_g: null
+  fiber_g: 2
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 125
+health_score: 5
+tags:
+  - "#quick"
+  - "#one-pan"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "quick_preparation"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "4 tablespoons neutral oil, like grapeseed"
+    name: "neutral oil"
+    ingredient_id: "neutral-oil"
+    quantity: 4
+    unit: "tablespoons"
+    preparation: "like grapeseed"
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 large eggs, beaten"
+    name: "eggs"
+    ingredient_id: "eggs"
+    quantity: 2
+    unit: null
+    preparation: "beaten"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Kosher salt"
+    name: "Kosher salt"
+    ingredient_id: "kosher-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 medium red bell pepper, stem and seeds removed, roughly chopped"
+    name: "red bell pepper"
+    ingredient_id: "red-bell-pepper"
+    quantity: 1
+    unit: null
+    preparation: "stem and seeds removed, roughly chopped"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1/2 pound boneless, skinless chicken thighs, cut into 1/2-inch cubes"
+    name: "boneless"
+    ingredient_id: "boneless"
+    quantity: 0.5
+    unit: "pound"
+    preparation: "skinless chicken thighs, cut into 1/2-inch cubes"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 (2-inch) piece fresh ginger, peeled and finely chopped"
+    name: "(2-inch) piece fresh ginger"
+    ingredient_id: "2-inch-piece-fresh-ginger"
+    quantity: 1
+    unit: null
+    preparation: "peeled and finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "4 garlic cloves, finely chopped"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 4
+    unit: null
+    preparation: "finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 bunch scallions, trimmed and thinly sliced, white and green portions separated"
+    name: "scallions"
+    ingredient_id: "scallions"
+    quantity: 1
+    unit: "bunch"
+    preparation: "trimmed and thinly sliced, white and green portions separated"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tablespoon ground cumin"
+    name: "ground cumin"
+    ingredient_id: "ground-cumin"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 teaspoon ground white pepper, plus more for seasoning"
+    name: "ground white pepper"
+    ingredient_id: "ground-white-pepper"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: "plus more for seasoning"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 teaspoon granulated sugar"
+    name: "granulated sugar"
+    ingredient_id: "granulated-sugar"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/4 teaspoon MSG (optional)"
+    name: "MSG"
+    ingredient_id: "msg"
+    quantity: 0.25
+    unit: "teaspoon"
+    preparation: null
+    optional: true
+    grocery_department: "uncategorized"
+  - display: "2 cups cooked white rice, cooled"
+    name: "cooked white rice"
+    ingredient_id: "cooked-white-rice"
+    quantity: 2
+    unit: "cups"
+    preparation: "cooled"
+    optional: false
+    grocery_department: "frozen"
+  - display: "2 tablespoons soy sauce or tamari, plus more for seasoning"
+    name: "soy sauce or tamari"
+    ingredient_id: "soy-sauce-or-tamari"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: "plus more for seasoning"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tablespoon sesame oil"
+    name: "sesame oil"
+    ingredient_id: "sesame-oil"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Arroz Chaufa (Fried Rice With Chicken and Bell Pepper)
 
 **Category:** Dinner

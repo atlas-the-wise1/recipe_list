@@ -1,3 +1,90 @@
+---
+schema_version: 1
+id: "mayo-marinated-chicken-chimichurri"
+title: "Mayo-Marinated Chicken With Chimichurri"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 5
+  total_minutes: 15
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 380
+  protein_g: 42
+  carbohydrate_g: 2
+  net_carbohydrate_g: null
+  fat_g: 22
+  saturated_fat_g: null
+  fiber_g: 0
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 115
+health_score: 6
+tags:
+  - "#high-protein"
+  - "#fat-loss"
+  - "#keto"
+dietary_tags:
+  - "keto_friendly"
+goal_tags:
+  - "high_protein"
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "4 chicken breast cutlets (4–5 oz each), pounded to about ¼-inch thick"
+    name: "chicken breast cutlets"
+    ingredient_id: "chicken-breast-cutlets"
+    quantity: 4
+    unit: null
+    preparation: "pounded to about ¼-inch thick"
+    optional: false
+    grocery_department: "meat"
+  - display: "Kosher salt and ground black pepper"
+    name: "Kosher salt and ground black pepper"
+    ingredient_id: "kosher-salt-and-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "⅓ cup store-bought or homemade mayonnaise"
+    name: "⅓ cup store-bought or homemade mayonnaise"
+    ingredient_id: "cup-store-bought-or-homemade-mayonnaise"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 cup chimichurri *(store-bought or homemade)*"
+    name: "chimichurri *(store-bought or homemade)*"
+    ingredient_id: "chimichurri-store-bought-or-homemade"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Mayo-Marinated Chicken With Chimichurri
 
 **Category:** D — Dinner

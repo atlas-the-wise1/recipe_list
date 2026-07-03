@@ -1,3 +1,132 @@
+---
+schema_version: 1
+id: "bircher-muesli"
+title: "Bircher Muesli"
+status: reviewed
+category: "breakfast"
+meal_types:
+  - breakfast
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: null
+  total_minutes: 10
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 7
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#meal-prep"
+  - "#vegetarian"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 cup / 100g old-fashioned rolled oats"
+    name: "/ 100g old-fashioned rolled oats"
+    ingredient_id: "100g-old-fashioned-rolled-oats"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "½ cup / 115g Greek yogurt (preferably full-fat)"
+    name: "½ cup / 115g Greek yogurt"
+    ingredient_id: "cup-115g-greek-yogurt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "½ cup / 120ml milk or nondairy milk, plus more as needed"
+    name: "½ cup / 120ml milk or nondairy milk"
+    ingredient_id: "cup-120ml-milk-or-nondairy-milk"
+    quantity: null
+    unit: null
+    preparation: "plus more as needed"
+    optional: false
+    grocery_department: "dairy"
+  - display: "2 medium apples, grated on the large holes of a box grater"
+    name: "apples"
+    ingredient_id: "apples"
+    quantity: 2
+    unit: null
+    preparation: "grated on the large holes of a box grater"
+    optional: false
+    grocery_department: "produce"
+  - display: "⅓ cup / 40g chopped pecans"
+    name: "⅓ cup / 40g chopped pecans"
+    ingredient_id: "cup-40g-chopped-pecans"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons tahini *(optional)*"
+    name: "tahini **"
+    ingredient_id: "tahini"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: true
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons golden raisins"
+    name: "golden raisins"
+    ingredient_id: "golden-raisins"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons dried cherries"
+    name: "dried cherries"
+    ingredient_id: "dried-cherries"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Fresh fruit, dried fruit, chopped nuts, and maple syrup — for serving"
+    name: "Fresh fruit"
+    ingredient_id: "fresh-fruit"
+    quantity: null
+    unit: null
+    preparation: "dried fruit, chopped nuts, and maple syrup — for serving"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Bircher Muesli
 
 **Category:** B — Breakfast

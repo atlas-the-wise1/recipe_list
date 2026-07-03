@@ -1,3 +1,163 @@
+---
+schema_version: 1
+id: "quinoa-broccoli-spoon-salad"
+title: "Quinoa and Broccoli Spoon Salad"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: null
+times:
+  prep_minutes: 15
+  cook_minutes: 15
+  total_minutes: 30
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 7
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "Kosher salt"
+    name: "Kosher salt"
+    ingredient_id: "kosher-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 cup quinoa, rinsed"
+    name: "quinoa"
+    ingredient_id: "quinoa"
+    quantity: 1
+    unit: "cup"
+    preparation: "rinsed"
+    optional: false
+    grocery_department: "grains"
+  - display: "1 lemon"
+    name: "lemon"
+    ingredient_id: "lemon"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "3 tablespoons extra-virgin olive oil"
+    name: "extra-virgin olive oil"
+    ingredient_id: "extra-virgin-olive-oil"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "3 tablespoons Dijon mustard"
+    name: "Dijon mustard"
+    ingredient_id: "dijon-mustard"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tablespoons honey"
+    name: "honey"
+    ingredient_id: "honey"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tablespoons apple cider vinegar"
+    name: "apple cider vinegar"
+    ingredient_id: "apple-cider-vinegar"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Freshly ground black pepper"
+    name: "Freshly ground black pepper"
+    ingredient_id: "freshly-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 large bunch broccoli (about 1½ lbs)"
+    name: "broccoli"
+    ingredient_id: "broccoli"
+    quantity: 1
+    unit: "bunch"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 medium tart and crisp apple"
+    name: "tart and crisp apple"
+    ingredient_id: "tart-and-crisp-apple"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "4 oz sharp Cheddar"
+    name: "sharp Cheddar"
+    ingredient_id: "sharp-cheddar"
+    quantity: 4
+    unit: "oz"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "¼ cup toasted pecans, roughly chopped"
+    name: "¼ cup toasted pecans"
+    ingredient_id: "cup-toasted-pecans"
+    quantity: null
+    unit: null
+    preparation: "roughly chopped"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ cup dried cranberries"
+    name: "½ cup dried cranberries"
+    ingredient_id: "cup-dried-cranberries"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Quinoa and Broccoli Spoon Salad
 
 **Category:** L — Lunch

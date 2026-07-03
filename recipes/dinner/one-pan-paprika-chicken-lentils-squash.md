@@ -1,3 +1,179 @@
+---
+schema_version: 1
+id: "one-pan-paprika-chicken-lentils-squash"
+title: "One-Pan Paprika Chicken With Lentils, Squash and Daqa"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 70
+  total_minutes: 85
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 580
+  protein_g: 48
+  carbohydrate_g: 38
+  net_carbohydrate_g: null
+  fat_g: 26
+  saturated_fat_g: null
+  fiber_g: 10
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 145
+health_score: 8
+tags:
+  - "#heart-healthy"
+  - "#high-protein"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "heart_health"
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "6 bone-in, skin-on chicken thighs (about 2¼ lbs)"
+    name: "bone-in"
+    ingredient_id: "bone-in"
+    quantity: 6
+    unit: null
+    preparation: "skin-on chicken thighs (about 2¼ lbs)"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "¾ lb skin-on kabocha squash, seeds removed, cut into ~6 (1-inch-thick) wedges"
+    name: "¾ lb skin-on kabocha squash"
+    ingredient_id: "lb-skin-on-kabocha-squash"
+    quantity: null
+    unit: null
+    preparation: "seeds removed, cut into ~6 (1-inch-thick) wedges"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tablespoon + 2 teaspoons ground sweet paprika"
+    name: "+ 2 teaspoons ground sweet paprika"
+    ingredient_id: "2-teaspoons-ground-sweet-paprika"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "3 tablespoons olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Fine sea salt"
+    name: "Fine sea salt"
+    ingredient_id: "fine-sea-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 small yellow onions, halved and thinly sliced"
+    name: "yellow onions"
+    ingredient_id: "yellow-onions"
+    quantity: 2
+    unit: null
+    preparation: "halved and thinly sliced"
+    optional: false
+    grocery_department: "produce"
+  - display: "3 garlic cloves, minced"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 3
+    unit: null
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 teaspoon cumin seeds, lightly toasted"
+    name: "cumin seeds"
+    ingredient_id: "cumin-seeds"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: "lightly toasted"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "8 oz / 1 heaping cup French green lentils (uncooked), rinsed"
+    name: "/ 1 heaping cup French green lentils"
+    ingredient_id: "1-heaping-cup-french-green-lentils"
+    quantity: 8
+    unit: "oz"
+    preparation: "rinsed"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 cups chicken stock"
+    name: "chicken stock"
+    ingredient_id: "chicken-stock"
+    quantity: 2
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "¾ cup sour cream"
+    name: "¾ cup sour cream"
+    ingredient_id: "cup-sour-cream"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "½ cup finely chopped chives"
+    name: "½ cup finely chopped chives"
+    ingredient_id: "cup-finely-chopped-chives"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "3 tablespoons finely chopped fresh dill, plus 1 tablespoon picked leaves for serving"
+    name: "finely chopped fresh dill"
+    ingredient_id: "finely-chopped-fresh-dill"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: "plus 1 tablespoon picked leaves for serving"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "3 tablespoons apple cider vinegar"
+    name: "apple cider vinegar"
+    ingredient_id: "apple-cider-vinegar"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "½ teaspoon granulated sugar"
+    name: "½ teaspoon granulated sugar"
+    ingredient_id: "teaspoon-granulated-sugar"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # One-Pan Paprika Chicken With Lentils, Squash and Daqa
 
 **Category:** D — Dinner

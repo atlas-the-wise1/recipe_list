@@ -1,3 +1,123 @@
+---
+schema_version: 1
+id: "blackened-cod-fish-tacos"
+title: "Blackened Cod Fish Tacos"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 10
+  total_minutes: 25
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 278
+  protein_g: 29
+  carbohydrate_g: 31
+  net_carbohydrate_g: null
+  fat_g: 5
+  saturated_fat_g: null
+  fiber_g: 5
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 62
+health_score: 7
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#fat-loss"
+dietary_tags:
+  []
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 tbsp paprika"
+    name: "paprika"
+    ingredient_id: "paprika"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tsp cayenne pepper"
+    name: "cayenne pepper"
+    ingredient_id: "cayenne-pepper"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tsp garlic powder"
+    name: "garlic powder"
+    ingredient_id: "garlic-powder"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "½ tsp onion powder"
+    name: "½ tsp onion powder"
+    ingredient_id: "tsp-onion-powder"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "½ tsp dried thyme"
+    name: "½ tsp dried thyme"
+    ingredient_id: "tsp-dried-thyme"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ tsp dried oregano"
+    name: "½ tsp dried oregano"
+    ingredient_id: "tsp-dried-oregano"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "¼ tsp black pepper"
+    name: "¼ tsp black pepper"
+    ingredient_id: "tsp-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "¼ tsp salt"
+    name: "¼ tsp salt"
+    ingredient_id: "tsp-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Blackened Cod Fish Tacos
 
 **Category:** D — Dinner

@@ -1,3 +1,135 @@
+---
+schema_version: 1
+id: "dumpling-tomato-salad-with-chile-crisp-vinaigrette"
+title: "Dumpling Tomato Salad With Chile Crisp Vinaigrette"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 10
+  total_minutes: 25
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 420
+  protein_g: 18
+  carbohydrate_g: 44
+  net_carbohydrate_g: null
+  fat_g: 18
+  saturated_fat_g: null
+  fiber_g: 4
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 35
+health_score: null
+tags:
+  - "#fat-loss"
+dietary_tags:
+  []
+goal_tags:
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 1/2 pounds ripe tomatoes, cut into 1- to 2-inch pieces"
+    name: "ripe tomatoes"
+    ingredient_id: "ripe-tomatoes"
+    quantity: 2.5
+    unit: "pounds"
+    preparation: "cut into 1- to 2-inch pieces"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 garlic clove, grated"
+    name: "garlic clove"
+    ingredient_id: "garlic-clove"
+    quantity: 1
+    unit: null
+    preparation: "grated"
+    optional: false
+    grocery_department: "produce"
+  - display: "1/2 cup basil leaves, torn"
+    name: "basil leaves"
+    ingredient_id: "basil-leaves"
+    quantity: 0.5
+    unit: "cup"
+    preparation: "torn"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 pound frozen potsticker dumplings, not thawed"
+    name: "frozen potsticker dumplings"
+    ingredient_id: "frozen-potsticker-dumplings"
+    quantity: 1
+    unit: "pound"
+    preparation: "not thawed"
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 to 2 tablespoons neutral oil, such as canola or vegetable"
+    name: "neutral oil"
+    ingredient_id: "neutral-oil"
+    quantity: 1
+    unit: "tablespoons"
+    preparation: "such as canola or vegetable"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 to 2 tablespoons crispy fried shallots, optional"
+    name: "crispy fried shallots,"
+    ingredient_id: "crispy-fried-shallots"
+    quantity: 1
+    unit: "tablespoons"
+    preparation: "optional"
+    optional: true
+    grocery_department: "uncategorized"
+  - display: "3 tablespoons chile crisp or chile oil"
+    name: "chile crisp or chile oil"
+    ingredient_id: "chile-crisp-or-chile-oil"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tablespoons rice vinegar"
+    name: "rice vinegar"
+    ingredient_id: "rice-vinegar"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 tablespoon soy sauce, plus more to taste"
+    name: "soy sauce"
+    ingredient_id: "soy-sauce"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: "plus more to taste"
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Dumpling Tomato Salad With Chile Crisp Vinaigrette
 
 **Category:** Lunch

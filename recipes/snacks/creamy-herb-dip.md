@@ -1,3 +1,127 @@
+---
+schema_version: 1
+id: "creamy-herb-dip"
+title: "Creamy Herb Dip"
+status: reviewed
+category: "snacks"
+meal_types:
+  - snack_1
+  - snack_2
+servings: 2
+times:
+  prep_minutes: 5
+  cook_minutes: null
+  total_minutes: 5
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 80
+  protein_g: 5
+  carbohydrate_g: 6
+  net_carbohydrate_g: null
+  fat_g: 3
+  saturated_fat_g: null
+  fiber_g: 0
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 13
+health_score: 6
+tags:
+  - "#vegetarian"
+  - "#low-cholesterol"
+  - "#quick"
+  - "#keto"
+  - "#high-protein"
+dietary_tags:
+  - "vegetarian"
+  - "keto_friendly"
+goal_tags:
+  - "lower_cholesterol"
+  - "quick_preparation"
+  - "high_protein"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 cup low-fat sour cream"
+    name: "low-fat sour cream"
+    ingredient_id: "low-fat-sour-cream"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "½ cup plain Greek yogurt"
+    name: "½ cup plain Greek yogurt"
+    ingredient_id: "cup-plain-greek-yogurt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 tablespoon fresh dill"
+    name: "fresh dill"
+    ingredient_id: "fresh-dill"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons chopped parsley"
+    name: "chopped parsley"
+    ingredient_id: "chopped-parsley"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 scallion, minced"
+    name: "scallion"
+    ingredient_id: "scallion"
+    quantity: 1
+    unit: null
+    preparation: "minced"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 teaspoon salt"
+    name: "salt"
+    ingredient_id: "salt"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "¼ teaspoon pepper"
+    name: "¼ teaspoon pepper"
+    ingredient_id: "teaspoon-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "1 tablespoon milk"
+    name: "milk"
+    ingredient_id: "milk"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Creamy Herb Dip
 
 **Category:** S — Snacks / Condiment

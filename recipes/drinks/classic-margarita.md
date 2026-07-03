@@ -1,3 +1,115 @@
+---
+schema_version: 1
+id: "classic-margarita"
+title: "Classic Margarita"
+status: reviewed
+category: "drinks"
+meal_types:
+  - drink
+servings: 3
+times:
+  prep_minutes: 5
+  cook_minutes: null
+  total_minutes: 5
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 216
+  protein_g: 0
+  carbohydrate_g: 18
+  net_carbohydrate_g: null
+  fat_g: 0
+  saturated_fat_g: null
+  fiber_g: 0
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 0
+health_score: 5
+tags:
+  - "#cocktail"
+  - "#quick"
+  - "#vegan"
+  - "#low-cholesterol"
+dietary_tags:
+  - "vegan"
+goal_tags:
+  - "quick_preparation"
+  - "lower_cholesterol"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "½ cup fresh lime juice"
+    name: "½ cup fresh lime juice"
+    ingredient_id: "cup-fresh-lime-juice"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "2 tablespoons fresh orange juice"
+    name: "fresh orange juice"
+    ingredient_id: "fresh-orange-juice"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "2 tablespoons fresh lemon juice"
+    name: "fresh lemon juice"
+    ingredient_id: "fresh-lemon-juice"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "4 ounces orange liqueur *(Triple Sec or Cointreau)*"
+    name: "orange liqueur *(Triple Sec or Cointreau)*"
+    ingredient_id: "orange-liqueur-triple-sec-or-cointreau"
+    quantity: 4
+    unit: "ounces"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "4 ounces tequila"
+    name: "tequila"
+    ingredient_id: "tequila"
+    quantity: 4
+    unit: "ounces"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tablespoon sugar or agave nectar *(optional)*"
+    name: "sugar or agave nectar **"
+    ingredient_id: "sugar-or-agave-nectar"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: true
+    grocery_department: "uncategorized"
+  - display: "2 cups ice"
+    name: "ice"
+    ingredient_id: "ice"
+    quantity: 2
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Classic Margarita
 
 **Category:** S — Snacks / Drinks

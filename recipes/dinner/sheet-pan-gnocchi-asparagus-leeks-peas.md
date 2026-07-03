@@ -1,3 +1,162 @@
+---
+schema_version: 1
+id: "sheet-pan-gnocchi-asparagus-leeks-peas"
+title: "Sheet-Pan Gnocchi With Asparagus, Leeks and Peas"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 25
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 6
+tags:
+  - "#heart-healthy"
+  - "#high-protein"
+  - "#vegetarian"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  - "heart_health"
+  - "high_protein"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 (12-oz) packages gnocchi (preferably fresh, refrigerated, precooked)"
+    name: "(12-oz) packages gnocchi (preferably fresh"
+    ingredient_id: "12-oz-packages-gnocchi-preferably-fresh"
+    quantity: 2
+    unit: null
+    preparation: "refrigerated, precooked)"
+    optional: false
+    grocery_department: "grains"
+  - display: "3 tablespoons olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tablespoons unsalted butter"
+    name: "unsalted butter"
+    ingredient_id: "unsalted-butter"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 bunch asparagus (about 1 lb), trimmed and cut into thirds"
+    name: "asparagus"
+    ingredient_id: "asparagus"
+    quantity: 1
+    unit: "bunch"
+    preparation: "trimmed and cut into thirds"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 small leeks, trimmed, halved lengthwise, then sliced ½-inch thick (~2 cups)"
+    name: "leeks"
+    ingredient_id: "leeks"
+    quantity: 2
+    unit: null
+    preparation: "trimmed, halved lengthwise, then sliced ½-inch thick (~2 cups)"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 shallots, trimmed and sliced lengthwise ¼-inch thick"
+    name: "shallots"
+    ingredient_id: "shallots"
+    quantity: 2
+    unit: null
+    preparation: "trimmed and sliced lengthwise ¼-inch thick"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 cup frozen peas, thawed (or fresh)"
+    name: "frozen peas"
+    ingredient_id: "frozen-peas"
+    quantity: 1
+    unit: "cup"
+    preparation: "thawed (or fresh)"
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 (15-oz) can white beans (cannellini), drained and rinsed"
+    name: "(15-oz) can white beans"
+    ingredient_id: "15-oz-can-white-beans"
+    quantity: 1
+    unit: null
+    preparation: "drained and rinsed"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 lemon, scrubbed"
+    name: "lemon"
+    ingredient_id: "lemon"
+    quantity: 1
+    unit: null
+    preparation: "scrubbed"
+    optional: false
+    grocery_department: "produce"
+  - display: "½ cup grated Parmesan"
+    name: "½ cup grated Parmesan"
+    ingredient_id: "cup-grated-parmesan"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "¼ cup sliced fresh chives or parsley *(optional)*"
+    name: "¼ cup sliced fresh chives or parsley **"
+    ingredient_id: "cup-sliced-fresh-chives-or-parsley"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: true
+    grocery_department: "frozen"
+  - display: "4 soft-boiled eggs, halved *(optional but recommended for protein)*"
+    name: "soft-boiled eggs"
+    ingredient_id: "soft-boiled-eggs"
+    quantity: 4
+    unit: null
+    preparation: "halved *(but recommended for protein)*"
+    optional: true
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Sheet-Pan Gnocchi With Asparagus, Leeks and Peas
 
 **Category:** D — Dinner

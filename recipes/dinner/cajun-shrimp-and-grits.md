@@ -1,3 +1,105 @@
+---
+schema_version: 1
+id: "cajun-shrimp-and-grits"
+title: "Cajun Shrimp and Grits"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 30
+  total_minutes: 45
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 540
+  protein_g: 38
+  carbohydrate_g: 38
+  net_carbohydrate_g: null
+  fat_g: 26
+  saturated_fat_g: null
+  fiber_g: 2
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 200
+health_score: 4
+tags:
+  - "#high-protein"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 cup stone-ground cornmeal (or quick grits)"
+    name: "stone-ground cornmeal"
+    ingredient_id: "stone-ground-cornmeal"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "4 cups low-sodium chicken broth"
+    name: "low-sodium chicken broth"
+    ingredient_id: "low-sodium-chicken-broth"
+    quantity: 4
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "½ cup heavy cream (or 2% milk for lighter option)"
+    name: "½ cup heavy cream"
+    ingredient_id: "cup-heavy-cream"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "2 tbsp butter"
+    name: "butter"
+    ingredient_id: "butter"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "½ cup sharp cheddar cheese, grated"
+    name: "½ cup sharp cheddar cheese"
+    ingredient_id: "cup-sharp-cheddar-cheese"
+    quantity: null
+    unit: null
+    preparation: "grated"
+    optional: false
+    grocery_department: "dairy"
+  - display: "Salt and white pepper to taste"
+    name: "Salt and white pepper"
+    ingredient_id: "salt-and-white-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Cajun Shrimp and Grits
 
 **Category:** D — Dinner

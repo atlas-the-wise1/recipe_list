@@ -1,3 +1,152 @@
+---
+schema_version: 1
+id: "steak-diane"
+title: "Steak Diane"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 2
+times:
+  prep_minutes: 20
+  cook_minutes: 15
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 620
+  protein_g: 50
+  carbohydrate_g: 4
+  net_carbohydrate_g: null
+  fat_g: 44
+  saturated_fat_g: null
+  fiber_g: 0
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 185
+health_score: 3
+tags:
+  - "#high-protein"
+  - "#keto"
+dietary_tags:
+  - "keto_friendly"
+goal_tags:
+  - "high_protein"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "Salt and freshly ground black pepper"
+    name: "Salt and freshly ground black pepper"
+    ingredient_id: "salt-and-freshly-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 (12–16 oz) boneless steak — filet mignon or strip steak, ~1-inch thick"
+    name: "(12–16 oz) boneless steak — filet mignon or strip steak"
+    ingredient_id: "12-16-oz-boneless-steak-filet-mignon-or-strip-steak"
+    quantity: 1
+    unit: null
+    preparation: "~1-inch thick"
+    optional: false
+    grocery_department: "beverages"
+  - display: "2 tbsp unsalted butter"
+    name: "unsalted butter"
+    ingredient_id: "unsalted-butter"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 tbsp neutral oil (grapeseed or safflower)"
+    name: "neutral oil"
+    ingredient_id: "neutral-oil"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tbsp minced shallot or red onion"
+    name: "minced shallot or red onion"
+    ingredient_id: "minced-shallot-or-red-onion"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 tsp tomato paste"
+    name: "tomato paste"
+    ingredient_id: "tomato-paste"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tbsp Cognac or brandy"
+    name: "Cognac or brandy"
+    ingredient_id: "cognac-or-brandy"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "¼ cup heavy cream"
+    name: "¼ cup heavy cream"
+    ingredient_id: "cup-heavy-cream"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 tsp Dijon mustard"
+    name: "Dijon mustard"
+    ingredient_id: "dijon-mustard"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tsp Worcestershire sauce"
+    name: "Worcestershire sauce"
+    ingredient_id: "worcestershire-sauce"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "½ tsp fish sauce (optional)"
+    name: "½ tsp fish sauce"
+    ingredient_id: "tsp-fish-sauce"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: true
+    grocery_department: "seafood"
+  - display: "Minced chives or parsley, for garnish"
+    name: "Minced chives or parsley"
+    ingredient_id: "minced-chives-or-parsley"
+    quantity: null
+    unit: null
+    preparation: "for garnish"
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Steak Diane
 
 **Category:** Dinner

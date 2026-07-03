@@ -1,3 +1,164 @@
+---
+schema_version: 1
+id: "tuna-crunch-sandwiches"
+title: "Tuna Crunch Sandwiches"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: 2
+times:
+  prep_minutes: 15
+  cook_minutes: 0
+  total_minutes: 15
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 520
+  protein_g: 29
+  carbohydrate_g: 33
+  net_carbohydrate_g: null
+  fat_g: 29
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 175
+health_score: 6
+tags:
+  - "#high-protein"
+  - "#quick"
+  - "#sandwich"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "quick_preparation"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 (5-ounce) can solid white albacore or skipjack tuna, drained well"
+    name: "(5-ounce) can solid white albacore or skipjack tuna"
+    ingredient_id: "5-ounce-can-solid-white-albacore-or-skipjack-tuna"
+    quantity: 1
+    unit: null
+    preparation: "drained well"
+    optional: false
+    grocery_department: "seafood"
+  - display: "1 hard-boiled egg, peeled"
+    name: "hard-boiled egg"
+    ingredient_id: "hard-boiled-egg"
+    quantity: 1
+    unit: null
+    preparation: "peeled"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 celery rib, finely minced"
+    name: "celery rib"
+    ingredient_id: "celery-rib"
+    quantity: 1
+    unit: null
+    preparation: "finely minced"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "3 tablespoons extra-virgin olive oil"
+    name: "extra-virgin olive oil"
+    ingredient_id: "extra-virgin-olive-oil"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tablespoons finely minced red onion, shallot, or scallions"
+    name: "finely minced red onion"
+    ingredient_id: "finely-minced-red-onion"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: "shallot, or scallions"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tablespoons finely minced fresh parsley, chives, tarragon, or a mix (optional)"
+    name: "finely minced fresh parsley"
+    ingredient_id: "finely-minced-fresh-parsley"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: "chives, tarragon, or a mix"
+    optional: true
+    grocery_department: "produce"
+  - display: "2 tablespoons mayonnaise, plus more for spreading"
+    name: "mayonnaise"
+    ingredient_id: "mayonnaise"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: "plus more for spreading"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tablespoon sweet pickle relish or chopped dill pickles (optional)"
+    name: "sweet pickle relish or chopped dill pickles"
+    ingredient_id: "sweet-pickle-relish-or-chopped-dill-pickles"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: true
+    grocery_department: "uncategorized"
+  - display: "2 teaspoons freshly squeezed lemon juice"
+    name: "freshly squeezed lemon juice"
+    ingredient_id: "freshly-squeezed-lemon-juice"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "A few large handfuls of hearty potato chips or corn chips"
+    name: "A few large handfuls of hearty potato chips or corn chips"
+    ingredient_id: "a-few-large-handfuls-of-hearty-potato-chips-or-corn-chips"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "Salt and black pepper"
+    name: "Salt and black pepper"
+    ingredient_id: "salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "4 slices thick, soft sandwich bread, such as Texas toast, toasted if desired"
+    name: "thick"
+    ingredient_id: "thick"
+    quantity: 4
+    unit: "slices"
+    preparation: "soft sandwich bread, such as Texas toast, toasted if desired"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 lettuce leaves, such as iceberg, romaine, green leaf, or Bibb"
+    name: "lettuce leaves"
+    ingredient_id: "lettuce-leaves"
+    quantity: 2
+    unit: null
+    preparation: "such as iceberg, romaine, green leaf, or Bibb"
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Tuna Crunch Sandwiches
 
 **Category:** Lunch

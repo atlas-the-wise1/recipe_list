@@ -1,3 +1,102 @@
+---
+schema_version: 1
+id: "air-fryer-salmon"
+title: "Air-Fryer Salmon"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 2
+times:
+  prep_minutes: 5
+  cook_minutes: 12
+  total_minutes: 17
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 370
+  protein_g: 42
+  carbohydrate_g: 4
+  net_carbohydrate_g: null
+  fat_g: 20
+  saturated_fat_g: null
+  fiber_g: 1
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 95
+health_score: 8
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#high-protein"
+  - "#fat-loss"
+  - "#keto"
+dietary_tags:
+  - "keto_friendly"
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "high_protein"
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 (6-oz) salmon fillets — skin-on or skinless (frozen works, see notes)"
+    name: "(6-oz) salmon fillets — skin-on or skinless (frozen works"
+    ingredient_id: "6-oz-salmon-fillets-skin-on-or-skinless-frozen-works"
+    quantity: 2
+    unit: null
+    preparation: "see notes)"
+    optional: false
+    grocery_department: "seafood"
+  - display: "Olive oil, as needed"
+    name: "Olive oil"
+    ingredient_id: "olive-oil"
+    quantity: null
+    unit: null
+    preparation: "as needed"
+    optional: false
+    grocery_department: "condiments"
+  - display: "Salt and pepper, to taste"
+    name: "Salt and pepper"
+    ingredient_id: "salt-and-pepper"
+    quantity: null
+    unit: null
+    preparation: "to taste"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 lemon (optional)"
+    name: "lemon"
+    ingredient_id: "lemon"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: true
+    grocery_department: "produce"
+  - display: "1 cup cherry tomatoes (optional)"
+    name: "cherry tomatoes"
+    ingredient_id: "cherry-tomatoes"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: true
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Air-Fryer Salmon
 
 **Category:** Dinner

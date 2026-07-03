@@ -1,3 +1,119 @@
+---
+schema_version: 1
+id: "garlic-butter-shrimp-scampi"
+title: "Garlic Butter Shrimp Scampi"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: 10
+  total_minutes: 20
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 448
+  protein_g: 36
+  carbohydrate_g: 43
+  net_carbohydrate_g: null
+  fat_g: 14
+  saturated_fat_g: null
+  fiber_g: 4
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 180
+health_score: 6
+tags:
+  - "#high-protein"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1.5 lbs large shrimp (16/20 count), peeled and deveined"
+    name: "large shrimp"
+    ingredient_id: "large-shrimp"
+    quantity: 1.5
+    unit: "lbs"
+    preparation: "peeled and deveined"
+    optional: false
+    grocery_department: "seafood"
+  - display: "3 tbsp butter"
+    name: "butter"
+    ingredient_id: "butter"
+    quantity: 3
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "6 cloves garlic, minced"
+    name: "garlic"
+    ingredient_id: "garlic"
+    quantity: 6
+    unit: "cloves"
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "¼ cup dry white wine (or chicken broth)"
+    name: "¼ cup dry white wine"
+    ingredient_id: "cup-dry-white-wine"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "2 tbsp fresh lemon juice"
+    name: "fresh lemon juice"
+    ingredient_id: "fresh-lemon-juice"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "½ tsp red pepper flakes"
+    name: "½ tsp red pepper flakes"
+    ingredient_id: "tsp-red-pepper-flakes"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Salt and black pepper to taste"
+    name: "Salt and black pepper"
+    ingredient_id: "salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tbsp fresh parsley, chopped"
+    name: "fresh parsley"
+    ingredient_id: "fresh-parsley"
+    quantity: 1
+    unit: "tbsp"
+    preparation: "chopped"
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Garlic Butter Shrimp Scampi
 
 **Category:** D — Dinner

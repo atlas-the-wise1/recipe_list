@@ -1,3 +1,217 @@
+---
+schema_version: 1
+id: "yakamein"
+title: "Yakamein"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 1
+  total_minutes: 1
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 580
+  protein_g: 48
+  carbohydrate_g: 48
+  net_carbohydrate_g: null
+  fat_g: 22
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 285
+health_score: 4
+tags:
+  - "#high-protein"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 tablespoons Worcestershire sauce"
+    name: "Worcestershire sauce"
+    ingredient_id: "worcestershire-sauce"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 teaspoons Cajun seasoning"
+    name: "Cajun seasoning"
+    ingredient_id: "cajun-seasoning"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "4 garlic cloves, minced"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 4
+    unit: null
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 pound chuck roast, thinly sliced *(see Tip)*"
+    name: "chuck roast"
+    ingredient_id: "chuck-roast"
+    quantity: 1
+    unit: "pound"
+    preparation: "thinly sliced *(see Tip)*"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "4 tablespoons neutral oil (canola or vegetable)"
+    name: "neutral oil"
+    ingredient_id: "neutral-oil"
+    quantity: 4
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 cup chopped celery (from about 2 ribs)"
+    name: "chopped celery"
+    ingredient_id: "chopped-celery"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 medium yellow onion, diced"
+    name: "yellow onion"
+    ingredient_id: "yellow-onion"
+    quantity: 1
+    unit: null
+    preparation: "diced"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 medium green bell pepper, seeded and diced"
+    name: "green bell pepper"
+    ingredient_id: "green-bell-pepper"
+    quantity: 1
+    unit: null
+    preparation: "seeded and diced"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1½ teaspoons fine salt"
+    name: "1½ teaspoons fine salt"
+    ingredient_id: "1-teaspoons-fine-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "1 teaspoon onion powder"
+    name: "onion powder"
+    ingredient_id: "onion-powder"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 teaspoon garlic powder"
+    name: "garlic powder"
+    ingredient_id: "garlic-powder"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1 teaspoon smoked paprika"
+    name: "smoked paprika"
+    ingredient_id: "smoked-paprika"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1½ teaspoons black pepper"
+    name: "1½ teaspoons black pepper"
+    ingredient_id: "1-teaspoons-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "¼ teaspoon cayenne powder"
+    name: "¼ teaspoon cayenne powder"
+    ingredient_id: "teaspoon-cayenne-powder"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "¼ teaspoon ground ginger"
+    name: "¼ teaspoon ground ginger"
+    ingredient_id: "teaspoon-ground-ginger"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "4 cups beef stock (preferably unsalted or low-sodium)"
+    name: "beef stock"
+    ingredient_id: "beef-stock"
+    quantity: 4
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "8 oz Banza chickpea spaghetti"
+    name: "Banza chickpea spaghetti"
+    ingredient_id: "banza-chickpea-spaghetti"
+    quantity: 8
+    unit: "oz"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "4 hard-boiled eggs, cooled and peeled"
+    name: "hard-boiled eggs"
+    ingredient_id: "hard-boiled-eggs"
+    quantity: 4
+    unit: null
+    preparation: "cooled and peeled"
+    optional: false
+    grocery_department: "condiments"
+  - display: "½ cup sliced scallions, for serving"
+    name: "½ cup sliced scallions"
+    ingredient_id: "cup-sliced-scallions"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "frozen"
+  - display: "Ketchup, soy sauce, or hot sauce for serving *(optional)*"
+    name: "Ketchup"
+    ingredient_id: "ketchup"
+    quantity: null
+    unit: null
+    preparation: "soy sauce, or hot sauce for serving **"
+    optional: true
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Yakamein
 
 **Category:** D — Dinner

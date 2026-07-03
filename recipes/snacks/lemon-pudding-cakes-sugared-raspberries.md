@@ -1,3 +1,129 @@
+---
+schema_version: 1
+id: "lemon-pudding-cakes-sugared-raspberries"
+title: "Lemon Pudding Cakes With Sugared Raspberries"
+status: reviewed
+category: "snacks"
+meal_types:
+  - snack_1
+  - snack_2
+servings: 6
+times:
+  prep_minutes: 20
+  cook_minutes: 35
+  total_minutes: 75
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 285
+  protein_g: 6
+  carbohydrate_g: 44
+  net_carbohydrate_g: null
+  fat_g: 10
+  saturated_fat_g: null
+  fiber_g: 2
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 110
+health_score: 4
+tags:
+  - "#vegetarian"
+  - "#low-cholesterol"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  - "lower_cholesterol"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "¼ cup / 57g unsalted butter (½ stick), melted and cooled, plus more for greasing"
+    name: "¼ cup / 57g unsalted butter"
+    ingredient_id: "cup-57g-unsalted-butter"
+    quantity: null
+    unit: null
+    preparation: "melted and cooled, plus more for greasing"
+    optional: false
+    grocery_department: "dairy"
+  - display: "3 large eggs, separated"
+    name: "eggs"
+    ingredient_id: "eggs"
+    quantity: 3
+    unit: null
+    preparation: "separated"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 cup / 200g granulated sugar, plus more as needed"
+    name: "/ 200g granulated sugar"
+    ingredient_id: "200g-granulated-sugar"
+    quantity: 1
+    unit: "cup"
+    preparation: "plus more as needed"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "¾ cup / 180ml buttermilk (or plain yogurt thinned with milk)"
+    name: "¾ cup / 180ml buttermilk"
+    ingredient_id: "cup-180ml-buttermilk"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 tablespoon finely grated lemon zest (from 1–2 lemons)"
+    name: "finely grated lemon zest"
+    ingredient_id: "finely-grated-lemon-zest"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "½ cup / 120ml lemon juice (from 3–4 lemons)"
+    name: "½ cup / 120ml lemon juice"
+    ingredient_id: "cup-120ml-lemon-juice"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "¼ teaspoon fine sea salt or table salt"
+    name: "¼ teaspoon fine sea salt or table salt"
+    ingredient_id: "teaspoon-fine-sea-salt-or-table-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "⅓ cup / 43g all-purpose flour"
+    name: "⅓ cup / 43g all-purpose flour"
+    ingredient_id: "cup-43g-all-purpose-flour"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "6 oz / 170g raspberries"
+    name: "/ 170g raspberries"
+    ingredient_id: "170g-raspberries"
+    quantity: 6
+    unit: "oz"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Lemon Pudding Cakes With Sugared Raspberries
 
 **Category:** S — Snack

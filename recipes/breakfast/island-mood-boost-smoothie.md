@@ -1,3 +1,100 @@
+---
+schema_version: 1
+id: "island-mood-boost-smoothie"
+title: "Island Mood Boost Smoothie"
+status: reviewed
+category: "breakfast"
+meal_types:
+  - breakfast
+servings: 2
+times:
+  prep_minutes: 5
+  cook_minutes: null
+  total_minutes: 5
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 142
+  protein_g: 2
+  carbohydrate_g: 36
+  net_carbohydrate_g: null
+  fat_g: 0
+  saturated_fat_g: null
+  fiber_g: 4
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 0
+health_score: 6
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#quick"
+  - "#vegan"
+dietary_tags:
+  - "vegan"
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "quick_preparation"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 cups coconut water"
+    name: "coconut water"
+    ingredient_id: "coconut-water"
+    quantity: 2
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "1 cup pineapple, cut into 1-inch cubes"
+    name: "pineapple"
+    ingredient_id: "pineapple"
+    quantity: 1
+    unit: "cup"
+    preparation: "cut into 1-inch cubes"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 cup frozen mango"
+    name: "frozen mango"
+    ingredient_id: "frozen-mango"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 cup frozen strawberries"
+    name: "frozen strawberries"
+    ingredient_id: "frozen-strawberries"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 banana"
+    name: "banana"
+    ingredient_id: "banana"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Island Mood Boost Smoothie
 
 **Category:** B — Breakfast

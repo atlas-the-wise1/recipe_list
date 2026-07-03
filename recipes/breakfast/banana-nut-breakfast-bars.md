@@ -1,3 +1,145 @@
+---
+schema_version: 1
+id: "banana-nut-breakfast-bars"
+title: "Banana Nut Breakfast Bars"
+status: reviewed
+category: "breakfast"
+meal_types:
+  - breakfast
+servings: null
+times:
+  prep_minutes: 20
+  cook_minutes: 35
+  total_minutes: 60
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 280
+  protein_g: 7
+  carbohydrate_g: 32
+  net_carbohydrate_g: null
+  fat_g: 15
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 55
+health_score: 6
+tags:
+  - "#heart-healthy"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "heart_health"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 ripe medium bananas (about 240g peeled)"
+    name: "ripe medium bananas"
+    ingredient_id: "ripe-medium-bananas"
+    quantity: 2
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "2 large eggs"
+    name: "eggs"
+    ingredient_id: "eggs"
+    quantity: 2
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "6 tablespoons / 90ml olive oil, plus more for greasing"
+    name: "/ 90ml olive oil"
+    ingredient_id: "90ml-olive-oil"
+    quantity: 6
+    unit: "tablespoons"
+    preparation: "plus more for greasing"
+    optional: false
+    grocery_department: "condiments"
+  - display: "¼ cup / 187g peanut or almond butter"
+    name: "¼ cup / 187g peanut or almond butter"
+    ingredient_id: "cup-187g-peanut-or-almond-butter"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "6 tablespoons / 120g honey"
+    name: "/ 120g honey"
+    ingredient_id: "120g-honey"
+    quantity: 6
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 teaspoons kosher salt (Diamond Crystal), or 1 teaspoon fine salt"
+    name: "kosher salt"
+    ingredient_id: "kosher-salt"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: "or 1 teaspoon fine salt"
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 teaspoons ground cinnamon"
+    name: "ground cinnamon"
+    ingredient_id: "ground-cinnamon"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 teaspoons pure vanilla extract"
+    name: "pure vanilla extract"
+    ingredient_id: "pure-vanilla-extract"
+    quantity: 2
+    unit: "teaspoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 cup / 100g old-fashioned rolled oats"
+    name: "/ 100g old-fashioned rolled oats"
+    ingredient_id: "100g-old-fashioned-rolled-oats"
+    quantity: 1
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "¼ cup / 80g walnut halves and pieces, roughly chopped"
+    name: "¼ cup / 80g walnut halves and pieces"
+    ingredient_id: "cup-80g-walnut-halves-and-pieces"
+    quantity: null
+    unit: null
+    preparation: "roughly chopped"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Flaky salt, for topping"
+    name: "Flaky salt"
+    ingredient_id: "flaky-salt"
+    quantity: null
+    unit: null
+    preparation: "for topping"
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Banana Nut Breakfast Bars
 
 **Category:** B — Breakfast

@@ -1,3 +1,161 @@
+---
+schema_version: 1
+id: "gingery-meatballs-in-tomato-sauce"
+title: "Gingery Meatballs in Tomato Sauce"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 20
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 400
+  protein_g: 25
+  carbohydrate_g: 14
+  net_carbohydrate_g: null
+  fat_g: 24
+  saturated_fat_g: null
+  fiber_g: 2
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 70
+health_score: 6
+tags:
+  - "#high-protein"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 tablespoons finely grated or minced fresh ginger"
+    name: "finely grated or minced fresh ginger"
+    ingredient_id: "finely-grated-or-minced-fresh-ginger"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "3 garlic cloves, finely grated or minced"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 3
+    unit: null
+    preparation: "finely grated or minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 teaspoon ground cumin, more for serving"
+    name: "ground cumin"
+    ingredient_id: "ground-cumin"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: "more for serving"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 teaspoon fine sea or table salt, plus more as needed"
+    name: "fine sea or table salt"
+    ingredient_id: "fine-sea-or-table-salt"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: "plus more as needed"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1/2 teaspoon ground coriander"
+    name: "ground coriander"
+    ingredient_id: "ground-coriander"
+    quantity: 0.5
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 pound ground pork, or turkey, chicken, beef, lamb, or vegan meat"
+    name: "ground pork"
+    ingredient_id: "ground-pork"
+    quantity: 1
+    unit: "pound"
+    preparation: "or turkey, chicken, beef, lamb, or vegan meat"
+    optional: false
+    grocery_department: "meat"
+  - display: "1/2 cup panko bread crumbs, or plain breadcrumbs"
+    name: "panko bread crumbs"
+    ingredient_id: "panko-bread-crumbs"
+    quantity: 0.5
+    unit: "cup"
+    preparation: "or plain breadcrumbs"
+    optional: false
+    grocery_department: "grains"
+  - display: "2 tablespoons finely chopped fresh cilantro leaves and tender stems, more for serving"
+    name: "finely chopped fresh cilantro leaves and tender stems"
+    ingredient_id: "finely-chopped-fresh-cilantro-leaves-and-tender-stems"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: "more for serving"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tablespoons extra-virgin olive oil"
+    name: "extra-virgin olive oil"
+    ingredient_id: "extra-virgin-olive-oil"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 cups diced fresh ripe or overripe tomatoes"
+    name: "diced fresh ripe or overripe tomatoes"
+    ingredient_id: "diced-fresh-ripe-or-overripe-tomatoes"
+    quantity: 2
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 tablespoon fish sauce or soy sauce"
+    name: "fish sauce or soy sauce"
+    ingredient_id: "fish-sauce-or-soy-sauce"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "seafood"
+  - display: "4 scallions, thinly sliced"
+    name: "scallions"
+    ingredient_id: "scallions"
+    quantity: 4
+    unit: null
+    preparation: "thinly sliced"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 lime, halved"
+    name: "lime"
+    ingredient_id: "lime"
+    quantity: 1
+    unit: null
+    preparation: "halved"
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Gingery Meatballs in Tomato Sauce
 
 **Category:** Dinner

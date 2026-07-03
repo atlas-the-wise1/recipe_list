@@ -1,3 +1,123 @@
+---
+schema_version: 1
+id: "caldo-verde"
+title: "Caldo Verde (Potato and Greens Soup With Sausage)"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 40
+  total_minutes: 55
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 320
+  protein_g: 22
+  carbohydrate_g: 35
+  net_carbohydrate_g: null
+  fat_g: 10
+  saturated_fat_g: null
+  fiber_g: 4
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 55
+health_score: 6
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "2 tbsp extra-virgin olive oil, plus more for serving"
+    name: "extra-virgin olive oil"
+    ingredient_id: "extra-virgin-olive-oil"
+    quantity: 2
+    unit: "tbsp"
+    preparation: "plus more for serving"
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 medium yellow onion, halved and thinly sliced"
+    name: "yellow onion"
+    ingredient_id: "yellow-onion"
+    quantity: 1
+    unit: null
+    preparation: "halved and thinly sliced"
+    optional: false
+    grocery_department: "produce"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "5 garlic cloves, thinly sliced"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 5
+    unit: null
+    preparation: "thinly sliced"
+    optional: false
+    grocery_department: "produce"
+  - display: "1½ lbs Yukon Gold or yellow potatoes, peeled and cut into ½-inch cubes"
+    name: "1½ lbs Yukon Gold or yellow potatoes"
+    ingredient_id: "1-lbs-yukon-gold-or-yellow-potatoes"
+    quantity: null
+    unit: null
+    preparation: "peeled and cut into ½-inch cubes"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 (3–5 oz) smoked turkey sausage link (whole)"
+    name: "(3–5 oz) smoked turkey sausage link"
+    ingredient_id: "3-5-oz-smoked-turkey-sausage-link"
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "6 cups low-sodium chicken broth"
+    name: "low-sodium chicken broth"
+    ingredient_id: "low-sodium-chicken-broth"
+    quantity: 6
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "2 cups baby spinach, roughly chopped"
+    name: "baby spinach"
+    ingredient_id: "baby-spinach"
+    quantity: 2
+    unit: "cups"
+    preparation: "roughly chopped"
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Caldo Verde (Potato and Greens Soup With Sausage)
 
 **Category:** Dinner

@@ -1,3 +1,157 @@
+---
+schema_version: 1
+id: "white-bean-rice-dill-soup"
+title: "White Bean, Rice, and Dill Soup"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 40
+  total_minutes: 55
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 380
+  protein_g: 14
+  carbohydrate_g: 58
+  net_carbohydrate_g: null
+  fat_g: 14
+  saturated_fat_g: null
+  fiber_g: 12
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 0
+health_score: 6
+tags:
+  - "#heart-healthy"
+  - "#low-cholesterol"
+  - "#fat-loss"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "heart_health"
+  - "lower_cholesterol"
+  - "fat_loss"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "¼ cup extra-virgin olive oil"
+    name: "¼ cup extra-virgin olive oil"
+    ingredient_id: "cup-extra-virgin-olive-oil"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "6 garlic cloves, roughly chopped"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 6
+    unit: null
+    preparation: "roughly chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 large carrots, scrubbed and finely chopped"
+    name: "carrots"
+    ingredient_id: "carrots"
+    quantity: 2
+    unit: null
+    preparation: "scrubbed and finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 celery stalks, finely chopped"
+    name: "celery stalks"
+    ingredient_id: "celery-stalks"
+    quantity: 2
+    unit: null
+    preparation: "finely chopped"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 large yellow onion, finely chopped"
+    name: "yellow onion"
+    ingredient_id: "yellow-onion"
+    quantity: 1
+    unit: null
+    preparation: "finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "½ tsp ground turmeric"
+    name: "½ tsp ground turmeric"
+    ingredient_id: "tsp-ground-turmeric"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Red-pepper flakes (optional), to taste"
+    name: "Red-pepper flakes"
+    ingredient_id: "red-pepper-flakes"
+    quantity: null
+    unit: null
+    preparation: "to taste"
+    optional: true
+    grocery_department: "condiments"
+  - display: "½ cup white jasmine rice, rinsed"
+    name: "½ cup white jasmine rice"
+    ingredient_id: "cup-white-jasmine-rice"
+    quantity: null
+    unit: null
+    preparation: "rinsed"
+    optional: false
+    grocery_department: "frozen"
+  - display: "2 (15 oz) cans navy beans or cannellini beans, rinsed"
+    name: "(15 oz) cans navy beans or cannellini beans"
+    ingredient_id: "15-oz-cans-navy-beans-or-cannellini-beans"
+    quantity: 2
+    unit: null
+    preparation: "rinsed"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tbsp dried dill or ¼ cup chopped fresh dill"
+    name: "dried dill or ¼ cup chopped fresh dill"
+    ingredient_id: "dried-dill-or-cup-chopped-fresh-dill"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Lemon (optional), for serving"
+    name: "Lemon"
+    ingredient_id: "lemon"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: true
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # White Bean, Rice, and Dill Soup
 
 **Category:** Dinner

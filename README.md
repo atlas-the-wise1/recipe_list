@@ -22,6 +22,21 @@ shopping-lists/  — Generated shopping lists by week
 - Keto-friendly
 - Fat loss focused
 
+## Healthy Chef Planner
+
+The meal-planning job lives in `scripts/healthy-chef.mjs`.
+
+Health score signals:
+- `7-10` = healthy
+- `5-6` = balanced
+- `0-4` = treat / limit
+
+Generated outputs:
+- `meal-plans/health-signal-index.md`
+- `meal-plans/wedding-cut-cookbook.md`
+- `meal-plans/YYYY-MM-weekN.md`
+- `shopping-lists/YYYY-MM-weekN.md`
+
 ## Recipe Format
 
 Each recipe saved as `recipe-name.md` with:
@@ -35,3 +50,4 @@ Each recipe saved as `recipe-name.md` with:
 ## Meal Planning
 Weekly plans live in `meal-plans/` and reference recipes by filename.
 Shopping lists auto-generated from weekly plans in `shopping-lists/`.
+The curated `meal-plans/wedding-cut-cookbook.md` file is the healthy-first recipe pool for fast weekly and daily planning.

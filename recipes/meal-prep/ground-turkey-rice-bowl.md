@@ -1,3 +1,64 @@
+---
+schema_version: 1
+id: "ground-turkey-rice-bowl"
+title: "Ground Turkey & Brown Rice Meal Prep Bowl"
+status: reviewed
+category: "meal-prep"
+meal_types:
+  - meal_prep
+servings: 1
+times:
+  prep_minutes: 10
+  cook_minutes: 25
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 8
+tags:
+  - "#high-protein"
+  - "#low-cholesterol"
+  - "#fat-loss"
+  - "#meal-prep"
+  - "#heart-healthy"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "lower_cholesterol"
+  - "fat_loss"
+  - "meal_prep"
+  - "heart_health"
+allergens: []
+equipment:
+[]
+ingredients:
+[]
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Ground Turkey & Brown Rice Meal Prep Bowl
 
 **Category:** Meal Prep

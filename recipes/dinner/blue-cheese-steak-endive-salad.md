@@ -1,3 +1,112 @@
+---
+schema_version: 1
+id: "blue-cheese-steak-endive-salad"
+title: "Blue-Cheese Steak and Endive Salad for Two"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 2
+times:
+  prep_minutes: 15
+  cook_minutes: 10
+  total_minutes: 25
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 620
+  protein_g: 48
+  carbohydrate_g: 8
+  net_carbohydrate_g: null
+  fat_g: 44
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 165
+health_score: 4
+tags:
+  - "#high-protein"
+  - "#keto"
+dietary_tags:
+  - "keto_friendly"
+goal_tags:
+  - "high_protein"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "4 tbsp unsalted butter, slightly softened"
+    name: "unsalted butter"
+    ingredient_id: "unsalted-butter"
+    quantity: 4
+    unit: "tbsp"
+    preparation: "slightly softened"
+    optional: false
+    grocery_department: "dairy"
+  - display: "2 tbsp good-quality blue cheese (Roquefort, Stilton, or Gorgonzola)"
+    name: "good-quality blue cheese (Roquefort"
+    ingredient_id: "good-quality-blue-cheese-roquefort"
+    quantity: 2
+    unit: "tbsp"
+    preparation: "Stilton, or Gorgonzola)"
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 tbsp finely chopped shallot"
+    name: "finely chopped shallot"
+    ingredient_id: "finely-chopped-shallot"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "¾ to 1 lb hanger or skirt steak, at room temperature"
+    name: "¾ to 1 lb hanger or skirt steak"
+    ingredient_id: "to-1-lb-hanger-or-skirt-steak"
+    quantity: null
+    unit: null
+    preparation: "at room temperature"
+    optional: false
+    grocery_department: "beverages"
+  - display: "Kosher salt and black pepper"
+    name: "Kosher salt and black pepper"
+    ingredient_id: "kosher-salt-and-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tbsp canola or grapeseed oil"
+    name: "canola or grapeseed oil"
+    ingredient_id: "canola-or-grapeseed-oil"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Flaky salt (optional)"
+    name: "Flaky salt"
+    ingredient_id: "flaky-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: true
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Blue-Cheese Steak and Endive Salad for Two
 
 **Category:** Dinner

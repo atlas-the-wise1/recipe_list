@@ -1,3 +1,128 @@
+---
+schema_version: 1
+id: "creamy-doenjang-pasta"
+title: "Creamy Doenjang Pasta"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: 4
+times:
+  prep_minutes: 5
+  cook_minutes: 20
+  total_minutes: 25
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 5
+tags:
+  - "#vegetarian"
+  - "#quick"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  - "quick_preparation"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "Salt"
+    name: "Salt"
+    ingredient_id: "salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 pound Banza chickpea linguine, bucatini, or spaghetti"
+    name: "Banza chickpea linguine"
+    ingredient_id: "banza-chickpea-linguine"
+    quantity: 1
+    unit: "pound"
+    preparation: "bucatini, or spaghetti"
+    optional: false
+    grocery_department: "produce"
+  - display: "4 large eggs, soft-boiled *(1 per serving)*"
+    name: "eggs"
+    ingredient_id: "eggs"
+    quantity: 4
+    unit: null
+    preparation: "soft-boiled *(1 per serving)*"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 cups whole milk"
+    name: "whole milk"
+    ingredient_id: "whole-milk"
+    quantity: 2
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "¼ cup doenjang *(Korean soybean paste — see Tip)*"
+    name: "¼ cup doenjang *(Korean soybean paste — see Tip)*"
+    ingredient_id: "cup-doenjang-korean-soybean-paste-see-tip"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tablespoons mirin"
+    name: "mirin"
+    ingredient_id: "mirin"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "Freshly ground black pepper"
+    name: "Freshly ground black pepper"
+    ingredient_id: "freshly-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "¼ cup unsalted butter"
+    name: "¼ cup unsalted butter"
+    ingredient_id: "cup-unsalted-butter"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "Grated Parmesan, for serving"
+    name: "Grated Parmesan"
+    ingredient_id: "grated-parmesan"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Creamy Doenjang Pasta
 
 **Category:** L — Lunch

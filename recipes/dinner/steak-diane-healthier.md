@@ -1,3 +1,148 @@
+---
+schema_version: 1
+id: "steak-diane-healthier"
+title: "Steak Diane — Healthier Variant"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 2
+times:
+  prep_minutes: 20
+  cook_minutes: 15
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 390
+  protein_g: 52
+  carbohydrate_g: 5
+  net_carbohydrate_g: null
+  fat_g: 16
+  saturated_fat_g: null
+  fiber_g: 0
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 95
+health_score: 7
+tags:
+  - "#high-protein"
+  - "#keto"
+  - "#heart-healthy"
+  - "#low-cholesterol"
+dietary_tags:
+  - "keto_friendly"
+goal_tags:
+  - "high_protein"
+  - "heart_health"
+  - "lower_cholesterol"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "Salt and freshly ground black pepper"
+    name: "Salt and freshly ground black pepper"
+    ingredient_id: "salt-and-freshly-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 (6 oz) lean sirloin steaks, ~¾-inch thick, trimmed of visible fat"
+    name: "(6 oz) lean sirloin steaks"
+    ingredient_id: "6-oz-lean-sirloin-steaks"
+    quantity: 2
+    unit: null
+    preparation: "~¾-inch thick, trimmed of visible fat"
+    optional: false
+    grocery_department: "beverages"
+  - display: "1 tsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tbsp minced shallot"
+    name: "minced shallot"
+    ingredient_id: "minced-shallot"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tsp tomato paste"
+    name: "tomato paste"
+    ingredient_id: "tomato-paste"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tbsp low-sodium beef stock or broth (replaces Cognac)"
+    name: "low-sodium beef stock or broth"
+    ingredient_id: "low-sodium-beef-stock-or-broth"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "3 tbsp full-fat Greek yogurt (replaces heavy cream)"
+    name: "full-fat Greek yogurt"
+    ingredient_id: "full-fat-greek-yogurt"
+    quantity: 3
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "1 tsp Dijon mustard"
+    name: "Dijon mustard"
+    ingredient_id: "dijon-mustard"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tsp Worcestershire sauce"
+    name: "Worcestershire sauce"
+    ingredient_id: "worcestershire-sauce"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "½ tsp fish sauce (optional — adds depth)"
+    name: "½ tsp fish sauce"
+    ingredient_id: "tsp-fish-sauce"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: true
+    grocery_department: "seafood"
+  - display: "Minced chives or parsley, for garnish"
+    name: "Minced chives or parsley"
+    ingredient_id: "minced-chives-or-parsley"
+    quantity: null
+    unit: null
+    preparation: "for garnish"
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Steak Diane — Healthier Variant
 
 > 💡 **Healthier Variant** of Steak Diane — see `steak-diane.md` for the classic version.

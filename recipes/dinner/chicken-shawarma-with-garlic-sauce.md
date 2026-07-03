@@ -1,3 +1,131 @@
+---
+schema_version: 1
+id: "chicken-shawarma-with-garlic-sauce"
+title: "Chicken Shawarma with Garlic Sauce"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 20
+  total_minutes: 35
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 420
+  protein_g: 40
+  carbohydrate_g: 22
+  net_carbohydrate_g: null
+  fat_g: 18
+  saturated_fat_g: null
+  fiber_g: 3
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 90
+health_score: 6
+tags:
+  - "#high-protein"
+  - "#heart-healthy"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "heart_health"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1.5 lbs boneless, skinless chicken thighs, cut into strips"
+    name: "boneless"
+    ingredient_id: "boneless"
+    quantity: 1.5
+    unit: "lbs"
+    preparation: "skinless chicken thighs, cut into strips"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 tbsp olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tsp ground cumin"
+    name: "ground cumin"
+    ingredient_id: "ground-cumin"
+    quantity: 2
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1.5 tsp paprika"
+    name: "paprika"
+    ingredient_id: "paprika"
+    quantity: 1.5
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 tsp turmeric"
+    name: "turmeric"
+    ingredient_id: "turmeric"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ tsp ground cinnamon"
+    name: "½ tsp ground cinnamon"
+    ingredient_id: "tsp-ground-cinnamon"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "3 cloves garlic, minced"
+    name: "garlic"
+    ingredient_id: "garlic"
+    quantity: 3
+    unit: "cloves"
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 tbsp fresh lemon juice"
+    name: "fresh lemon juice"
+    ingredient_id: "fresh-lemon-juice"
+    quantity: 2
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "Salt and pepper to taste"
+    name: "Salt and pepper"
+    ingredient_id: "salt-and-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Chicken Shawarma with Garlic Sauce
 
 **Category:** D — Dinner

@@ -1,3 +1,145 @@
+---
+schema_version: 1
+id: "winter-squash-rice-soup-pancetta"
+title: "Winter Squash and Rice Soup with Pancetta"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 55
+  total_minutes: 70
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 420
+  protein_g: 18
+  carbohydrate_g: 42
+  net_carbohydrate_g: null
+  fat_g: 22
+  saturated_fat_g: null
+  fiber_g: 4
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 35
+health_score: 4
+tags:
+  - "#heart-healthy"
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "heart_health"
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 small butternut squash (1½–2 lbs) OR 1 medium delicata squash (~2 lbs), peeled, halved, seeded, cut into ¾-inch chunks *(no need to peel delicata)*"
+    name: "butternut squash (1½–2 lbs) OR 1 medium delicata squash"
+    ingredient_id: "butternut-squash-1-2-lbs-or-1-medium-delicata-squash"
+    quantity: 1
+    unit: null
+    preparation: "peeled, halved, seeded, cut into ¾-inch chunks *(no need to peel delicata)*"
+    optional: false
+    grocery_department: "dairy"
+  - display: "3 tablespoons granulated sugar"
+    name: "granulated sugar"
+    ingredient_id: "granulated-sugar"
+    quantity: 3
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "4 tablespoons olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 4
+    unit: "tablespoons"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "Salt and pepper"
+    name: "Salt and pepper"
+    ingredient_id: "salt-and-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "8 oz pancetta or bacon, diced"
+    name: "pancetta or bacon"
+    ingredient_id: "pancetta-or-bacon"
+    quantity: 8
+    unit: "oz"
+    preparation: "diced"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 large onion, chopped"
+    name: "onion"
+    ingredient_id: "onion"
+    quantity: 1
+    unit: null
+    preparation: "chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "4 garlic cloves, finely chopped"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 4
+    unit: null
+    preparation: "finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "5 fresh thyme sprigs"
+    name: "fresh thyme sprigs"
+    ingredient_id: "fresh-thyme-sprigs"
+    quantity: 5
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "¾ cup jasmine rice (or other long-grain), rinsed"
+    name: "¾ cup jasmine rice"
+    ingredient_id: "cup-jasmine-rice"
+    quantity: null
+    unit: null
+    preparation: "rinsed"
+    optional: false
+    grocery_department: "frozen"
+  - display: "8 cups chicken broth (preferably homemade or low-sodium)"
+    name: "chicken broth"
+    ingredient_id: "chicken-broth"
+    quantity: 8
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "Chopped fresh parsley, for serving"
+    name: "Chopped fresh parsley"
+    ingredient_id: "chopped-fresh-parsley"
+    quantity: null
+    unit: null
+    preparation: "for serving"
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Winter Squash and Rice Soup with Pancetta
 
 **Category:** D — Dinner

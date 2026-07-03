@@ -1,3 +1,131 @@
+---
+schema_version: 1
+id: "tuna-poke-bowl"
+title: "Tuna Poke Bowl"
+status: reviewed
+category: "dinner"
+meal_types:
+  - dinner
+servings: 2
+times:
+  prep_minutes: 15
+  cook_minutes: null
+  total_minutes: 30
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 475
+  protein_g: 40
+  carbohydrate_g: 48
+  net_carbohydrate_g: null
+  fat_g: 15
+  saturated_fat_g: null
+  fiber_g: 6
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 50
+health_score: 7
+tags:
+  - "#high-protein"
+  - "#low-cholesterol"
+  - "#fat-loss"
+dietary_tags:
+  []
+goal_tags:
+  - "high_protein"
+  - "lower_cholesterol"
+  - "fat_loss"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 lb sushi-grade ahi tuna, cubed (¾-inch pieces)"
+    name: "sushi-grade ahi tuna"
+    ingredient_id: "sushi-grade-ahi-tuna"
+    quantity: 1
+    unit: "lb"
+    preparation: "cubed (¾-inch pieces)"
+    optional: false
+    grocery_department: "seafood"
+  - display: "3 tbsp low-sodium soy sauce"
+    name: "low-sodium soy sauce"
+    ingredient_id: "low-sodium-soy-sauce"
+    quantity: 3
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tbsp sesame oil"
+    name: "sesame oil"
+    ingredient_id: "sesame-oil"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 tbsp rice vinegar"
+    name: "rice vinegar"
+    ingredient_id: "rice-vinegar"
+    quantity: 1
+    unit: "tbsp"
+    preparation: null
+    optional: false
+    grocery_department: "frozen"
+  - display: "1 tsp sriracha (or to taste)"
+    name: "sriracha"
+    ingredient_id: "sriracha"
+    quantity: 1
+    unit: "tsp"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "2 cloves garlic, minced"
+    name: "garlic"
+    ingredient_id: "garlic"
+    quantity: 2
+    unit: "cloves"
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 tsp fresh ginger, minced"
+    name: "fresh ginger"
+    ingredient_id: "fresh-ginger"
+    quantity: 1
+    unit: "tsp"
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 scallion, thinly sliced"
+    name: "scallion"
+    ingredient_id: "scallion"
+    quantity: 1
+    unit: null
+    preparation: "thinly sliced"
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ tsp sesame seeds"
+    name: "½ tsp sesame seeds"
+    ingredient_id: "tsp-sesame-seeds"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Tuna Poke Bowl
 
 **Category:** D — Dinner

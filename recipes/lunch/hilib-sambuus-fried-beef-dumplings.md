@@ -1,3 +1,151 @@
+---
+schema_version: 1
+id: "hilib-sambuus-fried-beef-dumplings"
+title: "Hilib Sambuus (Fried Beef Dumplings)"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: 5
+times:
+  prep_minutes: 30
+  cook_minutes: 25
+  total_minutes: 55
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 4
+tags:
+  - "#meal-prep"
+dietary_tags:
+  []
+goal_tags:
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 tablespoon olive oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "1 medium white onion, diced"
+    name: "white onion"
+    ingredient_id: "white-onion"
+    quantity: 1
+    unit: null
+    preparation: "diced"
+    optional: false
+    grocery_department: "produce"
+  - display: "4 to 5 garlic cloves, minced"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 4
+    unit: null
+    preparation: "minced"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 pound ground beef"
+    name: "ground beef"
+    ingredient_id: "ground-beef"
+    quantity: 1
+    unit: "pound"
+    preparation: null
+    optional: false
+    grocery_department: "meat"
+  - display: "1 handful cilantro leaves, finely chopped"
+    name: "handful cilantro leaves"
+    ingredient_id: "handful-cilantro-leaves"
+    quantity: 1
+    unit: null
+    preparation: "finely chopped"
+    optional: false
+    grocery_department: "produce"
+  - display: "1 tablespoon ground cumin"
+    name: "ground cumin"
+    ingredient_id: "ground-cumin"
+    quantity: 1
+    unit: "tablespoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1 teaspoon ground coriander"
+    name: "ground coriander"
+    ingredient_id: "ground-coriander"
+    quantity: 1
+    unit: "teaspoon"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1½ teaspoons fine sea salt"
+    name: "1½ teaspoons fine sea salt"
+    ingredient_id: "1-teaspoons-fine-sea-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "½ cup / 64g all-purpose flour"
+    name: "½ cup / 64g all-purpose flour"
+    ingredient_id: "cup-64g-all-purpose-flour"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "5 burrito-size (9-inch-wide) flour tortillas"
+    name: "burrito-size (9-inch-wide) flour tortillas"
+    ingredient_id: "burrito-size-9-inch-wide-flour-tortillas"
+    quantity: 5
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "Canola oil, as needed for frying"
+    name: "Canola oil"
+    ingredient_id: "canola-oil"
+    quantity: null
+    unit: null
+    preparation: "as needed for frying"
+    optional: false
+    grocery_department: "condiments"
+  - display: "Basbaas Cagaar (Green Hot Sauce), for serving *(optional)*"
+    name: "Basbaas Cagaar"
+    ingredient_id: "basbaas-cagaar"
+    quantity: null
+    unit: null
+    preparation: "for serving **"
+    optional: true
+    grocery_department: "uncategorized"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Hilib Sambuus (Fried Beef Dumplings)
 
 **Category:** L — Lunch

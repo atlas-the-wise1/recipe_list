@@ -1,3 +1,145 @@
+---
+schema_version: 1
+id: "orecchiette-salad-with-halloumi-croutons"
+title: "Orecchiette Salad With Halloumi Croutons"
+status: reviewed
+category: "lunch"
+meal_types:
+  - lunch
+servings: 4
+times:
+  prep_minutes: 15
+  cook_minutes: 15
+  total_minutes: 30
+nutrition:
+  basis: "per_serving"
+  calories_kcal: 580
+  protein_g: 18
+  carbohydrate_g: 56
+  net_carbohydrate_g: null
+  fat_g: 31
+  saturated_fat_g: null
+  fiber_g: 4
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: 55
+health_score: 5
+tags:
+  - "#vegetarian"
+  - "#meal-prep"
+  - "#pasta-salad"
+dietary_tags:
+  - "vegetarian"
+goal_tags:
+  - "meal_prep"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "1 pint cherry or grape tomatoes, halved"
+    name: "pint cherry or grape tomatoes"
+    ingredient_id: "pint-cherry-or-grape-tomatoes"
+    quantity: 1
+    unit: null
+    preparation: "halved"
+    optional: false
+    grocery_department: "produce"
+  - display: "4 tablespoons olive oil, plus more as needed"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
+    quantity: 4
+    unit: "tablespoons"
+    preparation: "plus more as needed"
+    optional: false
+    grocery_department: "condiments"
+  - display: "2 tablespoons red wine vinegar, plus more as needed"
+    name: "red wine vinegar"
+    ingredient_id: "red-wine-vinegar"
+    quantity: 2
+    unit: "tablespoons"
+    preparation: "plus more as needed"
+    optional: false
+    grocery_department: "beverages"
+  - display: "Kosher salt and freshly ground black pepper"
+    name: "Kosher salt and freshly ground black pepper"
+    ingredient_id: "kosher-salt-and-freshly-ground-black-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+  - display: "8 ounces orecchiette or other small pasta"
+    name: "orecchiette or other small pasta"
+    ingredient_id: "orecchiette-or-other-small-pasta"
+    quantity: 8
+    unit: "ounces"
+    preparation: null
+    optional: false
+    grocery_department: "grains"
+  - display: "8 ounces halloumi cheese, chopped into 1/2-inch pieces"
+    name: "halloumi cheese"
+    ingredient_id: "halloumi-cheese"
+    quantity: 8
+    unit: "ounces"
+    preparation: "chopped into 1/2-inch pieces"
+    optional: false
+    grocery_department: "dairy"
+  - display: "3 Persian cucumbers, chopped into 1/2-inch pieces"
+    name: "Persian cucumbers"
+    ingredient_id: "persian-cucumbers"
+    quantity: 3
+    unit: null
+    preparation: "chopped into 1/2-inch pieces"
+    optional: false
+    grocery_department: "produce"
+  - display: "2 cups baby arugula, optional"
+    name: "baby arugula,"
+    ingredient_id: "baby-arugula"
+    quantity: 2
+    unit: "cups"
+    preparation: "optional"
+    optional: true
+    grocery_department: "uncategorized"
+  - display: "1/2 cup chopped fresh cilantro"
+    name: "chopped fresh cilantro"
+    ingredient_id: "chopped-fresh-cilantro"
+    quantity: 0.5
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+  - display: "1/2 cup chopped fresh mint"
+    name: "chopped fresh mint"
+    ingredient_id: "chopped-fresh-mint"
+    quantity: 0.5
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "1/4 cup finely chopped red onion"
+    name: "finely chopped red onion"
+    ingredient_id: "finely-chopped-red-onion"
+    quantity: 0.25
+    unit: "cup"
+    preparation: null
+    optional: false
+    grocery_department: "produce"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Orecchiette Salad With Halloumi Croutons
 
 **Category:** Lunch

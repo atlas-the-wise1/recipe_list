@@ -1,3 +1,119 @@
+---
+schema_version: 1
+id: "basil-pesto"
+title: "Basil Pesto"
+status: reviewed
+category: "snacks"
+meal_types:
+  - snack_1
+  - snack_2
+servings: 4
+times:
+  prep_minutes: 10
+  cook_minutes: null
+  total_minutes: 10
+nutrition:
+  basis: "per_serving"
+  calories_kcal: null
+  protein_g: null
+  carbohydrate_g: null
+  net_carbohydrate_g: null
+  fat_g: null
+  saturated_fat_g: null
+  fiber_g: null
+  sugar_g: null
+  sodium_mg: null
+  cholesterol_mg: null
+health_score: 5
+tags:
+  - "#vegetarian"
+  - "#quick"
+  - "#keto"
+  - "#meal-prep"
+  - "#heart-healthy"
+dietary_tags:
+  - "vegetarian"
+  - "keto_friendly"
+goal_tags:
+  - "quick_preparation"
+  - "meal_prep"
+  - "heart_health"
+allergens: []
+equipment:
+[]
+ingredients:
+  - display: "½ cup toasted pine nuts"
+    name: "½ cup toasted pine nuts"
+    ingredient_id: "cup-toasted-pine-nuts"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "4 large garlic cloves, peeled"
+    name: "garlic cloves"
+    ingredient_id: "garlic-cloves"
+    quantity: 4
+    unit: null
+    preparation: "peeled"
+    optional: false
+    grocery_department: "produce"
+  - display: "3 cups tightly packed fresh basil leaves"
+    name: "tightly packed fresh basil leaves"
+    ingredient_id: "tightly-packed-fresh-basil-leaves"
+    quantity: 3
+    unit: "cups"
+    preparation: null
+    optional: false
+    grocery_department: "uncategorized"
+  - display: "½ cup freshly grated Parmesan cheese"
+    name: "½ cup freshly grated Parmesan cheese"
+    ingredient_id: "cup-freshly-grated-parmesan-cheese"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "dairy"
+  - display: "½ teaspoon salt"
+    name: "½ teaspoon salt"
+    ingredient_id: "teaspoon-salt"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "½ teaspoon pepper"
+    name: "½ teaspoon pepper"
+    ingredient_id: "teaspoon-pepper"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "beverages"
+  - display: "½ to ¾ cup extra-virgin olive oil"
+    name: "½ to ¾ cup extra-virgin olive oil"
+    ingredient_id: "to-cup-extra-virgin-olive-oil"
+    quantity: null
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: "condiments"
+meal_prep:
+  friendly: true
+  fridge_days: null
+  freezer_months: null
+  reheat: null
+relationships:
+  similar_to: []
+  pairs_with: []
+  leftover_to: []
+  substitutions: []
+source:
+  name: null
+  url: null
+  nutrition_verified: false
+  last_reviewed: "2026-07-03"
+---
 # Basil Pesto
 
 **Category:** S — Snacks / Condiment
