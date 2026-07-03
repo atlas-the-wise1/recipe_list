@@ -1,0 +1,36 @@
+name: Validate Recipe Repo
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip pyyaml
+
+      - name: Validate repository and generate indexes
+        run: >
+          python scripts/validate_recipe_repo.py
+          --summary-json indexes/validation-summary.json
+          --summary-md indexes/validation-summary.md
+          --index-json indexes/recipes.json
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Ensure generated files are current
+        run: git diff --exit-code -- indexes/recipes.json indexes/validation-summary.json indexes/validation-summary.md

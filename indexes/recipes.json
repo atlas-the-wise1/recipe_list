@@ -1,0 +1,4627 @@
+[
+  {
+    "calories_kcal": 220,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 0,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep",
+      "fat_loss"
+    ],
+    "id": "air-fryer-chicken-breast",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/air-fryer-chicken-breast.md",
+    "prep_minutes": 10,
+    "protein_g": 35,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Air-Fryer Chicken Breast",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "air-fryer-grilled-cheese",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/air-fryer-grilled-cheese.md",
+    "prep_minutes": 5,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Air-Fryer Grilled Cheese",
+    "total_minutes": 11
+  },
+  {
+    "calories_kcal": 370,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 1,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "high_protein",
+      "fat_loss"
+    ],
+    "id": "air-fryer-salmon",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/air-fryer-salmon.md",
+    "prep_minutes": 5,
+    "protein_g": 42,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Air-Fryer Salmon",
+    "total_minutes": 17
+  },
+  {
+    "calories_kcal": 180,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 3,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "air-fryer-sweet-potato-fries",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/air-fryer-sweet-potato-fries.md",
+    "prep_minutes": 10,
+    "protein_g": 2,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Air-Fryer Sweet Potato Fries",
+    "total_minutes": 22
+  },
+  {
+    "calories_kcal": 420,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "quick_preparation",
+      "meal_prep"
+    ],
+    "id": "arroz-chaufa-fried-rice-with-chicken-and-bell-pepper",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/arroz-chaufa-fried-rice-with-chicken-and-bell-pepper.md",
+    "prep_minutes": 15,
+    "protein_g": 18,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Arroz Chaufa (Fried Rice With Chicken and Bell Pepper)",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "asparagus-ricotta-pasta-with-almonds",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/asparagus-ricotta-pasta-with-almonds.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Asparagus Ricotta Pasta With Almonds",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 170,
+    "category": "dinner",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 5,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol"
+    ],
+    "id": "asparagus-spinach-leek-soup",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/asparagus-spinach-leek-soup.md",
+    "prep_minutes": 15,
+    "protein_g": 5,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Asparagus, Spinach and Leek Soup",
+    "total_minutes": 40
+  },
+  {
+    "calories_kcal": null,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "quick_preparation"
+    ],
+    "id": "autumn-balancer-smoothie",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/autumn-balancer-smoothie.md",
+    "prep_minutes": 5,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Autumn Balancer Smoothie",
+    "total_minutes": 10
+  },
+  {
+    "calories_kcal": 290,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian",
+      "gluten_free"
+    ],
+    "fiber_g": 7,
+    "goal_tags": [
+      "quick_preparation",
+      "heart_health"
+    ],
+    "id": "avocado-salad-with-herbs-and-capers",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/avocado-salad-with-herbs-and-capers.md",
+    "prep_minutes": 10,
+    "protein_g": 4,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Avocado Salad With Herbs and Capers",
+    "total_minutes": 10
+  },
+  {
+    "calories_kcal": 620,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 0,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "baby-back-ribs-sweet-sour-glaze",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/baby-back-ribs-sweet-sour-glaze.md",
+    "prep_minutes": 10,
+    "protein_g": 42,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Baby Back Ribs With Sweet and Sour Glaze",
+    "total_minutes": 2
+  },
+  {
+    "calories_kcal": 420,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 0,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep",
+      "heart_health"
+    ],
+    "id": "baby-back-ribs-sweet-sour-glaze-healthier",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/baby-back-ribs-sweet-sour-glaze-healthier.md",
+    "prep_minutes": 10,
+    "protein_g": 42,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Baby Back Ribs With Sweet and Sour Glaze \u2014 Healthier Variant",
+    "total_minutes": 2
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [
+      "gluten_free"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "baked-fish-with-mushrooms-and-ginger",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/baked-fish-with-mushrooms-and-ginger.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Baked Fish With Mushrooms and Ginger",
+    "total_minutes": 40
+  },
+  {
+    "calories_kcal": 430,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "high_protein",
+      "heart_health",
+      "lower_cholesterol"
+    ],
+    "id": "baked-fish-with-olives-and-ginger",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/baked-fish-with-olives-and-ginger.md",
+    "prep_minutes": 10,
+    "protein_g": 34,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Baked Fish With Olives and Ginger",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": 244,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 1,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "high_protein",
+      "fat_loss"
+    ],
+    "id": "baked-lemon-herb-tilapia",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/baked-lemon-herb-tilapia.md",
+    "prep_minutes": 10,
+    "protein_g": 35,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Baked Lemon Herb Tilapia",
+    "total_minutes": 24
+  },
+  {
+    "calories_kcal": 217,
+    "category": "drinks",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "fiber_g": 2,
+    "goal_tags": [
+      "quick_preparation",
+      "lower_cholesterol"
+    ],
+    "id": "banana-colada",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "drink"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/drinks/banana-colada.md",
+    "prep_minutes": 5,
+    "protein_g": 1,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Banana Colada",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": 280,
+    "category": "breakfast",
+    "dietary_tags": [],
+    "fiber_g": 3,
+    "goal_tags": [
+      "heart_health",
+      "meal_prep"
+    ],
+    "id": "banana-nut-breakfast-bars",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/banana-nut-breakfast-bars.md",
+    "prep_minutes": 20,
+    "protein_g": 7,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Banana Nut Breakfast Bars",
+    "total_minutes": 60
+  },
+  {
+    "calories_kcal": null,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian",
+      "keto_friendly"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "quick_preparation",
+      "meal_prep",
+      "heart_health"
+    ],
+    "id": "basil-pesto",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/basil-pesto.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Basil Pesto",
+    "total_minutes": 10
+  },
+  {
+    "calories_kcal": 360,
+    "category": "dinner",
+    "dietary_tags": [
+      "gluten_free"
+    ],
+    "fiber_g": 1,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "bengali-style-mustard-oil-fish",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/bengali-style-mustard-oil-fish.md",
+    "prep_minutes": 15,
+    "protein_g": 32,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Bengali-Style Mustard Oil Fish",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": null,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep"
+    ],
+    "id": "bircher-muesli",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/bircher-muesli.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Bircher Muesli",
+    "total_minutes": 10
+  },
+  {
+    "calories_kcal": 278,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 5,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "fat_loss"
+    ],
+    "id": "blackened-cod-fish-tacos",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/blackened-cod-fish-tacos.md",
+    "prep_minutes": 15,
+    "protein_g": 29,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Blackened Cod Fish Tacos",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": 620,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 3,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "blue-cheese-steak-endive-salad",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/blue-cheese-steak-endive-salad.md",
+    "prep_minutes": 15,
+    "protein_g": 48,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Blue-Cheese Steak and Endive Salad for Two",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": 430,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 3,
+    "goal_tags": [
+      "high_protein",
+      "heart_health",
+      "lower_cholesterol"
+    ],
+    "id": "blue-cheese-steak-endive-salad-healthier",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/blue-cheese-steak-endive-salad-healthier.md",
+    "prep_minutes": 15,
+    "protein_g": 48,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Blue-Cheese Steak and Endive Salad for Two \u2014 Healthier Variant",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "bricklayer-nachos",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/bricklayer-nachos.md",
+    "prep_minutes": 20,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Bricklayer-Style Nachos",
+    "total_minutes": 50
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein",
+      "heart_health"
+    ],
+    "id": "bricklayer-nachos-healthier",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/bricklayer-nachos-healthier.md",
+    "prep_minutes": 20,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Bricklayer-Style Nachos \u2014 Healthier Variant",
+    "total_minutes": 45
+  },
+  {
+    "calories_kcal": 410,
+    "category": "dinner",
+    "dietary_tags": [
+      "gluten_free"
+    ],
+    "fiber_g": 5,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "broiled-turmeric-salmon-with-corn-and-green-beans",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/broiled-turmeric-salmon-with-corn-and-green-beans.md",
+    "prep_minutes": 15,
+    "protein_g": 32,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Broiled Turmeric Salmon With Corn and Green Beans",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "brothy-thai-curry-with-silken-tofu-and-herbs",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/brothy-thai-curry-with-silken-tofu-and-herbs.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Brothy Thai Curry With Silken Tofu and Herbs",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": null,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "brown-butter-chocolate-chip-cookies",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/brown-butter-chocolate-chip-cookies.md",
+    "prep_minutes": 20,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Brown Butter Chocolate Chip Cookies",
+    "total_minutes": null
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep"
+    ],
+    "id": "brussels-sprouts-caesar-salad",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/brussels-sprouts-caesar-salad.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Brussels Sprouts Caesar Salad",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 320,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 1,
+    "goal_tags": [
+      "high_protein",
+      "lower_cholesterol",
+      "fat_loss"
+    ],
+    "id": "buffalo-chicken-lettuce-wraps",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/buffalo-chicken-lettuce-wraps.md",
+    "prep_minutes": 10,
+    "protein_g": 35,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Buffalo Chicken Lettuce Wraps",
+    "total_minutes": 22
+  },
+  {
+    "calories_kcal": null,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian",
+      "keto_friendly"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "quick_preparation",
+      "meal_prep"
+    ],
+    "id": "buttermilk-ranch-dressing",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/buttermilk-ranch-dressing.md",
+    "prep_minutes": 5,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Buttermilk Ranch Dressing",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "buttery-lemon-pasta-almonds-arugula",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/buttery-lemon-pasta-almonds-arugula.md",
+    "prep_minutes": 5,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Buttery Lemon Pasta With Almonds and Arugula",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol"
+    ],
+    "id": "buttery-lemon-pasta-almonds-arugula-healthier",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/buttery-lemon-pasta-almonds-arugula-healthier.md",
+    "prep_minutes": 5,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Buttery Lemon Pasta With Almonds and Arugula \u2014 Healthier Variant",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": 540,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "cajun-shrimp-and-grits",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/cajun-shrimp-and-grits.md",
+    "prep_minutes": 15,
+    "protein_g": 38,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Cajun Shrimp and Grits",
+    "total_minutes": 45
+  },
+  {
+    "calories_kcal": 320,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 4,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep"
+    ],
+    "id": "caldo-verde",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/caldo-verde.md",
+    "prep_minutes": 15,
+    "protein_g": 22,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Caldo Verde (Potato and Greens Soup With Sausage)",
+    "total_minutes": 55
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "caramelized-corn-and-asparagus-pasta-with-ricotta",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/caramelized-corn-and-asparagus-pasta-with-ricotta.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Caramelized Corn and Asparagus Pasta With Ricotta",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep"
+    ],
+    "id": "cauliflower-salad-sandwiches",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/cauliflower-salad-sandwiches.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Cauliflower Salad Sandwiches",
+    "total_minutes": 40
+  },
+  {
+    "calories_kcal": 340,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "changua-colombian-bread-and-egg-soup",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/changua-colombian-bread-and-egg-soup.md",
+    "prep_minutes": 10,
+    "protein_g": 17,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Changua (Colombian Bread and Egg Soup)",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": 340,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "charleston-red-rice",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/charleston-red-rice.md",
+    "prep_minutes": 15,
+    "protein_g": 10,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Charleston Red Rice",
+    "total_minutes": 70
+  },
+  {
+    "calories_kcal": 320,
+    "category": "dinner",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 4,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "cheese-topped-cauliflower-steaks",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/cheese-topped-cauliflower-steaks.md",
+    "prep_minutes": 15,
+    "protein_g": 15,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Cheese-Topped Cauliflower Steaks",
+    "total_minutes": 50
+  },
+  {
+    "calories_kcal": 260,
+    "category": "dinner",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 4,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "cheesy-spinach-bake",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/cheesy-spinach-bake.md",
+    "prep_minutes": 15,
+    "protein_g": 14,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Cheesy Spinach Bake",
+    "total_minutes": 40
+  },
+  {
+    "calories_kcal": 340,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 0,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "chicken-breasts-with-lemon",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/chicken-breasts-with-lemon.md",
+    "prep_minutes": 10,
+    "protein_g": 35,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Chicken Breasts With Lemon",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": 460,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 1,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "chicken-francese",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/chicken-francese.md",
+    "prep_minutes": 15,
+    "protein_g": 38,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Chicken Francese",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 580,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "chicken-milanese",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/chicken-milanese.md",
+    "prep_minutes": 20,
+    "protein_g": 52,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Chicken Milanese",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 380,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "high_protein",
+      "fat_loss"
+    ],
+    "id": "chicken-milanese-air-fryer",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/chicken-milanese-air-fryer.md",
+    "prep_minutes": 20,
+    "protein_g": 52,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Chicken Milanese (Air-Fryer Version)",
+    "total_minutes": 34
+  },
+  {
+    "calories_kcal": 420,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 3,
+    "goal_tags": [
+      "high_protein",
+      "heart_health",
+      "meal_prep"
+    ],
+    "id": "chicken-shawarma-with-garlic-sauce",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/chicken-shawarma-with-garlic-sauce.md",
+    "prep_minutes": 15,
+    "protein_g": 40,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Chicken Shawarma with Garlic Sauce",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 480,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 6,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep",
+      "heart_health",
+      "lower_cholesterol"
+    ],
+    "id": "chicken-teriyaki-bowl",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/chicken-teriyaki-bowl.md",
+    "prep_minutes": 15,
+    "protein_g": 38,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Chicken Teriyaki Bowl",
+    "total_minutes": 40
+  },
+  {
+    "calories_kcal": 320,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": 4,
+    "goal_tags": [
+      "fat_loss"
+    ],
+    "id": "chive-pesto-potato-salad",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/chive-pesto-potato-salad.md",
+    "prep_minutes": 15,
+    "protein_g": 8,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Chive Pesto Potato Salad",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": 430,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "chorizo-taquitos",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/chorizo-taquitos.md",
+    "prep_minutes": 15,
+    "protein_g": 18,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Chorizo Taquitos",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": 245,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "high_protein",
+      "fat_loss"
+    ],
+    "id": "citrus-skillet-shrimp",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/citrus-skillet-shrimp.md",
+    "prep_minutes": 10,
+    "protein_g": 35,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Citrus Skillet Shrimp With Shallots and Jalape\u00f1os",
+    "total_minutes": 20
+  },
+  {
+    "calories_kcal": 710,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 4,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "high_protein",
+      "fat_loss"
+    ],
+    "id": "citrusy-roasted-salmon-and-potatoes",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/citrusy-roasted-salmon-and-potatoes.md",
+    "prep_minutes": 15,
+    "protein_g": 36,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Citrusy Roasted Salmon and Potatoes",
+    "total_minutes": 45
+  },
+  {
+    "calories_kcal": 960,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 7,
+    "goal_tags": [],
+    "id": "classic-banana-split",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/classic-banana-split.md",
+    "prep_minutes": 20,
+    "protein_g": 14,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Classic Banana Split",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 216,
+    "category": "drinks",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "fiber_g": 0,
+    "goal_tags": [
+      "quick_preparation",
+      "lower_cholesterol"
+    ],
+    "id": "classic-margarita",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "drink"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/drinks/classic-margarita.md",
+    "prep_minutes": 5,
+    "protein_g": 0,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Classic Margarita",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "classic-okonomiyaki-japanese-cabbage-and-pork-pancakes",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/classic-okonomiyaki-japanese-cabbage-and-pork-pancakes.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Classic Okonomiyaki (Japanese Cabbage and Pork Pancakes)",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 215,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 7,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "quick_preparation",
+      "fat_loss"
+    ],
+    "id": "clovis-farms-organic-super-smoothie",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/clovis-farms-organic-super-smoothie.md",
+    "prep_minutes": 5,
+    "protein_g": 16,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Clovis Farms Organic Super Smoothie",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": 82,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "fiber_g": 1,
+    "goal_tags": [
+      "lower_cholesterol",
+      "heart_health",
+      "fat_loss",
+      "quick_preparation"
+    ],
+    "id": "coconut-pineapple-sorbet",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/coconut-pineapple-sorbet.md",
+    "prep_minutes": 5,
+    "protein_g": 1,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Coconut Pineapple Sorbet",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "creamy-doenjang-pasta",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/creamy-doenjang-pasta.md",
+    "prep_minutes": 5,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Creamy Doenjang Pasta",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": 80,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian",
+      "keto_friendly"
+    ],
+    "fiber_g": 0,
+    "goal_tags": [
+      "lower_cholesterol",
+      "quick_preparation",
+      "high_protein"
+    ],
+    "id": "creamy-herb-dip",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/creamy-herb-dip.md",
+    "prep_minutes": 5,
+    "protein_g": 5,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Creamy Herb Dip",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "creamy-one-pot-mushroom-and-leek-pasta",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/creamy-one-pot-mushroom-and-leek-pasta.md",
+    "prep_minutes": null,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Creamy One-Pot Mushroom and Leek Pasta",
+    "total_minutes": null
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "creamy-swiss-chard-pasta-leeks-tarragon-lemon",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/creamy-swiss-chard-pasta-leeks-tarragon-lemon.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Creamy Swiss Chard Pasta With Leeks, Tarragon and Lemon Zest",
+    "total_minutes": 45
+  },
+  {
+    "calories_kcal": null,
+    "category": "breakfast",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "crepes",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/crepes.md",
+    "prep_minutes": null,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Crepes",
+    "total_minutes": null
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "crisp-gnocchi-with-sausage-and-peas",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/crisp-gnocchi-with-sausage-and-peas.md",
+    "prep_minutes": null,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Crisp Gnocchi With Sausage and Peas",
+    "total_minutes": null
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "crispy-cheddar-chicken-tacos",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/crispy-cheddar-chicken-tacos.md",
+    "prep_minutes": 20,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Crispy Cheddar Chicken Tacos",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 460,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "crispy-coconut-shrimp-and-shallots",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/crispy-coconut-shrimp-and-shallots.md",
+    "prep_minutes": 15,
+    "protein_g": 28,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Crispy Coconut Shrimp and Shallots",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": 600,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 14,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep"
+    ],
+    "id": "crispy-mushroom-tacos",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/crispy-mushroom-tacos.md",
+    "prep_minutes": 15,
+    "protein_g": 18,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Crispy Mushroom Tacos",
+    "total_minutes": 45
+  },
+  {
+    "calories_kcal": 520,
+    "category": "dinner",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 5,
+    "goal_tags": [
+      "meal_prep",
+      "high_protein"
+    ],
+    "id": "crispy-sheet-pan-noodles-with-glazed-tofu",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/crispy-sheet-pan-noodles-with-glazed-tofu.md",
+    "prep_minutes": 15,
+    "protein_g": 22,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Crispy Sheet-Pan Noodles With Glazed Tofu",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein",
+      "heart_health",
+      "lower_cholesterol"
+    ],
+    "id": "curried-swordfish-with-tomatoes-greens-and-garlic-toast",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/curried-swordfish-with-tomatoes-greens-and-garlic-toast.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Curried Swordfish With Tomatoes, Greens and Garlic Toast",
+    "total_minutes": 20
+  },
+  {
+    "calories_kcal": 420,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": 4,
+    "goal_tags": [
+      "fat_loss"
+    ],
+    "id": "dumpling-tomato-salad-with-chile-crisp-vinaigrette",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/dumpling-tomato-salad-with-chile-crisp-vinaigrette.md",
+    "prep_minutes": 15,
+    "protein_g": 18,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Dumpling Tomato Salad With Chile Crisp Vinaigrette",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "easiest-chicken-noodle-soup",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/easiest-chicken-noodle-soup.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Easiest Chicken Noodle Soup",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": null,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "easter-egg-nest-cake",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/easter-egg-nest-cake.md",
+    "prep_minutes": 25,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Easter Egg Nest Cake",
+    "total_minutes": 65
+  },
+  {
+    "calories_kcal": 600,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 4,
+    "goal_tags": [
+      "quick_preparation",
+      "meal_prep"
+    ],
+    "id": "easy-spaghetti-with-meat-sauce",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/easy-spaghetti-with-meat-sauce.md",
+    "prep_minutes": 10,
+    "protein_g": 30,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Easy Spaghetti With Meat Sauce",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": 390,
+    "category": "breakfast",
+    "dietary_tags": [],
+    "fiber_g": 4,
+    "goal_tags": [
+      "high_protein",
+      "lower_cholesterol",
+      "fat_loss",
+      "meal_prep"
+    ],
+    "id": "egg-white-cottage-cheese-burrito",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/egg-white-cottage-cheese-burrito.md",
+    "prep_minutes": 10,
+    "protein_g": 47,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Egg White, Cottage Cheese & Turkey Breakfast Burrito",
+    "total_minutes": 18
+  },
+  {
+    "calories_kcal": 415,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 22,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep"
+    ],
+    "id": "eggplant-bean-chili",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/eggplant-bean-chili.md",
+    "prep_minutes": 15,
+    "protein_g": 24,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Eggplant and Bean Chili",
+    "total_minutes": 60
+  },
+  {
+    "calories_kcal": 55,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "fiber_g": 1,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "quick_preparation"
+    ],
+    "id": "emerald-green-smoothie",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/emerald-green-smoothie.md",
+    "prep_minutes": 5,
+    "protein_g": 1,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Emerald Green Smoothie",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "fat_loss"
+    ],
+    "id": "endive-fennel-radish-salad",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/endive-fennel-radish-salad.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Endive, Fennel & Radish Salad",
+    "total_minutes": 10
+  },
+  {
+    "calories_kcal": 390,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 6,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "farro-with-blistered-tomatoes-pesto-and-spinach",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/farro-with-blistered-tomatoes-pesto-and-spinach.md",
+    "prep_minutes": 15,
+    "protein_g": 11,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Farro With Blistered Tomatoes, Pesto and Spinach",
+    "total_minutes": 45
+  },
+  {
+    "calories_kcal": null,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegan",
+      "keto_friendly"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "lower_cholesterol",
+      "heart_health",
+      "fat_loss",
+      "quick_preparation",
+      "meal_prep"
+    ],
+    "id": "fire-roasted-tomato-salsa",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/fire-roasted-tomato-salsa.md",
+    "prep_minutes": 5,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Fire-Roasted Tomato Salsa",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep"
+    ],
+    "id": "frijoles-borrachos",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/frijoles-borrachos.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Frijoles Borrachos (Drunken Beans)",
+    "total_minutes": 2.5
+  },
+  {
+    "calories_kcal": 87,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 1,
+    "goal_tags": [
+      "lower_cholesterol",
+      "heart_health",
+      "fat_loss",
+      "quick_preparation"
+    ],
+    "id": "frozen-strawberry-peach-treat",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/frozen-strawberry-peach-treat.md",
+    "prep_minutes": 5,
+    "protein_g": 2,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Frozen Strawberry Peach Treat",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": 448,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 4,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "garlic-butter-shrimp-scampi",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/garlic-butter-shrimp-scampi.md",
+    "prep_minutes": 10,
+    "protein_g": 36,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Garlic Butter Shrimp Scampi",
+    "total_minutes": 20
+  },
+  {
+    "calories_kcal": 420,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 5,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "ginger-dill-salmon",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/ginger-dill-salmon.md",
+    "prep_minutes": 15,
+    "protein_g": 42,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Ginger-Dill Salmon",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 400,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "gingery-meatballs-in-tomato-sauce",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/gingery-meatballs-in-tomato-sauce.md",
+    "prep_minutes": 15,
+    "protein_g": 25,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Gingery Meatballs in Tomato Sauce",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 370,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 1,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "goat-cheese-and-dill-dutch-baby",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/goat-cheese-and-dill-dutch-baby.md",
+    "prep_minutes": 15,
+    "protein_g": 16,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Goat Cheese and Dill Dutch Baby",
+    "total_minutes": 37
+  },
+  {
+    "calories_kcal": 620,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 1,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol"
+    ],
+    "id": "green-curry-salmon-coconut-rice",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/green-curry-salmon-coconut-rice.md",
+    "prep_minutes": 10,
+    "protein_g": 28,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Green Curry Salmon With Coconut Rice",
+    "total_minutes": 55
+  },
+  {
+    "calories_kcal": 115,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "fiber_g": 3,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "quick_preparation"
+    ],
+    "id": "green-paradise-smoothie",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/green-paradise-smoothie.md",
+    "prep_minutes": 5,
+    "protein_g": 2,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Green Paradise Smoothie",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": 560,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 2,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "green-strata-with-goat-cheese-and-herbs",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/green-strata-with-goat-cheese-and-herbs.md",
+    "prep_minutes": 20,
+    "protein_g": 29,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Green Strata With Goat Cheese and Herbs",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": null,
+    "category": "meal-prep",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein",
+      "lower_cholesterol",
+      "fat_loss",
+      "meal_prep",
+      "heart_health"
+    ],
+    "id": "ground-turkey-rice-bowl",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "meal_prep"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/meal-prep/ground-turkey-rice-bowl.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Ground Turkey & Brown Rice Meal Prep Bowl",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": null,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "gyeran-bap-egg-rice",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/gyeran-bap-egg-rice.md",
+    "prep_minutes": 5,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Gyeran Bap (Egg Rice)",
+    "total_minutes": 10
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "ham-and-cheese-sliders",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/ham-and-cheese-sliders.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Ham and Cheese Sliders",
+    "total_minutes": 40
+  },
+  {
+    "calories_kcal": null,
+    "category": "snacks",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein",
+      "lower_cholesterol",
+      "fat_loss",
+      "meal_prep"
+    ],
+    "id": "high-protein-snacks",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/high-protein-snacks.md",
+    "prep_minutes": null,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "High-Protein Snacks \u2014 ET's Fat Loss Rotation",
+    "total_minutes": null
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "hilib-sambuus-fried-beef-dumplings",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/hilib-sambuus-fried-beef-dumplings.md",
+    "prep_minutes": 30,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Hilib Sambuus (Fried Beef Dumplings)",
+    "total_minutes": 55
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "meal_prep",
+      "lower_cholesterol"
+    ],
+    "id": "hilib-sambuus-fried-beef-dumplings-healthier",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/hilib-sambuus-fried-beef-dumplings-healthier.md",
+    "prep_minutes": 30,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Hilib Sambuus \u2014 Leaner Turkey Version",
+    "total_minutes": 55
+  },
+  {
+    "calories_kcal": null,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "home-fries",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/home-fries.md",
+    "prep_minutes": 5,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Home Fries",
+    "total_minutes": 20
+  },
+  {
+    "calories_kcal": 280,
+    "category": "snacks",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "fat_loss"
+    ],
+    "id": "hush-puppies",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/hush-puppies.md",
+    "prep_minutes": 10,
+    "protein_g": 6,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Hush Puppies",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": 142,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "fiber_g": 4,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "quick_preparation"
+    ],
+    "id": "island-mood-boost-smoothie",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/island-mood-boost-smoothie.md",
+    "prep_minutes": 5,
+    "protein_g": 2,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Island Mood Boost Smoothie",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": 650,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "italian-beef-sandwiches",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/italian-beef-sandwiches.md",
+    "prep_minutes": 20,
+    "protein_g": 38,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Italian Beef Sandwiches",
+    "total_minutes": 8
+  },
+  {
+    "calories_kcal": 680,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 3,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "iwuk-edesi-one-pot-rice-chicken",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/iwuk-edesi-one-pot-rice-chicken.md",
+    "prep_minutes": 20,
+    "protein_g": 52,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Iwuk Edesi (One-Pot Rice With Chicken)",
+    "total_minutes": 65
+  },
+  {
+    "calories_kcal": 510,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 4,
+    "goal_tags": [
+      "high_protein",
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep"
+    ],
+    "id": "iwuk-edesi-one-pot-rice-chicken-healthier",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/iwuk-edesi-one-pot-rice-chicken-healthier.md",
+    "prep_minutes": 20,
+    "protein_g": 50,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Iwuk Edesi (One-Pot Rice With Chicken) \u2014 Healthier Variant",
+    "total_minutes": 65
+  },
+  {
+    "calories_kcal": 345,
+    "category": "drinks",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "fiber_g": 2,
+    "goal_tags": [
+      "quick_preparation",
+      "lower_cholesterol"
+    ],
+    "id": "jamaican-screwdriver",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "drink"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/drinks/jamaican-screwdriver.md",
+    "prep_minutes": 5,
+    "protein_g": 1,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Jamaican Screwdriver",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": 240,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "japanese-potato-salad-with-mentaiko",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/japanese-potato-salad-with-mentaiko.md",
+    "prep_minutes": 20,
+    "protein_g": 10,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Japanese Potato Salad With Mentaiko",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 480,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 3,
+    "goal_tags": [
+      "heart_health",
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "lemon-dill-meatballs-orzo",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/lemon-dill-meatballs-orzo.md",
+    "prep_minutes": 15,
+    "protein_g": 42,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Lemon-Dill Meatballs With Orzo",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 245,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 0,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "high_protein",
+      "fat_loss"
+    ],
+    "id": "lemon-herb-grilled-chicken-breast",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/lemon-herb-grilled-chicken-breast.md",
+    "prep_minutes": 15,
+    "protein_g": 42,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Lemon Herb Grilled Chicken Breast",
+    "total_minutes": 27
+  },
+  {
+    "calories_kcal": 285,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 2,
+    "goal_tags": [
+      "lower_cholesterol"
+    ],
+    "id": "lemon-pudding-cakes-sugared-raspberries",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/lemon-pudding-cakes-sugared-raspberries.md",
+    "prep_minutes": 20,
+    "protein_g": 6,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Lemon Pudding Cakes With Sugared Raspberries",
+    "total_minutes": 75
+  },
+  {
+    "calories_kcal": 132,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "fiber_g": 1,
+    "goal_tags": [
+      "lower_cholesterol",
+      "heart_health",
+      "fat_loss"
+    ],
+    "id": "lite-chocolate-ice-cream-creami",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/lite-chocolate-ice-cream-creami.md",
+    "prep_minutes": 5,
+    "protein_g": 1,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Lite Chocolate Ice Cream",
+    "total_minutes": null
+  },
+  {
+    "calories_kcal": 158,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegan",
+      "dairy_free"
+    ],
+    "fiber_g": 0,
+    "goal_tags": [
+      "lower_cholesterol"
+    ],
+    "id": "lite-mint-cookies-cream-ice-cream-creami",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/lite-mint-cookies-cream-ice-cream-creami.md",
+    "prep_minutes": 5,
+    "protein_g": 1,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Lite Mint Cookies & Cream Ice Cream",
+    "total_minutes": null
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian",
+      "gluten_free"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "loaded-sweet-potatoes-with-black-beans-and-cheddar",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/loaded-sweet-potatoes-with-black-beans-and-cheddar.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Loaded Sweet Potatoes With Black Beans and Cheddar",
+    "total_minutes": 55
+  },
+  {
+    "calories_kcal": 420,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 3,
+    "goal_tags": [
+      "heart_health",
+      "high_protein",
+      "lower_cholesterol"
+    ],
+    "id": "maple-miso-sheet-pan-salmon-green-beans",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/maple-miso-sheet-pan-salmon-green-beans.md",
+    "prep_minutes": 10,
+    "protein_g": 42,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Maple and Miso Sheet-Pan Salmon With Green Beans",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": null,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "marinated-feta-with-herbs-and-peppercorns",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/marinated-feta-with-herbs-and-peppercorns.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Marinated Feta With Herbs and Peppercorns",
+    "total_minutes": 24
+  },
+  {
+    "calories_kcal": 280,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "high_protein",
+      "lower_cholesterol"
+    ],
+    "id": "marry-me-chicken",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/marry-me-chicken.md",
+    "prep_minutes": 10,
+    "protein_g": 30,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Marry Me Chicken",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "matzo-lasagna",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/matzo-lasagna.md",
+    "prep_minutes": 20,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Matzo Lasagna",
+    "total_minutes": 65
+  },
+  {
+    "calories_kcal": 380,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 0,
+    "goal_tags": [
+      "high_protein",
+      "fat_loss"
+    ],
+    "id": "mayo-marinated-chicken-chimichurri",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/mayo-marinated-chicken-chimichurri.md",
+    "prep_minutes": 10,
+    "protein_g": 42,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Mayo-Marinated Chicken With Chimichurri",
+    "total_minutes": 15
+  },
+  {
+    "calories_kcal": 130,
+    "category": "dinner",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 3,
+    "goal_tags": [],
+    "id": "miso-butter-roasted-broccoli",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/miso-butter-roasted-broccoli.md",
+    "prep_minutes": 10,
+    "protein_g": 4,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Miso-Butter Roasted Broccoli",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": null,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "quick_preparation"
+    ],
+    "id": "mocha-banana-shake",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/mocha-banana-shake.md",
+    "prep_minutes": 5,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Mocha Banana Shake",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": 175,
+    "category": "breakfast",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "fat_loss",
+      "quick_preparation"
+    ],
+    "id": "morning-wake-up-smoothie",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/morning-wake-up-smoothie.md",
+    "prep_minutes": 5,
+    "protein_g": 14,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Morning Wake Up Smoothie",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": 380,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 1,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "moroccan-spiced-chicken-meatballs",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/moroccan-spiced-chicken-meatballs.md",
+    "prep_minutes": 15,
+    "protein_g": 29,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Moroccan-Spiced Chicken Meatballs",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "mrouzia-lamb-shanks",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/mrouzia-lamb-shanks.md",
+    "prep_minutes": 20,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Mrouzia Lamb Shanks",
+    "total_minutes": 2
+  },
+  {
+    "calories_kcal": 560,
+    "category": "dinner",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 5,
+    "goal_tags": [
+      "quick_preparation",
+      "high_protein"
+    ],
+    "id": "mushroom-and-cottage-cheese-pasta",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/mushroom-and-cottage-cheese-pasta.md",
+    "prep_minutes": 15,
+    "protein_g": 18,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Mushroom and Cottage Cheese Pasta",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": null,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "no-bake-melon-cheesecake-bars",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/no-bake-melon-cheesecake-bars.md",
+    "prep_minutes": 25,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "No-Bake Melon Cheesecake Bars",
+    "total_minutes": 6
+  },
+  {
+    "calories_kcal": 380,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 1,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "one-bowl-carrot-cake",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/one-bowl-carrot-cake.md",
+    "prep_minutes": 20,
+    "protein_g": 6,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "One-Bowl Carrot Cake",
+    "total_minutes": 80
+  },
+  {
+    "calories_kcal": 420,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 4,
+    "goal_tags": [
+      "heart_health",
+      "high_protein"
+    ],
+    "id": "one-pan-chicken-peperonata-olives",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/one-pan-chicken-peperonata-olives.md",
+    "prep_minutes": 15,
+    "protein_g": 48,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "One-Pan Chicken With Peperonata and Olives",
+    "total_minutes": 60
+  },
+  {
+    "calories_kcal": 580,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 10,
+    "goal_tags": [
+      "heart_health",
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "one-pan-paprika-chicken-lentils-squash",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/one-pan-paprika-chicken-lentils-squash.md",
+    "prep_minutes": 15,
+    "protein_g": 48,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "One-Pan Paprika Chicken With Lentils, Squash and Daqa",
+    "total_minutes": 85
+  },
+  {
+    "calories_kcal": 480,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 4,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "high_protein",
+      "fat_loss"
+    ],
+    "id": "one-pan-salmon-nicoise-orzo",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/one-pan-salmon-nicoise-orzo.md",
+    "prep_minutes": 10,
+    "protein_g": 38,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "One-Pan Salmon Ni\u00e7oise With Orzo",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 310,
+    "category": "dinner",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 3,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "one-pot-mushroom-and-ginger-rice",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/one-pot-mushroom-and-ginger-rice.md",
+    "prep_minutes": 10,
+    "protein_g": 8,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "One-Pot Mushroom and Ginger Rice",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [
+      "gluten_free"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "one-pot-smoky-fish-with-tomato-olives-and-couscous",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/one-pot-smoky-fish-with-tomato-olives-and-couscous.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "One-Pot Smoky Fish With Tomato, Olives and Couscous",
+    "total_minutes": 40
+  },
+  {
+    "calories_kcal": 580,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 4,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "orecchiette-salad-with-halloumi-croutons",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/orecchiette-salad-with-halloumi-croutons.md",
+    "prep_minutes": 15,
+    "protein_g": 18,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Orecchiette Salad With Halloumi Croutons",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": 520,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "oyakodon-chicken-and-egg-rice-bowl",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/oyakodon-chicken-and-egg-rice-bowl.md",
+    "prep_minutes": 10,
+    "protein_g": 32,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Oyakodon (Chicken and Egg Rice Bowl)",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "pan-fried-tofu-with-red-curry-paste",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/pan-fried-tofu-with-red-curry-paste.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Pan-Fried Tofu With Red Curry Paste",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": 360,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 2,
+    "goal_tags": [
+      "high_protein",
+      "lower_cholesterol",
+      "heart_health"
+    ],
+    "id": "pan-seared-scallops-with-lemon-caper-butter",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/pan-seared-scallops-with-lemon-caper-butter.md",
+    "prep_minutes": 10,
+    "protein_g": 30,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Pan-Seared Scallops with Lemon Caper Butter",
+    "total_minutes": 18
+  },
+  {
+    "calories_kcal": 173,
+    "category": "drinks",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "fiber_g": 2,
+    "goal_tags": [
+      "quick_preparation",
+      "lower_cholesterol"
+    ],
+    "id": "pear-ginger-sake-martini",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "drink"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/drinks/pear-ginger-sake-martini.md",
+    "prep_minutes": 5,
+    "protein_g": 0,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Pear & Ginger Sak\u00e9 Martini",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": null,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "pimento-cheese-frittata",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/pimento-cheese-frittata.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Pimento Cheese Frittata",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "pineapple-ham-pizza",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/pineapple-ham-pizza.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Pineapple Ham Pizza",
+    "total_minutes": 22
+  },
+  {
+    "calories_kcal": null,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "quick_preparation"
+    ],
+    "id": "pomegranate-smoothie",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/pomegranate-smoothie.md",
+    "prep_minutes": 5,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Pomegranate Smoothie",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": null,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "potato-kale-casserole-and-eggs",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/potato-kale-casserole-and-eggs.md",
+    "prep_minutes": 20,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Potato-Kale Casserole and Eggs",
+    "total_minutes": 45
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep"
+    ],
+    "id": "quinoa-broccoli-spoon-salad",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/quinoa-broccoli-spoon-salad.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Quinoa and Broccoli Spoon Salad",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": null,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "rhubarb-crisp",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/rhubarb-crisp.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Rhubarb Crisp",
+    "total_minutes": 1
+  },
+  {
+    "calories_kcal": 390,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "heart_health",
+      "high_protein",
+      "quick_preparation"
+    ],
+    "id": "rhubarb-roasted-salmon",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/rhubarb-roasted-salmon.md",
+    "prep_minutes": 15,
+    "protein_g": 33,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Rhubarb Roasted Salmon",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "ricotta-pasta-alla-vodka",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/ricotta-pasta-alla-vodka.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Ricotta Pasta Alla Vodka",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": 430,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 3,
+    "goal_tags": [
+      "high_protein",
+      "heart_health",
+      "meal_prep",
+      "fat_loss"
+    ],
+    "id": "roasted-chicken-thighs-with-cauliflower-and-herby-yogurt",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/roasted-chicken-thighs-with-cauliflower-and-herby-yogurt.md",
+    "prep_minutes": 15,
+    "protein_g": 31,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Roasted Chicken Thighs With Cauliflower and Herby Yogurt",
+    "total_minutes": 55
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian",
+      "gluten_free"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "roasted-sheet-pan-potato-salad",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/roasted-sheet-pan-potato-salad.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Roasted Sheet Pan Potato Salad",
+    "total_minutes": 40
+  },
+  {
+    "calories_kcal": 300,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 1,
+    "goal_tags": [
+      "high_protein",
+      "heart_health",
+      "lower_cholesterol",
+      "fat_loss",
+      "meal_prep"
+    ],
+    "id": "roasted-turkey-meatballs-mozzarella-scallions",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/roasted-turkey-meatballs-mozzarella-scallions.md",
+    "prep_minutes": 15,
+    "protein_g": 32,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Roasted Turkey Meatballs With Mozzarella and Scallions",
+    "total_minutes": 32
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "roasted-white-bean-and-tomato-pasta",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/roasted-white-bean-and-tomato-pasta.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Roasted White Bean and Tomato Pasta",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": null,
+    "category": "breakfast",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "rolex-vegetable-omelet-and-chapati-roll",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/rolex-vegetable-omelet-and-chapati-roll.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Rolex (Vegetable Omelet and Chapati Roll)",
+    "total_minutes": 20
+  },
+  {
+    "calories_kcal": 555,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 8,
+    "goal_tags": [
+      "high_protein",
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep"
+    ],
+    "id": "rotisserie-chicken-greens-pasta",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/rotisserie-chicken-greens-pasta.md",
+    "prep_minutes": 10,
+    "protein_g": 56,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Rotisserie Chicken and Greens Pasta",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 475,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 11,
+    "goal_tags": [
+      "high_protein",
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep",
+      "fat_loss"
+    ],
+    "id": "rotisserie-chicken-greens-pasta-healthier",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/rotisserie-chicken-greens-pasta-healthier.md",
+    "prep_minutes": 10,
+    "protein_g": 56,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Rotisserie Chicken and Greens Pasta \u2014 Healthier Variant",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "saltfish-buljol-salted-cod-salad",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/saltfish-buljol-salted-cod-salad.md",
+    "prep_minutes": null,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Saltfish Buljol (Salted Cod Salad)",
+    "total_minutes": null
+  },
+  {
+    "calories_kcal": null,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian",
+      "gluten_free"
+    ],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "salty-sweet-trail-mix",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/salty-sweet-trail-mix.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Salty Sweet Trail Mix",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": null,
+    "category": "breakfast",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "sausage-and-egg-tater-tot-casserole",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/sausage-and-egg-tater-tot-casserole.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Sausage and Egg Tater Tot Casserole",
+    "total_minutes": 1
+  },
+  {
+    "calories_kcal": null,
+    "category": "breakfast",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "sausage-egg-and-kale-casserole",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/sausage-egg-and-kale-casserole.md",
+    "prep_minutes": null,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Sausage, Egg and Kale Casserole",
+    "total_minutes": null
+  },
+  {
+    "calories_kcal": 470,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 4,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "sausage-tortellini-soup",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/sausage-tortellini-soup.md",
+    "prep_minutes": 15,
+    "protein_g": 22,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Sausage Tortellini Soup",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 520,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 7,
+    "goal_tags": [
+      "heart_health",
+      "high_protein",
+      "lower_cholesterol",
+      "fat_loss"
+    ],
+    "id": "sheet-pan-chicken-artichokes-herbs",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/sheet-pan-chicken-artichokes-herbs.md",
+    "prep_minutes": 15,
+    "protein_g": 48,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Sheet-Pan Chicken With Artichokes and Herbs",
+    "total_minutes": 55
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "sheet-pan-chicken-tikka-thighs",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/sheet-pan-chicken-tikka-thighs.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Sheet-Pan Chicken Tikka Thighs",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 540,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "sheet-pan-chicken-with-jammy-tomatoes-and-pancetta",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/sheet-pan-chicken-with-jammy-tomatoes-and-pancetta.md",
+    "prep_minutes": 15,
+    "protein_g": 36,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Sheet-Pan Chicken With Jammy Tomatoes and Pancetta",
+    "total_minutes": 50
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein",
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep"
+    ],
+    "id": "sheet-pan-chicken-with-shallots-and-grapes",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/sheet-pan-chicken-with-shallots-and-grapes.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Sheet-Pan Chicken With Shallots and Grapes",
+    "total_minutes": 45
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "heart_health",
+      "high_protein"
+    ],
+    "id": "sheet-pan-gnocchi-asparagus-leeks-peas",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/sheet-pan-gnocchi-asparagus-leeks-peas.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Sheet-Pan Gnocchi With Asparagus, Leeks and Peas",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "sheet-pan-herby-roast-chicken-with-peas-and-carrots",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/sheet-pan-herby-roast-chicken-with-peas-and-carrots.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Sheet-Pan Herby Roast Chicken With Peas and Carrots",
+    "total_minutes": 55
+  },
+  {
+    "calories_kcal": 470,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "sheet-pan-roast-chicken-with-tangy-greens",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/sheet-pan-roast-chicken-with-tangy-greens.md",
+    "prep_minutes": 15,
+    "protein_g": 31,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Sheet-Pan Roast Chicken With Tangy Greens",
+    "total_minutes": 55
+  },
+  {
+    "calories_kcal": 480,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 4,
+    "goal_tags": [
+      "heart_health",
+      "high_protein",
+      "lower_cholesterol",
+      "fat_loss",
+      "meal_prep"
+    ],
+    "id": "sheet-pan-roasted-chicken-greens",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/sheet-pan-roasted-chicken-greens.md",
+    "prep_minutes": 15,
+    "protein_g": 52,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Sheet Pan Roasted Chicken With Greens",
+    "total_minutes": 65
+  },
+  {
+    "calories_kcal": 620,
+    "category": "dinner",
+    "dietary_tags": [
+      "gluten_free"
+    ],
+    "fiber_g": 5,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "sheet-pan-roasted-salmon-with-pea-pesto",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/sheet-pan-roasted-salmon-with-pea-pesto.md",
+    "prep_minutes": 15,
+    "protein_g": 32,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Sheet-Pan Roasted Salmon With Pea Pesto",
+    "total_minutes": 40
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian",
+      "vegan"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "sheet-pan-tofu-brussels-sprouts-hoisin-tahini",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/sheet-pan-tofu-brussels-sprouts-hoisin-tahini.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Sheet-Pan Tofu and Brussels Sprouts With Hoisin-Tahini Sauce",
+    "total_minutes": 40
+  },
+  {
+    "calories_kcal": 470,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 0,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep",
+      "heart_health"
+    ],
+    "id": "shish-kebab",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/shish-kebab.md",
+    "prep_minutes": 20,
+    "protein_g": 45,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Shish Kebab",
+    "total_minutes": 2
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "skillet-chicken-thighs-with-broccoli-and-orzo",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/skillet-chicken-thighs-with-broccoli-and-orzo.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Skillet Chicken Thighs With Broccoli and Orzo",
+    "total_minutes": 40
+  },
+  {
+    "calories_kcal": 560,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 3,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "skillet-chicken-with-orzo-dill-and-feta",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/skillet-chicken-with-orzo-dill-and-feta.md",
+    "prep_minutes": 15,
+    "protein_g": 34,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Skillet Chicken With Orzo, Dill and Feta",
+    "total_minutes": 50
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "skillet-chicken-with-turmeric-and-orange",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/skillet-chicken-with-turmeric-and-orange.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Skillet Chicken With Turmeric and Orange",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": 380,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 3,
+    "goal_tags": [
+      "heart_health",
+      "high_protein",
+      "lower_cholesterol",
+      "fat_loss"
+    ],
+    "id": "skillet-ginger-chicken-apricots",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/skillet-ginger-chicken-apricots.md",
+    "prep_minutes": 10,
+    "protein_g": 38,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Skillet Ginger Chicken With Apricots",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 430,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 1,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "slow-cooker-bbq-pulled-pork",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/slow-cooker-bbq-pulled-pork.md",
+    "prep_minutes": 20,
+    "protein_g": 29,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Slow Cooker BBQ Pulled Pork",
+    "total_minutes": 6
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "slow-cooker-picadillo",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/slow-cooker-picadillo.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Slow-Cooker Picadillo",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": 285,
+    "category": "dinner",
+    "dietary_tags": [
+      "vegetarian",
+      "gluten_free"
+    ],
+    "fiber_g": 4,
+    "goal_tags": [],
+    "id": "soor-iyo-dalac-bilaash-grits-and-tomato-stew",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/soor-iyo-dalac-bilaash-grits-and-tomato-stew.md",
+    "prep_minutes": 10,
+    "protein_g": 6,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Soor iyo Dalac Bilaash (Grits and Tomato Stew)",
+    "total_minutes": 50
+  },
+  {
+    "calories_kcal": 575,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 8,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "spaghetti-meat-sauce",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/spaghetti-meat-sauce.md",
+    "prep_minutes": 10,
+    "protein_g": 46,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Spaghetti with Meat Sauce",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 475,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 12,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep",
+      "heart_health",
+      "lower_cholesterol",
+      "fat_loss"
+    ],
+    "id": "spaghetti-meat-sauce-healthier",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/spaghetti-meat-sauce-healthier.md",
+    "prep_minutes": 10,
+    "protein_g": 50,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Spaghetti with Meat Sauce \u2014 Healthier Variant",
+    "total_minutes": 40
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "meal_prep"
+    ],
+    "id": "spiced-chicken-and-rice-with-cardamom-and-cinnamon",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/spiced-chicken-and-rice-with-cardamom-and-cinnamon.md",
+    "prep_minutes": 20,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Spiced Chicken and Rice With Cardamom and Cinnamon",
+    "total_minutes": 55
+  },
+  {
+    "calories_kcal": 320,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 1,
+    "goal_tags": [],
+    "id": "spiced-orange-crumble-cookies",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/spiced-orange-crumble-cookies.md",
+    "prep_minutes": 20,
+    "protein_g": 4,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Spiced Orange Crumble Cookies",
+    "total_minutes": 90
+  },
+  {
+    "calories_kcal": 410,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 3,
+    "goal_tags": [
+      "quick_preparation",
+      "high_protein"
+    ],
+    "id": "spicy-honey-chicken-with-broccoli",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/spicy-honey-chicken-with-broccoli.md",
+    "prep_minutes": 10,
+    "protein_g": 29,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Spicy Honey Chicken With Broccoli",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": 427,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegetarian",
+      "keto_friendly"
+    ],
+    "fiber_g": 4,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "spinach-artichoke-dip",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/spinach-artichoke-dip.md",
+    "prep_minutes": 10,
+    "protein_g": 9,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Spinach & Artichoke Dip",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": 620,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 0,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "steak-diane",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/steak-diane.md",
+    "prep_minutes": 20,
+    "protein_g": 50,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Steak Diane",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 390,
+    "category": "dinner",
+    "dietary_tags": [
+      "keto_friendly"
+    ],
+    "fiber_g": 0,
+    "goal_tags": [
+      "high_protein",
+      "heart_health",
+      "lower_cholesterol"
+    ],
+    "id": "steak-diane-healthier",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/steak-diane-healthier.md",
+    "prep_minutes": 20,
+    "protein_g": 52,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Steak Diane \u2014 Healthier Variant",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 110,
+    "category": "breakfast",
+    "dietary_tags": [],
+    "fiber_g": 3,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "quick_preparation"
+    ],
+    "id": "strawberry-banana-smoothie",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "breakfast"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/breakfast/strawberry-banana-smoothie.md",
+    "prep_minutes": 5,
+    "protein_g": 3,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Strawberry Banana Smoothie",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": 520,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 4,
+    "goal_tags": [
+      "meal_prep",
+      "quick_preparation"
+    ],
+    "id": "taiwanese-meefun",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/taiwanese-meefun.md",
+    "prep_minutes": 15,
+    "protein_g": 19,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Taiwanese Meefun",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 360,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 1,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep",
+      "fat_loss"
+    ],
+    "id": "tajin-grilled-chicken",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/tajin-grilled-chicken.md",
+    "prep_minutes": 15,
+    "protein_g": 34,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Tajin Grilled Chicken",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": 440,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 5,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep",
+      "heart_health"
+    ],
+    "id": "thai-peanut-chicken-stir-fry",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/thai-peanut-chicken-stir-fry.md",
+    "prep_minutes": 15,
+    "protein_g": 38,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Thai Peanut Chicken Stir Fry",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": 378,
+    "category": "drinks",
+    "dietary_tags": [
+      "vegetarian"
+    ],
+    "fiber_g": 0,
+    "goal_tags": [
+      "quick_preparation"
+    ],
+    "id": "toasted-almond-joy",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "drink"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/drinks/toasted-almond-joy.md",
+    "prep_minutes": 5,
+    "protein_g": 3,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Toasted Almond Joy",
+    "total_minutes": 5
+  },
+  {
+    "calories_kcal": 520,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": 3,
+    "goal_tags": [
+      "high_protein",
+      "quick_preparation",
+      "meal_prep"
+    ],
+    "id": "tuna-crunch-sandwiches",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/tuna-crunch-sandwiches.md",
+    "prep_minutes": 15,
+    "protein_g": 29,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Tuna Crunch Sandwiches",
+    "total_minutes": 15
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein"
+    ],
+    "id": "tuna-melt",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/tuna-melt.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Tuna Melt",
+    "total_minutes": 25
+  },
+  {
+    "calories_kcal": 475,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 6,
+    "goal_tags": [
+      "high_protein",
+      "lower_cholesterol",
+      "fat_loss"
+    ],
+    "id": "tuna-poke-bowl",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/tuna-poke-bowl.md",
+    "prep_minutes": 15,
+    "protein_g": 40,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Tuna Poke Bowl",
+    "total_minutes": 30
+  },
+  {
+    "calories_kcal": 430,
+    "category": "dinner",
+    "dietary_tags": [
+      "gluten_free"
+    ],
+    "fiber_g": 7,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "turkey-chili",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/turkey-chili.md",
+    "prep_minutes": 15,
+    "protein_g": 31,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Turkey Chili",
+    "total_minutes": 50
+  },
+  {
+    "calories_kcal": 380,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "high_protein",
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep"
+    ],
+    "id": "turkey-meatballs-tomato-sauce",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/turkey-meatballs-tomato-sauce.md",
+    "prep_minutes": 20,
+    "protein_g": 38,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Turkey Meatballs in Tomato Sauce",
+    "total_minutes": 50
+  },
+  {
+    "calories_kcal": null,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [
+      "high_protein",
+      "quick_preparation"
+    ],
+    "id": "turmeric-black-pepper-chicken-with-asparagus",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/turmeric-black-pepper-chicken-with-asparagus.md",
+    "prep_minutes": 10,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Turmeric-Black Pepper Chicken With Asparagus",
+    "total_minutes": 20
+  },
+  {
+    "calories_kcal": null,
+    "category": "snacks",
+    "dietary_tags": [],
+    "fiber_g": null,
+    "goal_tags": [],
+    "id": "vanilla-creme-brulee",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/vanilla-creme-brulee.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Vanilla Cr\u00e8me Br\u00fbl\u00e9e",
+    "total_minutes": 55
+  },
+  {
+    "calories_kcal": null,
+    "category": "lunch",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "fiber_g": null,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "meal_prep"
+    ],
+    "id": "vegan-caesar-chickpeas",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/vegan-caesar-chickpeas.md",
+    "prep_minutes": 15,
+    "protein_g": null,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Vegan Caesar Salad With Crisp Chickpeas",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 153,
+    "category": "snacks",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "fiber_g": 1,
+    "goal_tags": [
+      "lower_cholesterol",
+      "heart_health",
+      "fat_loss"
+    ],
+    "id": "watermelon-mint-granita",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "snack_1",
+      "snack_2"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/snacks/watermelon-mint-granita.md",
+    "prep_minutes": 10,
+    "protein_g": 2,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Watermelon Mint Granita",
+    "total_minutes": 4
+  },
+  {
+    "calories_kcal": 380,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 12,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "fat_loss",
+      "meal_prep"
+    ],
+    "id": "white-bean-rice-dill-soup",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/white-bean-rice-dill-soup.md",
+    "prep_minutes": 15,
+    "protein_g": 14,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "White Bean, Rice, and Dill Soup",
+    "total_minutes": 55
+  },
+  {
+    "calories_kcal": 420,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 4,
+    "goal_tags": [
+      "heart_health",
+      "meal_prep"
+    ],
+    "id": "winter-squash-rice-soup-pancetta",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/winter-squash-rice-soup-pancetta.md",
+    "prep_minutes": 15,
+    "protein_g": 18,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Winter Squash and Rice Soup with Pancetta",
+    "total_minutes": 70
+  },
+  {
+    "calories_kcal": 320,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 3,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "fat_loss"
+    ],
+    "id": "wonton-soup",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/wonton-soup.md",
+    "prep_minutes": 10,
+    "protein_g": 18,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Wonton Soup",
+    "total_minutes": 35
+  },
+  {
+    "calories_kcal": 240,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 4,
+    "goal_tags": [
+      "heart_health",
+      "lower_cholesterol",
+      "fat_loss",
+      "meal_prep"
+    ],
+    "id": "wonton-soup-healthier",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/wonton-soup-healthier.md",
+    "prep_minutes": 20,
+    "protein_g": 22,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Wonton Soup \u2014 Healthier Variant",
+    "total_minutes": 40
+  },
+  {
+    "calories_kcal": 580,
+    "category": "dinner",
+    "dietary_tags": [],
+    "fiber_g": 3,
+    "goal_tags": [
+      "high_protein",
+      "meal_prep"
+    ],
+    "id": "yakamein",
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "dinner"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/dinner/yakamein.md",
+    "prep_minutes": 15,
+    "protein_g": 48,
+    "sodium_mg": null,
+    "status": "reviewed",
+    "title": "Yakamein",
+    "total_minutes": 1
+  }
+]

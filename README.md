@@ -1,22 +1,47 @@
 # ET's Recipe Book 🍳
 
-Personal recipe library and meal planning system. Managed by Atlas.
+Personal recipe library and meal-planning system. Managed by Atlas.
 
-## Structure
+## Current Structure
 
-```
+```text
 recipes/
-  breakfast/     — Morning meals
-  lunch/         — Midday meals
-  dinner/        — Evening meals
-  snacks/        — Snacks & light bites
-  meal-prep/     — Batch cooking & prep recipes
+  breakfast/
+  lunch/
+  dinner/
+  snacks/
+  drinks/
+  meal-prep/
 
-meal-plans/      — Weekly meal plans (YYYY-WXX.md)
-shopping-lists/  — Generated shopping lists by week
+meal-plans/
+  health-signal-index.md
+  wedding-cut-cookbook.md
+  YYYY-MM-weekN.md
+  YYYY-MM-weekN-tracker.md
+  YYYY-MM-weekN-dashboard.html
+
+shopping-lists/
+indexes/
+.github/workflows/
+tests/
+
+docs/health-wellness-layers/
+scripts/
 ```
+
+## What Lives Where
+
+- `recipes/` holds the canonical recipe markdown files with YAML front matter.
+- `meal-plans/` holds generated planning views and weekly trackers.
+- `shopping-lists/` holds generated grocery lists.
+- `indexes/` holds generated machine-readable recipe indexes and validation summaries.
+- `.github/workflows/` holds repository automation.
+- `tests/` holds validator fixtures and regression tests.
+- `docs/health-wellness-layers/` contains the broader knowledge-base specs for future recipe, ingredient, goal, habit, and workout layers.
+- `scripts/` contains the generator and validation utilities.
 
 ## Health Goals
+
 - Low cholesterol
 - Heart healthy
 - Keto-friendly
@@ -27,11 +52,13 @@ shopping-lists/  — Generated shopping lists by week
 The meal-planning job lives in `scripts/healthy-chef.mjs`.
 
 Health score signals:
+
 - `7-10` = healthy
 - `5-6` = balanced
 - `0-4` = treat / limit
 
 Generated outputs:
+
 - `meal-plans/health-signal-index.md`
 - `meal-plans/wedding-cut-cookbook.md`
 - `meal-plans/YYYY-MM-weekN.md`
@@ -39,15 +66,39 @@ Generated outputs:
 
 ## Recipe Format
 
-Each recipe saved as `recipe-name.md` with:
-- Ingredients + quantities
-- Macros (calories, protein, carbs, fat)
-- Prep + cook time
-- Health tags (keto / heart-healthy / low-cholesterol / high-protein)
-- Instructions
-- Meal prep notes (if applicable)
+Each recipe is a Markdown file that begins with YAML front matter and includes:
+
+- stable ID and title
+- meal types and servings
+- prep, cook, and total time
+- nutrition values
+- ingredient metadata
+- health tags and goal tags
+- meal-prep notes
+- recipe relationships
+- source and nutrition verification status
+
+## Validation
+
+Use `scripts/validate_recipe_repo.py` to check the repo for:
+
+- malformed YAML front matter
+- duplicate recipe IDs
+- missing required fields
+- invalid ingredient units
+- broken relationship references
+- empty required strings and invalid empty lists
+
+The validator can also generate:
+
+- `indexes/recipes.json`
+- `indexes/validation-summary.json`
+- `indexes/validation-summary.md`
+
+CI runs the validator and tests on every push and pull request.
 
 ## Meal Planning
+
 Weekly plans live in `meal-plans/` and reference recipes by filename.
-Shopping lists auto-generated from weekly plans in `shopping-lists/`.
+Shopping lists auto-generated from weekly plans live in `shopping-lists/`.
 The curated `meal-plans/wedding-cut-cookbook.md` file is the healthy-first recipe pool for fast weekly and daily planning.
