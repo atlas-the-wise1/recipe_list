@@ -27,20 +27,18 @@ health_score: 4
 tags:
   - "#high-protein"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 tablespoons Worcestershire sauce"
     name: "Worcestershire sauce"
     ingredient_id: "worcestershire-sauce"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -48,7 +46,7 @@ ingredients:
     name: "Cajun seasoning"
     ingredient_id: "cajun-seasoning"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -72,7 +70,7 @@ ingredients:
     name: "neutral oil"
     ingredient_id: "neutral-oil"
     quantity: 4
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -160,7 +158,7 @@ ingredients:
     name: "beef stock"
     ingredient_id: "beef-stock"
     quantity: 4
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -168,7 +166,7 @@ ingredients:
     name: "Banza chickpea spaghetti"
     ingredient_id: "banza-chickpea-spaghetti"
     quantity: 8
-    unit: "oz"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "produce"

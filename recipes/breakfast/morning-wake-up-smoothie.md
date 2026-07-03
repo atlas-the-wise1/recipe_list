@@ -29,16 +29,14 @@ tags:
   - "#low-cholesterol"
   - "#fat-loss"
   - "#quick"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
   - "fat_loss"
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 small banana, peeled"
     name: "banana"

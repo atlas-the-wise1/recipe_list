@@ -38,8 +38,7 @@ goal_tags:
   - "high_protein"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 (6-oz) salmon fillets — skin-on or skinless (frozen works, see notes)"
     name: "(6-oz) salmon fillets — skin-on or skinless (frozen works"

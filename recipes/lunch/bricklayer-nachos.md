@@ -27,19 +27,17 @@ health_score: 4
 tags:
   - "#high-protein"
   - "#crowd-pleaser"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 pounds ripe Roma tomatoes, OR 2 (15-oz) cans fire-roasted tomatoes"
     name: "ripe Roma tomatoes"
     ingredient_id: "ripe-roma-tomatoes"
     quantity: 2
-    unit: "pounds"
+    unit: "pound"
     preparation: "OR 2 (15-oz) cans fire-roasted tomatoes"
     optional: false
     grocery_department: "produce"
@@ -47,7 +45,7 @@ ingredients:
     name: "thick-cut bacon"
     ingredient_id: "thick-cut-bacon"
     quantity: 8
-    unit: "oz"
+    unit: "ounce"
     preparation: "thinly sliced"
     optional: false
     grocery_department: "uncategorized"
@@ -55,7 +53,7 @@ ingredients:
     name: "fresh Mexican chorizo"
     ingredient_id: "fresh-mexican-chorizo"
     quantity: 8
-    unit: "oz"
+    unit: "ounce"
     preparation: "casing removed, coarsely chopped"
     optional: false
     grocery_department: "uncategorized"
@@ -111,7 +109,7 @@ ingredients:
     name: "shredded Mexican melty cheese (Oaxaca"
     ingredient_id: "shredded-mexican-melty-cheese-oaxaca"
     quantity: 12
-    unit: "oz"
+    unit: "ounce"
     preparation: "Asadero, quesadilla, Monterey Jack, or mozzarella) — about 3 cups"
     optional: false
     grocery_department: "dairy"

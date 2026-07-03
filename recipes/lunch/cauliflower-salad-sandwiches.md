@@ -36,8 +36,7 @@ goal_tags:
   - "lower_cholesterol"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 large head cauliflower (about 2 lbs), cored, halved, and cut into 1-inch slices"
     name: "cauliflower"
@@ -51,7 +50,7 @@ ingredients:
     name: "neutral oil"
     ingredient_id: "neutral-oil"
     quantity: 6
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -59,7 +58,7 @@ ingredients:
     name: "curry powder"
     ingredient_id: "curry-powder"
     quantity: 5
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -72,7 +71,7 @@ ingredients:
     optional: false
     grocery_department: "condiments"
   - display: "1 cup / 4 oz raw walnuts, roughly chopped"
-    name: "/ 4 oz raw walnuts"
+    name: "4 oz raw walnuts"
     ingredient_id: "4-oz-raw-walnuts"
     quantity: 1
     unit: "cup"

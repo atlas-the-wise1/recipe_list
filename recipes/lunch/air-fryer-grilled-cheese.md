@@ -32,14 +32,13 @@ dietary_tags:
 goal_tags:
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 slices sandwich bread, each no more than 1/2-inch thick"
     name: "sandwich bread"
     ingredient_id: "sandwich-bread"
     quantity: 2
-    unit: "slices"
+    unit: "slice"
     preparation: "each no more than 1/2-inch thick"
     optional: false
     grocery_department: "grains"
@@ -55,7 +54,7 @@ ingredients:
     name: "melting cheese (such as sharp Cheddar"
     ingredient_id: "melting-cheese-such-as-sharp-cheddar"
     quantity: 2
-    unit: "slices"
+    unit: "slice"
     preparation: "American, or pepper Jack), depending on thickness of cheese"
     optional: false
     grocery_department: "dairy"

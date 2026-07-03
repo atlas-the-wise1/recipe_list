@@ -33,8 +33,7 @@ dietary_tags:
 goal_tags:
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup chocolate ice cream"
     name: "chocolate ice cream"
@@ -56,7 +55,7 @@ ingredients:
     name: "cream of coconut"
     ingredient_id: "cream-of-coconut"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -64,7 +63,7 @@ ingredients:
     name: "amaretto liqueur"
     ingredient_id: "amaretto-liqueur"
     quantity: 3
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -72,7 +71,7 @@ ingredients:
     name: "dark crème de cacao"
     ingredient_id: "dark-cr-me-de-cacao"
     quantity: 2
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

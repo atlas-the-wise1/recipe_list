@@ -28,21 +28,19 @@ tags:
   - "#high-protein"
   - "#meal-prep"
   - "#heart-healthy"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
   - "heart_health"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1.5 lbs boneless, skinless chicken breast, cut into bite-sized strips"
     name: "boneless"
     ingredient_id: "boneless"
     quantity: 1.5
-    unit: "lbs"
+    unit: "pound"
     preparation: "skinless chicken breast, cut into bite-sized strips"
     optional: false
     grocery_department: "uncategorized"
@@ -50,7 +48,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -66,7 +64,7 @@ ingredients:
     name: "snap peas"
     ingredient_id: "snap-peas"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -82,7 +80,7 @@ ingredients:
     name: "garlic"
     ingredient_id: "garlic"
     quantity: 3
-    unit: "cloves"
+    unit: "clove"
     preparation: "minced"
     optional: false
     grocery_department: "produce"
@@ -90,7 +88,7 @@ ingredients:
     name: "fresh ginger"
     ingredient_id: "fresh-ginger"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: "minced"
     optional: false
     grocery_department: "produce"

@@ -28,13 +28,11 @@ tags:
   - "#spicy"
   - "#weeknight"
   - "#high-protein"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1/2 medium red onion, thinly sliced lengthwise from root to stem end"
     name: "red onion"
@@ -72,7 +70,7 @@ ingredients:
     name: "fresh lime juice"
     ingredient_id: "fresh-lime-juice"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -80,7 +78,7 @@ ingredients:
     name: "fresh orange juice"
     ingredient_id: "fresh-orange-juice"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -88,7 +86,7 @@ ingredients:
     name: "shredded"
     ingredient_id: "shredded"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: "cooked chicken, warmed"
     optional: false
     grocery_department: "uncategorized"
@@ -104,7 +102,7 @@ ingredients:
     name: "medium Cheddar"
     ingredient_id: "medium-cheddar"
     quantity: 6
-    unit: "ounces"
+    unit: "ounce"
     preparation: "Monterey Jack, or queso Chihuahua, grated"
     optional: false
     grocery_department: "uncategorized"

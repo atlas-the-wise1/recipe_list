@@ -30,16 +30,14 @@ tags:
   - "#fat-loss"
   - "#meal-prep"
   - "#freezer-friendly"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "lower_cholesterol"
   - "fat_loss"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "6 egg whites (or ¾ cup liquid egg whites)"
     name: "egg whites"
@@ -61,7 +59,7 @@ ingredients:
     name: "lean turkey breast"
     ingredient_id: "lean-turkey-breast"
     quantity: 2
-    unit: "oz"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "meat"

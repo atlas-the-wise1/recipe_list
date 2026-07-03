@@ -28,11 +28,9 @@ tags:
   - "#vegetarian"
 dietary_tags:
   - "vegetarian"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Salt and black pepper"
     name: "Salt and black pepper"
@@ -46,7 +44,7 @@ ingredients:
     name: "spiral or twisted pasta"
     ingredient_id: "spiral-or-twisted-pasta"
     quantity: 12
-    unit: "ounces"
+    unit: "ounce"
     preparation: "such as cavatappi, strozzapreti, or gemelli"
     optional: false
     grocery_department: "grains"
@@ -78,7 +76,7 @@ ingredients:
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 4
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -86,7 +84,7 @@ ingredients:
     name: "whole milk ricotta"
     ingredient_id: "whole-milk-ricotta"
     quantity: 12
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -118,7 +116,7 @@ ingredients:
     name: "baby spinach"
     ingredient_id: "baby-spinach"
     quantity: 5
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -134,7 +132,7 @@ ingredients:
     name: "lemon juice"
     ingredient_id: "lemon-juice"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"

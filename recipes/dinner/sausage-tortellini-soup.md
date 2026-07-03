@@ -28,19 +28,17 @@ tags:
   - "#quick"
   - "#comfort-food"
   - "#weeknight"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "3 tablespoons extra-virgin olive oil"
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -48,7 +46,7 @@ ingredients:
     name: "fully cooked chicken sausage"
     ingredient_id: "fully-cooked-chicken-sausage"
     quantity: 12
-    unit: "ounces"
+    unit: "ounce"
     preparation: "any flavor, cut into 1/2-inch pieces"
     optional: false
     grocery_department: "meat"
@@ -96,7 +94,7 @@ ingredients:
     name: "chopped vegetables"
     ingredient_id: "chopped-vegetables"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: "such as snap or snow peas, green beans, asparagus, kale, spinach, or escarole, or frozen peas"
     optional: false
     grocery_department: "uncategorized"

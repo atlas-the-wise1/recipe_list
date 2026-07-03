@@ -27,13 +27,10 @@ health_score: 7
 tags:
   - "#seafood"
   - "#salad"
-dietary_tags:
-  []
-goal_tags:
-  []
+dietary_tags: []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 pound boneless or bone-in salted cod, rinsed well"
     name: "boneless or bone-in salted cod"
@@ -47,7 +44,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

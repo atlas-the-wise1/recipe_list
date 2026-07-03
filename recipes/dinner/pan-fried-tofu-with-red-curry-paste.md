@@ -32,8 +32,7 @@ dietary_tags:
 goal_tags:
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 pound extra-firm tofu"
     name: "extra-firm tofu"
@@ -47,7 +46,7 @@ ingredients:
     name: "canola oil"
     ingredient_id: "canola-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -55,7 +54,7 @@ ingredients:
     name: "store-bought or homemade red curry paste"
     ingredient_id: "store-bought-or-homemade-red-curry-paste"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -103,7 +102,7 @@ ingredients:
     name: "fish sauce or soy sauce"
     ingredient_id: "fish-sauce-or-soy-sauce"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "seafood"
@@ -111,7 +110,7 @@ ingredients:
     name: "finely chopped fresh Thai or sweet basil"
     ingredient_id: "finely-chopped-fresh-thai-or-sweet-basil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -119,7 +118,7 @@ ingredients:
     name: "cooked jasmine rice"
     ingredient_id: "cooked-jasmine-rice"
     quantity: 3
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "frozen"

@@ -31,14 +31,12 @@ tags:
 dietary_tags:
   - "vegetarian"
   - "gluten_free"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup / 5 ounces raw pepitas"
-    name: "/ 5 ounces raw pepitas"
+    name: "5 ounces raw pepitas"
     ingredient_id: "5-ounces-raw-pepitas"
     quantity: 1
     unit: "cup"
@@ -46,10 +44,10 @@ ingredients:
     optional: false
     grocery_department: "uncategorized"
   - display: "1 1/2 cups / 6 ounces raw nuts, such as pecans and almonds"
-    name: "/ 6 ounces raw nuts"
+    name: "6 ounces raw nuts"
     ingredient_id: "6-ounces-raw-nuts"
     quantity: 1.5
-    unit: "cups"
+    unit: "cup"
     preparation: "such as pecans and almonds"
     optional: false
     grocery_department: "uncategorized"
@@ -57,7 +55,7 @@ ingredients:
     name: "sherry vinegar or apple cider vinegar"
     ingredient_id: "sherry-vinegar-or-apple-cider-vinegar"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -78,7 +76,7 @@ ingredients:
     optional: false
     grocery_department: "condiments"
   - display: "1/2 cup / 2 ounces tart dried fruit, such as dried sour cherries, cranberries, or golden berries"
-    name: "/ 2 ounces tart dried fruit"
+    name: "2 ounces tart dried fruit"
     ingredient_id: "2-ounces-tart-dried-fruit"
     quantity: 0.5
     unit: "cup"

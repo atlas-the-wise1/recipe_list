@@ -36,8 +36,7 @@ goal_tags:
   - "quick_preparation"
   - "heart_health"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 large bunch cilantro"
     name: "cilantro"
@@ -91,7 +90,7 @@ ingredients:
     name: "red wine vinegar"
     ingredient_id: "red-wine-vinegar"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "more to taste"
     optional: false
     grocery_department: "beverages"
@@ -115,7 +114,7 @@ ingredients:
     name: "capers"
     ingredient_id: "capers"
     quantity: 4
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: "drained"
     optional: false
     grocery_department: "condiments"

@@ -27,20 +27,18 @@ health_score: 8
 tags:
   - "#high-protein"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 lb ground beef, turkey, or chicken"
     name: "ground beef"
     ingredient_id: "ground-beef"
     quantity: 1
-    unit: "lb"
+    unit: "pound"
     preparation: "turkey, or chicken"
     optional: false
     grocery_department: "meat"
@@ -56,7 +54,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -72,7 +70,7 @@ ingredients:
     name: "dried oregano"
     ingredient_id: "dried-oregano"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -88,7 +86,7 @@ ingredients:
     name: "Banza chickpea spaghetti"
     ingredient_id: "banza-chickpea-spaghetti"
     quantity: 1
-    unit: "lb"
+    unit: "pound"
     preparation: null
     optional: false
     grocery_department: "produce"

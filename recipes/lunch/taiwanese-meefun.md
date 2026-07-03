@@ -34,14 +34,13 @@ goal_tags:
   - "meal_prep"
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "5 ounces dried rice vermicelli"
     name: "dried rice vermicelli"
     ingredient_id: "dried-rice-vermicelli"
     quantity: 5
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "frozen"
@@ -57,7 +56,7 @@ ingredients:
     name: "vegetable oil"
     ingredient_id: "vegetable-oil"
     quantity: 5
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -105,7 +104,7 @@ ingredients:
     name: "baked or smoked tofu"
     ingredient_id: "baked-or-smoked-tofu"
     quantity: 8
-    unit: "ounces"
+    unit: "ounce"
     preparation: "cut into thin matchsticks, about 2 cups"
     optional: false
     grocery_department: "pantry"
@@ -113,7 +112,7 @@ ingredients:
     name: "soy sauce"
     ingredient_id: "soy-sauce"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

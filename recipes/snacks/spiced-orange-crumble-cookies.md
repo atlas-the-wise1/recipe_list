@@ -29,11 +29,9 @@ tags:
   - "#vegetarian"
 dietary_tags:
   - "vegetarian"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1½ cups / 115g cold unsalted butter, cut into ½-inch cubes, plus more (room temp) for greasing pan"
     name: "1½ cups / 115g cold unsalted butter"
@@ -100,10 +98,10 @@ ingredients:
     optional: false
     grocery_department: "dairy"
   - display: "6 tablespoons / 142g orange marmalade"
-    name: "/ 142g orange marmalade"
-    ingredient_id: "142g-orange-marmalade"
+    name: "orange marmalade"
+    ingredient_id: "orange-marmalade"
     quantity: 6
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"

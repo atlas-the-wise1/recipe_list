@@ -36,8 +36,7 @@ goal_tags:
   - "lower_cholesterol"
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 frozen banana"
     name: "frozen banana"
@@ -59,7 +58,7 @@ ingredients:
     name: "creamy almond butter"
     ingredient_id: "creamy-almond-butter"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -67,7 +66,7 @@ ingredients:
     name: "unsweetened cocoa powder"
     ingredient_id: "unsweetened-cocoa-powder"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

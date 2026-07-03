@@ -30,13 +30,10 @@ tags:
   - "#no-bake"
 dietary_tags:
   - "vegetarian"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
-ingredients:
-[]
+equipment: []
+ingredients: []
 meal_prep:
   friendly: true
   fridge_days: null

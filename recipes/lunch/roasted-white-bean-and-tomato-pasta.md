@@ -32,8 +32,7 @@ dietary_tags:
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Salt and black pepper"
     name: "Salt and black pepper"
@@ -63,7 +62,7 @@ ingredients:
     name: "tomato paste"
     ingredient_id: "tomato-paste"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -103,7 +102,7 @@ ingredients:
     name: "cherry tomatoes"
     ingredient_id: "cherry-tomatoes"
     quantity: 16
-    unit: "ounces"
+    unit: "ounce"
     preparation: "halved"
     optional: false
     grocery_department: "produce"

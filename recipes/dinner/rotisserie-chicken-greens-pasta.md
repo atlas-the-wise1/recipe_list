@@ -29,16 +29,14 @@ tags:
   - "#heart-healthy"
   - "#low-cholesterol"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "heart_health"
   - "lower_cholesterol"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Salt and freshly ground black pepper"
     name: "Salt and freshly ground black pepper"
@@ -52,7 +50,7 @@ ingredients:
     name: "Banza chickpea pasta"
     ingredient_id: "banza-chickpea-pasta"
     quantity: 1
-    unit: "lb"
+    unit: "pound"
     preparation: null
     optional: false
     grocery_department: "grains"
@@ -68,7 +66,7 @@ ingredients:
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 3
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -92,7 +90,7 @@ ingredients:
     name: "Dijon mustard"
     ingredient_id: "dijon-mustard"
     quantity: 2
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

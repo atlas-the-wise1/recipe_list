@@ -35,8 +35,7 @@ dietary_tags:
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "¼ cup mayonnaise"
     name: "¼ cup mayonnaise"
@@ -58,7 +57,7 @@ ingredients:
     name: "cream cheese"
     ingredient_id: "cream-cheese"
     quantity: 8
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -66,7 +65,7 @@ ingredients:
     name: "lemon juice"
     ingredient_id: "lemon-juice"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -98,7 +97,7 @@ ingredients:
     name: "chopped onion"
     ingredient_id: "chopped-onion"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"

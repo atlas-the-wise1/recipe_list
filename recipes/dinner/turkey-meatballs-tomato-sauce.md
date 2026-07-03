@@ -29,16 +29,14 @@ tags:
   - "#heart-healthy"
   - "#low-cholesterol"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "heart_health"
   - "lower_cholesterol"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "½ cup grated Parmesan cheese, plus more for serving"
     name: "½ cup grated Parmesan cheese"
@@ -132,7 +130,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more as needed"
     optional: false
     grocery_department: "condiments"
@@ -140,7 +138,7 @@ ingredients:
     name: "marinara sauce"
     ingredient_id: "marinara-sauce"
     quantity: 3
-    unit: "cups"
+    unit: "cup"
     preparation: "plus more to taste"
     optional: false
     grocery_department: "condiments"

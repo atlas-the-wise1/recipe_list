@@ -27,20 +27,18 @@ health_score: 5
 tags:
   - "#high-protein"
   - "#heart-healthy"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "heart_health"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 pounds ripe Roma tomatoes, OR 2 (15-oz) cans fire-roasted tomatoes"
     name: "ripe Roma tomatoes"
     ingredient_id: "ripe-roma-tomatoes"
     quantity: 2
-    unit: "pounds"
+    unit: "pound"
     preparation: "OR 2 (15-oz) cans fire-roasted tomatoes"
     optional: false
     grocery_department: "produce"
@@ -48,7 +46,7 @@ ingredients:
     name: "**turkey chorizo**"
     ingredient_id: "turkey-chorizo"
     quantity: 8
-    unit: "oz"
+    unit: "ounce"
     preparation: "casing removed, coarsely chopped"
     optional: false
     grocery_department: "meat"
@@ -96,7 +94,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -112,7 +110,7 @@ ingredients:
     name: "shredded **part-skim mozzarella**"
     ingredient_id: "shredded-part-skim-mozzarella"
     quantity: 8
-    unit: "oz"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

@@ -28,15 +28,13 @@ tags:
   - "#heart-healthy"
   - "#low-cholesterol"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "¼ cup neutral oil (safflower or canola)"
     name: "¼ cup neutral oil"
@@ -50,7 +48,7 @@ ingredients:
     name: "eggplant"
     ingredient_id: "eggplant"
     quantity: 1
-    unit: "lb"
+    unit: "pound"
     preparation: "peeled and cut into ½-inch cubes (~6 cups)"
     optional: false
     grocery_department: "uncategorized"
@@ -82,7 +80,7 @@ ingredients:
     name: "tomato paste"
     ingredient_id: "tomato-paste"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -98,7 +96,7 @@ ingredients:
     name: "pure chile powder (ancho"
     ingredient_id: "pure-chile-powder-ancho"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: "chipotle, or a mix)"
     optional: false
     grocery_department: "uncategorized"
@@ -106,7 +104,7 @@ ingredients:
     name: "ground cumin"
     ingredient_id: "ground-cumin"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -154,7 +152,7 @@ ingredients:
     name: "lime juice"
     ingredient_id: "lime-juice"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"

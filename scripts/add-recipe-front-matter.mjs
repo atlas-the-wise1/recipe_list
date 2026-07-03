@@ -84,6 +84,68 @@ const UNIT_WORDS = new Set([
   'fillets',
 ]);
 
+const UNIT_CANONICAL = new Map([
+  ['cup', 'cup'],
+  ['cups', 'cup'],
+  ['tablespoon', 'tablespoon'],
+  ['tablespoons', 'tablespoon'],
+  ['tbsp', 'tablespoon'],
+  ['teaspoon', 'teaspoon'],
+  ['teaspoons', 'teaspoon'],
+  ['tsp', 'teaspoon'],
+  ['ounce', 'ounce'],
+  ['ounces', 'ounce'],
+  ['oz', 'ounce'],
+  ['pound', 'pound'],
+  ['pounds', 'pound'],
+  ['lb', 'pound'],
+  ['lbs', 'pound'],
+  ['gram', 'gram'],
+  ['grams', 'gram'],
+  ['kilogram', 'kilogram'],
+  ['kilograms', 'kilogram'],
+  ['milliliter', 'milliliter'],
+  ['milliliters', 'milliliter'],
+  ['liter', 'liter'],
+  ['liters', 'liter'],
+  ['fluid_ounce', 'fluid_ounce'],
+  ['fluid ounce', 'fluid_ounce'],
+  ['fluid ounces', 'fluid_ounce'],
+  ['fl oz', 'fluid_ounce'],
+  ['can', 'can'],
+  ['cans', 'can'],
+  ['bottle', 'bottle'],
+  ['bottles', 'bottle'],
+  ['package', 'package'],
+  ['packages', 'package'],
+  ['pouch', 'pouch'],
+  ['pouches', 'pouch'],
+  ['slice', 'slice'],
+  ['slices', 'slice'],
+  ['clove', 'clove'],
+  ['cloves', 'clove'],
+  ['bunch', 'bunch'],
+  ['bunches', 'bunch'],
+  ['sprig', 'sprig'],
+  ['sprigs', 'sprig'],
+  ['stalk', 'stalk'],
+  ['stalks', 'stalk'],
+  ['leaf', 'leaf'],
+  ['leaves', 'leaf'],
+  ['each', 'each'],
+  ['head', 'head'],
+  ['jar', 'jar'],
+  ['jars', 'jar'],
+  ['container', 'container'],
+  ['containers', 'container'],
+  ['packet', 'packet'],
+  ['packets', 'packet'],
+  ['serving', 'serving'],
+  ['servings', 'serving'],
+  ['fillet', 'fillet'],
+  ['fillets', 'fillet'],
+]);
+
 const SIZE_WORDS = new Set(['small', 'medium', 'large', 'extra-large', 'xlarge']);
 
 function walkMarkdownFiles(dir) {
@@ -117,6 +179,11 @@ function normalizeFractions(value) {
     .replace(/⅜/g, '3/8')
     .replace(/⅝/g, '5/8')
     .replace(/⅞/g, '7/8');
+}
+
+function canonicalUnit(value) {
+  const normalized = clean(value).toLowerCase();
+  return UNIT_CANONICAL.get(normalized) || normalized;
 }
 
 function slugify(value) {
@@ -284,6 +351,23 @@ function normalizeIngredientText(line) {
   return clean(line.replace(/^[-*]\s*/, ''));
 }
 
+function stripConversionPrefix(text) {
+  const tokens = clean(text).split(/\s+/).filter(Boolean);
+  while (tokens.length) {
+    const token = tokens[0].replace(/^\/+/, '').toLowerCase();
+    if (!token) {
+      tokens.shift();
+      continue;
+    }
+    if (/^\d+(?:\.\d+)?(?:ml|mg|g|kg|oz|lb|lbs|l|cl)$/i.test(token)) {
+      tokens.shift();
+      continue;
+    }
+    break;
+  }
+  return tokens.join(' ');
+}
+
 function guessDepartment(text) {
   const lower = text.toLowerCase();
   if (/(tilapia|salmon|cod|tuna|swordfish|shrimp|scallop|fish|chicken|turkey|beef|pork|lamb|sausage|ham|meatball|tofu)/.test(lower)) {
@@ -309,7 +393,12 @@ function parseIngredientLine(line) {
   let quantity = null;
   let unit = null;
   let rest = text;
-  if (quantityMatch) {
+  const beverageServingMatch = text.match(/^(\d+)\s+(\d+(?:\.\d+)?)\s+oz\s+serving\s+(.+)$/i);
+  if (beverageServingMatch) {
+    quantity = Number(beverageServingMatch[2]);
+    unit = 'fluid_ounce';
+    rest = beverageServingMatch[3];
+  } else if (quantityMatch) {
     quantity = parseNumber(quantityMatch[1]);
     rest = quantityMatch[2];
     const restParts = rest.split(/\s+/);
@@ -318,10 +407,10 @@ function parseIngredientLine(line) {
     }
     const possibleUnit = restParts[0]?.toLowerCase();
     if (possibleUnit && UNIT_WORDS.has(possibleUnit)) {
-      unit = possibleUnit;
-      rest = restParts.slice(1).join(' ');
+      unit = canonicalUnit(possibleUnit);
+      rest = stripConversionPrefix(restParts.slice(1).join(' '));
     } else {
-      rest = restParts.join(' ');
+      rest = stripConversionPrefix(restParts.join(' '));
     }
   }
 
@@ -334,6 +423,7 @@ function parseIngredientLine(line) {
   }
 
   name = name
+    .replace(/\s*&\s*/g, ' and ')
     .replace(/\s*\([^)]+\)\s*$/g, '')
     .replace(/\s+(for serving|for garnish|to taste)$/i, '')
     .trim();
@@ -348,7 +438,7 @@ function parseIngredientLine(line) {
     name,
     ingredient_id: slugify(name),
     quantity,
-    unit,
+    unit: unit ? canonicalUnit(unit) : null,
     preparation,
     optional,
     grocery_department: guessDepartment(name || display),
@@ -425,22 +515,16 @@ function buildFrontMatter(data) {
   lines.push(`  sodium_mg: ${yamlScalar(data.nutrition.sodium_mg)}`);
   lines.push(`  cholesterol_mg: ${yamlScalar(data.nutrition.cholesterol_mg)}`);
   lines.push(`health_score: ${yamlScalar(data.health_score)}`);
-  lines.push('tags:');
-  lines.push(data.tags.length ? yamlList(data.tags.map(yamlScalar), 2) : '  []');
-  lines.push('dietary_tags:');
-  lines.push(data.dietary_tags.length ? yamlList(data.dietary_tags.map(yamlScalar), 2) : '  []');
-  lines.push('goal_tags:');
-  lines.push(data.goal_tags.length ? yamlList(data.goal_tags.map(yamlScalar), 2) : '  []');
+  lines.push(data.tags.length ? `tags:\n${yamlList(data.tags.map(yamlScalar), 2)}` : 'tags: []');
+  lines.push(data.dietary_tags.length ? `dietary_tags:\n${yamlList(data.dietary_tags.map(yamlScalar), 2)}` : 'dietary_tags: []');
+  lines.push(data.goal_tags.length ? `goal_tags:\n${yamlList(data.goal_tags.map(yamlScalar), 2)}` : 'goal_tags: []');
   lines.push('allergens: []');
-  lines.push('equipment:');
-  lines.push(data.equipment.length ? yamlList(data.equipment.map(yamlScalar), 2) : '[]');
-  lines.push('ingredients:');
+  lines.push(data.equipment.length ? `equipment:\n${yamlList(data.equipment.map(yamlScalar), 2)}` : 'equipment: []');
+  lines.push(data.ingredients.length ? 'ingredients:' : 'ingredients: []');
   if (data.ingredients.length) {
     for (const ingredient of data.ingredients) {
       lines.push(buildIngredientYaml(ingredient, 2));
     }
-  } else {
-    lines.push('[]');
   }
   lines.push('meal_prep:');
   lines.push('  friendly: true');

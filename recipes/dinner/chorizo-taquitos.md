@@ -28,13 +28,11 @@ tags:
   - "#spicy"
   - "#quick"
   - "#weeknight"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 tablespoon neutral oil, such as canola"
     name: "neutral oil"

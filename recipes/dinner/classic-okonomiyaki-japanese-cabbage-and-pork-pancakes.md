@@ -28,13 +28,10 @@ tags:
   - "#savory"
   - "#weeknight"
   - "#japanese"
-dietary_tags:
-  []
-goal_tags:
-  []
+dietary_tags: []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 teaspoon hondashi (bonito soup stock) or instant dashi"
     name: "hondashi (bonito soup stock) or instant dashi"
@@ -72,7 +69,7 @@ ingredients:
     name: "kosher salt"
     ingredient_id: "kosher-salt"
     quantity: 1.5
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -96,7 +93,7 @@ ingredients:
     name: "finely shredded green cabbage"
     ingredient_id: "finely-shredded-green-cabbage"
     quantity: 4
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -128,7 +125,7 @@ ingredients:
     name: "sliced pork belly or bacon"
     ingredient_id: "sliced-pork-belly-or-bacon"
     quantity: 3
-    unit: "ounces"
+    unit: "ounce"
     preparation: "cut crosswise into 5-inch pieces"
     optional: false
     grocery_department: "meat"

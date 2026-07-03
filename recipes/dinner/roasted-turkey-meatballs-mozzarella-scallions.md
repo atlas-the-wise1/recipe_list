@@ -30,8 +30,7 @@ tags:
   - "#low-cholesterol"
   - "#fat-loss"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "heart_health"
@@ -39,8 +38,7 @@ goal_tags:
   - "fat_loss"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "½ cup crushed buttery crackers (like Ritz)"
     name: "½ cup crushed buttery crackers"
@@ -94,7 +92,7 @@ ingredients:
     name: "ground turkey"
     ingredient_id: "ground-turkey"
     quantity: 1
-    unit: "lb"
+    unit: "pound"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -102,7 +100,7 @@ ingredients:
     name: "chopped mozzarella"
     ingredient_id: "chopped-mozzarella"
     quantity: 2
-    unit: "oz"
+    unit: "ounce"
     preparation: "preferably fresh (~½ cup)"
     optional: false
     grocery_department: "uncategorized"

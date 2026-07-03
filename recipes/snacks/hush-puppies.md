@@ -27,19 +27,17 @@ nutrition:
 health_score: 3
 tags:
   - "#fat-loss"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 tablespoons unsalted butter, melted and cooled"
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "melted and cooled"
     optional: false
     grocery_department: "dairy"
@@ -63,7 +61,7 @@ ingredients:
     name: "chopped chives,"
     ingredient_id: "chopped-chives"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "optional"
     optional: true
     grocery_department: "uncategorized"
@@ -87,7 +85,7 @@ ingredients:
     name: "baking powder"
     ingredient_id: "baking-powder"
     quantity: 1.5
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -103,7 +101,7 @@ ingredients:
     name: "fine yellow cornmeal"
     ingredient_id: "fine-yellow-cornmeal"
     quantity: 1.5
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

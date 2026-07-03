@@ -29,11 +29,9 @@ tags:
   - "#vegetable-forward"
 dietary_tags:
   - "vegetarian"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 large head broccoli (about 1 to 1 1/4 pounds), florets and tender stems cut into bite-size pieces (6 to 8 cups)"
     name: "broccoli"
@@ -47,7 +45,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -71,7 +69,7 @@ ingredients:
     name: "white miso"
     ingredient_id: "white-miso"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

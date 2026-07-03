@@ -27,20 +27,18 @@ health_score: null
 tags:
   - "#high-protein"
   - "#quick"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "3 tablespoons honey"
     name: "honey"
     ingredient_id: "honey"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -64,7 +62,7 @@ ingredients:
     name: "all-purpose flour"
     ingredient_id: "all-purpose-flour"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "grains"
@@ -72,7 +70,7 @@ ingredients:
     name: "ground turmeric"
     ingredient_id: "ground-turmeric"
     quantity: 1.5
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -96,7 +94,7 @@ ingredients:
     name: "asparagus"
     ingredient_id: "asparagus"
     quantity: 12
-    unit: "ounces"
+    unit: "ounce"
     preparation: "trimmed and thinly sliced on an angle"
     optional: false
     grocery_department: "produce"

@@ -39,8 +39,7 @@ goal_tags:
   - "fat_loss"
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1½ cups frozen strawberries"
     name: "1½ cups frozen strawberries"
@@ -78,7 +77,7 @@ ingredients:
     name: "agave"
     ingredient_id: "agave"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

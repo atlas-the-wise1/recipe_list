@@ -33,14 +33,13 @@ dietary_tags:
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "4 tablespoons unsalted butter"
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 4
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -77,7 +76,7 @@ ingredients:
     optional: false
     grocery_department: "grains"
   - display: "1 cup / 3 ounces finely grated Parmesan"
-    name: "/ 3 ounces finely grated Parmesan"
+    name: "3 ounces finely grated Parmesan"
     ingredient_id: "3-ounces-finely-grated-parmesan"
     quantity: 1
     unit: "cup"
@@ -96,7 +95,7 @@ ingredients:
     name: "(1 pint) half-and-half"
     ingredient_id: "1-pint-half-and-half"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -109,7 +108,7 @@ ingredients:
     optional: true
     grocery_department: "uncategorized"
   - display: "1/2 cup / 1 1/2 ounces grated Gruyere or extra-sharp Cheddar"
-    name: "/ 1 1/2 ounces grated Gruyere or extra-sharp Cheddar"
+    name: "1 1/2 ounces grated Gruyere or extra-sharp Cheddar"
     ingredient_id: "1-1-2-ounces-grated-gruyere-or-extra-sharp-cheddar"
     quantity: 0.5
     unit: "cup"

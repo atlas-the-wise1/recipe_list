@@ -29,16 +29,14 @@ tags:
   - "#low-cholesterol"
   - "#high-protein"
   - "#fat-loss"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
   - "high_protein"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 large shallot, coarsely chopped"
     name: "shallot"
@@ -52,7 +50,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -92,7 +90,7 @@ ingredients:
     name: "red wine vinegar"
     ingredient_id: "red-wine-vinegar"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -124,7 +122,7 @@ ingredients:
     name: "green beans"
     ingredient_id: "green-beans"
     quantity: 8
-    unit: "oz"
+    unit: "ounce"
     preparation: "trimmed and cut into 1-inch lengths"
     optional: false
     grocery_department: "uncategorized"

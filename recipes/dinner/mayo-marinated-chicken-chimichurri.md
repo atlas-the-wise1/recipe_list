@@ -34,8 +34,7 @@ goal_tags:
   - "high_protein"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "4 chicken breast cutlets (4–5 oz each), pounded to about ¼-inch thick"
     name: "chicken breast cutlets"

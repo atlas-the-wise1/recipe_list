@@ -28,14 +28,12 @@ tags:
   - "#quick"
   - "#meal-prep"
   - "#classic"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "quick_preparation"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Kosher salt and black pepper"
     name: "Kosher salt and black pepper"
@@ -49,7 +47,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -81,7 +79,7 @@ ingredients:
     name: "spaghetti"
     ingredient_id: "spaghetti"
     quantity: 12
-    unit: "ounces"
+    unit: "ounce"
     preparation: "pappardelle, or other long pasta"
     optional: false
     grocery_department: "uncategorized"
@@ -97,7 +95,7 @@ ingredients:
     name: "Worcestershire sauce"
     ingredient_id: "worcestershire-sauce"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

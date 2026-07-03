@@ -36,8 +36,7 @@ goal_tags:
   - "lower_cholesterol"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 Belgian endives, leaves separated"
     name: "Belgian endives"
@@ -67,7 +66,7 @@ ingredients:
     name: "good-quality white-wine vinegar"
     ingredient_id: "good-quality-white-wine-vinegar"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -83,7 +82,7 @@ ingredients:
     name: "+ 1 tsp olive oil"
     ingredient_id: "1-tsp-olive-oil"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -99,7 +98,7 @@ ingredients:
     name: "chives"
     ingredient_id: "chives"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: "cut on an angle into ½-inch pieces"
     optional: false
     grocery_department: "uncategorized"
@@ -107,7 +106,7 @@ ingredients:
     name: "roughly chopped tarragon"
     ingredient_id: "roughly-chopped-tarragon"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

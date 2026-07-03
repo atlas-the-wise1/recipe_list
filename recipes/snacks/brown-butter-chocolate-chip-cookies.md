@@ -29,14 +29,12 @@ tags:
   - "#vegetarian"
 dietary_tags:
   - "vegetarian"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup / 226 grams unsalted butter"
-    name: "/ 226 grams unsalted butter"
+    name: "226 grams unsalted butter"
     ingredient_id: "226-grams-unsalted-butter"
     quantity: 1
     unit: "cup"
@@ -44,10 +42,10 @@ ingredients:
     optional: false
     grocery_department: "dairy"
   - display: "2 1/2 cups / 320 grams all-purpose flour"
-    name: "/ 320 grams all-purpose flour"
+    name: "320 grams all-purpose flour"
     ingredient_id: "320-grams-all-purpose-flour"
     quantity: 2.5
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "grains"
@@ -76,7 +74,7 @@ ingredients:
     optional: true
     grocery_department: "uncategorized"
   - display: "1 cup / 220 grams light brown sugar"
-    name: "/ 220 grams light brown sugar"
+    name: "220 grams light brown sugar"
     ingredient_id: "220-grams-light-brown-sugar"
     quantity: 1
     unit: "cup"
@@ -84,7 +82,7 @@ ingredients:
     optional: false
     grocery_department: "uncategorized"
   - display: "1/4 cup / 50 grams granulated sugar"
-    name: "/ 50 grams granulated sugar"
+    name: "50 grams granulated sugar"
     ingredient_id: "50-grams-granulated-sugar"
     quantity: 0.25
     unit: "cup"
@@ -103,7 +101,7 @@ ingredients:
     name: "vanilla extract"
     ingredient_id: "vanilla-extract"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -111,7 +109,7 @@ ingredients:
     name: "semisweet chocolate"
     ingredient_id: "semisweet-chocolate"
     quantity: 12
-    unit: "ounces"
+    unit: "ounce"
     preparation: "preferably from a bar, roughly chopped (or use 12 ounces chocolate chips)"
     optional: false
     grocery_department: "uncategorized"

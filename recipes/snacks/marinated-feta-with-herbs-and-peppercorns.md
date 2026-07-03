@@ -30,11 +30,9 @@ tags:
   - "#low-carb"
 dietary_tags:
   - "vegetarian"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "3/4 cup extra-virgin olive oil, plus more if needed"
     name: "extra-virgin olive oil"
@@ -48,7 +46,7 @@ ingredients:
     name: "finely chopped fresh parsley"
     ingredient_id: "finely-chopped-fresh-parsley"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -56,7 +54,7 @@ ingredients:
     name: "finely chopped preserved lemon"
     ingredient_id: "finely-chopped-preserved-lemon"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "or 4 strips fresh orange zest plus 1 tablespoon juice (from 1 orange)"
     optional: false
     grocery_department: "produce"
@@ -72,7 +70,7 @@ ingredients:
     name: "finely chopped fresh oregano"
     ingredient_id: "finely-chopped-fresh-oregano"
     quantity: 4
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -88,7 +86,7 @@ ingredients:
     name: "firm Greek feta"
     ingredient_id: "firm-greek-feta"
     quantity: 8
-    unit: "ounces"
+    unit: "ounce"
     preparation: "in brine"
     optional: false
     grocery_department: "dairy"

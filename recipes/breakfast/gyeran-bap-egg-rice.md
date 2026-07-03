@@ -32,8 +32,7 @@ dietary_tags:
 goal_tags:
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1/2 tablespoon unsalted butter"
     name: "unsalted butter"

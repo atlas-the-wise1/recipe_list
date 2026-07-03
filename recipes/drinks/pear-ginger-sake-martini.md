@@ -35,8 +35,7 @@ goal_tags:
   - "quick_preparation"
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 frozen pear, peeled, cored, and quartered"
     name: "frozen pear"
@@ -58,7 +57,7 @@ ingredients:
     name: "pear juice"
     ingredient_id: "pear-juice"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "beverages"

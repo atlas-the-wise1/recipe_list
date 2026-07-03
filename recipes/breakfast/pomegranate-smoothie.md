@@ -36,8 +36,7 @@ goal_tags:
   - "lower_cholesterol"
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup low-fat yogurt"
     name: "low-fat yogurt"
@@ -67,7 +66,7 @@ ingredients:
     name: "honey"
     ingredient_id: "honey"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

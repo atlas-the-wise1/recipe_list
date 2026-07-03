@@ -31,18 +31,15 @@ tags:
   - "#fat-loss"
   - "#meal-prep"
   - "#no-processed"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "lower_cholesterol"
   - "fat_loss"
   - "meal_prep"
 allergens: []
-equipment:
-[]
-ingredients:
-[]
+equipment: []
+ingredients: []
 meal_prep:
   friendly: true
   fridge_days: null

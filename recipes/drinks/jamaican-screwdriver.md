@@ -35,14 +35,13 @@ goal_tags:
   - "quick_preparation"
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "4 ounces vodka"
     name: "vodka"
     ingredient_id: "vodka"
     quantity: 4
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -50,7 +49,7 @@ ingredients:
     name: "light rum"
     ingredient_id: "light-rum"
     quantity: 2
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -58,7 +57,7 @@ ingredients:
     name: "orange juice"
     ingredient_id: "orange-juice"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -74,7 +73,7 @@ ingredients:
     name: "ice"
     ingredient_id: "ice"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "frozen"

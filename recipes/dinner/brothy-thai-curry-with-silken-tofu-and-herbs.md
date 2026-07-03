@@ -30,20 +30,15 @@ tags:
   - "#weeknight"
 dietary_tags:
   - "vegetarian"
-goal_tags:
-  - "quick_preparation"
-allergens:
-  - "soy"
-equipment:
-  - "medium Dutch oven"
-  - "heavy-bottomed pot"
-  - "ladle"
+goal_tags: []
+allergens: []
+equipment: []
 ingredients:
   - display: "2 (14-ounce) packages silken tofu, drained"
-    name: "silken tofu"
-    ingredient_id: "silken-tofu"
+    name: "(14-ounce) packages silken tofu"
+    ingredient_id: "14-ounce-packages-silken-tofu"
     quantity: 2
-    unit: "packages"
+    unit: null
     preparation: "drained"
     optional: false
     grocery_department: "pantry"
@@ -51,7 +46,7 @@ ingredients:
     name: "neutral oil"
     ingredient_id: "neutral-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "such as grapeseed"
     optional: false
     grocery_department: "condiments"
@@ -62,7 +57,7 @@ ingredients:
     unit: null
     preparation: "peeled and minced"
     optional: false
-    grocery_department: "produce"
+    grocery_department: "uncategorized"
   - display: "3 garlic cloves, peeled and sliced"
     name: "garlic cloves"
     ingredient_id: "garlic-cloves"
@@ -72,10 +67,10 @@ ingredients:
     optional: false
     grocery_department: "produce"
   - display: "1 (1-inch) piece ginger, scrubbed and grated"
-    name: "ginger"
-    ingredient_id: "ginger"
+    name: "(1-inch) piece ginger"
+    ingredient_id: "1-inch-piece-ginger"
     quantity: 1
-    unit: "piece"
+    unit: null
     preparation: "scrubbed and grated"
     optional: false
     grocery_department: "produce"
@@ -83,36 +78,36 @@ ingredients:
     name: "red curry paste"
     ingredient_id: "red-curry-paste"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
   - display: "1 (14-ounce) can cherry tomatoes or fresh cherry tomatoes"
-    name: "cherry tomatoes"
-    ingredient_id: "cherry-tomatoes"
+    name: "(14-ounce) can cherry tomatoes or fresh cherry tomatoes"
+    ingredient_id: "14-ounce-can-cherry-tomatoes-or-fresh-cherry-tomatoes"
     quantity: 1
-    unit: "can"
-    preparation: "or fresh cherry tomatoes"
+    unit: null
+    preparation: null
     optional: false
     grocery_department: "produce"
   - display: "1 quart vegetable stock"
-    name: "vegetable stock"
-    ingredient_id: "vegetable-stock"
+    name: "quart vegetable stock"
+    ingredient_id: "quart-vegetable-stock"
     quantity: 1
-    unit: "quart"
+    unit: null
     preparation: null
     optional: false
-    grocery_department: "pantry"
+    grocery_department: "condiments"
   - display: "1 (13.5-ounce) can full-fat coconut milk"
-    name: "full-fat coconut milk"
-    ingredient_id: "full-fat-coconut-milk"
+    name: "(13.5-ounce) can full-fat coconut milk"
+    ingredient_id: "13-5-ounce-can-full-fat-coconut-milk"
     quantity: 1
-    unit: "can"
+    unit: null
     preparation: null
     optional: false
     grocery_department: "dairy"
   - display: "Salt"
-    name: "salt"
+    name: "Salt"
     ingredient_id: "salt"
     quantity: null
     unit: null
@@ -128,8 +123,8 @@ ingredients:
     optional: false
     grocery_department: "condiments"
   - display: "Freshly ground black pepper"
-    name: "black pepper"
-    ingredient_id: "black-pepper"
+    name: "Freshly ground black pepper"
+    ingredient_id: "freshly-ground-black-pepper"
     quantity: null
     unit: null
     preparation: null
@@ -139,7 +134,7 @@ ingredients:
     name: "mixed fresh herbs"
     ingredient_id: "mixed-fresh-herbs"
     quantity: 1.5
-    unit: "cups"
+    unit: "cup"
     preparation: "such as cilantro, basil and dill"
     optional: false
     grocery_department: "produce"
@@ -150,7 +145,7 @@ ingredients:
     unit: null
     preparation: "thinly sliced"
     optional: false
-    grocery_department: "produce"
+    grocery_department: "uncategorized"
   - display: "1 lime, cut into wedges, for squeezing"
     name: "lime"
     ingredient_id: "lime"
@@ -161,18 +156,16 @@ ingredients:
     grocery_department: "produce"
 meal_prep:
   friendly: true
-  fridge_days: 3
+  fridge_days: null
   freezer_months: null
-  reheat: "reheat gently on the stove until steaming"
+  reheat: null
 relationships:
-  similar_to:
-    - "pan-fried-tofu-with-red-curry-paste"
-    - "green-curry-salmon-coconut-rice"
+  similar_to: []
   pairs_with: []
   leftover_to: []
   substitutions: []
 source:
-  name: "Page-A-Day Calendar"
+  name: null
   url: null
   nutrition_verified: false
   last_reviewed: "2026-07-03"

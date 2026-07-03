@@ -27,14 +27,12 @@ health_score: 5
 tags:
   - "#high-protein"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 tablespoon garlic powder"
     name: "garlic powder"
@@ -56,7 +54,7 @@ ingredients:
     name: "hot or sweet smoked paprika"
     ingredient_id: "hot-or-sweet-smoked-paprika"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -64,7 +62,7 @@ ingredients:
     name: "salt"
     ingredient_id: "salt"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: "plus more to taste"
     optional: false
     grocery_department: "condiments"
@@ -80,7 +78,7 @@ ingredients:
     name: "boneless pork shoulder or pork butt"
     ingredient_id: "boneless-pork-shoulder-or-pork-butt"
     quantity: 3
-    unit: "pounds"
+    unit: "pound"
     preparation: "trimmed of most excess fat"
     optional: false
     grocery_department: "meat"
@@ -88,7 +86,7 @@ ingredients:
     name: "vegetable oil"
     ingredient_id: "vegetable-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more for greasing"
     optional: false
     grocery_department: "condiments"
@@ -112,7 +110,7 @@ ingredients:
     name: "homemade or store-bought barbecue sauce"
     ingredient_id: "homemade-or-store-bought-barbecue-sauce"
     quantity: 1.5
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "condiments"

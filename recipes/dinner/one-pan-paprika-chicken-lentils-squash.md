@@ -28,15 +28,13 @@ tags:
   - "#heart-healthy"
   - "#high-protein"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "6 bone-in, skin-on chicken thighs (about 2¼ lbs)"
     name: "bone-in"
@@ -66,7 +64,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -103,10 +101,10 @@ ingredients:
     optional: false
     grocery_department: "uncategorized"
   - display: "8 oz / 1 heaping cup French green lentils (uncooked), rinsed"
-    name: "/ 1 heaping cup French green lentils"
+    name: "1 heaping cup French green lentils"
     ingredient_id: "1-heaping-cup-french-green-lentils"
     quantity: 8
-    unit: "oz"
+    unit: "ounce"
     preparation: "rinsed"
     optional: false
     grocery_department: "uncategorized"
@@ -114,7 +112,7 @@ ingredients:
     name: "chicken stock"
     ingredient_id: "chicken-stock"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -138,7 +136,7 @@ ingredients:
     name: "finely chopped fresh dill"
     ingredient_id: "finely-chopped-fresh-dill"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus 1 tablespoon picked leaves for serving"
     optional: false
     grocery_department: "uncategorized"
@@ -146,7 +144,7 @@ ingredients:
     name: "apple cider vinegar"
     ingredient_id: "apple-cider-vinegar"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

@@ -28,21 +28,19 @@ tags:
   - "#high-protein"
   - "#heart-healthy"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "heart_health"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1.5 lbs boneless, skinless chicken thighs, cut into strips"
     name: "boneless"
     ingredient_id: "boneless"
     quantity: 1.5
-    unit: "lbs"
+    unit: "pound"
     preparation: "skinless chicken thighs, cut into strips"
     optional: false
     grocery_department: "uncategorized"
@@ -50,7 +48,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -58,7 +56,7 @@ ingredients:
     name: "ground cumin"
     ingredient_id: "ground-cumin"
     quantity: 2
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -66,7 +64,7 @@ ingredients:
     name: "paprika"
     ingredient_id: "paprika"
     quantity: 1.5
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -74,7 +72,7 @@ ingredients:
     name: "turmeric"
     ingredient_id: "turmeric"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -90,7 +88,7 @@ ingredients:
     name: "garlic"
     ingredient_id: "garlic"
     quantity: 3
-    unit: "cloves"
+    unit: "clove"
     preparation: "minced"
     optional: false
     grocery_department: "produce"
@@ -98,7 +96,7 @@ ingredients:
     name: "fresh lemon juice"
     ingredient_id: "fresh-lemon-juice"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"

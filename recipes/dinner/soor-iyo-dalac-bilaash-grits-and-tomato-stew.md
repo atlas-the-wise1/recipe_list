@@ -32,13 +32,10 @@ tags:
 dietary_tags:
   - "vegetarian"
   - "gluten_free"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
-ingredients:
-[]
+equipment: []
+ingredients: []
 meal_prep:
   friendly: true
   fridge_days: null

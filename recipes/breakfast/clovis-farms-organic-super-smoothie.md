@@ -38,8 +38,7 @@ goal_tags:
   - "quick_preparation"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 Clovis Farms Organic Super Smoothie pouch"
     name: "Clovis Farms Organic Super Smoothie pouch"
@@ -58,10 +57,10 @@ ingredients:
     optional: false
     grocery_department: "dairy"
   - display: "1 3.7 oz serving Sofresco B-Tox beetroot & ginger juice"
-    name: "3.7 oz serving Sofresco B-Tox beetroot & ginger juice"
-    ingredient_id: "3-7-oz-serving-sofresco-b-tox-beetroot-ginger-juice"
-    quantity: 1
-    unit: null
+    name: "Sofresco B-Tox beetroot and ginger juice"
+    ingredient_id: "sofresco-b-tox-beetroot-and-ginger-juice"
+    quantity: 3.7
+    unit: "fluid_ounce"
     preparation: null
     optional: false
     grocery_department: "beverages"

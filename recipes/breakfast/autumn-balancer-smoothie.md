@@ -36,14 +36,13 @@ goal_tags:
   - "lower_cholesterol"
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "10 ounces steamed sweet potato, cooled"
     name: "steamed sweet potato"
     ingredient_id: "steamed-sweet-potato"
     quantity: 10
-    unit: "ounces"
+    unit: "ounce"
     preparation: "cooled"
     optional: false
     grocery_department: "beverages"
@@ -51,7 +50,7 @@ ingredients:
     name: "almond milk"
     ingredient_id: "almond-milk"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "dairy"

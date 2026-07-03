@@ -29,20 +29,18 @@ tags:
   - "#one-pan"
   - "#weeknight"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "3 tablespoons extra-virgin olive oil, plus more for drizzling"
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more for drizzling"
     optional: false
     grocery_department: "condiments"
@@ -58,7 +56,7 @@ ingredients:
     name: "curry powder"
     ingredient_id: "curry-powder"
     quantity: 1.5
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -66,7 +64,7 @@ ingredients:
     name: "kosher salt"
     ingredient_id: "kosher-salt"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: "plus more for finishing"
     optional: false
     grocery_department: "condiments"
@@ -98,7 +96,7 @@ ingredients:
     name: "chopped fresh kale leaves or other braising greens"
     ingredient_id: "chopped-fresh-kale-leaves-or-other-braising-greens"
     quantity: 10
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -114,7 +112,7 @@ ingredients:
     name: "bread-and-butter pickle brine or apple cider vinegar"
     ingredient_id: "bread-and-butter-pickle-brine-or-apple-cider-vinegar"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"

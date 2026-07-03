@@ -27,13 +27,10 @@ health_score: 5
 tags:
   - "#eggs"
   - "#brunch"
-dietary_tags:
-  []
-goal_tags:
-  []
+dietary_tags: []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup all-purpose flour or Italian 00 flour (available at specialty markets)"
     name: "all-purpose flour or Italian 00 flour"
@@ -63,7 +60,7 @@ ingredients:
     name: "milk"
     ingredient_id: "milk"
     quantity: 1.25
-    unit: "cups"
+    unit: "cup"
     preparation: "or more as needed"
     optional: false
     grocery_department: "dairy"
@@ -71,7 +68,7 @@ ingredients:
     name: "melted and cooled butter"
     ingredient_id: "melted-and-cooled-butter"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -79,7 +76,7 @@ ingredients:
     name: "Grand Marnier or triple sec liqueur,"
     ingredient_id: "grand-marnier-or-triple-sec-liqueur"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: "optional"
     optional: true
     grocery_department: "uncategorized"

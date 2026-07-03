@@ -39,8 +39,7 @@ goal_tags:
   - "meal_prep"
   - "heart_health"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "½ cup toasted pine nuts"
     name: "½ cup toasted pine nuts"
@@ -62,7 +61,7 @@ ingredients:
     name: "tightly packed fresh basil leaves"
     ingredient_id: "tightly-packed-fresh-basil-leaves"
     quantity: 3
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

@@ -29,17 +29,15 @@ tags:
   - "#vegetarian"
 dietary_tags:
   - "vegetarian"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "6 tablespoons cold butter, cut into small pieces, plus more for greasing pan"
     name: "cold butter"
     ingredient_id: "cold-butter"
     quantity: 6
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "cut into small pieces, plus more for greasing pan"
     optional: false
     grocery_department: "dairy"
@@ -47,7 +45,7 @@ ingredients:
     name: "rhubarb"
     ingredient_id: "rhubarb"
     quantity: 2.5
-    unit: "pounds"
+    unit: "pound"
     preparation: "trimmed, tough strings removed, and cut into 1 1/2-inch pieces (about 5 to 6 cups)"
     optional: false
     grocery_department: "produce"

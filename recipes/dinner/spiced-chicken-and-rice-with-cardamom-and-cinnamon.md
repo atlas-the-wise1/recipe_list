@@ -28,19 +28,17 @@ tags:
   - "#chicken"
   - "#rice"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 tablespoons unsalted butter"
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -48,7 +46,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -56,7 +54,7 @@ ingredients:
     name: "boneless"
     ingredient_id: "boneless"
     quantity: 1.5
-    unit: "pounds"
+    unit: "pound"
     preparation: "skinless chicken thighs, cut into 1 1/2- to 2-inch pieces"
     optional: false
     grocery_department: "uncategorized"
@@ -117,10 +115,10 @@ ingredients:
     optional: false
     grocery_department: "frozen"
   - display: "1 1/2 cups / about 11 ounces basmati rice, rinsed until the water runs clear"
-    name: "/ about 11 ounces basmati rice"
+    name: "about 11 ounces basmati rice"
     ingredient_id: "about-11-ounces-basmati-rice"
     quantity: 1.5
-    unit: "cups"
+    unit: "cup"
     preparation: "rinsed until the water runs clear"
     optional: false
     grocery_department: "frozen"
@@ -128,7 +126,7 @@ ingredients:
     name: "low-sodium chicken broth"
     ingredient_id: "low-sodium-chicken-broth"
     quantity: 3
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -160,7 +158,7 @@ ingredients:
     name: "chopped dill"
     ingredient_id: "chopped-dill"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

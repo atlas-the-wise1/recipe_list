@@ -35,8 +35,7 @@ goal_tags:
   - "quick_preparation"
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup frozen pineapple chunks"
     name: "frozen pineapple chunks"
@@ -58,7 +57,7 @@ ingredients:
     name: "light rum"
     ingredient_id: "light-rum"
     quantity: 4
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

@@ -28,11 +28,9 @@ tags:
   - "#vegetarian"
 dietary_tags:
   - "vegetarian"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "4 large eggs"
     name: "eggs"
@@ -62,7 +60,7 @@ ingredients:
     name: "neutral oil"
     ingredient_id: "neutral-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "such as grapeseed"
     optional: false
     grocery_department: "condiments"

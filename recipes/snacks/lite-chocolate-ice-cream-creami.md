@@ -37,8 +37,7 @@ goal_tags:
   - "heart_health"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "¾ cup unsweetened coconut cream"
     name: "¾ cup unsweetened coconut cream"
@@ -52,7 +51,7 @@ ingredients:
     name: "monk fruit sweetener with erythritol"
     ingredient_id: "monk-fruit-sweetener-with-erythritol"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -60,7 +59,7 @@ ingredients:
     name: "dark cocoa powder"
     ingredient_id: "dark-cocoa-powder"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

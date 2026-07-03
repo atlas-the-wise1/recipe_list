@@ -37,14 +37,13 @@ goal_tags:
   - "heart_health"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "6 cups watermelon, peeled, seeded, and roughly cut"
     name: "watermelon"
     ingredient_id: "watermelon"
     quantity: 6
-    unit: "cups"
+    unit: "cup"
     preparation: "peeled, seeded, and roughly cut"
     optional: false
     grocery_department: "beverages"
@@ -60,7 +59,7 @@ ingredients:
     name: "agave"
     ingredient_id: "agave"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

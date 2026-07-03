@@ -27,19 +27,16 @@ health_score: 8
 tags:
   - "#chicken"
   - "#sheet-pan"
-dietary_tags:
-  []
-goal_tags:
-  []
+dietary_tags: []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 tablespoons full-fat Greek or Indian yogurt"
     name: "full-fat Greek or Indian yogurt"
     ingredient_id: "full-fat-greek-or-indian-yogurt"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -63,7 +60,7 @@ ingredients:
     name: "Kashmiri red chile powder"
     ingredient_id: "kashmiri-red-chile-powder"
     quantity: 1.5
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -71,7 +68,7 @@ ingredients:
     name: "garam masala"
     ingredient_id: "garam-masala"
     quantity: 1.5
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -79,7 +76,7 @@ ingredients:
     name: "ground cumin"
     ingredient_id: "ground-cumin"
     quantity: 1.5
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -103,7 +100,7 @@ ingredients:
     name: "vegetable oil"
     ingredient_id: "vegetable-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

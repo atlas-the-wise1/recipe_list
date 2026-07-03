@@ -34,14 +34,13 @@ dietary_tags:
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 1/2 teaspoons black mustard seeds"
     name: "black mustard seeds"
     ingredient_id: "black-mustard-seeds"
     quantity: 1.5
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -57,7 +56,7 @@ ingredients:
     name: "unsweetened grated dried coconut"
     ingredient_id: "unsweetened-grated-dried-coconut"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -65,7 +64,7 @@ ingredients:
     name: "finely chopped yellow onion"
     ingredient_id: "finely-chopped-yellow-onion"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -97,7 +96,7 @@ ingredients:
     name: "mustard oil"
     ingredient_id: "mustard-oil"
     quantity: 3
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: "plus more if needed"
     optional: false
     grocery_department: "condiments"
@@ -105,7 +104,7 @@ ingredients:
     name: "cod or haddock"
     ingredient_id: "cod-or-haddock"
     quantity: 1.5
-    unit: "pounds"
+    unit: "pound"
     preparation: "divided into 4 fillets"
     optional: false
     grocery_department: "seafood"

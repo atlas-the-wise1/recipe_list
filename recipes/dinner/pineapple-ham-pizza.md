@@ -27,13 +27,11 @@ health_score: null
 tags:
   - "#quick"
   - "#weeknight"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Olive oil"
     name: "Olive oil"

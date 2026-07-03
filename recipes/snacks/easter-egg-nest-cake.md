@@ -29,25 +29,23 @@ tags:
   - "#vegetarian"
 dietary_tags:
   - "vegetarian"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "8 tablespoons / 114 grams (1 stick) unsalted butter, cut into pieces, softened"
-    name: "/ 114 grams (1 stick) unsalted butter"
+    name: "114 grams (1 stick) unsalted butter"
     ingredient_id: "114-grams-1-stick-unsalted-butter"
     quantity: 8
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "cut into pieces, softened"
     optional: false
     grocery_department: "dairy"
   - display: "8 ounces / 226 grams chocolate, melted"
-    name: "/ 226 grams chocolate"
+    name: "226 grams chocolate"
     ingredient_id: "226-grams-chocolate"
     quantity: 8
-    unit: "ounces"
+    unit: "ounce"
     preparation: "melted"
     optional: false
     grocery_department: "uncategorized"
@@ -60,7 +58,7 @@ ingredients:
     optional: false
     grocery_department: "uncategorized"
   - display: "1/2 cup / 113 grams superfine sugar"
-    name: "/ 113 grams superfine sugar"
+    name: "113 grams superfine sugar"
     ingredient_id: "113-grams-superfine-sugar"
     quantity: 0.5
     unit: "cup"
@@ -68,7 +66,7 @@ ingredients:
     optional: false
     grocery_department: "uncategorized"
   - display: "1/3 cup / 75 grams superfine sugar"
-    name: "/ 75 grams superfine sugar"
+    name: "75 grams superfine sugar"
     ingredient_id: "75-grams-superfine-sugar"
     quantity: 0.333
     unit: "cup"

@@ -28,13 +28,11 @@ tags:
   - "#high-protein"
   - "#weeknight"
   - "#classic"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 eggs"
     name: "eggs"
@@ -48,7 +46,7 @@ ingredients:
     name: "whole milk"
     ingredient_id: "whole-milk"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -104,7 +102,7 @@ ingredients:
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -136,7 +134,7 @@ ingredients:
     name: "chicken stock"
     ingredient_id: "chicken-stock"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -144,7 +142,7 @@ ingredients:
     name: "freshly minced parsley"
     ingredient_id: "freshly-minced-parsley"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"

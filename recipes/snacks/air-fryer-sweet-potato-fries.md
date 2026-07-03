@@ -34,8 +34,7 @@ dietary_tags:
 goal_tags:
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 small sweet potato, about 8 ounces, peeled"
     name: "sweet potato"
@@ -49,7 +48,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -57,7 +56,7 @@ ingredients:
     name: "ground paprika"
     ingredient_id: "ground-paprika"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

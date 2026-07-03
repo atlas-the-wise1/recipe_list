@@ -32,14 +32,13 @@ dietary_tags:
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "4 tbsp unsalted butter, slightly softened"
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 4
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: "slightly softened"
     optional: false
     grocery_department: "dairy"
@@ -47,7 +46,7 @@ ingredients:
     name: "good-quality blue cheese (Roquefort"
     ingredient_id: "good-quality-blue-cheese-roquefort"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: "Stilton, or Gorgonzola)"
     optional: false
     grocery_department: "dairy"
@@ -55,7 +54,7 @@ ingredients:
     name: "finely chopped shallot"
     ingredient_id: "finely-chopped-shallot"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -79,7 +78,7 @@ ingredients:
     name: "canola or grapeseed oil"
     ingredient_id: "canola-or-grapeseed-oil"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

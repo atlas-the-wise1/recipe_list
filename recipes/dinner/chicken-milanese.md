@@ -26,19 +26,17 @@ nutrition:
 health_score: 6
 tags:
   - "#high-protein"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 tsp onion powder"
     name: "onion powder"
     ingredient_id: "onion-powder"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -46,7 +44,7 @@ ingredients:
     name: "garlic powder"
     ingredient_id: "garlic-powder"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "produce"

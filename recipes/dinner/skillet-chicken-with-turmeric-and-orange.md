@@ -26,13 +26,10 @@ nutrition:
 health_score: 7
 tags:
   - "#chicken"
-dietary_tags:
-  []
-goal_tags:
-  []
+dietary_tags: []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1/2 medium onion, diced into 1/4-inch pieces"
     name: "onion"
@@ -46,7 +43,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 5
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -62,7 +59,7 @@ ingredients:
     name: "dried mint"
     ingredient_id: "dried-mint"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

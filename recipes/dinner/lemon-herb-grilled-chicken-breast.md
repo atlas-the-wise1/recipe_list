@@ -38,8 +38,7 @@ goal_tags:
   - "high_protein"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "4 boneless, skinless chicken breasts (6 oz each)"
     name: "boneless"
@@ -53,7 +52,7 @@ ingredients:
     name: "fresh lemon juice"
     ingredient_id: "fresh-lemon-juice"
     quantity: 3
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -61,7 +60,7 @@ ingredients:
     name: "garlic"
     ingredient_id: "garlic"
     quantity: 3
-    unit: "cloves"
+    unit: "clove"
     preparation: "minced"
     optional: false
     grocery_department: "produce"
@@ -69,7 +68,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -77,7 +76,7 @@ ingredients:
     name: "dried oregano"
     ingredient_id: "dried-oregano"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -85,7 +84,7 @@ ingredients:
     name: "dried thyme"
     ingredient_id: "dried-thyme"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -93,7 +92,7 @@ ingredients:
     name: "salt"
     ingredient_id: "salt"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

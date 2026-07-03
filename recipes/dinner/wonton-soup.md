@@ -28,15 +28,13 @@ tags:
   - "#heart-healthy"
   - "#low-cholesterol"
   - "#fat-loss"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Salt"
     name: "Salt"
@@ -66,7 +64,7 @@ ingredients:
     name: "fresh wonton noodles"
     ingredient_id: "fresh-wonton-noodles"
     quantity: 8
-    unit: "oz"
+    unit: "ounce"
     preparation: null
     optional: true
     grocery_department: "uncategorized"

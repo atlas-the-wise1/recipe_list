@@ -32,8 +32,7 @@ dietary_tags:
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Salt and black pepper"
     name: "Salt and black pepper"
@@ -71,7 +70,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more for the farro"
     optional: false
     grocery_department: "condiments"

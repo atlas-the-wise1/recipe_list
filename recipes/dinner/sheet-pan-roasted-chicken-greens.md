@@ -40,8 +40,7 @@ goal_tags:
   - "fat_loss"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 whole chicken (~3½ to 4½ lbs)"
     name: "whole chicken"

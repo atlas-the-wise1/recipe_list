@@ -39,8 +39,7 @@ goal_tags:
   - "fat_loss"
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup frozen pineapple"
     name: "frozen pineapple"

@@ -28,13 +28,11 @@ tags:
   - "#high-protein"
   - "#weeknight"
   - "#one-pan"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 lemons"
     name: "lemons"
@@ -48,7 +46,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 5
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -80,7 +78,7 @@ ingredients:
     name: "chicken drumsticks or bone-in thighs"
     ingredient_id: "chicken-drumsticks-or-bone-in-thighs"
     quantity: 2
-    unit: "pounds"
+    unit: "pound"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -96,7 +94,7 @@ ingredients:
     name: "orzo"
     ingredient_id: "orzo"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "grains"
@@ -104,7 +102,7 @@ ingredients:
     name: "chicken broth or water"
     ingredient_id: "chicken-broth-or-water"
     quantity: 3
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -120,7 +118,7 @@ ingredients:
     name: "feta"
     ingredient_id: "feta"
     quantity: 5
-    unit: "ounces"
+    unit: "ounce"
     preparation: "crumbled (about 1 1/4 cups)"
     optional: false
     grocery_department: "dairy"
@@ -128,7 +126,7 @@ ingredients:
     name: "chopped fresh dill"
     ingredient_id: "chopped-fresh-dill"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

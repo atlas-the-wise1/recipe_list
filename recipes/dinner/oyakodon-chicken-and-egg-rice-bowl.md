@@ -28,19 +28,17 @@ tags:
   - "#quick"
   - "#rice-bowl"
   - "#weeknight"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 cups Japanese short-grain rice"
     name: "Japanese short-grain rice"
     ingredient_id: "japanese-short-grain-rice"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "frozen"
@@ -72,7 +70,7 @@ ingredients:
     name: "mirin"
     ingredient_id: "mirin"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -80,7 +78,7 @@ ingredients:
     name: "soy sauce"
     ingredient_id: "soy-sauce"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "or more to taste"
     optional: false
     grocery_department: "condiments"

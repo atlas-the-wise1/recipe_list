@@ -28,31 +28,25 @@ tags:
   - "#high-protein"
   - "#weeknight"
   - "#one-pan"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
-allergens:
-  - "dairy"
-  - "gluten"
-equipment:
-  - "large skillet"
-  - "plate"
-  - "lid or foil"
+allergens: []
+equipment: []
 ingredients:
   - display: "4 bone-in, skin-on chicken thighs (about 2 pounds), patted dry"
-    name: "bone-in, skin-on chicken thighs"
-    ingredient_id: "bone-in-skin-on-chicken-thighs"
+    name: "bone-in"
+    ingredient_id: "bone-in"
     quantity: 4
     unit: null
-    preparation: "about 2 pounds, patted dry"
+    preparation: "skin-on chicken thighs (about 2 pounds), patted dry"
     optional: false
-    grocery_department: "meat"
+    grocery_department: "uncategorized"
   - display: "1 1/2 teaspoons kosher salt"
     name: "kosher salt"
     ingredient_id: "kosher-salt"
     quantity: 1.5
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -68,7 +62,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -76,7 +70,7 @@ ingredients:
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -92,7 +86,7 @@ ingredients:
     name: "broccoli florets"
     ingredient_id: "broccoli-florets"
     quantity: 12
-    unit: "ounces"
+    unit: "ounce"
     preparation: "cut into smaller pieces if larger (about 4 cups)"
     optional: false
     grocery_department: "produce"
@@ -100,7 +94,7 @@ ingredients:
     name: "dried orzo"
     ingredient_id: "dried-orzo"
     quantity: 8
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "grains"
@@ -111,7 +105,7 @@ ingredients:
     unit: "teaspoon"
     preparation: null
     optional: false
-    grocery_department: "produce"
+    grocery_department: "uncategorized"
   - display: "2 garlic cloves, minced"
     name: "garlic cloves"
     ingredient_id: "garlic-cloves"
@@ -132,24 +126,22 @@ ingredients:
     name: "low-sodium chicken broth"
     ingredient_id: "low-sodium-chicken-broth"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "meat"
 meal_prep:
   friendly: true
-  fridge_days: 3
+  fridge_days: null
   freezer_months: null
-  reheat: "reheat gently in a skillet with a splash of broth"
+  reheat: null
 relationships:
-  similar_to:
-    - "skillet-chicken-with-orzo-dill-and-feta"
-    - "one-pan-paprika-chicken-lentils-squash-and-daqa"
+  similar_to: []
   pairs_with: []
   leftover_to: []
   substitutions: []
 source:
-  name: "Page-A-Day Calendar"
+  name: null
   url: null
   nutrition_verified: false
   last_reviewed: "2026-07-03"

@@ -32,8 +32,7 @@ dietary_tags:
 goal_tags:
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Kosher salt"
     name: "Kosher salt"
@@ -55,7 +54,7 @@ ingredients:
     name: "thick-cut bacon"
     ingredient_id: "thick-cut-bacon"
     quantity: 4
-    unit: "slices"
+    unit: "slice"
     preparation: "coarsely chopped"
     optional: false
     grocery_department: "uncategorized"
@@ -63,7 +62,7 @@ ingredients:
     name: "red-pepper flakes"
     ingredient_id: "red-pepper-flakes"
     quantity: 1.5
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -103,7 +102,7 @@ ingredients:
     name: "tomato paste"
     ingredient_id: "tomato-paste"
     quantity: 5
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "preferably double-concentrated"
     optional: false
     grocery_department: "produce"
@@ -135,12 +134,12 @@ ingredients:
     name: "Pecorino Romano or Parmesan"
     ingredient_id: "pecorino-romano-or-parmesan"
     quantity: 4
-    unit: "ounces"
+    unit: "ounce"
     preparation: "finely grated (1 cup)"
     optional: false
     grocery_department: "uncategorized"
   - display: "1 cup / 8 ounces whole-milk ricotta"
-    name: "/ 8 ounces whole-milk ricotta"
+    name: "8 ounces whole-milk ricotta"
     ingredient_id: "8-ounces-whole-milk-ricotta"
     quantity: 1
     unit: "cup"

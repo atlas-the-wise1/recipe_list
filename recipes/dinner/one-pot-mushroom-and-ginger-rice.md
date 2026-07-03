@@ -33,14 +33,13 @@ dietary_tags:
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 1/2 cups medium-grain white rice"
     name: "medium-grain white rice"
     ingredient_id: "medium-grain-white-rice"
     quantity: 1.5
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "frozen"
@@ -48,7 +47,7 @@ ingredients:
     name: "vegetable stock"
     ingredient_id: "vegetable-stock"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: "store-bought or homemade"
     optional: false
     grocery_department: "condiments"
@@ -56,7 +55,7 @@ ingredients:
     name: "mushrooms"
     ingredient_id: "mushrooms"
     quantity: 10
-    unit: "ounces"
+    unit: "ounce"
     preparation: "such as shiitake, cremini, button, or blue oysters (or a mix), halved or quartered"
     optional: false
     grocery_department: "produce"
@@ -64,7 +63,7 @@ ingredients:
     name: "cornstarch"
     ingredient_id: "cornstarch"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -72,7 +71,7 @@ ingredients:
     name: "tamari soy sauce"
     ingredient_id: "tamari-soy-sauce"
     quantity: 6
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -80,7 +79,7 @@ ingredients:
     name: "Shaoxing wine,"
     ingredient_id: "shaoxing-wine"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: "optional"
     optional: true
     grocery_department: "beverages"
@@ -88,7 +87,7 @@ ingredients:
     name: "sesame oil"
     ingredient_id: "sesame-oil"
     quantity: 3
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

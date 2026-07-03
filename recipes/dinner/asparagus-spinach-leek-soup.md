@@ -34,14 +34,13 @@ goal_tags:
   - "heart_health"
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 1/2 tablespoons extra-virgin olive oil"
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 2.5
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -65,7 +64,7 @@ ingredients:
     name: "kosher salt"
     ingredient_id: "kosher-salt"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: "plus more to taste"
     optional: false
     grocery_department: "condiments"
@@ -113,7 +112,7 @@ ingredients:
     name: "vegetable stock"
     ingredient_id: "vegetable-stock"
     quantity: 4
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -137,7 +136,7 @@ ingredients:
     name: "baby spinach"
     ingredient_id: "baby-spinach"
     quantity: 10
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -145,7 +144,7 @@ ingredients:
     name: "fresh lemon juice"
     ingredient_id: "fresh-lemon-juice"
     quantity: 1
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"

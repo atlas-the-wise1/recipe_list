@@ -27,19 +27,17 @@ health_score: 7
 tags:
   - "#high-protein"
   - "#comfort-food"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "5 tablespoons extra-virgin olive oil"
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 5
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -71,7 +69,7 @@ ingredients:
     name: "ground coriander"
     ingredient_id: "ground-coriander"
     quantity: 1.5
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -119,7 +117,7 @@ ingredients:
     name: "chicken stock"
     ingredient_id: "chicken-stock"
     quantity: 7
-    unit: "cups"
+    unit: "cup"
     preparation: "plus more as needed"
     optional: false
     grocery_department: "meat"
@@ -127,7 +125,7 @@ ingredients:
     name: "dried egg noodles"
     ingredient_id: "dried-egg-noodles"
     quantity: 8
-    unit: "ounces"
+    unit: "ounce"
     preparation: "cavatelli or other small shaped pasta"
     optional: false
     grocery_department: "uncategorized"

@@ -28,15 +28,13 @@ tags:
   - "#heart-healthy"
   - "#high-protein"
   - "#quick"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "high_protein"
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "3 scallions, thinly sliced"
     name: "scallions"
@@ -50,7 +48,7 @@ ingredients:
     name: "granulated sugar"
     ingredient_id: "granulated-sugar"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "more to taste"
     optional: false
     grocery_department: "uncategorized"
@@ -82,7 +80,7 @@ ingredients:
     name: "rhubarb"
     ingredient_id: "rhubarb"
     quantity: 6
-    unit: "ounces"
+    unit: "ounce"
     preparation: "trimmed and sliced 1-inch-thick (about 1 1/3 cups)"
     optional: false
     grocery_department: "produce"
@@ -106,7 +104,7 @@ ingredients:
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "cubed"
     optional: false
     grocery_department: "dairy"

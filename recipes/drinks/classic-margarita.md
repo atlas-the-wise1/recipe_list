@@ -35,8 +35,7 @@ goal_tags:
   - "quick_preparation"
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "½ cup fresh lime juice"
     name: "½ cup fresh lime juice"
@@ -50,7 +49,7 @@ ingredients:
     name: "fresh orange juice"
     ingredient_id: "fresh-orange-juice"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -58,7 +57,7 @@ ingredients:
     name: "fresh lemon juice"
     ingredient_id: "fresh-lemon-juice"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -66,7 +65,7 @@ ingredients:
     name: "orange liqueur *(Triple Sec or Cointreau)*"
     ingredient_id: "orange-liqueur-triple-sec-or-cointreau"
     quantity: 4
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -74,7 +73,7 @@ ingredients:
     name: "tequila"
     ingredient_id: "tequila"
     quantity: 4
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -90,7 +89,7 @@ ingredients:
     name: "ice"
     ingredient_id: "ice"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "frozen"

@@ -28,19 +28,17 @@ tags:
   - "#seafood"
   - "#quick"
   - "#weeknight"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "5 tablespoons unrefined coconut oil or olive oil, or a mixture of both"
     name: "unrefined coconut oil or olive oil"
     ingredient_id: "unrefined-coconut-oil-or-olive-oil"
     quantity: 5
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "or a mixture of both"
     optional: false
     grocery_department: "condiments"
@@ -112,7 +110,7 @@ ingredients:
     name: "fish sauce"
     ingredient_id: "fish-sauce"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "seafood"

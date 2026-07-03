@@ -32,8 +32,7 @@ dietary_tags:
 goal_tags:
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Salt"
     name: "Salt"
@@ -63,7 +62,7 @@ ingredients:
     name: "whole milk"
     ingredient_id: "whole-milk"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -79,7 +78,7 @@ ingredients:
     name: "mirin"
     ingredient_id: "mirin"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

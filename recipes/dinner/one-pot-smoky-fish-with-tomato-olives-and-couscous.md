@@ -30,11 +30,9 @@ tags:
   - "#gluten-free"
 dietary_tags:
   - "gluten_free"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1/4 cup olive oil, plus more for serving"
     name: "olive oil"
@@ -80,7 +78,7 @@ ingredients:
     name: "minced garlic"
     ingredient_id: "minced-garlic"
     quantity: 1.5
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -120,7 +118,7 @@ ingredients:
     name: "chicken stock"
     ingredient_id: "chicken-stock"
     quantity: 1.5
-    unit: "cups"
+    unit: "cup"
     preparation: "preferably low-sodium"
     optional: false
     grocery_department: "meat"
@@ -144,7 +142,7 @@ ingredients:
     name: "chopped fresh parsley"
     ingredient_id: "chopped-fresh-parsley"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more for serving"
     optional: false
     grocery_department: "produce"
@@ -160,7 +158,7 @@ ingredients:
     name: "sherry vinegar or red wine vinegar"
     ingredient_id: "sherry-vinegar-or-red-wine-vinegar"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "beverages"

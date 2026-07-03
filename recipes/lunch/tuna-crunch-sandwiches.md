@@ -29,15 +29,13 @@ tags:
   - "#quick"
   - "#sandwich"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "quick_preparation"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 (5-ounce) can solid white albacore or skipjack tuna, drained well"
     name: "(5-ounce) can solid white albacore or skipjack tuna"
@@ -67,7 +65,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -75,7 +73,7 @@ ingredients:
     name: "finely minced red onion"
     ingredient_id: "finely-minced-red-onion"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "shallot, or scallions"
     optional: false
     grocery_department: "produce"
@@ -83,7 +81,7 @@ ingredients:
     name: "finely minced fresh parsley"
     ingredient_id: "finely-minced-fresh-parsley"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "chives, tarragon, or a mix"
     optional: true
     grocery_department: "produce"
@@ -91,7 +89,7 @@ ingredients:
     name: "mayonnaise"
     ingredient_id: "mayonnaise"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more for spreading"
     optional: false
     grocery_department: "condiments"
@@ -107,7 +105,7 @@ ingredients:
     name: "freshly squeezed lemon juice"
     ingredient_id: "freshly-squeezed-lemon-juice"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -131,7 +129,7 @@ ingredients:
     name: "thick"
     ingredient_id: "thick"
     quantity: 4
-    unit: "slices"
+    unit: "slice"
     preparation: "soft sandwich bread, such as Texas toast, toasted if desired"
     optional: false
     grocery_department: "uncategorized"

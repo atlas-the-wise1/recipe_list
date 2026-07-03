@@ -34,8 +34,7 @@ goal_tags:
   - "heart_health"
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 (12-oz) packages gnocchi (preferably fresh, refrigerated, precooked)"
     name: "(12-oz) packages gnocchi (preferably fresh"
@@ -49,7 +48,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -57,7 +56,7 @@ ingredients:
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"

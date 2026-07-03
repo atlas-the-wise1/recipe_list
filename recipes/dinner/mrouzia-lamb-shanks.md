@@ -27,20 +27,18 @@ health_score: null
 tags:
   - "#high-protein"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "3 tablespoons olive oil"
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -48,7 +46,7 @@ ingredients:
     name: "lamb shanks"
     ingredient_id: "lamb-shanks"
     quantity: 4
-    unit: "pounds"
+    unit: "pound"
     preparation: "trimmed of excess fat"
     optional: false
     grocery_department: "meat"
@@ -72,7 +70,7 @@ ingredients:
     name: "ras el hanout"
     ingredient_id: "ras-el-hanout"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -104,7 +102,7 @@ ingredients:
     name: "vegetable stock"
     ingredient_id: "vegetable-stock"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: "plus more as needed"
     optional: false
     grocery_department: "condiments"
@@ -117,7 +115,7 @@ ingredients:
     optional: false
     grocery_department: "uncategorized"
   - display: "1 cup / 150 grams dark raisins"
-    name: "/ 150 grams dark raisins"
+    name: "150 grams dark raisins"
     ingredient_id: "150-grams-dark-raisins"
     quantity: 1
     unit: "cup"

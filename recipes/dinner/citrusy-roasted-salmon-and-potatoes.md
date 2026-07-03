@@ -29,16 +29,14 @@ tags:
   - "#low-cholesterol"
   - "#high-protein"
   - "#fat-loss"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
   - "high_protein"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1/2 cup extra-virgin olive oil"
     name: "extra-virgin olive oil"
@@ -124,7 +122,7 @@ ingredients:
     name: "skin-on salmon fillet"
     ingredient_id: "skin-on-salmon-fillet"
     quantity: 1.5
-    unit: "pounds"
+    unit: "pound"
     preparation: null
     optional: false
     grocery_department: "seafood"

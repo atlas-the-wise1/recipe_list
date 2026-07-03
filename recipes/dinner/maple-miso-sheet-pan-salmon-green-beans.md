@@ -36,8 +36,7 @@ goal_tags:
   - "high_protein"
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "4 (6 oz) skin-on salmon fillets, ~1-inch thick"
     name: "(6 oz) skin-on salmon fillets"
@@ -59,7 +58,7 @@ ingredients:
     name: "maple syrup"
     ingredient_id: "maple-syrup"
     quantity: 4
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -67,7 +66,7 @@ ingredients:
     name: "white or brown miso"
     ingredient_id: "white-or-brown-miso"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -75,7 +74,7 @@ ingredients:
     name: "rice wine vinegar"
     ingredient_id: "rice-wine-vinegar"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -83,7 +82,7 @@ ingredients:
     name: "soy sauce"
     ingredient_id: "soy-sauce"
     quantity: 2
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -99,7 +98,7 @@ ingredients:
     name: "green beans"
     ingredient_id: "green-beans"
     quantity: 1
-    unit: "lb"
+    unit: "pound"
     preparation: "trimmed"
     optional: false
     grocery_department: "uncategorized"
@@ -107,7 +106,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

@@ -36,8 +36,7 @@ goal_tags:
   - "lower_cholesterol"
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup packed spinach"
     name: "packed spinach"

@@ -33,8 +33,7 @@ dietary_tags:
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 (8-oz / 226g) block cream cheese, softened"
     name: "(8-oz / 226g) block cream cheese"

@@ -28,15 +28,13 @@ tags:
   - "#heart-healthy"
   - "#low-cholesterol"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 pound dried pinto beans"
     name: "dried pinto beans"
@@ -50,7 +48,7 @@ ingredients:
     name: "thick-cut turkey bacon"
     ingredient_id: "thick-cut-turkey-bacon"
     quantity: 5
-    unit: "slices"
+    unit: "slice"
     preparation: "thinly sliced crosswise"
     optional: false
     grocery_department: "meat"
@@ -106,7 +104,7 @@ ingredients:
     name: "light or dark Mexican beer"
     ingredient_id: "light-or-dark-mexican-beer"
     quantity: 12
-    unit: "oz"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "beverages"

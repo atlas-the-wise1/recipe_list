@@ -27,13 +27,10 @@ health_score: 4
 tags:
   - "#eggs"
   - "#make-ahead"
-dietary_tags:
-  []
-goal_tags:
-  []
+dietary_tags: []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "8 large eggs"
     name: "eggs"
@@ -111,7 +108,7 @@ ingredients:
     name: "frozen Tater Tots"
     ingredient_id: "frozen-tater-tots"
     quantity: 4
-    unit: "cups"
+    unit: "cup"
     preparation: "about 19 ounces"
     optional: false
     grocery_department: "frozen"

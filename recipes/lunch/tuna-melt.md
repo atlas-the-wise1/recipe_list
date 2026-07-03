@@ -27,13 +27,11 @@ health_score: 5
 tags:
   - "#sandwich"
   - "#high-protein"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "3 (6-ounce) cans solid, water-packed tuna, drained"
     name: "(6-ounce) cans solid"
@@ -63,7 +61,7 @@ ingredients:
     name: "minced red onion"
     ingredient_id: "minced-red-onion"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -71,7 +69,7 @@ ingredients:
     name: "lemon juice"
     ingredient_id: "lemon-juice"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -87,7 +85,7 @@ ingredients:
     name: "whole-grain mustard"
     ingredient_id: "whole-grain-mustard"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -111,7 +109,7 @@ ingredients:
     name: "rye or sourdough bread"
     ingredient_id: "rye-or-sourdough-bread"
     quantity: 8
-    unit: "slices"
+    unit: "slice"
     preparation: "cut 1/2-inch thick"
     optional: false
     grocery_department: "grains"
@@ -127,7 +125,7 @@ ingredients:
     name: "softened unsalted butter"
     ingredient_id: "softened-unsalted-butter"
     quantity: 4
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more as needed"
     optional: false
     grocery_department: "dairy"

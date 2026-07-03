@@ -27,14 +27,12 @@ health_score: 4
 tags:
   - "#heart-healthy"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 small butternut squash (1½–2 lbs) OR 1 medium delicata squash (~2 lbs), peeled, halved, seeded, cut into ¾-inch chunks *(no need to peel delicata)*"
     name: "butternut squash (1½–2 lbs) OR 1 medium delicata squash"
@@ -48,7 +46,7 @@ ingredients:
     name: "granulated sugar"
     ingredient_id: "granulated-sugar"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -56,7 +54,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 4
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -72,7 +70,7 @@ ingredients:
     name: "pancetta or bacon"
     ingredient_id: "pancetta-or-bacon"
     quantity: 8
-    unit: "oz"
+    unit: "ounce"
     preparation: "diced"
     optional: false
     grocery_department: "uncategorized"
@@ -112,7 +110,7 @@ ingredients:
     name: "chicken broth"
     ingredient_id: "chicken-broth"
     quantity: 8
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "meat"

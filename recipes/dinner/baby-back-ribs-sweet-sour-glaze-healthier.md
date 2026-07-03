@@ -28,15 +28,13 @@ tags:
   - "#high-protein"
   - "#meal-prep"
   - "#heart-healthy"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
   - "heart_health"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 rack St. Louis-cut spare ribs (~3 lbs), fat cap trimmed, membrane removed"
     name: "rack St. Louis-cut spare ribs"
@@ -58,7 +56,7 @@ ingredients:
     name: "onion powder"
     ingredient_id: "onion-powder"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "produce"

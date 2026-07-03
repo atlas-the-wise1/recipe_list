@@ -36,14 +36,13 @@ goal_tags:
   - "lower_cholesterol"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 pounds brussels sprouts, trimmed"
     name: "brussels sprouts"
     ingredient_id: "brussels-sprouts"
     quantity: 2
-    unit: "pounds"
+    unit: "pound"
     preparation: "trimmed"
     optional: false
     grocery_department: "uncategorized"

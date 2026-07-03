@@ -28,13 +28,11 @@ tags:
   - "#high-protein"
   - "#weeknight"
   - "#classic"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1/2 cup flour for dredging"
     name: "flour for dredging"
@@ -64,7 +62,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -72,7 +70,7 @@ ingredients:
     name: "fresh thyme or 1 teaspoon dried"
     ingredient_id: "fresh-thyme-or-1-teaspoon-dried"
     quantity: 4
-    unit: "sprigs"
+    unit: "sprig"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -80,7 +78,7 @@ ingredients:
     name: "finely chopped shallots"
     ingredient_id: "finely-chopped-shallots"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -88,7 +86,7 @@ ingredients:
     name: "finely chopped garlic"
     ingredient_id: "finely-chopped-garlic"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -96,7 +94,7 @@ ingredients:
     name: "grated lemon zest"
     ingredient_id: "grated-lemon-zest"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -104,7 +102,7 @@ ingredients:
     name: "lemon juice"
     ingredient_id: "lemon-juice"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -120,7 +118,7 @@ ingredients:
     name: "butter"
     ingredient_id: "butter"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"

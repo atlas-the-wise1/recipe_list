@@ -27,14 +27,12 @@ health_score: 5
 tags:
   - "#heart-healthy"
   - "#low-cholesterol"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1¼ to 1½ lbs skinless salmon fillets"
     name: "1¼ to 1½ lbs skinless salmon fillets"
@@ -56,7 +54,7 @@ ingredients:
     name: "green curry paste"
     ingredient_id: "green-curry-paste"
     quantity: 4
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -64,7 +62,7 @@ ingredients:
     name: "virgin coconut oil"
     ingredient_id: "virgin-coconut-oil"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -104,7 +102,7 @@ ingredients:
     name: "chopped baby spinach"
     ingredient_id: "chopped-baby-spinach"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "produce"

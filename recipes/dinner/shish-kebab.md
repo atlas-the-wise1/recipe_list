@@ -28,15 +28,13 @@ tags:
   - "#high-protein"
   - "#meal-prep"
   - "#heart-healthy"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
   - "heart_health"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1/4 cup plain yogurt"
     name: "plain yogurt"
@@ -50,7 +48,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus extra for serving"
     optional: false
     grocery_department: "condiments"
@@ -66,7 +64,7 @@ ingredients:
     name: "tomato paste"
     ingredient_id: "tomato-paste"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -122,7 +120,7 @@ ingredients:
     name: "boneless lamb leg or shoulder"
     ingredient_id: "boneless-lamb-leg-or-shoulder"
     quantity: 2
-    unit: "pounds"
+    unit: "pound"
     preparation: "beef top loin or sirloin, or a combination, excess fat trimmed and meat cut into 1 1/2- to 2-inch cubes"
     optional: false
     grocery_department: "meat"

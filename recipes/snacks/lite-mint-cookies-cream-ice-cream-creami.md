@@ -36,8 +36,7 @@ dietary_tags:
 goal_tags:
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "¾ cup unsweetened coconut cream"
     name: "¾ cup unsweetened coconut cream"
@@ -59,7 +58,7 @@ ingredients:
     name: "raw agave nectar"
     ingredient_id: "raw-agave-nectar"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

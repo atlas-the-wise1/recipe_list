@@ -28,21 +28,19 @@ tags:
   - "#heart-healthy"
   - "#low-cholesterol"
   - "#fat-loss"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 tbsp paprika"
     name: "paprika"
     ingredient_id: "paprika"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -50,7 +48,7 @@ ingredients:
     name: "cayenne pepper"
     ingredient_id: "cayenne-pepper"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -58,7 +56,7 @@ ingredients:
     name: "garlic powder"
     ingredient_id: "garlic-powder"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "produce"

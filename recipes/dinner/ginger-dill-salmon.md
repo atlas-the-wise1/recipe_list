@@ -38,8 +38,7 @@ goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 (1½-pound) salmon fillet, skin-on or skinless"
     name: "(1½-pound) salmon fillet"
@@ -61,7 +60,7 @@ ingredients:
     name: "finely chopped dill"
     ingredient_id: "finely-chopped-dill"
     quantity: 6
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -77,7 +76,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more for serving"
     optional: false
     grocery_department: "condiments"

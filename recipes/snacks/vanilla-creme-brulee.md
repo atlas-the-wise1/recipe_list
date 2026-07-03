@@ -27,19 +27,16 @@ nutrition:
 health_score: null
 tags:
   - "#dessert"
-dietary_tags:
-  []
-goal_tags:
-  []
+dietary_tags: []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 cups cream"
     name: "cream"
     ingredient_id: "cream"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -55,7 +52,7 @@ ingredients:
     name: "salt"
     ingredient_id: "salt"
     quantity: 0.125
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

@@ -29,22 +29,20 @@ tags:
   - "#high-protein"
   - "#low-cholesterol"
   - "#fat-loss"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "high_protein"
   - "lower_cholesterol"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 tbsp + 1 tsp grated or minced fresh ginger (unpeeled)"
     name: "+ 1 tsp grated or minced fresh ginger"
     ingredient_id: "1-tsp-grated-or-minced-fresh-ginger"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -52,7 +50,7 @@ ingredients:
     name: "ground cumin"
     ingredient_id: "ground-cumin"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -60,7 +58,7 @@ ingredients:
     name: "ground coriander"
     ingredient_id: "ground-coriander"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -84,7 +82,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

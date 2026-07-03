@@ -28,19 +28,17 @@ tags:
   - "#high-protein"
   - "#weeknight"
   - "#sheet-pan"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 1/2 pounds boneless, skinless chicken thighs"
     name: "boneless"
     ingredient_id: "boneless"
     quantity: 1.5
-    unit: "pounds"
+    unit: "pound"
     preparation: "skinless chicken thighs"
     optional: false
     grocery_department: "uncategorized"
@@ -64,7 +62,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more for drizzling"
     optional: false
     grocery_department: "condiments"
@@ -72,7 +70,7 @@ ingredients:
     name: "fresh lemon juice"
     ingredient_id: "fresh-lemon-juice"
     quantity: 1.5
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more for serving"
     optional: false
     grocery_department: "beverages"
@@ -120,7 +118,7 @@ ingredients:
     name: "diced pancetta or bacon"
     ingredient_id: "diced-pancetta-or-bacon"
     quantity: 2
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "frozen"

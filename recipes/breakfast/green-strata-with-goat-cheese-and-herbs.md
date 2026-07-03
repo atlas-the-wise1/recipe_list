@@ -33,14 +33,13 @@ dietary_tags:
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 cups whole milk"
     name: "whole milk"
     ingredient_id: "whole-milk"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -56,7 +55,7 @@ ingredients:
     name: "baby braising greens"
     ingredient_id: "baby-braising-greens"
     quantity: 5
-    unit: "ounces"
+    unit: "ounce"
     preparation: "such as kale, mustard greens, chard, or a mix, about 5 cups"
     optional: false
     grocery_department: "produce"
@@ -112,7 +111,7 @@ ingredients:
     name: "cold goat cheese"
     ingredient_id: "cold-goat-cheese"
     quantity: 6
-    unit: "ounces"
+    unit: "ounce"
     preparation: "sliced into 1/4-inch-thick rounds"
     optional: false
     grocery_department: "dairy"

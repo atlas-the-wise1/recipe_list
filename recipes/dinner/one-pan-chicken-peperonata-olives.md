@@ -27,14 +27,12 @@ health_score: 7
 tags:
   - "#heart-healthy"
   - "#high-protein"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 medium red bell peppers (~1 lb), cored, seeded and sliced ¼-inch-thick"
     name: "red bell peppers"
@@ -72,7 +70,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 5
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -88,7 +86,7 @@ ingredients:
     name: "cherry or grape tomatoes"
     ingredient_id: "cherry-or-grape-tomatoes"
     quantity: 10
-    unit: "oz"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -96,7 +94,7 @@ ingredients:
     name: "pitted green olives"
     ingredient_id: "pitted-green-olives"
     quantity: 4
-    unit: "oz"
+    unit: "ounce"
     preparation: "coarsely chopped (~¼ cup)"
     optional: false
     grocery_department: "uncategorized"
@@ -104,7 +102,7 @@ ingredients:
     name: "red wine vinegar"
     ingredient_id: "red-wine-vinegar"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "beverages"

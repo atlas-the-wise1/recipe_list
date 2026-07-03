@@ -29,16 +29,14 @@ tags:
   - "#heart-healthy"
   - "#low-cholesterol"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "heart_health"
   - "lower_cholesterol"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1–2 yellow or red Scotch bonnet chiles or red habanero chiles"
     name: "1–2 yellow or red Scotch bonnet chiles or red habanero chiles"
@@ -52,7 +50,7 @@ ingredients:
     name: "whole crayfish or dried shrimp"
     ingredient_id: "whole-crayfish-or-dried-shrimp"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: "soaked in warm water 10 min then drained (or ½ tbsp ground crayfish)"
     optional: false
     grocery_department: "seafood"

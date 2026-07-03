@@ -27,20 +27,18 @@ health_score: 5
 tags:
   - "#high-protein"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 1/2 to 3 pounds boneless chuck roast, trimmed"
     name: "boneless chuck roast"
     ingredient_id: "boneless-chuck-roast"
     quantity: 2.5
-    unit: "pounds"
+    unit: "pound"
     preparation: "trimmed"
     optional: false
     grocery_department: "uncategorized"
@@ -64,7 +62,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -112,7 +110,7 @@ ingredients:
     name: "beef broth"
     ingredient_id: "beef-broth"
     quantity: 6
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -120,7 +118,7 @@ ingredients:
     name: "tamari or soy sauce"
     ingredient_id: "tamari-or-soy-sauce"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

@@ -26,19 +26,17 @@ nutrition:
 health_score: 6
 tags:
   - "#fat-loss"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 pounds baby potatoes, halved"
     name: "baby potatoes"
     ingredient_id: "baby-potatoes"
     quantity: 2
-    unit: "pounds"
+    unit: "pound"
     preparation: "halved"
     optional: false
     grocery_department: "produce"
@@ -62,7 +60,7 @@ ingredients:
     name: "green beans or asparagus"
     ingredient_id: "green-beans-or-asparagus"
     quantity: 8
-    unit: "ounces"
+    unit: "ounce"
     preparation: "cut into 1-inch pieces"
     optional: false
     grocery_department: "produce"
@@ -118,7 +116,7 @@ ingredients:
     name: "lemon juice"
     ingredient_id: "lemon-juice"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"

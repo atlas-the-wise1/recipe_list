@@ -29,17 +29,15 @@ tags:
   - "#pasta"
 dietary_tags:
   - "vegetarian"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "3 tablespoons olive oil"
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -63,7 +61,7 @@ ingredients:
     name: "mixed mushrooms"
     ingredient_id: "mixed-mushrooms"
     quantity: 3
-    unit: "cups"
+    unit: "cup"
     preparation: "such as cremini, shiitake or oyster, torn or sliced (about 6 ounces)"
     optional: false
     grocery_department: "produce"
@@ -87,7 +85,7 @@ ingredients:
     name: "vegetable stock"
     ingredient_id: "vegetable-stock"
     quantity: 4
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -95,7 +93,7 @@ ingredients:
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"

@@ -32,8 +32,7 @@ dietary_tags:
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Salt and freshly ground black pepper"
     name: "Salt and freshly ground black pepper"
@@ -55,7 +54,7 @@ ingredients:
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -63,7 +62,7 @@ ingredients:
     name: "neutral oil"
     ingredient_id: "neutral-oil"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -71,7 +70,7 @@ ingredients:
     name: "minced shallot or red onion"
     ingredient_id: "minced-shallot-or-red-onion"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -79,7 +78,7 @@ ingredients:
     name: "tomato paste"
     ingredient_id: "tomato-paste"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -87,7 +86,7 @@ ingredients:
     name: "Cognac or brandy"
     ingredient_id: "cognac-or-brandy"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -103,7 +102,7 @@ ingredients:
     name: "Dijon mustard"
     ingredient_id: "dijon-mustard"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -111,7 +110,7 @@ ingredients:
     name: "Worcestershire sauce"
     ingredient_id: "worcestershire-sauce"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

@@ -30,8 +30,7 @@ tags:
   - "#fat-loss"
   - "#meal-prep"
   - "#heart-healthy"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "lower_cholesterol"
@@ -39,10 +38,8 @@ goal_tags:
   - "meal_prep"
   - "heart_health"
 allergens: []
-equipment:
-[]
-ingredients:
-[]
+equipment: []
+ingredients: []
 meal_prep:
   friendly: true
   fridge_days: null

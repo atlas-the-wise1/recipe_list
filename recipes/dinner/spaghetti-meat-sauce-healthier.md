@@ -30,8 +30,7 @@ tags:
   - "#heart-healthy"
   - "#low-cholesterol"
   - "#fat-loss"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
@@ -39,14 +38,13 @@ goal_tags:
   - "lower_cholesterol"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 lb **Banza chickpea spaghetti** (or chickpea pasta for even more protein)"
     name: "**Banza chickpea spaghetti**"
     ingredient_id: "banza-chickpea-spaghetti"
     quantity: 1
-    unit: "lb"
+    unit: "pound"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -54,7 +52,7 @@ ingredients:
     name: "ground chicken or extra-lean ground turkey"
     ingredient_id: "ground-chicken-or-extra-lean-ground-turkey"
     quantity: 1
-    unit: "lb"
+    unit: "pound"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -78,7 +76,7 @@ ingredients:
     name: "cremini mushrooms"
     ingredient_id: "cremini-mushrooms"
     quantity: 8
-    unit: "oz"
+    unit: "ounce"
     preparation: "finely chopped"
     optional: false
     grocery_department: "produce"
@@ -102,7 +100,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -110,7 +108,7 @@ ingredients:
     name: "tomato paste"
     ingredient_id: "tomato-paste"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -126,7 +124,7 @@ ingredients:
     name: "dried oregano"
     ingredient_id: "dried-oregano"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

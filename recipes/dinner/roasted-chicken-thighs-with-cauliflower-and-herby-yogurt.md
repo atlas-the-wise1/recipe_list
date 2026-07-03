@@ -29,16 +29,14 @@ tags:
   - "#heart-healthy"
   - "#meal-prep"
   - "#fat-loss"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "heart_health"
   - "meal_prep"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 teaspoon ground coriander"
     name: "ground coriander"
@@ -68,7 +66,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -108,7 +106,7 @@ ingredients:
     name: "Greek yogurt"
     ingredient_id: "greek-yogurt"
     quantity: 1.25
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -116,7 +114,7 @@ ingredients:
     name: "chopped fresh mint"
     ingredient_id: "chopped-fresh-mint"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -124,7 +122,7 @@ ingredients:
     name: "chopped fresh cilantro"
     ingredient_id: "chopped-fresh-cilantro"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more for garnish"
     optional: false
     grocery_department: "produce"
@@ -132,7 +130,7 @@ ingredients:
     name: "lemon juice"
     ingredient_id: "lemon-juice"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more for serving"
     optional: false
     grocery_department: "beverages"

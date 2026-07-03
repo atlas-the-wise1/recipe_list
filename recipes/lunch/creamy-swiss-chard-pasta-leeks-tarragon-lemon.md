@@ -34,8 +34,7 @@ goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "¾ pound green Swiss chard (1 large bunch), washed and trimmed"
     name: "¾ pound green Swiss chard"
@@ -57,7 +56,7 @@ ingredients:
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 5
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -81,7 +80,7 @@ ingredients:
     name: "nutritional yeast"
     ingredient_id: "nutritional-yeast"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -97,7 +96,7 @@ ingredients:
     name: "fresh thyme leaves"
     ingredient_id: "fresh-thyme-leaves"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -105,7 +104,7 @@ ingredients:
     name: "chicken or vegetable stock"
     ingredient_id: "chicken-or-vegetable-stock"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -121,7 +120,7 @@ ingredients:
     name: "Banza chickpea linguine"
     ingredient_id: "banza-chickpea-linguine"
     quantity: 16
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "produce"

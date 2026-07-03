@@ -38,8 +38,7 @@ goal_tags:
   - "lower_cholesterol"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "3 large fennel bulbs (~3 lbs), trimmed, halved lengthwise and cut into ½-inch-thick wedges"
     name: "fennel bulbs"
@@ -61,7 +60,7 @@ ingredients:
     name: "cherry tomatoes"
     ingredient_id: "cherry-tomatoes"
     quantity: 8
-    unit: "oz"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -69,7 +68,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 6
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -85,7 +84,7 @@ ingredients:
     name: "minced garlic"
     ingredient_id: "minced-garlic"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -93,7 +92,7 @@ ingredients:
     name: "ground fennel"
     ingredient_id: "ground-fennel"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -101,7 +100,7 @@ ingredients:
     name: "finely chopped fresh rosemary"
     ingredient_id: "finely-chopped-fresh-rosemary"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -109,7 +108,7 @@ ingredients:
     name: "finely chopped fresh sage"
     ingredient_id: "finely-chopped-fresh-sage"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -133,7 +132,7 @@ ingredients:
     name: "fresh lemon juice"
     ingredient_id: "fresh-lemon-juice"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -141,7 +140,7 @@ ingredients:
     name: "red-pepper flakes"
     ingredient_id: "red-pepper-flakes"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: true
     grocery_department: "condiments"

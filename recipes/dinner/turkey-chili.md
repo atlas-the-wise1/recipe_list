@@ -34,8 +34,7 @@ goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 tablespoon olive oil"
     name: "olive oil"
@@ -49,7 +48,7 @@ ingredients:
     name: "ground turkey"
     ingredient_id: "ground-turkey"
     quantity: 2
-    unit: "pounds"
+    unit: "pound"
     preparation: "white and dark meat combined"
     optional: false
     grocery_department: "meat"
@@ -57,7 +56,7 @@ ingredients:
     name: "ground turkey"
     ingredient_id: "ground-turkey"
     quantity: 2
-    unit: "pounds"
+    unit: "pound"
     preparation: "white and dark meat combined"
     optional: false
     grocery_department: "meat"
@@ -65,7 +64,7 @@ ingredients:
     name: "coarsely chopped onions"
     ingredient_id: "coarsely-chopped-onions"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -73,7 +72,7 @@ ingredients:
     name: "chopped garlic"
     ingredient_id: "chopped-garlic"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -121,7 +120,7 @@ ingredients:
     name: "chili powder"
     ingredient_id: "chili-powder"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -129,7 +128,7 @@ ingredients:
     name: "ground cumin"
     ingredient_id: "ground-cumin"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -137,7 +136,7 @@ ingredients:
     name: "canned diced tomatoes"
     ingredient_id: "canned-diced-tomatoes"
     quantity: 3
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "frozen"
@@ -145,7 +144,7 @@ ingredients:
     name: "chicken broth"
     ingredient_id: "chicken-broth"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: "fresh or canned"
     optional: false
     grocery_department: "meat"
@@ -169,7 +168,7 @@ ingredients:
     name: "shredded Cheddar"
     ingredient_id: "shredded-cheddar"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

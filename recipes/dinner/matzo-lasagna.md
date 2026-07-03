@@ -32,8 +32,7 @@ dietary_tags:
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1/4 cup extra-virgin olive oil, plus more for serving"
     name: "extra-virgin olive oil"
@@ -100,10 +99,10 @@ ingredients:
     optional: false
     grocery_department: "uncategorized"
   - display: "2 3/4 cups / 24 ounces whole-milk ricotta, preferably fresh"
-    name: "/ 24 ounces whole-milk ricotta"
+    name: "24 ounces whole-milk ricotta"
     ingredient_id: "24-ounces-whole-milk-ricotta"
     quantity: 2.75
-    unit: "cups"
+    unit: "cup"
     preparation: "preferably fresh"
     optional: false
     grocery_department: "dairy"

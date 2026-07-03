@@ -36,14 +36,13 @@ goal_tags:
   - "lower_cholesterol"
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 cups coconut water"
     name: "coconut water"
     ingredient_id: "coconut-water"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "beverages"

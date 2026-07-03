@@ -26,19 +26,17 @@ nutrition:
 health_score: null
 tags:
   - "#fat-loss"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 1/2 pounds ripe tomatoes, cut into 1- to 2-inch pieces"
     name: "ripe tomatoes"
     ingredient_id: "ripe-tomatoes"
     quantity: 2.5
-    unit: "pounds"
+    unit: "pound"
     preparation: "cut into 1- to 2-inch pieces"
     optional: false
     grocery_department: "produce"
@@ -78,7 +76,7 @@ ingredients:
     name: "neutral oil"
     ingredient_id: "neutral-oil"
     quantity: 1
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "such as canola or vegetable"
     optional: false
     grocery_department: "condiments"
@@ -86,7 +84,7 @@ ingredients:
     name: "crispy fried shallots,"
     ingredient_id: "crispy-fried-shallots"
     quantity: 1
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "optional"
     optional: true
     grocery_department: "uncategorized"
@@ -94,7 +92,7 @@ ingredients:
     name: "chile crisp or chile oil"
     ingredient_id: "chile-crisp-or-chile-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -102,7 +100,7 @@ ingredients:
     name: "rice vinegar"
     ingredient_id: "rice-vinegar"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "frozen"

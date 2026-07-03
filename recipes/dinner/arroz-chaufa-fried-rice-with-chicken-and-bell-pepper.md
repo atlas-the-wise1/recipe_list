@@ -28,20 +28,18 @@ tags:
   - "#quick"
   - "#one-pan"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "quick_preparation"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "4 tablespoons neutral oil, like grapeseed"
     name: "neutral oil"
     ingredient_id: "neutral-oil"
     quantity: 4
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "like grapeseed"
     optional: false
     grocery_department: "condiments"
@@ -137,7 +135,7 @@ ingredients:
     name: "cooked white rice"
     ingredient_id: "cooked-white-rice"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: "cooled"
     optional: false
     grocery_department: "frozen"
@@ -145,7 +143,7 @@ ingredients:
     name: "soy sauce or tamari"
     ingredient_id: "soy-sauce-or-tamari"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more for seasoning"
     optional: false
     grocery_department: "condiments"

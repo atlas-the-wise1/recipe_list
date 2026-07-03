@@ -29,22 +29,20 @@ tags:
   - "#heart-healthy"
   - "#low-cholesterol"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "heart_health"
   - "lower_cholesterol"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 1/2 to 3 pounds bone-in, skin-on chicken thighs, patted dry"
     name: "bone-in"
     ingredient_id: "bone-in"
     quantity: 2.5
-    unit: "pounds"
+    unit: "pound"
     preparation: "skin-on chicken thighs, patted dry"
     optional: false
     grocery_department: "uncategorized"
@@ -52,7 +50,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -92,7 +90,7 @@ ingredients:
     name: "seedless red or green grapes"
     ingredient_id: "seedless-red-or-green-grapes"
     quantity: 8
-    unit: "ounces"
+    unit: "ounce"
     preparation: "or a combination, broken into small clusters on the vine"
     optional: false
     grocery_department: "produce"

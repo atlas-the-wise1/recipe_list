@@ -30,17 +30,15 @@ tags:
 dietary_tags:
   - "vegetarian"
   - "gluten_free"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 1/2 pounds baby potatoes, halved if large"
     name: "baby potatoes"
     ingredient_id: "baby-potatoes"
     quantity: 1.5
-    unit: "pounds"
+    unit: "pound"
     preparation: "halved if large"
     optional: false
     grocery_department: "produce"
@@ -48,7 +46,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

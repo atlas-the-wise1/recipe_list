@@ -27,13 +27,11 @@ health_score: 5
 tags:
   - "#meal-prep"
   - "#budget-friendly"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Nonstick cooking spray"
     name: "Nonstick cooking spray"
@@ -95,7 +93,7 @@ ingredients:
     name: "long-grain or Carolina gold rice"
     ingredient_id: "long-grain-or-carolina-gold-rice"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: "rinsed until water runs clear"
     optional: false
     grocery_department: "frozen"
@@ -111,7 +109,7 @@ ingredients:
     name: "chicken stock or water"
     ingredient_id: "chicken-stock-or-water"
     quantity: 1.5
-    unit: "cups"
+    unit: "cup"
     preparation: "plus more as needed"
     optional: false
     grocery_department: "meat"

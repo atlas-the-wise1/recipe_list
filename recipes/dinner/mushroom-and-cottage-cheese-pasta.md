@@ -35,14 +35,13 @@ goal_tags:
   - "quick_preparation"
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 tablespoons extra-virgin olive oil"
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -50,7 +49,7 @@ ingredients:
     name: "cremini mushrooms"
     ingredient_id: "cremini-mushrooms"
     quantity: 1.5
-    unit: "pounds"
+    unit: "pound"
     preparation: "cleaned, trimmed, and roughly chopped (about 6 cups)"
     optional: false
     grocery_department: "produce"

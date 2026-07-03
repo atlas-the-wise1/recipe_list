@@ -33,14 +33,13 @@ dietary_tags:
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 pounds russet potatoes, peeled and cut into 2-inch chunks"
     name: "russet potatoes"
     ingredient_id: "russet-potatoes"
     quantity: 2
-    unit: "pounds"
+    unit: "pound"
     preparation: "peeled and cut into 2-inch chunks"
     optional: false
     grocery_department: "produce"
@@ -56,7 +55,7 @@ ingredients:
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 6
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -88,7 +87,7 @@ ingredients:
     name: "whole milk"
     ingredient_id: "whole-milk"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "as needed"
     optional: false
     grocery_department: "dairy"
@@ -120,7 +119,7 @@ ingredients:
     name: "minced chives or scallions"
     ingredient_id: "minced-chives-or-scallions"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

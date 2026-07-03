@@ -33,14 +33,13 @@ dietary_tags:
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 1/2 pounds fingerling or baby potatoes, sliced in half lengthwise"
     name: "fingerling or baby potatoes"
     ingredient_id: "fingerling-or-baby-potatoes"
     quantity: 1.5
-    unit: "pounds"
+    unit: "pound"
     preparation: "sliced in half lengthwise"
     optional: false
     grocery_department: "produce"

@@ -29,17 +29,15 @@ tags:
   - "#vegetarian"
 dietary_tags:
   - "vegetarian"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 ounces cold cream cheese, cut into 16 pieces"
     name: "cold cream cheese"
     ingredient_id: "cold-cream-cheese"
     quantity: 2
-    unit: "ounces"
+    unit: "ounce"
     preparation: "cut into 16 pieces"
     optional: false
     grocery_department: "dairy"
@@ -143,7 +141,7 @@ ingredients:
     name: "finely chopped chives"
     ingredient_id: "finely-chopped-chives"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

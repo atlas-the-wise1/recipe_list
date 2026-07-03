@@ -28,15 +28,13 @@ tags:
   - "#heart-healthy"
   - "#high-protein"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1½ cups loosely packed chopped dill (~3 oz), plus more for serving"
     name: "1½ cups loosely packed chopped dill"
@@ -74,7 +72,7 @@ ingredients:
     name: "ground turkey or chicken"
     ingredient_id: "ground-turkey-or-chicken"
     quantity: 1
-    unit: "lb"
+    unit: "pound"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -82,7 +80,7 @@ ingredients:
     name: "fennel seeds"
     ingredient_id: "fennel-seeds"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: true
     grocery_department: "produce"
@@ -98,7 +96,7 @@ ingredients:
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -122,7 +120,7 @@ ingredients:
     name: "chopped escarole"
     ingredient_id: "chopped-escarole"
     quantity: 4
-    unit: "cups"
+    unit: "cup"
     preparation: "spinach, mustard greens, or baby kale (~3 oz)"
     optional: false
     grocery_department: "uncategorized"

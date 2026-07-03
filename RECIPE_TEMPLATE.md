@@ -1,11 +1,9 @@
-# Recipe Name
-
-```yaml
 ---
 schema_version: 1
 id: recipe-name
 title: Recipe Name
 status: reviewed
+category: breakfast
 meal_types:
   - breakfast
 servings: 1
@@ -31,7 +29,15 @@ dietary_tags: []
 goal_tags: []
 allergens: []
 equipment: []
-ingredients: []
+ingredients:
+  - display: "1 ingredient one"
+    name: ingredient one
+    ingredient_id: ingredient-one
+    quantity: 1
+    unit: null
+    preparation: null
+    optional: false
+    grocery_department: uncategorized
 meal_prep:
   friendly: true
   fridge_days: null
@@ -48,7 +54,8 @@ source:
   nutrition_verified: false
   last_reviewed: null
 ---
-```
+
+# Recipe Name
 
 **Category:** breakfast / lunch / dinner / snacks / meal-prep / drinks / dessert
 **Tags:** `#keto` `#heart-healthy` `#low-cholesterol` `#high-protein` `#meal-prep` `#fat-loss`

@@ -28,15 +28,13 @@ tags:
   - "#high-protein"
   - "#meal-prep"
   - "#fat-loss"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 large boneless, skinless chicken breast, about 11 ounces"
     name: "boneless"
@@ -66,7 +64,7 @@ ingredients:
     name: "light brown sugar"
     ingredient_id: "light-brown-sugar"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -90,7 +88,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

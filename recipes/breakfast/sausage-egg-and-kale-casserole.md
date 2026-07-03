@@ -27,13 +27,10 @@ health_score: 5
 tags:
   - "#eggs"
   - "#make-ahead"
-dietary_tags:
-  []
-goal_tags:
-  []
+dietary_tags: []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Softened butter, for greasing the dish"
     name: "Softened butter"
@@ -47,7 +44,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 6
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -79,7 +76,7 @@ ingredients:
     name: "torn kale leaves"
     ingredient_id: "torn-kale-leaves"
     quantity: 4
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -87,7 +84,7 @@ ingredients:
     name: "grape tomatoes"
     ingredient_id: "grape-tomatoes"
     quantity: 10
-    unit: "ounces"
+    unit: "ounce"
     preparation: "halved crosswise"
     optional: false
     grocery_department: "produce"

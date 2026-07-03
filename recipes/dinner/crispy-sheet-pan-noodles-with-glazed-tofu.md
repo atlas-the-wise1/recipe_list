@@ -34,10 +34,8 @@ goal_tags:
   - "meal_prep"
   - "high_protein"
 allergens: []
-equipment:
-[]
-ingredients:
-[]
+equipment: []
+ingredients: []
 meal_prep:
   friendly: true
   fridge_days: null

@@ -28,21 +28,19 @@ tags:
   - "#high-protein"
   - "#low-cholesterol"
   - "#fat-loss"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "lower_cholesterol"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 lb sushi-grade ahi tuna, cubed (¾-inch pieces)"
     name: "sushi-grade ahi tuna"
     ingredient_id: "sushi-grade-ahi-tuna"
     quantity: 1
-    unit: "lb"
+    unit: "pound"
     preparation: "cubed (¾-inch pieces)"
     optional: false
     grocery_department: "seafood"
@@ -50,7 +48,7 @@ ingredients:
     name: "low-sodium soy sauce"
     ingredient_id: "low-sodium-soy-sauce"
     quantity: 3
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -58,7 +56,7 @@ ingredients:
     name: "sesame oil"
     ingredient_id: "sesame-oil"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -66,7 +64,7 @@ ingredients:
     name: "rice vinegar"
     ingredient_id: "rice-vinegar"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "frozen"
@@ -74,7 +72,7 @@ ingredients:
     name: "sriracha"
     ingredient_id: "sriracha"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -82,7 +80,7 @@ ingredients:
     name: "garlic"
     ingredient_id: "garlic"
     quantity: 2
-    unit: "cloves"
+    unit: "clove"
     preparation: "minced"
     optional: false
     grocery_department: "produce"
@@ -90,7 +88,7 @@ ingredients:
     name: "fresh ginger"
     ingredient_id: "fresh-ginger"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: "minced"
     optional: false
     grocery_department: "produce"

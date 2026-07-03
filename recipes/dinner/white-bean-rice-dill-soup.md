@@ -29,16 +29,14 @@ tags:
   - "#low-cholesterol"
   - "#fat-loss"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
   - "fat_loss"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "¼ cup extra-virgin olive oil"
     name: "¼ cup extra-virgin olive oil"
@@ -124,7 +122,7 @@ ingredients:
     name: "dried dill or ¼ cup chopped fresh dill"
     ingredient_id: "dried-dill-or-cup-chopped-fresh-dill"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

@@ -28,20 +28,18 @@ tags:
   - "#quick"
   - "#high-protein"
   - "#weeknight"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "quick_preparation"
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 tablespoons olive oil"
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -65,7 +63,7 @@ ingredients:
     name: "boneless"
     ingredient_id: "boneless"
     quantity: 1.5
-    unit: "pounds"
+    unit: "pound"
     preparation: "skinless chicken thighs, cut into 1- to 1 1/2-inch pieces"
     optional: false
     grocery_department: "uncategorized"

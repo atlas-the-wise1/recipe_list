@@ -27,13 +27,10 @@ health_score: 4
 tags:
   - "#sandwich"
   - "#make-ahead"
-dietary_tags:
-  []
-goal_tags:
-  []
+dietary_tags: []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 (12-ounce) package Hawaiian sweet rolls"
     name: "(12-ounce) package Hawaiian sweet rolls"
@@ -47,7 +44,7 @@ ingredients:
     name: "plus 1 teaspoon Dijon mustard"
     ingredient_id: "plus-1-teaspoon-dijon-mustard"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -71,7 +68,7 @@ ingredients:
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 4
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "melted"
     optional: false
     grocery_department: "dairy"
@@ -79,7 +76,7 @@ ingredients:
     name: "minced dried onion"
     ingredient_id: "minced-dried-onion"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -87,7 +84,7 @@ ingredients:
     name: "Worcestershire sauce"
     ingredient_id: "worcestershire-sauce"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

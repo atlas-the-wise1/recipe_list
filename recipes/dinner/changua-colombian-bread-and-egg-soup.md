@@ -28,13 +28,11 @@ tags:
   - "#quick"
   - "#comfort-food"
   - "#budget-friendly"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "4 scallions, quartered lengthwise and finely chopped"
     name: "scallions"
@@ -96,7 +94,7 @@ ingredients:
     name: "diced melting cheese"
     ingredient_id: "diced-melting-cheese"
     quantity: 8
-    unit: "ounces"
+    unit: "ounce"
     preparation: "such as low-moisture mozzarella or Jack, cut into 1/2-inch cubes,"
     optional: true
     grocery_department: "dairy"

@@ -29,11 +29,9 @@ tags:
   - "#gluten-free"
 dietary_tags:
   - "gluten_free"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "4 firm, white-fleshed fish fillets, such as halibut, bass, or grouper (about 1 1/2 pounds)"
     name: "firm"
@@ -55,7 +53,7 @@ ingredients:
     name: "neutral oil"
     ingredient_id: "neutral-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "such as grapeseed"
     optional: false
     grocery_department: "condiments"
@@ -71,7 +69,7 @@ ingredients:
     name: "soy sauce"
     ingredient_id: "soy-sauce"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

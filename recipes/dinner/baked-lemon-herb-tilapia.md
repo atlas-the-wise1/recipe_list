@@ -38,8 +38,7 @@ goal_tags:
   - "high_protein"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "4 tilapia fillets (5–6 oz each)"
     name: "tilapia fillets"
@@ -53,7 +52,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -69,7 +68,7 @@ ingredients:
     name: "fresh lemon juice"
     ingredient_id: "fresh-lemon-juice"
     quantity: 3
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -77,7 +76,7 @@ ingredients:
     name: "garlic"
     ingredient_id: "garlic"
     quantity: 4
-    unit: "cloves"
+    unit: "clove"
     preparation: "minced"
     optional: false
     grocery_department: "produce"
@@ -85,7 +84,7 @@ ingredients:
     name: "fresh parsley"
     ingredient_id: "fresh-parsley"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: "chopped"
     optional: false
     grocery_department: "produce"
@@ -93,7 +92,7 @@ ingredients:
     name: "capers"
     ingredient_id: "capers"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -101,7 +100,7 @@ ingredients:
     name: "Dijon mustard"
     ingredient_id: "dijon-mustard"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

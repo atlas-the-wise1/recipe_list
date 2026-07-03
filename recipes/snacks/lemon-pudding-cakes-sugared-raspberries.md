@@ -33,8 +33,7 @@ dietary_tags:
 goal_tags:
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "¼ cup / 57g unsalted butter (½ stick), melted and cooled, plus more for greasing"
     name: "¼ cup / 57g unsalted butter"
@@ -53,8 +52,8 @@ ingredients:
     optional: false
     grocery_department: "uncategorized"
   - display: "1 cup / 200g granulated sugar, plus more as needed"
-    name: "/ 200g granulated sugar"
-    ingredient_id: "200g-granulated-sugar"
+    name: "granulated sugar"
+    ingredient_id: "granulated-sugar"
     quantity: 1
     unit: "cup"
     preparation: "plus more as needed"
@@ -101,10 +100,10 @@ ingredients:
     optional: false
     grocery_department: "grains"
   - display: "6 oz / 170g raspberries"
-    name: "/ 170g raspberries"
-    ingredient_id: "170g-raspberries"
+    name: "raspberries"
+    ingredient_id: "raspberries"
     quantity: 6
-    unit: "oz"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "produce"

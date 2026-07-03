@@ -28,17 +28,9 @@ tags:
   - "#vegetarian"
 dietary_tags:
   - "vegetarian"
-goal_tags:
-  []
-allergens:
-  - "dairy"
-  - "gluten"
-equipment:
-  - "large pot"
-  - "large skillet"
-  - "mixing bowl"
-  - "colander"
-  - "tongs"
+goal_tags: []
+allergens: []
+equipment: []
 ingredients:
   - display: "Kosher salt and black pepper"
     name: "Kosher salt and black pepper"
@@ -49,21 +41,21 @@ ingredients:
     optional: false
     grocery_department: "condiments"
   - display: "3 ears of corn, husked"
-    name: "corn"
-    ingredient_id: "corn"
+    name: "ears of corn"
+    ingredient_id: "ears-of-corn"
     quantity: 3
-    unit: "each"
+    unit: null
     preparation: "husked"
     optional: false
-    grocery_department: "produce"
+    grocery_department: "uncategorized"
   - display: "1 pound spaghetti, linguine or any shaped pasta"
-    name: "shaped pasta"
-    ingredient_id: "shaped-pasta"
+    name: "spaghetti"
+    ingredient_id: "spaghetti"
     quantity: 1
     unit: "pound"
-    preparation: "spaghetti, linguine or any shaped pasta"
+    preparation: "linguine or any shaped pasta"
     optional: false
-    grocery_department: "grains"
+    grocery_department: "uncategorized"
   - display: "1/4 cup olive oil, plus more for drizzling"
     name: "olive oil"
     ingredient_id: "olive-oil"
@@ -79,12 +71,12 @@ ingredients:
     unit: "teaspoon"
     preparation: null
     optional: false
-    grocery_department: "pantry"
+    grocery_department: "uncategorized"
   - display: "16 medium stalks asparagus (about 8 ounces), trimmed and thinly sliced on an angle (about 2 cups)"
     name: "asparagus"
     ingredient_id: "asparagus"
     quantity: 16
-    unit: "each"
+    unit: "stalk"
     preparation: "trimmed and thinly sliced on an angle (about 2 cups)"
     optional: false
     grocery_department: "produce"
@@ -92,23 +84,23 @@ ingredients:
     name: "scallions"
     ingredient_id: "scallions"
     quantity: 3
-    unit: "each"
+    unit: null
     preparation: "trimmed and minced, or 1 small shallot, minced"
     optional: false
-    grocery_department: "produce"
+    grocery_department: "uncategorized"
   - display: "2 teaspoons ground turmeric"
     name: "ground turmeric"
     ingredient_id: "ground-turmeric"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
-    grocery_department: "spices"
+    grocery_department: "uncategorized"
   - display: "6 tablespoons unsalted butter"
     name: "unsalted butter"
     ingredient_id: "unsalted-butter"
     quantity: 6
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -116,7 +108,7 @@ ingredients:
     name: "garlic cloves"
     ingredient_id: "garlic-cloves"
     quantity: 3
-    unit: "each"
+    unit: null
     preparation: "minced"
     optional: false
     grocery_department: "produce"
@@ -138,17 +130,16 @@ ingredients:
     grocery_department: "dairy"
 meal_prep:
   friendly: true
-  fridge_days: 3
+  fridge_days: null
   freezer_months: null
-  reheat: "reheat gently in a skillet with a splash of water"
+  reheat: null
 relationships:
-  similar_to:
-    - "asparagus-ricotta-pasta-with-almonds"
+  similar_to: []
   pairs_with: []
   leftover_to: []
   substitutions: []
 source:
-  name: "Page-A-Day Calendar"
+  name: null
   url: null
   nutrition_verified: false
   last_reviewed: "2026-07-03"

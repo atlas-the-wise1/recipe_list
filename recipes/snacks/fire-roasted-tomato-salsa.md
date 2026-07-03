@@ -43,8 +43,7 @@ goal_tags:
   - "quick_preparation"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 (14½-ounce) can fire-roasted tomatoes with juice"
     name: "(14½-ounce) can fire-roasted tomatoes with juice"
@@ -74,7 +73,7 @@ ingredients:
     name: "garlic"
     ingredient_id: "garlic"
     quantity: 3
-    unit: "cloves"
+    unit: "clove"
     preparation: "peeled"
     optional: false
     grocery_department: "produce"
@@ -130,7 +129,7 @@ ingredients:
     name: "fresh lime juice"
     ingredient_id: "fresh-lime-juice"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"

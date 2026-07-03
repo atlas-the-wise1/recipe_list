@@ -36,8 +36,7 @@ goal_tags:
   - "heart_health"
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Salt and freshly ground black pepper"
     name: "Salt and freshly ground black pepper"
@@ -59,7 +58,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -67,7 +66,7 @@ ingredients:
     name: "minced shallot"
     ingredient_id: "minced-shallot"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -75,7 +74,7 @@ ingredients:
     name: "tomato paste"
     ingredient_id: "tomato-paste"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -83,7 +82,7 @@ ingredients:
     name: "low-sodium beef stock or broth"
     ingredient_id: "low-sodium-beef-stock-or-broth"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -91,7 +90,7 @@ ingredients:
     name: "full-fat Greek yogurt"
     ingredient_id: "full-fat-greek-yogurt"
     quantity: 3
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -99,7 +98,7 @@ ingredients:
     name: "Dijon mustard"
     ingredient_id: "dijon-mustard"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -107,7 +106,7 @@ ingredients:
     name: "Worcestershire sauce"
     ingredient_id: "worcestershire-sauce"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

@@ -28,21 +28,19 @@ tags:
   - "#high-protein"
   - "#heart-healthy"
   - "#low-cholesterol"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "heart_health"
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 tablespoons ghee or olive oil"
     name: "ghee or olive oil"
     ingredient_id: "ghee-or-olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -58,7 +56,7 @@ ingredients:
     name: "sweet paprika"
     ingredient_id: "sweet-paprika"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -66,7 +64,7 @@ ingredients:
     name: "coarse sea salt"
     ingredient_id: "coarse-sea-salt"
     quantity: 1.25
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -98,7 +96,7 @@ ingredients:
     name: "grape or cherry tomatoes"
     ingredient_id: "grape-or-cherry-tomatoes"
     quantity: 10
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "produce"

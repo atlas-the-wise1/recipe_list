@@ -26,13 +26,11 @@ nutrition:
 health_score: 6
 tags:
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 pound russet potatoes (about 2 whole large potatoes), peeled and cut into large chunks"
     name: "russet potatoes"
@@ -70,7 +68,7 @@ ingredients:
     name: "sugar"
     ingredient_id: "sugar"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -118,7 +116,7 @@ ingredients:
     name: "Kewpie mayonnaise"
     ingredient_id: "kewpie-mayonnaise"
     quantity: 5
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more to taste"
     optional: false
     grocery_department: "condiments"

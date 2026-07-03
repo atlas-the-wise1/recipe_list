@@ -36,14 +36,13 @@ goal_tags:
   - "lower_cholesterol"
   - "heart_health"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1.25 lbs large sea scallops (U/10 or U/15 count)"
     name: "large sea scallops"
     ingredient_id: "large-sea-scallops"
     quantity: 1.25
-    unit: "lbs"
+    unit: "pound"
     preparation: null
     optional: false
     grocery_department: "seafood"
@@ -51,7 +50,7 @@ ingredients:
     name: "butter"
     ingredient_id: "butter"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: "divided"
     optional: false
     grocery_department: "dairy"
@@ -67,7 +66,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

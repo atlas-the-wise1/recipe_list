@@ -27,14 +27,12 @@ health_score: 7
 tags:
   - "#high-protein"
   - "#low-cholesterol"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "4 boneless, skinless chicken breasts (6 oz each)"
     name: "boneless"
@@ -56,7 +54,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -64,7 +62,7 @@ ingredients:
     name: "garlic"
     ingredient_id: "garlic"
     quantity: 4
-    unit: "cloves"
+    unit: "clove"
     preparation: "minced"
     optional: false
     grocery_department: "produce"
@@ -96,7 +94,7 @@ ingredients:
     name: "Italian seasoning"
     ingredient_id: "italian-seasoning"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -120,7 +118,7 @@ ingredients:
     name: "butter"
     ingredient_id: "butter"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"

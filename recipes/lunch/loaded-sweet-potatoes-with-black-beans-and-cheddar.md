@@ -30,11 +30,9 @@ tags:
 dietary_tags:
   - "vegetarian"
   - "gluten_free"
-goal_tags:
-  []
+goal_tags: []
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 medium sweet potatoes (8 to 10 ounces each), scrubbed and dried"
     name: "sweet potatoes"

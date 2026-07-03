@@ -34,8 +34,7 @@ goal_tags:
   - "heart_health"
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Fine salt and freshly ground black pepper"
     name: "Fine salt and freshly ground black pepper"

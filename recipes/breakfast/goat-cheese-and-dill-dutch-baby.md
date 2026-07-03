@@ -33,12 +33,11 @@ dietary_tags:
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup / 148g crumbled plain goat cheese"
-    name: "/ 148g crumbled plain goat cheese"
-    ingredient_id: "148g-crumbled-plain-goat-cheese"
+    name: "crumbled plain goat cheese"
+    ingredient_id: "crumbled-plain-goat-cheese"
     quantity: 1
     unit: "cup"
     preparation: null
@@ -56,7 +55,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -85,8 +84,8 @@ ingredients:
     optional: false
     grocery_department: "condiments"
   - display: "1 cup / 135g all-purpose flour"
-    name: "/ 135g all-purpose flour"
-    ingredient_id: "135g-all-purpose-flour"
+    name: "all-purpose flour"
+    ingredient_id: "all-purpose-flour"
     quantity: 1
     unit: "cup"
     preparation: null
@@ -101,18 +100,18 @@ ingredients:
     optional: false
     grocery_department: "uncategorized"
   - display: "3/4 cup / 190ml whole milk"
-    name: "/ 190ml whole milk"
-    ingredient_id: "190ml-whole-milk"
+    name: "whole milk"
+    ingredient_id: "whole-milk"
     quantity: 0.75
     unit: "cup"
     preparation: null
     optional: false
     grocery_department: "dairy"
   - display: "4 tablespoons / 57g unsalted butter"
-    name: "/ 57g unsalted butter"
-    ingredient_id: "57g-unsalted-butter"
+    name: "unsalted butter"
+    ingredient_id: "unsalted-butter"
     quantity: 4
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -120,7 +119,7 @@ ingredients:
     name: "watercress leaves with tender stems"
     ingredient_id: "watercress-leaves-with-tender-stems"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: "or other tender greens such as spinach or arugula"
     optional: false
     grocery_department: "beverages"

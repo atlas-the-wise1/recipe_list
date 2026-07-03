@@ -26,19 +26,17 @@ nutrition:
 health_score: 6
 tags:
   - "#high-protein"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1.5 lbs large shrimp (16/20 count), peeled and deveined"
     name: "large shrimp"
     ingredient_id: "large-shrimp"
     quantity: 1.5
-    unit: "lbs"
+    unit: "pound"
     preparation: "peeled and deveined"
     optional: false
     grocery_department: "seafood"
@@ -46,7 +44,7 @@ ingredients:
     name: "butter"
     ingredient_id: "butter"
     quantity: 3
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -54,7 +52,7 @@ ingredients:
     name: "garlic"
     ingredient_id: "garlic"
     quantity: 6
-    unit: "cloves"
+    unit: "clove"
     preparation: "minced"
     optional: false
     grocery_department: "produce"
@@ -70,7 +68,7 @@ ingredients:
     name: "fresh lemon juice"
     ingredient_id: "fresh-lemon-juice"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -94,7 +92,7 @@ ingredients:
     name: "fresh parsley"
     ingredient_id: "fresh-parsley"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: "chopped"
     optional: false
     grocery_department: "produce"

@@ -28,21 +28,19 @@ tags:
   - "#heart-healthy"
   - "#low-cholesterol"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 tbsp extra-virgin olive oil, plus more for serving"
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: "plus more for serving"
     optional: false
     grocery_department: "condiments"
@@ -90,7 +88,7 @@ ingredients:
     name: "low-sodium chicken broth"
     ingredient_id: "low-sodium-chicken-broth"
     quantity: 6
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -98,7 +96,7 @@ ingredients:
     name: "baby spinach"
     ingredient_id: "baby-spinach"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: "roughly chopped"
     optional: false
     grocery_department: "produce"

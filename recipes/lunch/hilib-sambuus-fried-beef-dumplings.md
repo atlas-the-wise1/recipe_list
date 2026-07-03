@@ -26,13 +26,11 @@ nutrition:
 health_score: 4
 tags:
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 tablespoon olive oil"
     name: "olive oil"

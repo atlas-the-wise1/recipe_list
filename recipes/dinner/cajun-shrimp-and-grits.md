@@ -27,14 +27,12 @@ health_score: 4
 tags:
   - "#high-protein"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup stone-ground cornmeal (or quick grits)"
     name: "stone-ground cornmeal"
@@ -48,7 +46,7 @@ ingredients:
     name: "low-sodium chicken broth"
     ingredient_id: "low-sodium-chicken-broth"
     quantity: 4
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -64,7 +62,7 @@ ingredients:
     name: "butter"
     ingredient_id: "butter"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "dairy"

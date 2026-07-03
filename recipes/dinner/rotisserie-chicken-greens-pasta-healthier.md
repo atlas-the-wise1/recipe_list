@@ -30,8 +30,7 @@ tags:
   - "#low-cholesterol"
   - "#meal-prep"
   - "#fat-loss"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "heart_health"
@@ -39,8 +38,7 @@ goal_tags:
   - "meal_prep"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Salt and freshly ground black pepper"
     name: "Salt and freshly ground black pepper"
@@ -54,7 +52,7 @@ ingredients:
     name: "**Banza chickpea** rigatoni or penne"
     ingredient_id: "banza-chickpea-rigatoni-or-penne"
     quantity: 1
-    unit: "lb"
+    unit: "pound"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -94,7 +92,7 @@ ingredients:
     name: "Dijon mustard"
     ingredient_id: "dijon-mustard"
     quantity: 2
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

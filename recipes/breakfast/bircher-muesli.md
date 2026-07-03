@@ -36,12 +36,11 @@ goal_tags:
   - "lower_cholesterol"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup / 100g old-fashioned rolled oats"
-    name: "/ 100g old-fashioned rolled oats"
-    ingredient_id: "100g-old-fashioned-rolled-oats"
+    name: "old-fashioned rolled oats"
+    ingredient_id: "old-fashioned-rolled-oats"
     quantity: 1
     unit: "cup"
     preparation: null
@@ -83,7 +82,7 @@ ingredients:
     name: "tahini **"
     ingredient_id: "tahini"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: true
     grocery_department: "uncategorized"
@@ -91,7 +90,7 @@ ingredients:
     name: "golden raisins"
     ingredient_id: "golden-raisins"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -99,7 +98,7 @@ ingredients:
     name: "dried cherries"
     ingredient_id: "dried-cherries"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

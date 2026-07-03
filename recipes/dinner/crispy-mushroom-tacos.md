@@ -28,15 +28,13 @@ tags:
   - "#heart-healthy"
   - "#low-cholesterol"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 large beefsteak tomato, cored and cut into ¼-inch dice"
     name: "beefsteak tomato"
@@ -74,7 +72,7 @@ ingredients:
     name: "fresh lime juice"
     ingredient_id: "fresh-lime-juice"
     quantity: 3
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"

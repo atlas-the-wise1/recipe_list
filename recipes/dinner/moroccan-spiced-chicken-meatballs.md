@@ -27,20 +27,18 @@ health_score: 6
 tags:
   - "#high-protein"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 1/2 cups plain whole-milk yogurt"
     name: "plain whole-milk yogurt"
     ingredient_id: "plain-whole-milk-yogurt"
     quantity: 1.5
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "dairy"
@@ -56,7 +54,7 @@ ingredients:
     name: "lemon juice"
     ingredient_id: "lemon-juice"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -96,7 +94,7 @@ ingredients:
     name: "minced parsley"
     ingredient_id: "minced-parsley"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more for serving"
     optional: false
     grocery_department: "produce"
@@ -152,7 +150,7 @@ ingredients:
     name: "toasted pine nuts,"
     ingredient_id: "toasted-pine-nuts"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "optional"
     optional: true
     grocery_department: "uncategorized"

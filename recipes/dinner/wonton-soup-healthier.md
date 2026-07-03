@@ -29,22 +29,20 @@ tags:
   - "#low-cholesterol"
   - "#fat-loss"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
   - "fat_loss"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "8 oz medium shrimp, peeled and deveined, roughly chopped (not pureed — keep texture)"
     name: "medium shrimp"
     ingredient_id: "medium-shrimp"
     quantity: 8
-    unit: "oz"
+    unit: "ounce"
     preparation: "peeled and deveined, roughly chopped (not pureed — keep texture)"
     optional: false
     grocery_department: "seafood"
@@ -52,7 +50,7 @@ ingredients:
     name: "finely minced scallions"
     ingredient_id: "finely-minced-scallions"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -60,7 +58,7 @@ ingredients:
     name: "grated fresh ginger"
     ingredient_id: "grated-fresh-ginger"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -68,7 +66,7 @@ ingredients:
     name: "low-sodium soy sauce"
     ingredient_id: "low-sodium-soy-sauce"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

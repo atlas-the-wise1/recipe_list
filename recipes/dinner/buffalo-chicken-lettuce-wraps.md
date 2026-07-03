@@ -36,14 +36,13 @@ goal_tags:
   - "lower_cholesterol"
   - "fat_loss"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1.25 lbs ground chicken (93/7 lean)"
     name: "ground chicken"
     ingredient_id: "ground-chicken"
     quantity: 1.25
-    unit: "lbs"
+    unit: "pound"
     preparation: null
     optional: false
     grocery_department: "meat"
@@ -51,7 +50,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -67,7 +66,7 @@ ingredients:
     name: "garlic"
     ingredient_id: "garlic"
     quantity: 2
-    unit: "cloves"
+    unit: "clove"
     preparation: "minced"
     optional: false
     grocery_department: "produce"

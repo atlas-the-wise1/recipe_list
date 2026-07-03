@@ -28,13 +28,11 @@ tags:
   - "#chicken"
   - "#sheet-pan"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup plain full-fat yogurt"
     name: "plain full-fat yogurt"
@@ -56,7 +54,7 @@ ingredients:
     name: "dried dill"
     ingredient_id: "dried-dill"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -64,7 +62,7 @@ ingredients:
     name: "dried mint"
     ingredient_id: "dried-mint"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -72,7 +70,7 @@ ingredients:
     name: "garlic powder"
     ingredient_id: "garlic-powder"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -88,7 +86,7 @@ ingredients:
     name: "bone-in"
     ingredient_id: "bone-in"
     quantity: 2
-    unit: "pounds"
+    unit: "pound"
     preparation: "skin-on chicken thighs (4 to 6 pieces), patted dry"
     optional: false
     grocery_department: "uncategorized"

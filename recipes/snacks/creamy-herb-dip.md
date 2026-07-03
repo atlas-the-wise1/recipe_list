@@ -39,8 +39,7 @@ goal_tags:
   - "quick_preparation"
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup low-fat sour cream"
     name: "low-fat sour cream"
@@ -70,7 +69,7 @@ ingredients:
     name: "chopped parsley"
     ingredient_id: "chopped-parsley"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"

@@ -27,14 +27,12 @@ health_score: 6
 tags:
   - "#heart-healthy"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 ripe medium bananas (about 240g peeled)"
     name: "ripe medium bananas"
@@ -53,10 +51,10 @@ ingredients:
     optional: false
     grocery_department: "uncategorized"
   - display: "6 tablespoons / 90ml olive oil, plus more for greasing"
-    name: "/ 90ml olive oil"
-    ingredient_id: "90ml-olive-oil"
+    name: "olive oil"
+    ingredient_id: "olive-oil"
     quantity: 6
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more for greasing"
     optional: false
     grocery_department: "condiments"
@@ -69,10 +67,10 @@ ingredients:
     optional: false
     grocery_department: "dairy"
   - display: "6 tablespoons / 120g honey"
-    name: "/ 120g honey"
-    ingredient_id: "120g-honey"
+    name: "honey"
+    ingredient_id: "honey"
     quantity: 6
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -80,7 +78,7 @@ ingredients:
     name: "kosher salt"
     ingredient_id: "kosher-salt"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: "or 1 teaspoon fine salt"
     optional: false
     grocery_department: "condiments"
@@ -88,7 +86,7 @@ ingredients:
     name: "ground cinnamon"
     ingredient_id: "ground-cinnamon"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -96,13 +94,13 @@ ingredients:
     name: "pure vanilla extract"
     ingredient_id: "pure-vanilla-extract"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
   - display: "1 cup / 100g old-fashioned rolled oats"
-    name: "/ 100g old-fashioned rolled oats"
-    ingredient_id: "100g-old-fashioned-rolled-oats"
+    name: "old-fashioned rolled oats"
+    ingredient_id: "old-fashioned-rolled-oats"
     quantity: 1
     unit: "cup"
     preparation: null

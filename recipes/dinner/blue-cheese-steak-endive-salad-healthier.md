@@ -36,8 +36,7 @@ goal_tags:
   - "heart_health"
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "¾ to 1 lb hanger or flank steak, well-trimmed of fat, at room temperature"
     name: "¾ to 1 lb hanger or flank steak"
@@ -59,7 +58,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

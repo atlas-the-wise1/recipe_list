@@ -40,14 +40,13 @@ goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 pounds brussels sprouts, trimmed and halved"
     name: "brussels sprouts"
     ingredient_id: "brussels-sprouts"
     quantity: 2
-    unit: "pounds"
+    unit: "pound"
     preparation: "trimmed and halved"
     optional: false
     grocery_department: "uncategorized"

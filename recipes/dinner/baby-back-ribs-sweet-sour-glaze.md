@@ -27,14 +27,12 @@ health_score: 4
 tags:
   - "#high-protein"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 large rack baby back pork ribs (3 to 3½ pounds)"
     name: "rack baby back pork ribs"
@@ -56,7 +54,7 @@ ingredients:
     name: "onion powder"
     ingredient_id: "onion-powder"
     quantity: 1
-    unit: "tsp"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -88,7 +86,7 @@ ingredients:
     name: "rice vinegar"
     ingredient_id: "rice-vinegar"
     quantity: 2
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "frozen"
@@ -96,7 +94,7 @@ ingredients:
     name: "soy sauce"
     ingredient_id: "soy-sauce"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

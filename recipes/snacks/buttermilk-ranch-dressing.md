@@ -37,8 +37,7 @@ goal_tags:
   - "quick_preparation"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "½ cup buttermilk"
     name: "½ cup buttermilk"
@@ -76,7 +75,7 @@ ingredients:
     name: "fresh chive"
     ingredient_id: "fresh-chive"
     quantity: 12
-    unit: "sprigs"
+    unit: "sprig"
     preparation: "cut into 1-inch batons"
     optional: false
     grocery_department: "uncategorized"

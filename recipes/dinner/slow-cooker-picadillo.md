@@ -27,20 +27,18 @@ health_score: 6
 tags:
   - "#high-protein"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 tablespoons olive oil, plus more if necessary"
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more if necessary"
     optional: false
     grocery_department: "condiments"
@@ -48,7 +46,7 @@ ingredients:
     name: "ground beef"
     ingredient_id: "ground-beef"
     quantity: 2
-    unit: "pounds"
+    unit: "pound"
     preparation: "preferably 85 percent lean"
     optional: false
     grocery_department: "meat"
@@ -88,7 +86,7 @@ ingredients:
     name: "tomato paste"
     ingredient_id: "tomato-paste"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -96,7 +94,7 @@ ingredients:
     name: "ground cumin"
     ingredient_id: "ground-cumin"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -128,7 +126,7 @@ ingredients:
     name: "red wine vinegar"
     ingredient_id: "red-wine-vinegar"
     quantity: 1.5
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "beverages"
@@ -152,12 +150,12 @@ ingredients:
     name: "Worcestershire sauce"
     ingredient_id: "worcestershire-sauce"
     quantity: 2
-    unit: "teaspoons"
+    unit: "teaspoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
   - display: "1 cup / about 5 ounces drained, halved pimento-stuffed green olives"
-    name: "/ about 5 ounces drained"
+    name: "about 5 ounces drained"
     ingredient_id: "about-5-ounces-drained"
     quantity: 1
     unit: "cup"

@@ -28,15 +28,13 @@ tags:
   - "#heart-healthy"
   - "#low-cholesterol"
   - "#quick"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 cup coconut water"
     name: "coconut water"
@@ -58,7 +56,7 @@ ingredients:
     name: "fresh strawberries"
     ingredient_id: "fresh-strawberries"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: "stemmed"
     optional: false
     grocery_department: "produce"

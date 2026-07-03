@@ -28,15 +28,13 @@ tags:
   - "#heart-healthy"
   - "#low-cholesterol"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "heart_health"
   - "lower_cholesterol"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "Kosher salt"
     name: "Kosher salt"
@@ -66,7 +64,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -74,7 +72,7 @@ ingredients:
     name: "Dijon mustard"
     ingredient_id: "dijon-mustard"
     quantity: 3
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -82,7 +80,7 @@ ingredients:
     name: "honey"
     ingredient_id: "honey"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -90,7 +88,7 @@ ingredients:
     name: "apple cider vinegar"
     ingredient_id: "apple-cider-vinegar"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -122,7 +120,7 @@ ingredients:
     name: "sharp Cheddar"
     ingredient_id: "sharp-cheddar"
     quantity: 4
-    unit: "oz"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "uncategorized"

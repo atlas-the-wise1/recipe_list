@@ -34,8 +34,7 @@ dietary_tags:
 goal_tags:
   - "high_protein"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 medium cauliflower heads (about 2 pounds each), cut into 12 (3/4-inch-thick) slices, trimmings reserved for another purpose"
     name: "cauliflower heads"
@@ -65,7 +64,7 @@ ingredients:
     name: "fresh mozzarella"
     ingredient_id: "fresh-mozzarella"
     quantity: 12
-    unit: "slices"
+    unit: "slice"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -73,7 +72,7 @@ ingredients:
     name: "provolone"
     ingredient_id: "provolone"
     quantity: 12
-    unit: "slices"
+    unit: "slice"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -81,7 +80,7 @@ ingredients:
     name: "Monterey Jack"
     ingredient_id: "monterey-jack"
     quantity: 12
-    unit: "slices"
+    unit: "slice"
     preparation: null
     optional: false
     grocery_department: "uncategorized"
@@ -129,7 +128,7 @@ ingredients:
     name: "roughly chopped Italian parsley"
     ingredient_id: "roughly-chopped-italian-parsley"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"

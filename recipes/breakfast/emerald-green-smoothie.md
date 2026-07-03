@@ -36,8 +36,7 @@ goal_tags:
   - "lower_cholesterol"
   - "quick_preparation"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "½ medium English cucumber, peeled and cut lengthwise"
     name: "½ medium English cucumber"
@@ -75,7 +74,7 @@ ingredients:
     name: "fresh lime juice"
     ingredient_id: "fresh-lime-juice"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "beverages"

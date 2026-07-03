@@ -29,22 +29,20 @@ tags:
   - "#meal-prep"
   - "#heart-healthy"
   - "#low-cholesterol"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
   - "heart_health"
   - "lower_cholesterol"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1.5 lbs boneless, skinless chicken thighs, cut into bite-sized pieces"
     name: "boneless"
     ingredient_id: "boneless"
     quantity: 1.5
-    unit: "lbs"
+    unit: "pound"
     preparation: "skinless chicken thighs, cut into bite-sized pieces"
     optional: false
     grocery_department: "uncategorized"
@@ -52,7 +50,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 1
-    unit: "tbsp"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"

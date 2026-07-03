@@ -36,8 +36,7 @@ goal_tags:
   - "lower_cholesterol"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "½ small loaf crusty bread (sourdough), torn into 1-inch pieces (~2 cups)"
     name: "½ small loaf crusty bread"

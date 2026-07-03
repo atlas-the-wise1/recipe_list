@@ -33,8 +33,7 @@ dietary_tags:
 goal_tags:
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "1 pint cherry or grape tomatoes, halved"
     name: "pint cherry or grape tomatoes"
@@ -48,7 +47,7 @@ ingredients:
     name: "olive oil"
     ingredient_id: "olive-oil"
     quantity: 4
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more as needed"
     optional: false
     grocery_department: "condiments"
@@ -56,7 +55,7 @@ ingredients:
     name: "red wine vinegar"
     ingredient_id: "red-wine-vinegar"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "plus more as needed"
     optional: false
     grocery_department: "beverages"
@@ -72,7 +71,7 @@ ingredients:
     name: "orecchiette or other small pasta"
     ingredient_id: "orecchiette-or-other-small-pasta"
     quantity: 8
-    unit: "ounces"
+    unit: "ounce"
     preparation: null
     optional: false
     grocery_department: "grains"
@@ -80,7 +79,7 @@ ingredients:
     name: "halloumi cheese"
     ingredient_id: "halloumi-cheese"
     quantity: 8
-    unit: "ounces"
+    unit: "ounce"
     preparation: "chopped into 1/2-inch pieces"
     optional: false
     grocery_department: "dairy"
@@ -96,7 +95,7 @@ ingredients:
     name: "baby arugula,"
     ingredient_id: "baby-arugula"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: "optional"
     optional: true
     grocery_department: "uncategorized"

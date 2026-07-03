@@ -27,20 +27,18 @@ health_score: 6
 tags:
   - "#high-protein"
   - "#meal-prep"
-dietary_tags:
-  []
+dietary_tags: []
 goal_tags:
   - "high_protein"
   - "meal_prep"
 allergens: []
-equipment:
-[]
+equipment: []
 ingredients:
   - display: "2 tablespoons finely grated or minced fresh ginger"
     name: "finely grated or minced fresh ginger"
     ingredient_id: "finely-grated-or-minced-fresh-ginger"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "produce"
@@ -96,7 +94,7 @@ ingredients:
     name: "finely chopped fresh cilantro leaves and tender stems"
     ingredient_id: "finely-chopped-fresh-cilantro-leaves-and-tender-stems"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: "more for serving"
     optional: false
     grocery_department: "produce"
@@ -104,7 +102,7 @@ ingredients:
     name: "extra-virgin olive oil"
     ingredient_id: "extra-virgin-olive-oil"
     quantity: 2
-    unit: "tablespoons"
+    unit: "tablespoon"
     preparation: null
     optional: false
     grocery_department: "condiments"
@@ -112,7 +110,7 @@ ingredients:
     name: "diced fresh ripe or overripe tomatoes"
     ingredient_id: "diced-fresh-ripe-or-overripe-tomatoes"
     quantity: 2
-    unit: "cups"
+    unit: "cup"
     preparation: null
     optional: false
     grocery_department: "frozen"
