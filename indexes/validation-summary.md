@@ -1,8 +1,8 @@
 # Validation Summary
 
-- Recipes: 193
+- Recipes: 194
 - Meal plans: 0
-- Unverified nutrition: 193
+- Unverified nutrition: 194
 
 ## Missing Nutrition Fields
 
@@ -29,12 +29,12 @@ None
 
 | Tag | Count |
 |---|---:|
-| #high-protein | 85 |
+| #high-protein | 86 |
 | #meal-prep | 73 |
 | #heart-healthy | 71 |
 | #low-cholesterol | 69 |
 | #vegetarian | 58 |
-| #quick | 43 |
+| #quick | 44 |
 | #fat-loss | 37 |
 | #keto | 20 |
 | #weeknight | 18 |
@@ -47,9 +47,9 @@ None
 | #eggs | 4 |
 | #one-pan | 4 |
 | #one-pot | 4 |
+| #sandwich | 4 |
 | #classic | 3 |
 | #make-ahead | 3 |
-| #sandwich | 3 |
 | #sheet-pan | 3 |
 | #budget-friendly | 2 |
 | #dessert | 2 |
@@ -92,9 +92,9 @@ None
 
 | Tag | Count |
 |---|---:|
-| high_protein | 85 |
+| high_protein | 86 |
 | meal_prep | 73 |
 | heart_health | 71 |
 | lower_cholesterol | 69 |
-| quick_preparation | 43 |
+| quick_preparation | 44 |
 | fat_loss | 37 |

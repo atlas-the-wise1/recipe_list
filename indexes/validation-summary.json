@@ -13,7 +13,7 @@
     "sodium_mg": 193,
     "sugar_g": 193
   },
-  "recipe_total": 193,
+  "recipe_total": 194,
   "tag_usage": {
     "dietary": {
       "dairy_free": 1,
@@ -25,10 +25,10 @@
     "goal": {
       "fat_loss": 37,
       "heart_health": 71,
-      "high_protein": 85,
+      "high_protein": 86,
       "lower_cholesterol": 69,
       "meal_prep": 73,
-      "quick_preparation": 43
+      "quick_preparation": 44
     },
     "raw": {
       "#air-fryer": 1,
@@ -49,7 +49,7 @@
       "#gluten-free": 11,
       "#heart-healthy": 71,
       "#high-fiber": 1,
-      "#high-protein": 85,
+      "#high-protein": 86,
       "#japanese": 1,
       "#keto": 20,
       "#low-carb": 1,
@@ -64,11 +64,11 @@
       "#one-pot": 4,
       "#pasta": 2,
       "#pasta-salad": 1,
-      "#quick": 43,
+      "#quick": 44,
       "#rice": 1,
       "#rice-bowl": 1,
       "#salad": 1,
-      "#sandwich": 3,
+      "#sandwich": 4,
       "#sausage": 1,
       "#savory": 1,
       "#seafood": 2,
@@ -81,5 +81,5 @@
       "#weeknight": 18
     }
   },
-  "unverified_nutrition_count": 193
+  "unverified_nutrition_count": 194
 }

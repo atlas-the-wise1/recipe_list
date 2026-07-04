@@ -9391,6 +9391,96 @@
     "total_minutes": 20
   },
   {
+    "calories_kcal": 790,
+    "category": "lunch",
+    "dietary_tags": [],
+    "fiber_g": 2,
+    "goal_tags": [
+      "high_protein",
+      "quick_preparation"
+    ],
+    "health_score": 6,
+    "id": "double-turkey-burger-on-brioche",
+    "ingredients": [
+      {
+        "display": "2 turkey burger patties",
+        "grocery_department": "meat",
+        "ingredient_id": "turkey-burger-patties",
+        "name": "turkey burger patties",
+        "optional": false,
+        "preparation": null,
+        "quantity": 2,
+        "unit": "each"
+      },
+      {
+        "display": "1 brioche bun, split and toasted",
+        "grocery_department": "uncategorized",
+        "ingredient_id": "brioche-bun",
+        "name": "brioche bun",
+        "optional": false,
+        "preparation": "split and toasted",
+        "quantity": 1,
+        "unit": "each"
+      },
+      {
+        "display": "1 tablespoon ketchup",
+        "grocery_department": "condiments",
+        "ingredient_id": "ketchup",
+        "name": "ketchup",
+        "optional": false,
+        "preparation": null,
+        "quantity": 1,
+        "unit": "tablespoon"
+      },
+      {
+        "display": "1 cup shredded lettuce",
+        "grocery_department": "produce",
+        "ingredient_id": "lettuce",
+        "name": "lettuce",
+        "optional": false,
+        "preparation": "shredded",
+        "quantity": 1,
+        "unit": "cup"
+      }
+    ],
+    "meal_prep": {
+      "freezer_months": 1,
+      "fridge_days": 3,
+      "friendly": true,
+      "reheat": "Rewarm the patties in a skillet or microwave until hot, then toast the bun and assemble."
+    },
+    "meal_prep_friendly": true,
+    "meal_types": [
+      "lunch"
+    ],
+    "nutrition_verified": false,
+    "path": "recipes/lunch/double-turkey-burger-on-brioche.md",
+    "prep_minutes": 5,
+    "protein_g": 65,
+    "relationships": {
+      "leftover_to": [],
+      "pairs_with": [],
+      "similar_to": [],
+      "substitutions": []
+    },
+    "servings": 1,
+    "sodium_mg": 1380,
+    "source": {
+      "last_reviewed": "2026-07-04",
+      "name": null,
+      "nutrition_verified": false,
+      "url": null
+    },
+    "status": "reviewed",
+    "tags": [
+      "#high-protein",
+      "#sandwich",
+      "#quick"
+    ],
+    "title": "Double Turkey Burger on Brioche",
+    "total_minutes": 15
+  },
+  {
     "calories_kcal": 420,
     "category": "lunch",
     "dietary_tags": [],
