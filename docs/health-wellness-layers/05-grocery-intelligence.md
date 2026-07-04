@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Grocery intelligence converts meal plans into practical shopping lists. It should combine duplicate ingredients, scale quantities, account for pantry inventory, group items by department, estimate cost, and preserve recipe traceability.
+Grocery intelligence converts meal plans into practical shopping lists. It should combine duplicate ingredients, scale quantities, account for pantry and freezer inventory, group items by department, estimate cost, preserve recipe traceability, and surface items that should be used soon.
 
 ## Inputs
 
@@ -13,6 +13,7 @@ The grocery generator should use:
 - serving quantities
 - ingredient database
 - pantry inventory
+- freezer inventory
 - user store preferences
 - optional budget
 
@@ -40,6 +41,10 @@ The grocery generator should use:
 
 - [ ] 2 cups brown rice
 - [ ] 1 bottle olive oil
+
+## Use Soon
+
+- [ ] 2 cups spinach expiring in 3 days
 ```
 
 ## Grocery List Schema
@@ -129,6 +134,8 @@ required_quantity: 3
 required_unit: cup
 pantry_quantity: 1
 purchase_quantity: 2
+freezer_quantity: 0
+checked: false
 ```
 
 Pantry subtraction should:
@@ -138,6 +145,7 @@ Pantry subtraction should:
 3. respect expiration dates
 4. prefer using soon-to-expire items
 5. record when pantry data is stale
+6. separate pantry and freezer coverage when both exist
 
 ## Store and Aisle Mapping
 
@@ -198,6 +206,8 @@ Useful waste-reduction features:
 - suggest recipes for unused ingredients
 - flag package-size mismatches
 - carry pantry leftovers into the next week
+- show pantry use-soon recommendations
+- support purchase checkoffs
 
 ## Shopping Modes
 
@@ -219,6 +229,7 @@ Layer 5 is complete when:
 - duplicate ingredients are combined safely
 - quantities scale by servings
 - pantry inventory is subtracted
+- freezer inventory is subtracted
 - items are grouped by department
 - recipe sources remain traceable
 - cost and store metadata can be added

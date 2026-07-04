@@ -6,6 +6,7 @@ import path from 'node:path';
 const ROOT = path.resolve(process.cwd());
 const RECIPE_ROOT = path.join(ROOT, 'recipes');
 const RECIPE_INDEX = path.join(ROOT, 'indexes', 'recipes.json');
+const PLANNER_CONFIG = path.join(ROOT, 'config', 'healthy-chef.json');
 const MEAL_PLAN_ROOT = path.join(ROOT, 'meal-plans');
 const SHOPPING_ROOT = path.join(ROOT, 'shopping-lists');
 
@@ -16,6 +17,84 @@ function getFlag(name, fallback = null) {
   const prefix = `--${name}=`;
   const match = args.find((arg) => arg.startsWith(prefix));
   return match ? match.slice(prefix.length) : fallback;
+}
+
+function loadPlannerConfig() {
+  const fallback = {
+    version: 1,
+    signal_rules: {
+      healthy: [7, 10],
+      balanced: [5, 6],
+      treat: [0, 4],
+    },
+    slot_constraints: {
+      snack_1: {
+        exclude_tags: ['alcohol', 'condiment', 'sauce', 'component'],
+        calories_kcal: { min: 100, max: 300 },
+      },
+      lunch: {
+        protein_g: { min: 25 },
+        calories_kcal: { min: 350, max: 700 },
+      },
+      snack_2: {
+        exclude_tags: ['alcohol', 'condiment', 'sauce', 'component'],
+        protein_g: { min: 5 },
+      },
+      dinner: {
+        protein_g: { min: 30 },
+      },
+      dessert: {
+        max_days_per_week: 4,
+      },
+    },
+    daily_targets: {
+      calories_kcal: { min: 1800, max: 2200 },
+      protein_g: { min: 120 },
+      fiber_g: { min: 25 },
+      sodium_mg: { max: 2300 },
+    },
+    leftovers: {
+      enabled: true,
+      batch_lunch_days: ['Tuesday', 'Friday'],
+      batch_dinner_days: ['Monday', 'Thursday'],
+    },
+    inventory: {
+      pantry: {},
+      freezer: {},
+      use_soon_days: 7,
+      stale_after_days: 14,
+    },
+  };
+
+  if (!fs.existsSync(PLANNER_CONFIG)) {
+    return fallback;
+  }
+
+  try {
+    const parsed = JSON.parse(fs.readFileSync(PLANNER_CONFIG, 'utf8'));
+    return {
+      ...fallback,
+      ...parsed,
+      signal_rules: { ...fallback.signal_rules, ...(parsed.signal_rules || {}) },
+      slot_constraints: { ...fallback.slot_constraints, ...(parsed.slot_constraints || {}) },
+      daily_targets: { ...fallback.daily_targets, ...(parsed.daily_targets || {}) },
+      leftovers: { ...fallback.leftovers, ...(parsed.leftovers || {}) },
+      inventory: {
+        ...fallback.inventory,
+        ...(parsed.inventory || {}),
+        pantry: {
+          ...(parsed.pantry_inventory || {}),
+          ...((parsed.inventory && parsed.inventory.pantry) || {}),
+        },
+        freezer: {
+          ...((parsed.inventory && parsed.inventory.freezer) || {}),
+          ...(parsed.freezer_inventory || {}),
+        },
+      },
+    };
+  } catch (error) {
+    return fallback;
+  }
 }
 
 function walkMarkdownFiles(dir) {
@@ -99,6 +178,239 @@ function normalizeCategory(raw, filePath) {
   if (source.includes('snack')) return 'snacks';
   if (source.includes('drink')) return 'drinks';
   return fallback;
+}
+
+function asNumber(value) {
+  return value == null || value === '' ? null : Number(value);
+}
+
+function isTruthyString(value) {
+  return typeof value === 'string' && value.trim().length > 0;
+}
+
+function formatNutritionValue(value, unit) {
+  if (value == null || Number.isNaN(Number(value))) return 'TBD';
+  const rounded = Math.round(Number(value));
+  return `${rounded}${unit}`;
+}
+
+function mealNutrition(recipe, servings = 1) {
+  const nutrition = recipe.nutrition || {};
+  const scale = servings || 1;
+  return {
+    calories_kcal: nutrition.calories_kcal == null ? null : nutrition.calories_kcal * scale,
+    protein_g: nutrition.protein_g == null ? null : nutrition.protein_g * scale,
+    fiber_g: nutrition.fiber_g == null ? null : nutrition.fiber_g * scale,
+    sodium_mg: nutrition.sodium_mg == null ? null : nutrition.sodium_mg * scale,
+  };
+}
+
+function sumNutrition(values) {
+  const totals = {
+    calories_kcal: 0,
+    protein_g: 0,
+    fiber_g: 0,
+    sodium_mg: 0,
+  };
+  const presentCounts = {
+    calories_kcal: 0,
+    protein_g: 0,
+    fiber_g: 0,
+    sodium_mg: 0,
+  };
+  const missing = new Set();
+  for (const item of values) {
+    for (const field of Object.keys(totals)) {
+      if (item[field] == null || Number.isNaN(Number(item[field]))) {
+        missing.add(field);
+      } else {
+        totals[field] += Number(item[field]);
+        presentCounts[field] += 1;
+      }
+    }
+  }
+  return {
+    totals,
+    presentCounts,
+    missing: [...missing].sort(),
+  };
+}
+
+function formatTotals(totals, presentCounts = {}) {
+  return {
+    calories_kcal: presentCounts.calories_kcal ? formatNutritionValue(totals.calories_kcal, ' kcal') : 'TBD',
+    protein_g: presentCounts.protein_g ? formatNutritionValue(totals.protein_g, ' g') : 'TBD',
+    fiber_g: presentCounts.fiber_g ? formatNutritionValue(totals.fiber_g, ' g') : 'TBD',
+    sodium_mg: presentCounts.sodium_mg ? formatNutritionValue(totals.sodium_mg, ' mg') : 'TBD',
+  };
+}
+
+function hasCompleteNutrition(recipe) {
+  const nutrition = recipe.nutrition || {};
+  return ['calories_kcal', 'protein_g', 'fiber_g', 'sodium_mg'].every((field) => nutrition[field] != null);
+}
+
+function missingNutritionFields(recipe) {
+  const nutrition = recipe.nutrition || {};
+  return ['calories_kcal', 'protein_g', 'fiber_g', 'sodium_mg'].filter((field) => nutrition[field] == null);
+}
+
+function slotMatchesConstraints(recipe, slotConstraints = {}) {
+  const nutrition = recipe.nutrition || {};
+  const tags = `${recipe.name} ${recipe.category} ${(recipe.tags || []).join(' ')} ${(recipe.meal_types || []).join(' ')} ${(recipe.ingredients || [])
+    .map((item) => `${item.display || item.name || ''} ${item.grocery_department || ''}`)
+    .join(' ')}`.toLowerCase();
+
+  const excludeTags = slotConstraints.exclude_tags || [];
+  for (const tag of excludeTags) {
+    if (
+      (tag === 'alcohol' && isAlcoholRecipe(recipe)) ||
+      (tag === 'condiment' && isCondimentRecipe(recipe)) ||
+      (tag === 'sauce' && isCondimentRecipe(recipe)) ||
+      (tag === 'component' && isComponentRecipe(recipe)) ||
+      (isTruthyString(tag) && tags.includes(tag.toLowerCase()))
+    ) {
+      return false;
+    }
+  }
+
+  for (const [field, range] of Object.entries(slotConstraints)) {
+    if (field === 'exclude_tags' || field === 'max_days_per_week') continue;
+    const value = nutrition[field];
+    if (range && typeof range === 'object') {
+      if (range.min != null && (value == null || value < range.min)) return false;
+      if (range.max != null && (value == null || value > range.max)) return false;
+    }
+  }
+
+  return true;
+}
+
+function pantryKey(ingredientId, unit) {
+  return `${ingredientId || ''}|${unit || ''}`;
+}
+
+function normalizeInventoryEntry(entry) {
+  if (!entry || typeof entry !== 'object') return null;
+  const quantity = Number(entry.quantity);
+  return {
+    quantity: Number.isNaN(quantity) ? 0 : quantity,
+    unit: entry.unit || null,
+    expires_on: isTruthyString(entry.expires_on) ? clean(entry.expires_on) : null,
+    last_checked: isTruthyString(entry.last_checked) ? clean(entry.last_checked) : null,
+    checked: entry.checked == null ? null : Boolean(entry.checked),
+    notes: isTruthyString(entry.notes) ? clean(entry.notes) : null,
+  };
+}
+
+function normalizeInventoryMap(rawInventory) {
+  const out = {};
+  for (const [key, value] of Object.entries(rawInventory || {})) {
+    const normalized = normalizeInventoryEntry(value);
+    if (normalized) {
+      out[key] = normalized;
+    }
+  }
+  return out;
+}
+
+function lookupInventoryQuantity(inventory, ingredient) {
+  const entry = inventory[pantryKey(ingredient.ingredient_id, ingredient.unit)];
+  if (!entry) return { pantryQuantity: 0, pantryUnit: ingredient.unit || null };
+  const pantryQuantity = Number(entry.quantity);
+  if (Number.isNaN(pantryQuantity)) return { pantryQuantity: 0, pantryUnit: entry.unit || ingredient.unit || null };
+  return {
+    pantryQuantity,
+    pantryUnit: entry.unit || ingredient.unit || null,
+    expires_on: entry.expires_on || null,
+    last_checked: entry.last_checked || null,
+    checked: entry.checked,
+    notes: entry.notes || null,
+  };
+}
+
+function parseIsoDate(value) {
+  if (!isTruthyString(value)) return null;
+  const date = new Date(`${value}T00:00:00Z`);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+function daysUntil(date, reference = new Date()) {
+  const parsed = parseIsoDate(date);
+  if (!parsed) return null;
+  const diff = parsed.getTime() - reference.getTime();
+  return Math.ceil(diff / 86400000);
+}
+
+function formatInventoryDate(date) {
+  const parsed = parseIsoDate(date);
+  if (!parsed) return null;
+  return parsed.toISOString().slice(0, 10);
+}
+
+function buildInventoryViews(config) {
+  const inventory = config.inventory || {};
+  return {
+    pantry: normalizeInventoryMap(inventory.pantry || {}),
+    freezer: normalizeInventoryMap(inventory.freezer || {}),
+    useSoonDays: Number.isFinite(Number(inventory.use_soon_days)) ? Number(inventory.use_soon_days) : 7,
+    staleAfterDays: Number.isFinite(Number(inventory.stale_after_days)) ? Number(inventory.stale_after_days) : 14,
+  };
+}
+
+function selectInventoryMatch(inventories, ingredient) {
+  const pantry = lookupInventoryQuantity(inventories.pantry, ingredient);
+  const freezer = lookupInventoryQuantity(inventories.freezer, ingredient);
+  return { pantry, freezer };
+}
+
+function inventoryStatusLabel(entry, now = new Date(), staleAfterDays = 14) {
+  const expiresIn = daysUntil(entry.expires_on, now);
+  const lastChecked = daysUntil(entry.last_checked, now);
+  const stale = lastChecked != null && lastChecked > staleAfterDays;
+  const soon = expiresIn != null && expiresIn <= 0 ? 'expired' : expiresIn != null && expiresIn <= 7 ? 'use soon' : null;
+  const fragments = [];
+  if (entry.expires_on) fragments.push(`expires ${formatInventoryDate(entry.expires_on)}`);
+  if (expiresIn != null) fragments.push(`${expiresIn}d`);
+  if (stale) fragments.push('stale');
+  if (soon) fragments.push(soon);
+  return fragments.join(', ');
+}
+
+function buildIngredientUsageMap(selectedMeals) {
+  const usage = new Map();
+  for (const meal of selectedMeals) {
+    for (const ingredient of meal.recipe.ingredients || []) {
+      const key = pantryKey(ingredient.ingredient_id, ingredient.unit);
+      if (!usage.has(key)) usage.set(key, []);
+      usage.get(key).push(meal.label || meal.sourceLabel || `${meal.dayName} ${meal.slot}: ${meal.recipe.name}`);
+    }
+  }
+  return usage;
+}
+
+function buildUseSoonItems(selectedMeals, config) {
+  const inventories = buildInventoryViews(config);
+  const ingredientUsage = buildIngredientUsageMap(selectedMeals);
+  const useSoonItems = [];
+
+  for (const [key, entry] of Object.entries(inventories.pantry)) {
+    const expiresIn = daysUntil(entry.expires_on);
+    if (expiresIn == null || expiresIn > inventories.useSoonDays) continue;
+    const [ingredientId, unit] = key.split('|');
+    const refs = ingredientUsage.get(key) || [];
+    useSoonItems.push({
+      ingredient_id: ingredientId || null,
+      name: ingredientId ? ingredientId.replace(/-/g, ' ') : key,
+      quantity: entry.quantity,
+      unit: entry.unit || unit || null,
+      expires_on: formatInventoryDate(entry.expires_on),
+      expires_in: expiresIn,
+      refs: [...new Set(refs)],
+    });
+  }
+
+  return useSoonItems.sort((a, b) => (a.expires_in - b.expires_in) || a.name.localeCompare(b.name));
 }
 
 function parseRecipe(filePath) {
@@ -277,15 +589,97 @@ function sortByScoreAscendingThenName(a, b) {
   return a.name.localeCompare(b.name);
 }
 
+function recipeSearchText(recipe) {
+  const parts = [
+    recipe.name,
+    recipe.category,
+    ...(recipe.tags || []),
+    ...(recipe.meal_types || []),
+    ...(recipe.ingredients || []),
+  ];
+
+  return parts
+    .flatMap((part) => {
+      if (!part) return [];
+      if (typeof part === 'string') return [part];
+      return [part.display, part.name, part.ingredient_id, part.preparation, part.grocery_department];
+    })
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
+}
+
+function isAlcoholRecipe(recipe) {
+  const text = recipeSearchText(recipe);
+  return (
+    recipe.category === 'drinks' ||
+    /\b(vodka|rum|tequila|sake|sak[eé]|liqueur|margarita|martini|screwdriver|colada|wine|beer|bourbon|whiskey|gin|cocktail)\b/.test(
+      text,
+    )
+  );
+}
+
+function isCondimentRecipe(recipe) {
+  const text = recipeSearchText(recipe);
+  return /\b(pesto|salsa|dip|dressing|sauce|marinade|aioli|vinaigrette|relish|spread|condiment|tapenade|chutney|glaze|seasoning|rub)\b/.test(
+    text,
+  );
+}
+
+function isComponentRecipe(recipe) {
+  const text = recipeSearchText(recipe);
+  return /\b(rotation|mix|base|starter|prep|batch|batter|dough|filling|topping|crust|frosting|icing|assembly|kit|board|bundle|set)\b/.test(
+    text,
+  );
+}
+
 function isDessertCandidate(recipe) {
-  const text = `${recipe.name} ${recipe.tags.join(' ')}`.toLowerCase();
-  return /dessert|ice cream|sorbet|granita|cake|cookie|cookies|pudding|brulee|split|crisp|treat|mousse|shake|smoothie|martini|colada|screwdriver/.test(
+  if (recipe.category !== 'snacks') return false;
+  const text = recipeSearchText(recipe);
+  return /dessert|ice cream|sorbet|granita|cake|cookie|cookies|pudding|brulee|split|crisp|treat|mousse|shake|smoothie/.test(
     text,
   );
 }
 
 function isSnackCandidate(recipe) {
-  return recipe.category === 'snacks' || recipe.category === 'drinks';
+  return recipe.category === 'snacks' && !isAlcoholRecipe(recipe) && !isCondimentRecipe(recipe) && !isComponentRecipe(recipe);
+}
+
+function lunchPreferenceScore(recipe) {
+  const protein = recipe.nutrition?.protein_g;
+  const calories = recipe.nutrition?.calories_kcal;
+  let score = 0;
+
+  if (recipe.score != null) score += recipe.score * 10;
+  if (recipe.signal.bucket === 'healthy') score += 40;
+  if (recipe.signal.bucket === 'balanced') score += 15;
+
+  if (protein != null) {
+    score += Math.min(protein, 30) * 4;
+    if (protein >= 15) score += 180;
+    else if (protein >= 10) score += 140;
+    else score -= 420;
+  } else {
+    score -= 160;
+  }
+
+  if (calories != null) {
+    if (calories >= 250 && calories <= 700) score += 120;
+    if (calories >= 300 && calories <= 650) score += 40;
+    if (calories < 250) score -= 80;
+    if (calories > 700) score -= 80;
+  } else {
+    score -= 60;
+  }
+
+  return score;
+}
+
+function sortLunchCandidates(a, b) {
+  const aScore = lunchPreferenceScore(a);
+  const bScore = lunchPreferenceScore(b);
+  if (aScore !== bScore) return bScore - aScore;
+  return sortByScoreThenName(a, b);
 }
 
 function buildCookbook(recipes) {
@@ -479,6 +873,12 @@ function formatQuantity(value) {
   return Number.isInteger(rounded) ? String(rounded) : String(rounded).replace(/0+$/, '').replace(/\.$/, '');
 }
 
+function formatQuantityWithUnit(value, unit, fallback = 'as needed') {
+  if (value == null) return fallback;
+  const amount = formatQuantity(value);
+  return unit ? `${amount} ${unit}` : amount;
+}
+
 function ingredientKey(ingredient) {
   return [
     ingredient.ingredient_id || slugify(ingredient.name || ingredient.display || ''),
@@ -488,7 +888,7 @@ function ingredientKey(ingredient) {
   ].join('|');
 }
 
-function buildShoppingList(selectedMeals) {
+function buildShoppingList(selectedMeals, config) {
   const sections = new Map([
     ['Produce', new Map()],
     ['Proteins', new Map()],
@@ -498,11 +898,19 @@ function buildShoppingList(selectedMeals) {
     ['Pantry', new Map()],
     ['Spices', new Map()],
   ]);
+  const inventories = buildInventoryViews(config);
+  const ingredientUsage = buildIngredientUsageMap(selectedMeals);
+  let requiredItemCount = 0;
+  let pantryCoveredCount = 0;
+  let freezerCoveredCount = 0;
+  const inventoryWatch = [];
+  const useSoonItems = [];
 
   for (const meal of selectedMeals) {
     const recipe = meal.recipe;
     const recipeServings = recipe.servings || 1;
-    const plannedServings = meal.servings || 1;
+    const plannedServings = meal.shoppingServings == null ? 1 : meal.shoppingServings;
+    if (plannedServings <= 0) continue;
     const scale = plannedServings / recipeServings;
 
     for (const ingredient of recipe.ingredients || []) {
@@ -512,23 +920,93 @@ function buildShoppingList(selectedMeals) {
       const scaledQuantity = ingredient.quantity == null ? null : ingredient.quantity * scale;
 
       if (!bucket.has(key)) {
+        requiredItemCount += 1;
         bucket.set(key, {
           ingredient_id: ingredient.ingredient_id,
           name: ingredient.name || ingredient.display,
           display: ingredient.display || ingredient.name,
           unit: ingredient.unit || null,
-          quantity: scaledQuantity,
-          recipes: [meal.label],
+          required_quantity: scaledQuantity,
+          pantry_quantity: null,
+          freezer_quantity: null,
+          purchase_quantity: scaledQuantity,
+          checked: false,
+          recipes: [meal.label || meal.sourceLabel || `${meal.dayName} ${meal.slot}: ${recipe.name}`],
           department: dept,
         });
       } else {
         const entry = bucket.get(key);
-        if (entry.quantity == null || scaledQuantity == null) {
-          entry.quantity = entry.quantity == null ? scaledQuantity : entry.quantity;
+        if (entry.required_quantity == null || scaledQuantity == null) {
+          entry.required_quantity = entry.required_quantity == null ? scaledQuantity : entry.required_quantity;
         } else {
-          entry.quantity += scaledQuantity;
+          entry.required_quantity += scaledQuantity;
         }
-        entry.recipes.push(meal.label);
+        entry.recipes.push(meal.label || meal.sourceLabel || `${meal.dayName} ${meal.slot}: ${recipe.name}`);
+      }
+    }
+  }
+
+  for (const bucket of sections.values()) {
+    for (const item of bucket.values()) {
+      const { pantry, freezer } = selectInventoryMatch(inventories, item);
+      const pantryQuantity = pantry.pantryQuantity || 0;
+      const freezerQuantity = freezer.pantryQuantity || 0;
+      if (item.required_quantity != null && pantryQuantity > 0) {
+        item.pantry_quantity = Math.min(item.required_quantity, pantryQuantity);
+        if (item.pantry_quantity > 0) pantryCoveredCount += 1;
+      } else {
+        item.pantry_quantity = 0;
+      }
+      const remainingAfterPantry = item.required_quantity == null ? null : Math.max(0, item.required_quantity - item.pantry_quantity);
+      if (remainingAfterPantry != null && freezerQuantity > 0) {
+        item.freezer_quantity = Math.min(remainingAfterPantry, freezerQuantity);
+        if (item.freezer_quantity > 0) freezerCoveredCount += 1;
+      } else {
+        item.freezer_quantity = 0;
+      }
+      if (item.required_quantity != null) {
+        item.purchase_quantity = Math.max(0, item.required_quantity - item.pantry_quantity - item.freezer_quantity);
+      }
+
+      if (item.purchase_quantity > 0) {
+        item.checked = false;
+      } else {
+        item.checked = true;
+      }
+
+      const pantryStatus = inventoryStatusLabel(pantry, new Date(), inventories.staleAfterDays);
+      const freezerStatus = inventoryStatusLabel(freezer, new Date(), inventories.staleAfterDays);
+      if (pantryStatus) {
+        inventoryWatch.push({
+          kind: 'pantry',
+          name: item.display || item.name || item.ingredient_id,
+          status: pantryStatus,
+          quantity: pantry.pantryQuantity,
+          unit: pantry.pantryUnit || item.unit || null,
+        });
+      }
+      if (freezerStatus) {
+        inventoryWatch.push({
+          kind: 'freezer',
+          name: item.display || item.name || item.ingredient_id,
+          status: freezerStatus,
+          quantity: freezer.pantryQuantity,
+          unit: freezer.pantryUnit || item.unit || null,
+        });
+      }
+
+      const ingredientKeyText = pantryKey(item.ingredient_id, item.unit);
+      const usageRefs = ingredientUsage.get(ingredientKeyText) || [];
+      const expiresSoonDays = daysUntil(pantry.expires_on);
+      if (expiresSoonDays != null && expiresSoonDays <= inventories.useSoonDays && pantry.pantryQuantity > 0) {
+        useSoonItems.push({
+          name: item.display || item.name || item.ingredient_id,
+          quantity: pantry.pantryQuantity,
+          unit: pantry.pantryUnit || item.unit || null,
+          expires_on: formatInventoryDate(pantry.expires_on),
+          expires_in: expiresSoonDays,
+          refs: usageRefs,
+        });
       }
     }
   }
@@ -538,17 +1016,54 @@ function buildShoppingList(selectedMeals) {
   lines.push('');
   lines.push('Generated from the weekly meal plan.');
   lines.push('');
+  lines.push(`**Items needing purchase:** ${requiredItemCount}`);
+  lines.push(`**Items covered by pantry:** ${pantryCoveredCount}`);
+  lines.push(`**Items covered by freezer:** ${freezerCoveredCount}`);
+  lines.push('');
+
+  if (useSoonItems.length) {
+    lines.push('## Use Soon');
+    lines.push('');
+    lines.push('| Item | Quantity | Expires On | Days Left | Recipes |');
+    lines.push('|---|---:|---|---:|---|');
+    for (const item of useSoonItems.sort((a, b) => (a.expires_in - b.expires_in) || a.name.localeCompare(b.name))) {
+      lines.push(
+        `| ${item.name} | ${formatQuantityWithUnit(item.quantity, item.unit)} | ${item.expires_on || 'TBD'} | ${item.expires_in} | ${[...new Set(item.refs)].join(', ') || 'No direct overlap'} |`,
+      );
+    }
+    lines.push('');
+  }
+
+  if (inventoryWatch.length) {
+    lines.push('## Inventory Watch');
+    lines.push('');
+    lines.push('| Source | Item | Status |');
+    lines.push('|---|---|---|');
+    for (const item of inventoryWatch.slice(0, 12)) {
+      lines.push(`| ${item.kind} | ${item.name} | ${item.status || 'ok'} |`);
+    }
+    if (inventoryWatch.length > 12) {
+      lines.push(`| … | ${inventoryWatch.length - 12} more items | use the config inventory file for the rest |`);
+    }
+    lines.push('');
+  }
 
   for (const [section, items] of sections.entries()) {
     if (!items.size) continue;
     lines.push(`## ${section}`);
     lines.push('');
+    lines.push('| Item | Required | Pantry | Freezer | Buy | Checked | Recipes |');
+    lines.push('|---|---:|---:|---:|---:|---|---|');
     const sorted = [...items.values()].sort((a, b) => ingredientSortKey(a).localeCompare(ingredientSortKey(b)));
     for (const item of sorted) {
       const refs = [...new Set(item.recipes)].join(', ');
-      const amount = formatQuantity(item.quantity);
-      const quantityText = amount == null ? item.display : `${amount} ${item.unit || ''} ${item.name || item.display}`.replace(/\s+/g, ' ').trim();
-      lines.push(`- ${quantityText} (${item.ingredient_id}) [${refs}]`);
+      const display = item.display || item.name || item.ingredient_id;
+      const requiredText = formatQuantityWithUnit(item.required_quantity, item.unit);
+      const pantryText = formatQuantityWithUnit(item.pantry_quantity, item.unit, '0');
+      const freezerText = formatQuantityWithUnit(item.freezer_quantity, item.unit, '0');
+      const purchaseText = formatQuantityWithUnit(item.purchase_quantity, item.unit, '0');
+      const checked = item.checked ? '☑' : '☐';
+      lines.push(`| ${display} | ${requiredText} | ${pantryText} | ${freezerText} | ${purchaseText} | ${checked} | ${refs} |`);
     }
     lines.push('');
   }
@@ -568,7 +1083,23 @@ function chooseUnique(pool, count, used, comparator = sortByScoreThenName) {
   return chosen;
 }
 
-function buildWeeklyPlan(recipes, weekName) {
+function chooseUniqueWithFallback(pool, count, used, comparator = sortByScoreThenName) {
+  const chosen = chooseUnique(pool, count, used, comparator);
+  if (chosen.length >= count) {
+    return chosen;
+  }
+
+  const sorted = pool.slice().sort(comparator);
+  for (const recipe of sorted) {
+    if (chosen.length >= count) break;
+    if (!chosen.includes(recipe)) {
+      chosen.push(recipe);
+    }
+  }
+  return chosen;
+}
+
+function buildWeeklyPlan(recipes, weekName, config) {
   const used = new Set();
   const clovis = recipes.find((recipe) => recipe.slug === 'clovis-farms-organic-super-smoothie');
   if (!clovis) {
@@ -576,114 +1107,386 @@ function buildWeeklyPlan(recipes, weekName) {
   }
   used.add(clovis.filePath);
 
-  const lunchPool = recipes.filter((recipe) => recipe.category === 'lunch' && recipe.score != null);
-  const dinnerPool = recipes.filter((recipe) => recipe.category === 'dinner' && recipe.score != null);
-  const snackPool = recipes.filter((recipe) => isSnackCandidate(recipe) && recipe.score != null);
-  const dessertPool = recipes.filter((recipe) => isSnackCandidate(recipe) && recipe.score != null && isDessertCandidate(recipe));
+  const lunchConstraints = config.slot_constraints?.lunch || {};
+  const dinnerConstraints = config.slot_constraints?.dinner || {};
+  const snack1Constraints = config.slot_constraints?.snack_1 || {};
+  const snack2Constraints = config.slot_constraints?.snack_2 || {};
+  const dessertConstraints = config.slot_constraints?.dessert || {};
+
+  const lunchPoolStrict = recipes.filter(
+    (recipe) => recipe.category === 'lunch' && recipe.score != null && slotMatchesConstraints(recipe, lunchConstraints),
+  );
+  const lunchPoolFallback = recipes.filter((recipe) => recipe.category === 'lunch' && recipe.score != null);
+  const lunchPool = lunchPoolStrict.length >= 5 ? lunchPoolStrict : lunchPoolFallback;
+
+  const dinnerPoolStrict = recipes.filter(
+    (recipe) => recipe.category === 'dinner' && recipe.score != null && slotMatchesConstraints(recipe, dinnerConstraints),
+  );
+  const dinnerPoolFallback = recipes.filter((recipe) => recipe.category === 'dinner' && recipe.score != null);
+  const dinnerPool = dinnerPoolStrict.length >= 7 ? dinnerPoolStrict : dinnerPoolFallback;
+
+  const snackPoolBase = recipes.filter((recipe) => isSnackCandidate(recipe) && recipe.score != null);
+  const snack1PoolStrict = snackPoolBase.filter((recipe) => slotMatchesConstraints(recipe, snack1Constraints));
+  const snack2PoolStrict = snackPoolBase.filter((recipe) => slotMatchesConstraints(recipe, snack2Constraints));
+  const snack1Pool = snack1PoolStrict.length >= 7 ? snack1PoolStrict : snackPoolBase;
+  const snack2Pool = snack2PoolStrict.length >= 7 ? snack2PoolStrict : snackPoolBase;
+  const dessertPool = recipes.filter(
+    (recipe) =>
+      isSnackCandidate(recipe) &&
+      recipe.score != null &&
+      isDessertCandidate(recipe) &&
+      slotMatchesConstraints(recipe, dessertConstraints),
+  );
+  const finishPool = recipes.filter(
+    (recipe) => isSnackCandidate(recipe) && recipe.score != null && !isDessertCandidate(recipe),
+  );
   const mealPrepPool = recipes.filter(
     (recipe) => recipe.score != null && (recipe.category === 'meal-prep' || recipe.tags.includes('#meal-prep')),
   );
 
-  const dessert = chooseUnique(dessertPool, 7, used, sortByScoreAscendingThenName);
-  const snackEligible = snackPool.filter((recipe) => !used.has(recipe.filePath));
-  const snack1 = chooseUnique(snackEligible, 7, used, sortByScoreThenName);
-  const snack2 = chooseUnique(
-    snackPool.filter((recipe) => !used.has(recipe.filePath)),
-    7,
+  const batchDinnerPool = dinnerPool.filter(
+    (recipe) =>
+      recipe.mealPrepFriendly &&
+      slotMatchesConstraints(recipe, lunchConstraints) &&
+      slotMatchesConstraints(recipe, dinnerConstraints),
+  );
+  const batchDinners = chooseUnique(batchDinnerPool, 2, used, sortLunchCandidates);
+  if (batchDinners.length < 2) {
+    const supplemental = chooseUnique(
+      dinnerPool.filter((recipe) => !batchDinners.includes(recipe)),
+      2 - batchDinners.length,
+      used,
+      sortLunchCandidates,
+    );
+    batchDinners.push(...supplemental);
+  }
+
+  const dessertDays = new Set([0, 2, 4, 6]);
+  const dessert = chooseUnique(dessertPool, dessertDays.size, new Set(used), sortByScoreAscendingThenName);
+  const snack1 = chooseUnique(snack1Pool, 7, new Set(used), sortByScoreThenName);
+  const snack2 = chooseUnique(snack2Pool, 7, new Set(used), sortByScoreAscendingThenName);
+  for (const recipe of [...snack1, ...snack2]) {
+    used.add(recipe.filePath);
+  }
+  for (const recipe of dessert) {
+    used.add(recipe.filePath);
+  }
+
+  const regularLunches = chooseUnique(lunchPool, 5, used, sortLunchCandidates);
+  const remainingDinners = chooseUnique(
+    dinnerPool.filter((recipe) => !batchDinners.includes(recipe)),
+    5,
     used,
     sortByScoreThenName,
   );
-  const lunch = chooseUnique(lunchPool, 7, used, sortByScoreThenName);
-  const dinner = chooseUnique(dinnerPool, 7, used, sortByScoreThenName);
   const prepAnchors = chooseUnique(mealPrepPool, 2, used, sortByScoreThenName);
 
-  if (snack1.length < 7 || lunch.length < 7 || snack2.length < 7 || dinner.length < 7 || dessert.length < 7) {
+  if (
+    snack1.length < 7 ||
+    snack2.length < 7 ||
+    regularLunches.length < 5 ||
+    remainingDinners.length < 5 ||
+    dessert.length < dessertDays.size
+  ) {
     throw new Error('Unable to assemble a full 7-day weekly plan from the available recipe pools');
   }
 
   const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-  const plan = days.map((dayName, index) => ({
-    dayName,
-    breakfast: clovis,
-    snack1: snack1[index],
-    lunch: lunch[index],
-    snack2: snack2[index],
-    dinner: dinner[index],
-    dessert: dessert[index],
-  }));
+  const batchLunchDays = new Map([
+    ['Tuesday', batchDinners[0] || null],
+    ['Friday', batchDinners[1] || null],
+  ]);
+  const lunchSlots = new Map();
+  let lunchIndex = 0;
+  for (const dayName of days) {
+    if (batchLunchDays.has(dayName)) {
+      lunchSlots.set(dayName, { leftoverFrom: batchLunchDays.get(dayName) });
+      continue;
+    }
+    lunchSlots.set(dayName, { recipe: regularLunches[lunchIndex] });
+    lunchIndex += 1;
+  }
 
-  const selectedMeals = [];
+  const dinnerSlots = new Map();
+  let dinnerIndex = 0;
+  for (const dayName of days) {
+    if (dayName === 'Monday' && batchDinners[0]) {
+      dinnerSlots.set(dayName, { recipe: batchDinners[0], shoppingServings: 2 });
+      continue;
+    }
+    if (dayName === 'Thursday' && batchDinners[1]) {
+      dinnerSlots.set(dayName, { recipe: batchDinners[1], shoppingServings: 2 });
+      continue;
+    }
+    dinnerSlots.set(dayName, { recipe: remainingDinners[dinnerIndex], shoppingServings: 1 });
+    dinnerIndex += 1;
+  }
+
+  const plan = days.map((dayName, index) => {
+    const dessertSlot = dessertDays.has(index)
+      ? { recipe: dessert[Math.floor(index / 2)], shoppingServings: 1 }
+      : { recipe: finishPool[index % finishPool.length], shoppingServings: 1 };
+    return {
+      dayName,
+      breakfast: { recipe: clovis, shoppingServings: 1 },
+      snack1: { recipe: snack1[index], shoppingServings: 1 },
+      lunch: lunchSlots.get(dayName),
+      snack2: { recipe: snack2[index], shoppingServings: 1 },
+      dinner: dinnerSlots.get(dayName),
+      dessert: dessertSlot,
+    };
+  });
+
+  const plannedMeals = [];
   for (const day of plan) {
-    for (const [slot, recipe] of [
-      ['breakfast', day.breakfast],
-      ['snack_1', day.snack1],
-      ['lunch', day.lunch],
-      ['snack_2', day.snack2],
-      ['dinner', day.dinner],
-      ['dessert', day.dessert],
-    ]) {
-      selectedMeals.push({
+    const dayLunch = day.lunch.leftoverFrom
+      ? {
+          dayName: day.dayName,
+          slot: 'lunch',
+          recipe: day.lunch.leftoverFrom,
+          nutritionServings: 1,
+          shoppingServings: 0,
+          kind: 'leftover',
+          sourceLabel: `${day.dayName} lunch: Leftover from ${day.lunch.leftoverFrom.name}`,
+          leftoverFrom: day.lunch.leftoverFrom.name,
+        }
+      : {
+          dayName: day.dayName,
+          slot: 'lunch',
+          recipe: day.lunch.recipe,
+          nutritionServings: 1,
+          shoppingServings: 1,
+          kind: 'recipe',
+          sourceLabel: `${day.dayName} lunch: ${day.lunch.recipe.name}`,
+        };
+
+    const dayDinner = {
+      dayName: day.dayName,
+      slot: 'dinner',
+      recipe: day.dinner.recipe,
+      nutritionServings: 1,
+      shoppingServings: day.dinner.shoppingServings,
+      kind: day.dinner.shoppingServings > 1 ? 'batch-recipe' : 'recipe',
+      sourceLabel: `${day.dayName} dinner: ${day.dinner.recipe.name}`,
+    };
+
+    plannedMeals.push(
+      {
         dayName: day.dayName,
-        slot,
-        recipe,
-        servings: 1,
-        label: `${day.dayName} ${slot.replace('_', ' ')}: ${recipe.name}`,
-      });
-    }
-  }
-
-  const lines = [];
-  lines.push(`# Weekly Healthy Chef Plan - ${weekName}`);
-  lines.push('');
-  lines.push('**Goal:** high-signal meal prep for a leaner wedding-season cut');
-  lines.push('**Signal rules:** `healthy` = 7-10, `balanced` = 5-6, `treat` = 0-4');
-  lines.push('**Breakfast anchor:** Clovis Farms Organic Super Smoothie for all seven days');
-  lines.push('');
-
-  if (prepAnchors.length) {
-    lines.push('## Prep Anchors');
-    lines.push('');
-    for (const anchor of prepAnchors) {
-      lines.push(
-        `- ${anchor.name} (${anchor.score}/10, ${anchor.signal.emoji} ${anchor.signal.label})`,
-      );
-    }
-    lines.push('');
-  }
-
-  lines.push('## Daily Plan');
-  lines.push('');
-  lines.push('| Day | Breakfast | Snack 1 | Lunch | Snack 2 | Dinner | Dessert |');
-  lines.push('|---|---|---|---|---|---|---|');
-  for (const day of plan) {
-    const mealText = (recipe) => `${recipe.name} (${recipe.score}/10, ${recipe.signal.emoji} ${recipe.signal.label})`;
-    lines.push(
-      `| ${day.dayName} | ${mealText(day.breakfast)} | ${mealText(day.snack1)} | ${mealText(day.lunch)} | ${mealText(day.snack2)} | ${mealText(day.dinner)} | ${mealText(day.dessert)} |`,
+        slot: 'breakfast',
+        recipe: day.breakfast.recipe,
+        nutritionServings: 1,
+        shoppingServings: 1,
+        kind: 'recipe',
+        sourceLabel: `${day.dayName} breakfast: ${day.breakfast.recipe.name}`,
+      },
+      {
+        dayName: day.dayName,
+        slot: 'snack_1',
+        recipe: day.snack1.recipe,
+        nutritionServings: 1,
+        shoppingServings: 1,
+        kind: 'recipe',
+        sourceLabel: `${day.dayName} snack 1: ${day.snack1.recipe.name}`,
+      },
+      dayLunch,
+      {
+        dayName: day.dayName,
+        slot: 'snack_2',
+        recipe: day.snack2.recipe,
+        nutritionServings: 1,
+        shoppingServings: 1,
+        kind: 'recipe',
+        sourceLabel: `${day.dayName} snack 2: ${day.snack2.recipe.name}`,
+      },
+      dayDinner,
+      {
+        dayName: day.dayName,
+        slot: dessertDays.has(days.indexOf(day.dayName)) ? 'dessert' : 'finish',
+        recipe: day.dessert.recipe,
+        nutritionServings: 1,
+        shoppingServings: 1,
+        kind: 'recipe',
+        sourceLabel: `${day.dayName} ${dessertDays.has(days.indexOf(day.dayName)) ? 'dessert' : 'finish'}: ${day.dessert.recipe.name}`,
+      },
     );
   }
-  lines.push('');
+
+  const dailySummaries = days.map((dayName) => {
+    const meals = plannedMeals.filter((meal) => meal.dayName === dayName);
+    const mealNutritions = meals.map((meal) => mealNutrition(meal.recipe, meal.nutritionServings || 1));
+    const rollup = sumNutrition(mealNutritions);
+    const completeMeals = meals.filter((meal) => hasCompleteNutrition(meal.recipe)).length;
+    const missing = meals
+      .filter((meal) => !hasCompleteNutrition(meal.recipe))
+      .map((meal) => `${meal.slot.replace('_', ' ')}: ${meal.recipe.name} (${missingNutritionFields(meal.recipe).join(', ') || 'nutrition TBD'})`);
+    return {
+      dayName,
+      totals: rollup.totals,
+      presentCounts: rollup.presentCounts,
+      completeMeals,
+      mealCount: meals.length,
+      missing,
+    };
+  });
+
+  const weeklyRollup = sumNutrition(
+    plannedMeals.map((meal) => mealNutrition(meal.recipe, meal.nutritionServings || 1)),
+  );
+  const weeklyTotals = weeklyRollup.totals;
+  const weeklyAverages = {
+    calories_kcal: weeklyRollup.presentCounts.calories_kcal ? weeklyTotals.calories_kcal / 7 : null,
+    protein_g: weeklyRollup.presentCounts.protein_g ? weeklyTotals.protein_g / 7 : null,
+    fiber_g: weeklyRollup.presentCounts.fiber_g ? weeklyTotals.fiber_g / 7 : null,
+    sodium_mg: weeklyRollup.presentCounts.sodium_mg ? weeklyTotals.sodium_mg / 7 : null,
+  };
+  const useSoonWindow = buildInventoryViews(config).useSoonDays;
+  const useSoonItems = buildUseSoonItems(plannedMeals, config);
+  const missingMealLines = plannedMeals
+    .filter((meal) => !hasCompleteNutrition(meal.recipe))
+    .map((meal) => `${meal.dayName} ${meal.slot.replace('_', ' ')}: ${meal.recipe.name} (${missingNutritionFields(meal.recipe).join(', ')})`);
 
   const counts = {
     healthy: 0,
     balanced: 0,
     treat: 0,
   };
-  for (const meal of selectedMeals) {
+  for (const meal of plannedMeals) {
     const bucket = meal.recipe.signal.bucket;
     if (bucket in counts) counts[bucket] += 1;
   }
+
+  const lines = [];
+  lines.push(`# Weekly Healthy Chef Plan - ${weekName}`);
+  lines.push('');
+  lines.push('**Goal:** high-signal meal prep for a leaner wedding-season cut');
+  lines.push(`**Signal rules:** ` +
+    `healthy = ${config.signal_rules?.healthy?.join('-') || '7-10'}, ` +
+    `balanced = ${config.signal_rules?.balanced?.join('-') || '5-6'}, ` +
+    `treat = ${config.signal_rules?.treat?.join('-') || '0-4'}`);
+  lines.push('**Breakfast anchor:** Clovis Farms Organic Super Smoothie for all seven days');
+  lines.push(`**Lunch rule:** at least ${lunchConstraints.protein_g?.min || 0}g protein and ${
+    lunchConstraints.calories_kcal?.min || 0
+  }-${lunchConstraints.calories_kcal?.max || 'TBD'} calories when metadata is available.`);
+  lines.push('**Snack rule:** exclude alcohol, condiments, sauces, and component-style recipes.');
+  lines.push(`**Dessert rule:** cap dessert-style picks at ${dessertConstraints.max_days_per_week || 4} days per week; use lighter finish options on the rest.`);
+  lines.push('');
+
+  if (prepAnchors.length) {
+    lines.push('## Prep Anchors');
+    lines.push('');
+    for (const anchor of prepAnchors) {
+      lines.push(`- ${anchor.name} (${anchor.score}/10, ${anchor.signal.emoji} ${anchor.signal.label})`);
+    }
+    lines.push('');
+  }
+
+  lines.push('## Planned Leftovers');
+  lines.push('');
+  for (const [dayName, recipe] of batchLunchDays.entries()) {
+    if (!recipe) continue;
+    const sourceDay = dayName === 'Tuesday' ? 'Monday' : 'Thursday';
+    lines.push(`- ${sourceDay} dinner -> ${dayName} lunch: ${recipe.name} (${recipe.score}/10, ${recipe.signal.emoji} ${recipe.signal.label})`);
+  }
+  lines.push('');
+
+  lines.push('## Daily Plan');
+  lines.push('');
+  for (const day of plan) {
+    lines.push(`### ${day.dayName}`);
+    lines.push('');
+    const lunchText = day.lunch.leftoverFrom
+      ? `Leftover from ${day.dayName === 'Tuesday' ? 'Monday' : 'Thursday'} dinner: ${day.lunch.leftoverFrom.name} (${day.lunch.leftoverFrom.score}/10, ${day.lunch.leftoverFrom.signal.emoji} ${day.lunch.leftoverFrom.signal.label})`
+      : `${day.lunch.recipe.name} (${day.lunch.recipe.score}/10, ${day.lunch.recipe.signal.emoji} ${day.lunch.recipe.signal.label})`;
+    const dessertText = `${day.dessert.recipe.name} (${day.dessert.recipe.score}/10, ${day.dessert.recipe.signal.emoji} ${day.dessert.recipe.signal.label})`;
+    lines.push(`- Breakfast: ${day.breakfast.recipe.name} (${day.breakfast.recipe.score}/10, ${day.breakfast.recipe.signal.emoji} ${day.breakfast.recipe.signal.label})`);
+    lines.push(`- Snack 1: ${day.snack1.recipe.name} (${day.snack1.recipe.score}/10, ${day.snack1.recipe.signal.emoji} ${day.snack1.recipe.signal.label})`);
+    lines.push(`- Lunch: ${lunchText}`);
+    lines.push(`- Snack 2: ${day.snack2.recipe.name} (${day.snack2.recipe.score}/10, ${day.snack2.recipe.signal.emoji} ${day.snack2.recipe.signal.label})`);
+    lines.push(`- Dinner: ${day.dinner.recipe.name} (${day.dinner.recipe.score}/10, ${day.dinner.recipe.signal.emoji} ${day.dinner.recipe.signal.label})`);
+    lines.push(`- Dessert / Finish: ${dessertText}`);
+
+    const summary = dailySummaries.find((item) => item.dayName === day.dayName);
+    const totals = formatTotals(summary.totals, summary.presentCounts);
+    lines.push('');
+    lines.push(`#### ${day.dayName} Nutrition`);
+    lines.push('');
+    lines.push(`- Calories: ${totals.calories_kcal}`);
+    lines.push(`- Protein: ${totals.protein_g}`);
+    lines.push(`- Fiber: ${totals.fiber_g}`);
+    lines.push(`- Sodium: ${totals.sodium_mg}`);
+    lines.push(`- Coverage: ${summary.completeMeals} of ${summary.mealCount} meals have complete nutrition`);
+    if (summary.missing.length) {
+      lines.push(`- Missing nutrition: ${summary.missing.join('; ')}`);
+    }
+    lines.push('');
+  }
+
+  lines.push('## Weekly Nutrition');
+  lines.push('');
+  lines.push(`- Average calories: ${formatNutritionValue(weeklyAverages.calories_kcal, ' kcal')}`);
+  lines.push(`- Average protein: ${formatNutritionValue(weeklyAverages.protein_g, ' g')}`);
+  lines.push(`- Average fiber: ${formatNutritionValue(weeklyAverages.fiber_g, ' g')}`);
+  lines.push(`- Average sodium: ${formatNutritionValue(weeklyAverages.sodium_mg, ' mg')}`);
+  lines.push(`- Healthy picks: ${counts.healthy}`);
+  lines.push(`- Balanced picks: ${counts.balanced}`);
+  lines.push(`- Treat picks: ${counts.treat}`);
+  lines.push(`- Unique recipes: ${new Set(plannedMeals.map((item) => item.recipe.filePath)).size}`);
+  lines.push('');
+
+  if (useSoonItems.length) {
+    lines.push('## Pantry Use Soon');
+    lines.push('');
+    for (const item of useSoonItems.sort((a, b) => (a.expires_in - b.expires_in) || a.name.localeCompare(b.name))) {
+      lines.push(`- ${item.name}: ${formatQuantityWithUnit(item.quantity, item.unit)} expires on ${item.expires_on || 'TBD'} (${item.expires_in} days)`);
+    }
+    lines.push('');
+  }
+
+  if (missingMealLines.length) {
+    lines.push('## Meals With Missing Nutrition');
+    lines.push('');
+    for (const line of missingMealLines) {
+      lines.push(`- ${line}`);
+    }
+    lines.push('');
+  }
+
+  lines.push('## Prep Sessions');
+  lines.push('');
+  const breakfastBatchServings = 7;
+  lines.push('### Sunday Meal Prep');
+  lines.push('');
+  lines.push(`- Prepare ${breakfastBatchServings} Clovis smoothie ingredient packs.`);
+  for (const [dayName, recipe] of batchLunchDays.entries()) {
+    if (!recipe) continue;
+    const pairedDay = dayName === 'Tuesday' ? 'Monday' : 'Thursday';
+    lines.push(`- Cook ${2} servings of ${recipe.name} for ${pairedDay} dinner and ${dayName} lunch.`);
+  }
+  lines.push('- Wash and chop shared produce for the first half of the week.');
+  if (useSoonItems.length) {
+    lines.push(`- Pull forward ${useSoonItems.length} pantry item${useSoonItems.length === 1 ? '' : 's'} that expire within ${useSoonWindow} days.`);
+  }
+  lines.push('');
+  lines.push('### Midweek Refresh');
+  lines.push('');
+  lines.push('- Portion remaining snacks and produce for the back half of the week.');
+  lines.push('- Refresh the leftover lunches already covered by the earlier batch dinners.');
+  lines.push('');
 
   lines.push('## Weekly Balance');
   lines.push('');
   lines.push(`- Healthy picks: ${counts.healthy}`);
   lines.push(`- Balanced picks: ${counts.balanced}`);
   lines.push(`- Treat picks: ${counts.treat}`);
-  lines.push(`- Unique recipes: ${new Set(selectedMeals.map((item) => item.recipe.filePath)).size}`);
+  lines.push(`- Unique recipes: ${new Set(plannedMeals.map((item) => item.recipe.filePath)).size}`);
   lines.push('');
 
   return {
     markdown: `${lines.join('\n')}\n`,
-    selected: selectedMeals,
+    selected: plannedMeals,
+    dailySummaries,
+    weeklyAverages,
   };
 }
 
@@ -705,6 +1508,7 @@ function writeFile(relativePath, content) {
 
 function main() {
   const recipes = loadRecipes();
+  const plannerConfig = loadPlannerConfig();
 
   const commands = [];
   if (mode === 'all' || mode === 'index') commands.push('index');
@@ -723,9 +1527,9 @@ function main() {
   }
 
   if (commands.includes('plan')) {
-    const { markdown, selected } = buildWeeklyPlan(recipes, weekName);
+    const { markdown, selected } = buildWeeklyPlan(recipes, weekName, plannerConfig);
     const planPath = writeFile(`meal-plans/${weekName}.md`, markdown);
-    const shoppingPath = writeFile(`shopping-lists/${weekName}.md`, buildShoppingList(selected));
+    const shoppingPath = writeFile(`shopping-lists/${weekName}.md`, buildShoppingList(selected, plannerConfig));
     console.log(`wrote ${path.relative(ROOT, planPath)}`);
     console.log(`wrote ${path.relative(ROOT, shoppingPath)}`);
   }

@@ -82,6 +82,9 @@ The planner respects exclusions and reports missing data.
 - quantity scaling
 - unit conversion
 - pantry subtraction
+- freezer subtraction
+- purchase checkoffs
+- use-soon recommendations
 - department grouping
 - grocery export
 

@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "signal_rules": {
+    "healthy": [7, 10],
+    "balanced": [5, 6],
+    "treat": [0, 4]
+  },
+  "slot_constraints": {
+    "snack_1": {
+      "exclude_tags": ["alcohol", "condiment", "sauce", "component"],
+      "calories_kcal": {
+        "min": 100,
+        "max": 300
+      }
+    },
+    "lunch": {
+      "protein_g": {
+        "min": 25
+      },
+      "calories_kcal": {
+        "min": 350,
+        "max": 700
+      }
+    },
+    "snack_2": {
+      "exclude_tags": ["alcohol", "condiment", "sauce", "component"],
+      "protein_g": {
+        "min": 5
+      }
+    },
+    "dinner": {
+      "protein_g": {
+        "min": 30
+      }
+    },
+    "dessert": {
+      "max_days_per_week": 4
+    }
+  },
+  "daily_targets": {
+    "calories_kcal": {
+      "min": 1800,
+      "max": 2200
+    },
+    "protein_g": {
+      "min": 120
+    },
+    "fiber_g": {
+      "min": 25
+    },
+    "sodium_mg": {
+      "max": 2300
+    }
+  },
+  "leftovers": {
+    "enabled": true,
+    "batch_lunch_days": ["Tuesday", "Friday"],
+    "batch_dinner_days": ["Monday", "Thursday"]
+  },
+  "inventory": {
+    "use_soon_days": 7,
+    "stale_after_days": 14,
+    "pantry": {
+      "olive-oil|tablespoon": {
+        "quantity": 12,
+        "unit": "tablespoon",
+        "last_checked": "2026-07-03"
+      },
+      "extra-virgin-olive-oil|tablespoon": {
+        "quantity": 12,
+        "unit": "tablespoon",
+        "last_checked": "2026-07-03"
+      },
+      "salt|teaspoon": {
+        "quantity": 12,
+        "unit": "teaspoon",
+        "last_checked": "2026-07-03"
+      },
+      "kosher-salt|teaspoon": {
+        "quantity": 12,
+        "unit": "teaspoon",
+        "last_checked": "2026-07-03"
+      },
+      "black-pepper|teaspoon": {
+        "quantity": 4,
+        "unit": "teaspoon",
+        "last_checked": "2026-07-03"
+      },
+      "freshly-ground-black-pepper|teaspoon": {
+        "quantity": 4,
+        "unit": "teaspoon",
+        "last_checked": "2026-07-03"
+      },
+      "brown-sugar|cup": {
+        "quantity": 1,
+        "unit": "cup",
+        "last_checked": "2026-07-03",
+        "expires_on": "2026-08-15"
+      },
+      "granulated-sugar|cup": {
+        "quantity": 1,
+        "unit": "cup",
+        "last_checked": "2026-07-03",
+        "expires_on": "2026-08-15"
+      },
+      "all-purpose-flour|cup": {
+        "quantity": 2,
+        "unit": "cup",
+        "last_checked": "2026-07-03"
+      },
+      "unsalted-butter|cup": {
+        "quantity": 2,
+        "unit": "cup",
+        "last_checked": "2026-07-03",
+        "expires_on": "2026-07-06"
+      },
+      "dijon-mustard|tablespoon": {
+        "quantity": 4,
+        "unit": "tablespoon",
+        "last_checked": "2026-07-03"
+      },
+      "rice-vinegar|tablespoon": {
+        "quantity": 4,
+        "unit": "tablespoon",
+        "last_checked": "2026-07-03"
+      },
+      "low-sodium-soy-sauce|tablespoon": {
+        "quantity": 4,
+        "unit": "tablespoon",
+        "last_checked": "2026-07-03"
+      },
+      "mayonnaise|cup": {
+        "quantity": 1,
+        "unit": "cup",
+        "last_checked": "2026-07-03"
+      },
+      "ground-paprika|teaspoon": {
+        "quantity": 4,
+        "unit": "teaspoon",
+        "last_checked": "2026-07-03"
+      },
+      "ground-cumin|teaspoon": {
+        "quantity": 2,
+        "unit": "teaspoon",
+        "last_checked": "2026-07-03"
+      },
+      "dried-oregano|teaspoon": {
+        "quantity": 2,
+        "unit": "teaspoon",
+        "last_checked": "2026-07-03"
+      },
+      "dried-thyme|teaspoon": {
+        "quantity": 2,
+        "unit": "teaspoon",
+        "last_checked": "2026-07-03"
+      },
+      "baking-powder|teaspoon": {
+        "quantity": 2,
+        "unit": "teaspoon",
+        "last_checked": "2026-07-03"
+      }
+    },
+    "freezer": {
+      "clovis-farms-organic-super-smoothie|each": {
+        "quantity": 7,
+        "unit": "each",
+        "last_checked": "2026-07-03",
+        "expires_on": "2026-09-01"
+      },
+      "frozen-strawberries|cup": {
+        "quantity": 2,
+        "unit": "cup",
+        "last_checked": "2026-07-03",
+        "expires_on": "2026-08-20"
+      }
+    }
+  }
+}

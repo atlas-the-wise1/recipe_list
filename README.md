@@ -50,6 +50,7 @@ scripts/
 ## Healthy Chef Planner
 
 The meal-planning job lives in `scripts/healthy-chef.mjs`.
+Its slot targets, dessert cap, leftover batching rules, and pantry inventory live in `config/healthy-chef.json`.
 
 Health score signals:
 
@@ -63,6 +64,14 @@ Generated outputs:
 - `meal-plans/wedding-cut-cookbook.md`
 - `meal-plans/YYYY-MM-weekN.md`
 - `shopping-lists/YYYY-MM-weekN.md`
+
+Weekly plan outputs now include:
+
+- daily calorie, protein, fiber, and sodium totals
+- weekly averages and missing-nutrition flags
+- planned leftovers with batch-prep quantities
+- pantry-aware shopping quantities split into required, pantry, and purchase amounts
+- freezer-aware shopping quantities, purchase checkoffs, and use-soon pantry warnings
 
 ## Recipe Format
 
