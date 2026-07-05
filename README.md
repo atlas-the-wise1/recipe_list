@@ -79,7 +79,8 @@ Weekly plan outputs now include:
 Automation:
 
 - `scripts/healthy-chef-deliveries.mjs` generates the scheduled cards and can POST them to `HEALTHY_CHEF_WEBHOOK_URL`
-- `.github/workflows/healthy-chef-ops.yml` checks the Eastern schedule hourly and emits the correct delivery when the local time matches
+- `.github/workflows/healthy-chef-ops.yml` checks the Eastern schedule hourly and emits the correct delivery when the local time matches within a 20-minute late window
+- `meal-plans/delivery-log.jsonl` records successful webhook deliveries so retries do not duplicate already-sent reminders
 
 ## Recipe Format
 

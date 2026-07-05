@@ -8,6 +8,7 @@ const ROOT = path.resolve(process.cwd());
 const PLAN_ROOT = path.join(ROOT, 'meal-plans');
 const SHOPPING_ROOT = path.join(ROOT, 'shopping-lists');
 const DELIVERY_ROOT = path.join(PLAN_ROOT, 'deliveries');
+const DELIVERY_LOG = path.join(PLAN_ROOT, 'delivery-log.jsonl');
 const RECIPE_INDEX = path.join(ROOT, 'indexes', 'recipes.json');
 const PLANNER_CONFIG = path.join(ROOT, 'config', 'healthy-chef.json');
 
@@ -81,9 +82,11 @@ function currentLocalDay(timeZone) {
   return localParts(new Date(), timeZone).weekday;
 }
 
-function currentLocalTimeMatches(timeZone, hour, minute = 0) {
+function currentLocalTimeWithinWindow(timeZone, hour, minute = 0, windowMinutes = 20) {
   const parts = localParts(new Date(), timeZone);
-  return Number(parts.hour) === Number(String(hour).padStart(2, '0')) && Number(parts.minute) === Number(String(minute).padStart(2, '0'));
+  const currentMinutes = Number(parts.hour) * 60 + Number(parts.minute);
+  const targetMinutes = Number(hour) * 60 + Number(minute);
+  return currentMinutes >= targetMinutes && currentMinutes <= targetMinutes + Number(windowMinutes);
 }
 
 function weekLabel(date = new Date()) {
@@ -103,6 +106,35 @@ function writeDeliveryArtifact(kind, weekName, content) {
   const filePath = path.join(dir, `${kind}.md`);
   fs.writeFileSync(filePath, `${content.trim()}\n`);
   return filePath;
+}
+
+function readDeliveryLog() {
+  if (!fs.existsSync(DELIVERY_LOG)) return [];
+  return fs
+    .readFileSync(DELIVERY_LOG, 'utf8')
+    .split('\n')
+    .filter(Boolean)
+    .map((line) => {
+      try {
+        return JSON.parse(line);
+      } catch {
+        return null;
+      }
+    })
+    .filter(Boolean);
+}
+
+function appendDeliveryLog(entry) {
+  ensureDir(path.dirname(DELIVERY_LOG));
+  fs.appendFileSync(DELIVERY_LOG, `${JSON.stringify(entry)}\n`);
+}
+
+function deliveryKey(kind, weekName, dayName = null) {
+  return [weekName, dayName || null, kind].filter(Boolean).join(':');
+}
+
+function hasSuccessfulDelivery(key) {
+  return readDeliveryLog().some((entry) => entry?.delivery_key === key && entry?.success === true);
 }
 
 function planPath(weekName) {
@@ -421,21 +453,51 @@ function appendFeedbackRecord(payload) {
   return feedbackPath;
 }
 
-async function maybeSendWebhook(kind, title, content, weekName) {
+async function maybeSendWebhook(kind, title, content, weekName, dayName = null) {
   const endpoint = process.env.HEALTHY_CHEF_WEBHOOK_URL;
-  if (!endpoint) return false;
+  const delivery_key = deliveryKey(kind, weekName, dayName);
+  if (hasSuccessfulDelivery(delivery_key)) {
+    return { sent: false, skipped: true, reason: 'already_delivered', delivery_key };
+  }
+  if (!endpoint) return { sent: false, skipped: false, reason: 'missing_webhook', delivery_key };
   const body = {
     kind,
     title,
     week: weekName,
+    day: dayName,
     content,
   };
-  const response = await fetch(endpoint, {
-    method: 'POST',
-    headers: { 'content-type': 'application/json' },
-    body: JSON.stringify(body),
-  });
-  return response.ok;
+  try {
+    const response = await fetch(endpoint, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    const sent = response.ok;
+    appendDeliveryLog({
+      delivery_key,
+      sent_at: new Date().toISOString(),
+      channel: 'webhook',
+      success: sent,
+      kind,
+      week: weekName,
+      day: dayName,
+      status: `${response.status} ${response.statusText}`.trim(),
+    });
+    return { sent, skipped: false, delivery_key };
+  } catch (error) {
+    appendDeliveryLog({
+      delivery_key,
+      sent_at: new Date().toISOString(),
+      channel: 'webhook',
+      success: false,
+      kind,
+      week: weekName,
+      day: dayName,
+      error: clean(error?.message || String(error)),
+    });
+    return { sent: false, skipped: false, delivery_key, error };
+  }
 }
 
 function dispatchConfigForNow() {
@@ -443,18 +505,21 @@ function dispatchConfigForNow() {
   const delivery = config.delivery || {};
   const timeZone = delivery.timezone || 'America/New_York';
   const weekday = currentLocalDay(timeZone);
-  if (weekday === delivery.weekly_plan?.day && currentLocalTimeMatches(timeZone, delivery.weekly_plan?.hour ?? 18, delivery.weekly_plan?.minute ?? 0)) {
-    return { kind: 'weekly-plan', weekName: weekLabel(new Date(Date.now() + (delivery.weekly_plan?.week_offset || 1) * 7 * 86400000)) };
+  if (weekday === delivery.weekly_plan?.day && currentLocalTimeWithinWindow(timeZone, delivery.weekly_plan?.hour ?? 18, delivery.weekly_plan?.minute ?? 0, 20)) {
+    return {
+      kind: 'weekly-plan',
+      weekName: weekLabel(new Date(Date.now() + (delivery.weekly_plan?.week_offset || 1) * 7 * 86400000)),
+    };
   }
-  if (weekday === delivery.shopping_reminder?.day && currentLocalTimeMatches(timeZone, delivery.shopping_reminder?.hour ?? 9, delivery.shopping_reminder?.minute ?? 0)) {
+  if (weekday === delivery.shopping_reminder?.day && currentLocalTimeWithinWindow(timeZone, delivery.shopping_reminder?.hour ?? 9, delivery.shopping_reminder?.minute ?? 0, 20)) {
     return { kind: 'shopping-reminder', weekName: weekLabel(new Date()) };
   }
-  if (weekday === delivery.prep_checklist?.day && currentLocalTimeMatches(timeZone, delivery.prep_checklist?.hour ?? 9, delivery.prep_checklist?.minute ?? 0)) {
+  if (weekday === delivery.prep_checklist?.day && currentLocalTimeWithinWindow(timeZone, delivery.prep_checklist?.hour ?? 9, delivery.prep_checklist?.minute ?? 0, 20)) {
     return { kind: 'prep-checklist', weekName: weekLabel(new Date()) };
   }
   if (
     (delivery.dinner_card?.days || []).includes(weekday) &&
-    currentLocalTimeMatches(timeZone, delivery.dinner_card?.hour ?? 16, delivery.dinner_card?.minute ?? 0)
+    currentLocalTimeWithinWindow(timeZone, delivery.dinner_card?.hour ?? 16, delivery.dinner_card?.minute ?? 0, 20)
   ) {
     return { kind: 'dinner-card', weekName: weekLabel(new Date()), dayName: weekday };
   }
@@ -505,7 +570,8 @@ async function run(kind, weekName, dayName) {
   if (kind !== 'week-dinner-cards') {
     writeDeliveryArtifact(kind, weekName, content);
   }
-  const sent = await maybeSendWebhook(kind, title, content, weekName);
+  const delivery = await maybeSendWebhook(kind, title, content, weekName, dayName || null);
+  const sent = delivery.sent;
   if (kind === 'week-dinner-cards') {
     console.log(sent ? `sent ${kind} for ${weekName}` : `wrote dinner cards for ${weekName}`);
   } else {
