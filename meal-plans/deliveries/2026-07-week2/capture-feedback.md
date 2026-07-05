@@ -1,0 +1,10 @@
+Recorded feedback to meal-plans/healthy-chef-feedback.jsonl
+{
+  "timestamp": "2026-07-04T04:20:33.926Z",
+  "recipe_id": "air-fryer-salmon",
+  "type": "liked",
+  "note": "liked it",
+  "day": null,
+  "slot": null,
+  "week": "2026-07-week2"
+}

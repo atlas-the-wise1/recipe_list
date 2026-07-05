@@ -1,0 +1,26 @@
+name: Healthy Chef Ops
+
+on:
+  schedule:
+    # Runs hourly; the script checks America/New_York local time and only emits the matching card.
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate or dispatch the current Healthy Chef card
+        env:
+          HEALTHY_CHEF_WEBHOOK_URL: ${{ secrets.HEALTHY_CHEF_WEBHOOK_URL }}
+        run: node scripts/healthy-chef-deliveries.mjs dispatch
+

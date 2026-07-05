@@ -1,4 +1,4 @@
-# Dinner Card - Sunday
+# Dinner Card - Monday
 **Label:** Meal Prep Option
 **Recipe:** Air-Fryer Salmon
 **Total Time:** About 17 minutes
@@ -20,7 +20,7 @@
 5. Cook until skin is crisped and lightly browned, **5–7 minutes**. Flip fillets and cook another **4–6 minutes** until salmon is cooked through and flakes evenly.
 6. Squeeze remaining lemon half over fillets and serve.
 ## While It Cooks
-- 3 days fridge (salmon doesn't freeze well once cooked)
+- Storage: 3 days fridge (salmon doesn't freeze well once cooked)
 - Put away unused ingredients.
 ## Tomorrow
-- Move the next frozen protein to the refrigerator.
+- Reheat leftovers for lunch.

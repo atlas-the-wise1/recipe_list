@@ -72,6 +72,14 @@ Weekly plan outputs now include:
 - planned leftovers with batch-prep quantities
 - pantry-aware shopping quantities split into required, pantry, and purchase amounts
 - freezer-aware shopping quantities, purchase checkoffs, and use-soon pantry warnings
+- canonical inventory alias groups so semantically similar items subtract from the same stock pool
+- delivery-ready plan, shopping, prep, and per-dinner dinner-card artifacts under `meal-plans/deliveries/`
+- feedback capture via `meal-plans/healthy-chef-feedback.jsonl`
+
+Automation:
+
+- `scripts/healthy-chef-deliveries.mjs` generates the scheduled cards and can POST them to `HEALTHY_CHEF_WEBHOOK_URL`
+- `.github/workflows/healthy-chef-ops.yml` checks the Eastern schedule hourly and emits the correct delivery when the local time matches
 
 ## Recipe Format
 

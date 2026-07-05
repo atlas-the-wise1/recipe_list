@@ -60,6 +60,33 @@
   "inventory": {
     "use_soon_days": 7,
     "stale_after_days": 14,
+    "alias_groups": [
+      {
+        "canonical": "olive-oil",
+        "aliases": ["extra-virgin-olive-oil"]
+      },
+      {
+        "canonical": "salt",
+        "aliases": ["kosher-salt"]
+      },
+      {
+        "canonical": "black-pepper",
+        "aliases": ["freshly-ground-black-pepper", "freshly-cracked-black-pepper", "peppercorns"]
+      }
+    ],
+    "feedback": {
+      "path": "meal-plans/healthy-chef-feedback.jsonl",
+      "weights": {
+        "liked": 1,
+        "too_much_work": -1.5,
+        "skip_tonight": -2,
+        "swap_meal": -1,
+        "too_expensive": -1,
+        "ingredient_unavailable": -0.5,
+        "portion_too_small": -0.5,
+        "portion_too_large": -0.5
+      }
+    },
     "pantry": {
       "olive-oil|tablespoon": {
         "quantity": 12,
@@ -173,6 +200,30 @@
         "last_checked": "2026-07-03",
         "expires_on": "2026-08-20"
       }
+    }
+  },
+  "delivery": {
+    "timezone": "America/New_York",
+    "weekly_plan": {
+      "day": "Friday",
+      "hour": 18,
+      "minute": 0,
+      "week_offset": 1
+    },
+    "shopping_reminder": {
+      "day": "Saturday",
+      "hour": 9,
+      "minute": 0
+    },
+    "prep_checklist": {
+      "day": "Sunday",
+      "hour": 9,
+      "minute": 0
+    },
+    "dinner_card": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "hour": 16,
+      "minute": 0
     }
   }
 }

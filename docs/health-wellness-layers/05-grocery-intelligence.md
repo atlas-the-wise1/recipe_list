@@ -146,6 +146,7 @@ Pantry subtraction should:
 4. prefer using soon-to-expire items
 5. record when pantry data is stale
 6. separate pantry and freezer coverage when both exist
+7. collapse alias groups before subtraction so equivalent ingredients share one inventory bucket
 
 ## Store and Aisle Mapping
 

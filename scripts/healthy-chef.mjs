@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import fs from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 
 const ROOT = path.resolve(process.cwd());
@@ -59,6 +60,24 @@ function loadPlannerConfig() {
       batch_dinner_days: ['Monday', 'Thursday'],
     },
     inventory: {
+      alias_groups: [
+        { canonical: 'olive-oil', aliases: ['extra-virgin-olive-oil'] },
+        { canonical: 'salt', aliases: ['kosher-salt'] },
+        { canonical: 'black-pepper', aliases: ['freshly-ground-black-pepper', 'freshly-cracked-black-pepper', 'peppercorns'] },
+      ],
+      feedback: {
+        path: 'meal-plans/healthy-chef-feedback.jsonl',
+        weights: {
+          liked: 1,
+          too_much_work: -1.5,
+          skip_tonight: -2,
+          swap_meal: -1,
+          too_expensive: -1,
+          ingredient_unavailable: -0.5,
+          portion_too_small: -0.5,
+          portion_too_large: -0.5,
+        },
+      },
       pantry: {},
       freezer: {},
       use_soon_days: 7,
@@ -188,6 +207,76 @@ function isTruthyString(value) {
   return typeof value === 'string' && value.trim().length > 0;
 }
 
+function recipeScore(recipe) {
+  const score = recipe?.adjustedScore ?? recipe?.score ?? null;
+  return score == null || Number.isNaN(Number(score)) ? null : Number(score);
+}
+
+function parseInventoryKey(key) {
+  const [ingredientId = '', unit = ''] = String(key || '').split('|');
+  return {
+    ingredientId: clean(ingredientId) || '',
+    unit: clean(unit) || '',
+  };
+}
+
+function buildAliasLookup(aliasGroups = []) {
+  const lookup = new Map();
+  for (const group of aliasGroups || []) {
+    let canonical = null;
+    let aliases = [];
+
+    if (Array.isArray(group)) {
+      [canonical, ...aliases] = group;
+    } else if (group && typeof group === 'object') {
+      canonical = group.canonical || group.id || group.name || null;
+      aliases = Array.isArray(group.aliases) ? group.aliases : Array.isArray(group.ingredients) ? group.ingredients : [];
+    }
+
+    canonical = slugify(canonical || '');
+    if (!canonical) continue;
+
+    const entries = [canonical, ...aliases.map((alias) => slugify(alias)).filter(Boolean)];
+    for (const alias of entries) {
+      lookup.set(alias, canonical);
+    }
+  }
+  return lookup;
+}
+
+function canonicalIngredientId(value, aliasLookup = new Map()) {
+  const key = slugify(value || '');
+  if (!key) return '';
+  return aliasLookup.get(key) || key;
+}
+
+function canonicalInventoryKey(key, aliasLookup = new Map()) {
+  const { ingredientId, unit } = parseInventoryKey(key);
+  return pantryKey(canonicalIngredientId(ingredientId, aliasLookup), unit);
+}
+
+function mergeInventoryEntry(target, entry) {
+  const merged = { ...target };
+  merged.quantity = (Number(merged.quantity) || 0) + (Number(entry.quantity) || 0);
+  merged.unit = merged.unit || entry.unit || null;
+
+  if (!merged.expires_on || (entry.expires_on && merged.expires_on > entry.expires_on)) {
+    merged.expires_on = entry.expires_on || merged.expires_on || null;
+  }
+  if (!merged.last_checked || (entry.last_checked && merged.last_checked > entry.last_checked)) {
+    merged.last_checked = entry.last_checked || merged.last_checked || null;
+  }
+  if (merged.checked == null) {
+    merged.checked = entry.checked == null ? null : Boolean(entry.checked);
+  } else if (entry.checked != null) {
+    merged.checked = Boolean(merged.checked && entry.checked);
+  }
+  if (!merged.notes) {
+    merged.notes = entry.notes || null;
+  }
+  return merged;
+}
+
 function formatNutritionValue(value, unit) {
   if (value == null || Number.isNaN(Number(value))) return 'TBD';
   const rounded = Math.round(Number(value));
@@ -303,12 +392,13 @@ function normalizeInventoryEntry(entry) {
   };
 }
 
-function normalizeInventoryMap(rawInventory) {
+function normalizeInventoryMap(rawInventory, aliasLookup = new Map()) {
   const out = {};
   for (const [key, value] of Object.entries(rawInventory || {})) {
     const normalized = normalizeInventoryEntry(value);
     if (normalized) {
-      out[key] = normalized;
+      const canonicalKey = canonicalInventoryKey(key, aliasLookup);
+      out[canonicalKey] = out[canonicalKey] ? mergeInventoryEntry(out[canonicalKey], normalized) : normalized;
     }
   }
   return out;
@@ -350,17 +440,24 @@ function formatInventoryDate(date) {
 
 function buildInventoryViews(config) {
   const inventory = config.inventory || {};
+  const aliasLookup = buildAliasLookup(inventory.alias_groups || []);
   return {
-    pantry: normalizeInventoryMap(inventory.pantry || {}),
-    freezer: normalizeInventoryMap(inventory.freezer || {}),
+    pantry: normalizeInventoryMap(inventory.pantry || {}, aliasLookup),
+    freezer: normalizeInventoryMap(inventory.freezer || {}, aliasLookup),
     useSoonDays: Number.isFinite(Number(inventory.use_soon_days)) ? Number(inventory.use_soon_days) : 7,
     staleAfterDays: Number.isFinite(Number(inventory.stale_after_days)) ? Number(inventory.stale_after_days) : 14,
+    aliasLookup,
+    feedback: inventory.feedback || {},
   };
 }
 
 function selectInventoryMatch(inventories, ingredient) {
-  const pantry = lookupInventoryQuantity(inventories.pantry, ingredient);
-  const freezer = lookupInventoryQuantity(inventories.freezer, ingredient);
+  const canonicalIngredient = {
+    ...ingredient,
+    ingredient_id: canonicalIngredientId(ingredient.ingredient_id, inventories.aliasLookup),
+  };
+  const pantry = lookupInventoryQuantity(inventories.pantry, canonicalIngredient);
+  const freezer = lookupInventoryQuantity(inventories.freezer, canonicalIngredient);
   return { pantry, freezer };
 }
 
@@ -377,11 +474,11 @@ function inventoryStatusLabel(entry, now = new Date(), staleAfterDays = 14) {
   return fragments.join(', ');
 }
 
-function buildIngredientUsageMap(selectedMeals) {
+function buildIngredientUsageMap(selectedMeals, aliasLookup = new Map()) {
   const usage = new Map();
   for (const meal of selectedMeals) {
     for (const ingredient of meal.recipe.ingredients || []) {
-      const key = pantryKey(ingredient.ingredient_id, ingredient.unit);
+      const key = pantryKey(canonicalIngredientId(ingredient.ingredient_id, aliasLookup), ingredient.unit);
       if (!usage.has(key)) usage.set(key, []);
       usage.get(key).push(meal.label || meal.sourceLabel || `${meal.dayName} ${meal.slot}: ${meal.recipe.name}`);
     }
@@ -391,13 +488,13 @@ function buildIngredientUsageMap(selectedMeals) {
 
 function buildUseSoonItems(selectedMeals, config) {
   const inventories = buildInventoryViews(config);
-  const ingredientUsage = buildIngredientUsageMap(selectedMeals);
+  const ingredientUsage = buildIngredientUsageMap(selectedMeals, inventories.aliasLookup);
   const useSoonItems = [];
 
   for (const [key, entry] of Object.entries(inventories.pantry)) {
     const expiresIn = daysUntil(entry.expires_on);
     if (expiresIn == null || expiresIn > inventories.useSoonDays) continue;
-    const [ingredientId, unit] = key.split('|');
+    const { ingredientId, unit } = parseInventoryKey(key);
     const refs = ingredientUsage.get(key) || [];
     useSoonItems.push({
       ingredient_id: ingredientId || null,
@@ -499,10 +596,59 @@ function loadRecipes() {
   return files.map(parseRecipe).sort(sortByScoreThenName);
 }
 
+function loadFeedbackState(config) {
+  const inventory = config.inventory || {};
+  const feedbackConfig = inventory.feedback || {};
+  const feedbackPath = feedbackConfig.path ? path.join(ROOT, feedbackConfig.path) : null;
+  const weights = feedbackConfig.weights || {};
+  const adjustments = new Map();
+  const notes = [];
+
+  if (!feedbackPath || !fs.existsSync(feedbackPath)) {
+    return { adjustments, notes, path: feedbackPath, weights };
+  }
+
+  const lines = fs.readFileSync(feedbackPath, 'utf8').split('\n').map((line) => line.trim()).filter(Boolean);
+  for (const line of lines) {
+    try {
+      const event = JSON.parse(line);
+      const recipeId = clean(event.recipe_id || event.recipeId || event.target?.recipe_id || '');
+      if (!recipeId) continue;
+      const type = clean(event.type || event.feedback || '').toLowerCase().replace(/\s+/g, '_');
+      const weight = Number(event.weight);
+      const delta = Number.isFinite(weight) ? weight : Number(weights[type] ?? 0);
+      if (!Number.isFinite(delta) || delta === 0) continue;
+      adjustments.set(recipeId, (adjustments.get(recipeId) || 0) + delta);
+      if (isTruthyString(event.note || event.notes)) {
+        notes.push({ recipeId, note: clean(event.note || event.notes), type, delta });
+      }
+    } catch (error) {
+      continue;
+    }
+  }
+
+  return { adjustments, notes, path: feedbackPath, weights };
+}
+
+function applyFeedbackAdjustments(recipes, feedbackState) {
+  const adjustments = feedbackState?.adjustments || new Map();
+  return recipes.map((recipe) => {
+    const delta = adjustments.get(recipe.slug) || 0;
+    const adjustedScore = recipe.score == null ? null : Math.max(0, Math.min(10, recipe.score + delta));
+    return {
+      ...recipe,
+      feedbackDelta: delta,
+      adjustedScore,
+    };
+  });
+}
+
 function sortByScoreThenName(a, b) {
-  const aScore = a.score == null ? -1 : a.score;
-  const bScore = b.score == null ? -1 : b.score;
-  if (aScore !== bScore) return bScore - aScore;
+  const aScore = recipeScore(a);
+  const bScore = recipeScore(b);
+  const aValue = aScore == null ? -1 : aScore;
+  const bValue = bScore == null ? -1 : bScore;
+  if (aValue !== bValue) return bValue - aValue;
   return a.name.localeCompare(b.name);
 }
 
@@ -551,7 +697,7 @@ function buildSignalIndex(recipes) {
     lines.push('| Score | Signal | Recipe | Category | Use |');
     lines.push('|---|---|---|---|---|');
     for (const recipe of items) {
-      const scoreText = recipe.score == null ? 'TBD' : `${recipe.score}/10`;
+      const scoreText = recipeScore(recipe) == null ? 'TBD' : `${recipeScore(recipe)}/10`;
       const use =
         bucket === 'healthy'
           ? 'weekly staple'
@@ -571,7 +717,8 @@ function buildSignalIndex(recipes) {
 }
 
 function recipeLabel(recipe) {
-  return `${recipe.name} (${recipe.score}/10, ${recipe.signal.emoji} ${recipe.signal.label})`;
+  const score = recipeScore(recipe);
+  return `${recipe.name} (${score == null ? 'TBD' : `${score}/10`}, ${recipe.signal.emoji} ${recipe.signal.label})`;
 }
 
 function takeTop(recipes, count, predicate = () => true) {
@@ -583,9 +730,11 @@ function takeTop(recipes, count, predicate = () => true) {
 }
 
 function sortByScoreAscendingThenName(a, b) {
-  const aScore = a.score == null ? -1 : a.score;
-  const bScore = b.score == null ? -1 : b.score;
-  if (aScore !== bScore) return aScore - bScore;
+  const aScore = recipeScore(a);
+  const bScore = recipeScore(b);
+  const aValue = aScore == null ? -1 : aScore;
+  const bValue = bScore == null ? -1 : bScore;
+  if (aValue !== bValue) return aValue - bValue;
   return a.name.localeCompare(b.name);
 }
 
@@ -648,9 +797,10 @@ function isSnackCandidate(recipe) {
 function lunchPreferenceScore(recipe) {
   const protein = recipe.nutrition?.protein_g;
   const calories = recipe.nutrition?.calories_kcal;
+  const scoreValue = recipeScore(recipe);
   let score = 0;
 
-  if (recipe.score != null) score += recipe.score * 10;
+  if (scoreValue != null) score += scoreValue * 10;
   if (recipe.signal.bucket === 'healthy') score += 40;
   if (recipe.signal.bucket === 'balanced') score += 15;
 
@@ -789,8 +939,9 @@ function chooseRecipe(pool, used, rand, options = {}) {
   const preferredBuckets = options.preferredBuckets || ['healthy', 'balanced', 'treat'];
   const candidates = pool.filter((recipe) => {
     if (used.has(recipe.filePath)) return false;
-    if (recipe.score == null) return false;
-    if (recipe.score < minScore || recipe.score > maxScore) return false;
+    const score = recipeScore(recipe);
+    if (score == null) return false;
+    if (score < minScore || score > maxScore) return false;
     return preferredBuckets.includes(recipe.signal.bucket);
   });
 
@@ -799,7 +950,8 @@ function chooseRecipe(pool, used, rand, options = {}) {
   const weighted = candidates.map((recipe) => {
     const bucketWeight =
       recipe.signal.bucket === 'healthy' ? 3 : recipe.signal.bucket === 'balanced' ? 1.5 : 0.6;
-    return { recipe, weight: Math.max(0.1, recipe.score * bucketWeight) };
+    const score = recipeScore(recipe) ?? 0;
+    return { recipe, weight: Math.max(0.1, score * bucketWeight) };
   });
 
   const total = weighted.reduce((sum, item) => sum + item.weight, 0);
@@ -879,9 +1031,9 @@ function formatQuantityWithUnit(value, unit, fallback = 'as needed') {
   return unit ? `${amount} ${unit}` : amount;
 }
 
-function ingredientKey(ingredient) {
+function ingredientKey(ingredient, aliasLookup = new Map()) {
   return [
-    ingredient.ingredient_id || slugify(ingredient.name || ingredient.display || ''),
+    canonicalIngredientId(ingredient.ingredient_id || slugify(ingredient.name || ingredient.display || ''), aliasLookup),
     ingredient.unit || 'unitless',
     ingredient.preparation || '',
     ingredient.grocery_department || 'uncategorized',
@@ -899,7 +1051,7 @@ function buildShoppingList(selectedMeals, config) {
     ['Spices', new Map()],
   ]);
   const inventories = buildInventoryViews(config);
-  const ingredientUsage = buildIngredientUsageMap(selectedMeals);
+  const ingredientUsage = buildIngredientUsageMap(selectedMeals, inventories.aliasLookup);
   let requiredItemCount = 0;
   let pantryCoveredCount = 0;
   let freezerCoveredCount = 0;
@@ -916,7 +1068,7 @@ function buildShoppingList(selectedMeals, config) {
     for (const ingredient of recipe.ingredients || []) {
       const dept = sectionForDepartment(ingredient.grocery_department, ingredient.display || ingredient.name);
       const bucket = sections.get(dept) || sections.get('Pantry');
-      const key = ingredientKey(ingredient);
+      const key = ingredientKey(ingredient, inventories.aliasLookup);
       const scaledQuantity = ingredient.quantity == null ? null : ingredient.quantity * scale;
 
       if (!bucket.has(key)) {
@@ -1114,18 +1266,18 @@ function buildWeeklyPlan(recipes, weekName, config) {
   const dessertConstraints = config.slot_constraints?.dessert || {};
 
   const lunchPoolStrict = recipes.filter(
-    (recipe) => recipe.category === 'lunch' && recipe.score != null && slotMatchesConstraints(recipe, lunchConstraints),
+    (recipe) => recipe.category === 'lunch' && recipeScore(recipe) != null && slotMatchesConstraints(recipe, lunchConstraints),
   );
-  const lunchPoolFallback = recipes.filter((recipe) => recipe.category === 'lunch' && recipe.score != null);
+  const lunchPoolFallback = recipes.filter((recipe) => recipe.category === 'lunch' && recipeScore(recipe) != null);
   const lunchPool = lunchPoolStrict.length >= 5 ? lunchPoolStrict : lunchPoolFallback;
 
   const dinnerPoolStrict = recipes.filter(
-    (recipe) => recipe.category === 'dinner' && recipe.score != null && slotMatchesConstraints(recipe, dinnerConstraints),
+    (recipe) => recipe.category === 'dinner' && recipeScore(recipe) != null && slotMatchesConstraints(recipe, dinnerConstraints),
   );
-  const dinnerPoolFallback = recipes.filter((recipe) => recipe.category === 'dinner' && recipe.score != null);
+  const dinnerPoolFallback = recipes.filter((recipe) => recipe.category === 'dinner' && recipeScore(recipe) != null);
   const dinnerPool = dinnerPoolStrict.length >= 7 ? dinnerPoolStrict : dinnerPoolFallback;
 
-  const snackPoolBase = recipes.filter((recipe) => isSnackCandidate(recipe) && recipe.score != null);
+  const snackPoolBase = recipes.filter((recipe) => isSnackCandidate(recipe) && recipeScore(recipe) != null);
   const snack1PoolStrict = snackPoolBase.filter((recipe) => slotMatchesConstraints(recipe, snack1Constraints));
   const snack2PoolStrict = snackPoolBase.filter((recipe) => slotMatchesConstraints(recipe, snack2Constraints));
   const snack1Pool = snack1PoolStrict.length >= 7 ? snack1PoolStrict : snackPoolBase;
@@ -1133,15 +1285,15 @@ function buildWeeklyPlan(recipes, weekName, config) {
   const dessertPool = recipes.filter(
     (recipe) =>
       isSnackCandidate(recipe) &&
-      recipe.score != null &&
+      recipeScore(recipe) != null &&
       isDessertCandidate(recipe) &&
       slotMatchesConstraints(recipe, dessertConstraints),
   );
   const finishPool = recipes.filter(
-    (recipe) => isSnackCandidate(recipe) && recipe.score != null && !isDessertCandidate(recipe),
+    (recipe) => isSnackCandidate(recipe) && recipeScore(recipe) != null && !isDessertCandidate(recipe),
   );
   const mealPrepPool = recipes.filter(
-    (recipe) => recipe.score != null && (recipe.category === 'meal-prep' || recipe.tags.includes('#meal-prep')),
+    (recipe) => recipeScore(recipe) != null && (recipe.category === 'meal-prep' || recipe.tags.includes('#meal-prep')),
   );
 
   const batchDinnerPool = dinnerPool.filter(
@@ -1376,7 +1528,7 @@ function buildWeeklyPlan(recipes, weekName, config) {
     lines.push('## Prep Anchors');
     lines.push('');
     for (const anchor of prepAnchors) {
-      lines.push(`- ${anchor.name} (${anchor.score}/10, ${anchor.signal.emoji} ${anchor.signal.label})`);
+      lines.push(`- ${anchor.name} (${recipeScore(anchor)}/10, ${anchor.signal.emoji} ${anchor.signal.label})`);
     }
     lines.push('');
   }
@@ -1386,7 +1538,7 @@ function buildWeeklyPlan(recipes, weekName, config) {
   for (const [dayName, recipe] of batchLunchDays.entries()) {
     if (!recipe) continue;
     const sourceDay = dayName === 'Tuesday' ? 'Monday' : 'Thursday';
-    lines.push(`- ${sourceDay} dinner -> ${dayName} lunch: ${recipe.name} (${recipe.score}/10, ${recipe.signal.emoji} ${recipe.signal.label})`);
+    lines.push(`- ${sourceDay} dinner -> ${dayName} lunch: ${recipe.name} (${recipeScore(recipe)}/10, ${recipe.signal.emoji} ${recipe.signal.label})`);
   }
   lines.push('');
 
@@ -1396,14 +1548,14 @@ function buildWeeklyPlan(recipes, weekName, config) {
     lines.push(`### ${day.dayName}`);
     lines.push('');
     const lunchText = day.lunch.leftoverFrom
-      ? `Leftover from ${day.dayName === 'Tuesday' ? 'Monday' : 'Thursday'} dinner: ${day.lunch.leftoverFrom.name} (${day.lunch.leftoverFrom.score}/10, ${day.lunch.leftoverFrom.signal.emoji} ${day.lunch.leftoverFrom.signal.label})`
-      : `${day.lunch.recipe.name} (${day.lunch.recipe.score}/10, ${day.lunch.recipe.signal.emoji} ${day.lunch.recipe.signal.label})`;
-    const dessertText = `${day.dessert.recipe.name} (${day.dessert.recipe.score}/10, ${day.dessert.recipe.signal.emoji} ${day.dessert.recipe.signal.label})`;
-    lines.push(`- Breakfast: ${day.breakfast.recipe.name} (${day.breakfast.recipe.score}/10, ${day.breakfast.recipe.signal.emoji} ${day.breakfast.recipe.signal.label})`);
-    lines.push(`- Snack 1: ${day.snack1.recipe.name} (${day.snack1.recipe.score}/10, ${day.snack1.recipe.signal.emoji} ${day.snack1.recipe.signal.label})`);
+      ? `Leftover from ${day.dayName === 'Tuesday' ? 'Monday' : 'Thursday'} dinner: ${day.lunch.leftoverFrom.name} (${recipeScore(day.lunch.leftoverFrom)}/10, ${day.lunch.leftoverFrom.signal.emoji} ${day.lunch.leftoverFrom.signal.label})`
+      : `${day.lunch.recipe.name} (${recipeScore(day.lunch.recipe)}/10, ${day.lunch.recipe.signal.emoji} ${day.lunch.recipe.signal.label})`;
+    const dessertText = `${day.dessert.recipe.name} (${recipeScore(day.dessert.recipe)}/10, ${day.dessert.recipe.signal.emoji} ${day.dessert.recipe.signal.label})`;
+    lines.push(`- Breakfast: ${day.breakfast.recipe.name} (${recipeScore(day.breakfast.recipe)}/10, ${day.breakfast.recipe.signal.emoji} ${day.breakfast.recipe.signal.label})`);
+    lines.push(`- Snack 1: ${day.snack1.recipe.name} (${recipeScore(day.snack1.recipe)}/10, ${day.snack1.recipe.signal.emoji} ${day.snack1.recipe.signal.label})`);
     lines.push(`- Lunch: ${lunchText}`);
-    lines.push(`- Snack 2: ${day.snack2.recipe.name} (${day.snack2.recipe.score}/10, ${day.snack2.recipe.signal.emoji} ${day.snack2.recipe.signal.label})`);
-    lines.push(`- Dinner: ${day.dinner.recipe.name} (${day.dinner.recipe.score}/10, ${day.dinner.recipe.signal.emoji} ${day.dinner.recipe.signal.label})`);
+    lines.push(`- Snack 2: ${day.snack2.recipe.name} (${recipeScore(day.snack2.recipe)}/10, ${day.snack2.recipe.signal.emoji} ${day.snack2.recipe.signal.label})`);
+    lines.push(`- Dinner: ${day.dinner.recipe.name} (${recipeScore(day.dinner.recipe)}/10, ${day.dinner.recipe.signal.emoji} ${day.dinner.recipe.signal.label})`);
     lines.push(`- Dessert / Finish: ${dessertText}`);
 
     const summary = dailySummaries.find((item) => item.dayName === day.dayName);
@@ -1492,7 +1644,10 @@ function buildWeeklyPlan(recipes, weekName, config) {
 
 function defaultWeekDate() {
   const explicit = getFlag('date');
-  return explicit ? new Date(explicit) : new Date();
+  const offset = Number(getFlag('week-offset', '0'));
+  const base = explicit ? new Date(explicit) : new Date();
+  if (!Number.isFinite(offset) || offset === 0) return base;
+  return new Date(base.getTime() + offset * 7 * 86400000);
 }
 
 function ensureDir(dir) {
@@ -1507,8 +1662,9 @@ function writeFile(relativePath, content) {
 }
 
 function main() {
-  const recipes = loadRecipes();
   const plannerConfig = loadPlannerConfig();
+  const feedbackState = loadFeedbackState(plannerConfig);
+  const recipes = applyFeedbackAdjustments(loadRecipes(), feedbackState);
 
   const commands = [];
   if (mode === 'all' || mode === 'index') commands.push('index');
@@ -1532,6 +1688,12 @@ function main() {
     const shoppingPath = writeFile(`shopping-lists/${weekName}.md`, buildShoppingList(selected, plannerConfig));
     console.log(`wrote ${path.relative(ROOT, planPath)}`);
     console.log(`wrote ${path.relative(ROOT, shoppingPath)}`);
+    try {
+      execFileSync('node', ['scripts/healthy-chef-deliveries.mjs', 'week-dinner-cards', '--week=' + weekName], { cwd: ROOT, stdio: 'pipe' });
+    } catch (error) {
+      console.error(`failed to build dinner cards for ${weekName}`);
+      throw error;
+    }
   }
 
   if (commands.includes('cookbook')) {

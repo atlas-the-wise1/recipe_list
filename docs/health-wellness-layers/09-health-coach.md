@@ -161,6 +161,8 @@ The coach should capture:
 - portion too small
 - portion too large
 
+The coach should also persist feedback events in a machine-readable log so future plan scoring can down-weight meals that were skipped, too much work, or swapped out repeatedly.
+
 This feedback improves future recommendations.
 
 ## Definition of Done

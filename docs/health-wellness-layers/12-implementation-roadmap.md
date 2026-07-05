@@ -148,6 +148,7 @@ The system can:
 - limitation warnings
 - feedback capture
 - safety rules
+- automated delivery cadence for weekly plans, shopping reminders, prep checklists, and dinner cards
 
 ### Acceptance Criteria
 
@@ -159,7 +160,23 @@ Every recommendation includes:
 - limitations
 - source data
 
-## Phase 8 — Build the Application Layer
+## Phase 8 — Add Delivery Automation
+
+### Deliverables
+
+- scheduled generation for the next weekly plan
+- Saturday shopping reminders
+- Sunday prep checklists
+- weekday dinner cards with thawing and cook steps
+- a feedback log that updates future scoring
+
+### Acceptance Criteria
+
+- the assistant can emit the correct card for the current Eastern-time schedule
+- feedback entries can be appended and reused by the planner
+- semantically similar inventory items subtract from a shared alias group
+
+## Phase 9 — Build the Application Layer
 
 ### Recommended Order
 

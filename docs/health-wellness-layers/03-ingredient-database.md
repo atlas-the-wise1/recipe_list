@@ -182,6 +182,24 @@ items:
     expires_on: 2026-07-05
 ```
 
+## Alias Groups
+
+The assistant should also support canonical equivalence groups so semantically similar ingredient IDs subtract from the same stock bucket.
+
+```yaml
+alias_groups:
+  - canonical: olive-oil
+    aliases:
+      - extra-virgin-olive-oil
+  - canonical: salt
+    aliases:
+      - kosher-salt
+  - canonical: black-pepper
+    aliases:
+      - freshly-ground-black-pepper
+      - freshly-cracked-black-pepper
+```
+
 ## Ingredient Matching Workflow
 
 1. Read the ingredient text from a recipe.
@@ -234,6 +252,7 @@ Layer 3 is complete when:
 - grocery departments are standardized
 - units are normalized
 - pantry inventory is separate from the catalog
+- alias groups resolve equivalent ingredient IDs
 - substitutions include context
 - storage information is available
 - grocery generation uses canonical ingredient IDs
