@@ -465,12 +465,16 @@ async function maybeSendWebhook(kind, title, content, weekName, dayName = null) 
     title,
     week: weekName,
     day: dayName,
+    delivery_key,
     content,
   };
   try {
     const response = await fetch(endpoint, {
       method: 'POST',
-      headers: { 'content-type': 'application/json' },
+      headers: {
+        'content-type': 'application/json',
+        'idempotency-key': delivery_key,
+      },
       body: JSON.stringify(body),
     });
     const sent = response.ok;

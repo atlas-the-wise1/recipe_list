@@ -9,6 +9,9 @@ on:
 jobs:
   deliver:
     runs-on: ubuntu-latest
+    concurrency:
+      group: healthy-chef-deliveries
+      cancel-in-progress: false
 
     steps:
       - name: Checkout

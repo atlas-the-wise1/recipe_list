@@ -80,7 +80,8 @@ Automation:
 
 - `scripts/healthy-chef-deliveries.mjs` generates the scheduled cards and can POST them to `HEALTHY_CHEF_WEBHOOK_URL`
 - `.github/workflows/healthy-chef-ops.yml` checks the Eastern schedule hourly and emits the correct delivery when the local time matches within a 20-minute late window
-- `meal-plans/delivery-log.jsonl` records successful webhook deliveries so retries do not duplicate already-sent reminders
+- `meal-plans/delivery-log.jsonl` records successful webhook deliveries during a run, while webhook requests also carry an `idempotency-key` header so the receiver can reject duplicates across separate GitHub Actions checkouts
+- the workflow uses a `healthy-chef-deliveries` concurrency group so overlapping scheduled runs cannot race each other
 
 ## Recipe Format
 
